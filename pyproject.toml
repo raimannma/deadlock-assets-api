@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "deadlock-assets-api"
+version = "0.1.0"
+description = ""
+authors = ["Manuel Raimann <raimannma@outlook.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = { extras = ["standard"], version = "^0.114.2" }
+
+[tool.poetry.group.parse.dependencies]
+kv3parser = "^1.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
