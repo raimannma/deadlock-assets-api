@@ -4,6 +4,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import TypeAdapter
 from starlette.responses import RedirectResponse
 
+from deadlock_assets_api.models.ability import Ability
 from deadlock_assets_api.models.hero import Hero
 
 logging.basicConfig(level=logging.INFO)
@@ -39,6 +40,23 @@ def get_hero_by_name(name: str) -> Hero:
         if hero.name.lower() == name.lower():
             return hero
     raise HTTPException(status_code=404, detail="Hero not found")
+
+
+@app.get("/abilities", response_model_exclude_none=True)
+def get_abilities() -> list[Ability]:
+    with open("res/abilities.json") as f:
+        content = f.read()
+    ta = TypeAdapter(list[Ability])
+    return ta.validate_json(content)
+
+
+@app.get("/ability", response_model_exclude_none=True)
+def get_ability(name: str) -> Ability:
+    abilities = get_abilities()
+    for ability in abilities:
+        if ability.name.lower() == name.lower():
+            return ability
+    raise HTTPException(status_code=404, detail="Ability not found")
 
 
 if __name__ == "__main__":
