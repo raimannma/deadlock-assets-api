@@ -1,7 +1,6 @@
 from enum import StrEnum
-from typing import Optional
 
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class HeroStartingStats(BaseModel):
@@ -31,7 +30,7 @@ class HeroStartingStats(BaseModel):
     )
     tech_duration: int = Field(..., validation_alias="ETechDuration")
     tech_range: int = Field(..., validation_alias="ETechRange")
-    bullet_armor_damage_reduction: Optional[float] = Field(
+    bullet_armor_damage_reduction: float | None = Field(
         None, validation_alias="EBulletArmorDamageReduction"
     )
 
@@ -82,8 +81,8 @@ class HeroLevelInfoBonusCurrencies(StrEnum):
 
 class HeroLevelInfo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
-    required_gold: Optional[int] = Field(None, validation_alias="m_unRequiredGold")
-    bonus_currencies: Optional[dict[HeroLevelInfoBonusCurrencies, int]] = Field(
+    required_gold: int | None = Field(None, validation_alias="m_unRequiredGold")
+    bonus_currencies: dict[HeroLevelInfoBonusCurrencies, int] | None = Field(
         None, validation_alias="m_mapBonusCurrencies"
     )
     use_standard_upgrade: bool = Field(False, validation_alias="m_bUseStandardUpgrade")
