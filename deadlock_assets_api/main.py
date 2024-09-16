@@ -50,7 +50,7 @@ def get_abilities() -> list[Ability]:
     return ta.validate_json(content)
 
 
-@app.get("/ability", response_model_exclude_none=True)
+@app.get("/abilities/{name}", response_model_exclude_none=True)
 def get_ability(name: str) -> Ability:
     abilities = get_abilities()
     for ability in abilities:
