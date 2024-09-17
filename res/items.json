@@ -1,5 +1,6 @@
 [
   {
+    "child_items": null,
     "class_name": "citadel_weapon_bosstier2_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -82,6 +83,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_bosstier3_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -164,6 +166,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_base_defense_turret",
     "cost": null,
     "dof_while_zoomed": {
@@ -246,6 +249,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_rutger_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -328,6 +332,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_kali_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -410,6 +415,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_gunslinger_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -492,6 +498,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_yakuza_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -574,6 +581,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_architect_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -656,6 +664,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_thumper_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -738,6 +747,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_medic_trooper_heal",
     "cost": null,
     "dof_while_zoomed": null,
@@ -800,6 +810,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_golden_idol",
     "cost": null,
     "dof_while_zoomed": null,
@@ -862,6 +873,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_item_pickup_effects",
     "cost": null,
     "dof_while_zoomed": null,
@@ -924,6 +936,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_zip_line",
     "cost": null,
     "dof_while_zoomed": null,
@@ -986,6 +999,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_zipline_boost",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1048,6 +1062,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_trooper_zip_line",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1110,6 +1125,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_mantle",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1172,6 +1188,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_climb_rope",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1234,6 +1251,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_jump",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1296,6 +1314,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_sprint",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1358,6 +1377,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_dash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1420,6 +1440,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_slide",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1482,6 +1503,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_butcher",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1544,6 +1566,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_kali",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1606,6 +1629,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_butcher",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1668,6 +1692,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_gunslinger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1730,6 +1755,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_yakuza",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1792,6 +1818,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_thumper",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1854,6 +1881,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_architect",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1916,6 +1944,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_parry",
     "cost": null,
     "dof_while_zoomed": null,
@@ -1978,6 +2007,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tier2boss_rocket_barrage",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2040,6 +2070,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tier2boss_laser_beam",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2102,6 +2133,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tier2boss_stomp",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2164,6 +2196,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tier3boss_laser_beam",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2226,6 +2259,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tier3boss_damage_pulse",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2288,6 +2322,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_kali_spinning_blade",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2350,6 +2385,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_kali_dust_storm",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2412,6 +2448,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_kali_disruptive_charge",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2474,6 +2511,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_kali_trappers_bolo",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2536,6 +2574,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_trigger_base",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2598,6 +2637,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_hold_melee",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2660,6 +2700,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_genericperson",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2722,6 +2763,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_base_lockon_ability",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2736,6 +2778,7 @@
     "weapon_info": null
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_astro_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -2818,6 +2861,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_astro_set_shotgun_shared_base",
     "cost": null,
     "dof_while_zoomed": {
@@ -2900,6 +2944,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_astro_set_shotgun_shared_weapon_info",
     "cost": null,
     "dof_while_zoomed": null,
@@ -2970,6 +3015,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_astro_set_shotgun",
     "cost": null,
     "dof_while_zoomed": {
@@ -3052,6 +3098,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_astro_set_shotgun_backwards",
     "cost": null,
     "dof_while_zoomed": {
@@ -3134,6 +3181,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_astro",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3196,6 +3244,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_explosive_barrel",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3258,6 +3307,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_bounce_pad",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3320,6 +3370,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_target_practice",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3382,6 +3433,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_running_decoy",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3444,6 +3496,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_gravity_lasso",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3506,6 +3559,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_astro_shotgun_toggle",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3568,6 +3622,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_astro_rifle",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3630,6 +3685,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_hat_trick",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3692,6 +3748,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_bull_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -3771,6 +3828,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_bull",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3833,6 +3891,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_bull_charge",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3895,6 +3954,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_passive_beefy",
     "cost": null,
     "dof_while_zoomed": null,
@@ -3957,6 +4017,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_bull_leap",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4019,6 +4080,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_bull_heal",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4081,6 +4143,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_bebop_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -4163,6 +4226,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_bebop",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4225,6 +4289,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_uppercut",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4287,6 +4352,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_sticky_bomb",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4349,6 +4415,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_bebop_laser_beam",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4411,6 +4478,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hook",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4473,6 +4541,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_bomber_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -4555,6 +4624,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_bomber",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4617,6 +4687,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_charged_bomb",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4679,6 +4750,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_charged_bomb_throw",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4741,6 +4813,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_bomber_ability02",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4803,6 +4876,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_bomber_ability03",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4865,6 +4939,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_bomber_ult",
     "cost": null,
     "dof_while_zoomed": null,
@@ -4927,6 +5002,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_cadence_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -5009,6 +5085,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_cadence",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5071,6 +5148,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_chrono_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -5153,6 +5231,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_chrono",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5215,6 +5294,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_chrono_pulse_grenade",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5277,6 +5357,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_chrono_time_wall",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5339,6 +5420,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_chrono_kinetic_carbine",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5401,6 +5483,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_chrono_swap",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5463,6 +5546,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_sumo_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -5545,6 +5629,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_sumo",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5607,6 +5692,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_stomp",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5669,6 +5755,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_void_sphere",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5731,6 +5818,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_charged_tackle",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5793,6 +5881,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_nikuman",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5855,6 +5944,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_self_vacuum",
     "cost": null,
     "dof_while_zoomed": null,
@@ -5917,6 +6007,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_engineer_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -5999,6 +6090,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_engineer",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6061,6 +6153,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_mobile_resupply",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6123,6 +6216,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_shieldedsentry",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6201,6 +6295,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_fissure_wall",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6263,6 +6358,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_fissure_wall_trigger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6325,6 +6421,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_fissure_wall_cancel",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6387,6 +6484,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_rocket_barrage",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6449,6 +6547,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_genericperson_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -6531,6 +6630,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_targetdummy_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -6613,6 +6713,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_targetdummy",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6675,6 +6776,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_ghost_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -6757,6 +6859,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_ghost",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6819,6 +6922,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_blood_bomb",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6881,6 +6985,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_blood_shards",
     "cost": null,
     "dof_while_zoomed": null,
@@ -6943,6 +7048,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_life_drain",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7005,6 +7111,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_death_tax",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7067,6 +7174,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_health_swap",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7129,6 +7237,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_gigawatt_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -7211,6 +7320,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_gigawatt",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7273,6 +7383,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_lightning_ball",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7335,6 +7446,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_static_charge",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7397,6 +7509,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_chain_lightning",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7459,6 +7572,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_power_surge",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7521,6 +7635,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_storm_cloud",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7583,6 +7698,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_haze_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -7665,6 +7781,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_haze",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7727,6 +7844,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_sleep_dagger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7789,6 +7907,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_poison_bullets",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7851,6 +7970,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_smoke_bomb",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7913,6 +8033,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_stacking_damage",
     "cost": null,
     "dof_while_zoomed": null,
@@ -7975,6 +8096,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_bullet_flurry",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8037,6 +8159,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_hornet_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -8119,6 +8242,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_hornet",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8181,6 +8305,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_wing_blast",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8243,6 +8368,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hornet_chain",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8305,6 +8431,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hornet_leap",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8367,6 +8494,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hornet_sting",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8429,6 +8557,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hornet_snipe",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8491,6 +8620,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_hornet_mark",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8553,6 +8683,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_inferno_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -8635,6 +8766,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_inferno",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8697,6 +8829,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_fire_bomb",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8759,6 +8892,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_flame_dash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8821,6 +8955,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_flame_dash_cancel_trigger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8883,6 +9018,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_incendiary_projectile",
     "cost": null,
     "dof_while_zoomed": null,
@@ -8945,6 +9081,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_afterburn",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9007,6 +9144,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_kelvin_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -9089,6 +9227,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_kelvin",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9151,6 +9290,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_icebeam",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9213,6 +9353,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_icepath",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9275,6 +9416,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_ice_grenade",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9337,6 +9479,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_ice_dome",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9399,6 +9542,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_lash_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -9481,6 +9625,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_lash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9543,6 +9688,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_lash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9605,6 +9751,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_lash_down_strike",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9667,6 +9814,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_lash_ultimate",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9729,6 +9877,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_lash_flog",
     "cost": null,
     "dof_while_zoomed": null,
@@ -9791,6 +9940,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_mirage_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -9873,6 +10023,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_digger_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -9955,6 +10106,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_digger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10017,6 +10169,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_intimidate",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10079,6 +10232,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_burrow",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10141,6 +10295,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_throw_sand",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10203,6 +10358,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_ult_combo",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10265,6 +10421,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_nano_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -10350,6 +10507,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_nano_alt",
     "cost": null,
     "dof_while_zoomed": {
@@ -10435,6 +10593,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_nano",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10497,6 +10656,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_perched_predator",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10559,6 +10719,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_perched_predator_trigger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10621,6 +10782,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_nano_pounce",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10683,6 +10845,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_nano_proximity_ritual",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10745,6 +10908,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_nano_proximity_ritual_trigger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10807,6 +10971,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_nano_ult_shadow",
     "cost": null,
     "dof_while_zoomed": null,
@@ -10869,6 +11034,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_archer_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -10951,6 +11117,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_archer",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11013,6 +11180,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_charged_shot",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11091,6 +11259,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_power_jump",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11153,6 +11322,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_immobilize_trap",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11215,6 +11385,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_guided_arrow",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11277,6 +11448,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_shiv_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -11359,6 +11531,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_shiv_alt",
     "cost": null,
     "dof_while_zoomed": {
@@ -11441,6 +11614,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_shiv",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11503,6 +11677,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_shiv_dagger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11565,6 +11740,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_shiv_dash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11627,6 +11803,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_shiv_defer_damage",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11689,6 +11866,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_shiv_killing_blow",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11751,6 +11929,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_slork_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -11833,6 +12012,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_chomp_cast_dash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11895,6 +12075,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_slork_alt",
     "cost": null,
     "dof_while_zoomed": null,
@@ -11973,6 +12154,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_synth_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -12052,6 +12234,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_tengu_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -12137,6 +12320,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_tengu",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12199,6 +12383,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tangotether",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12261,6 +12446,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tangotether_trigger",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12323,6 +12509,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tengu_urn",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12385,6 +12572,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tengu_stone_form",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12447,6 +12635,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_tengu_airlift",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12509,6 +12698,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_tokamak_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -12591,6 +12781,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_tokamak",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12653,6 +12844,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_viscous_alt",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12731,6 +12923,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_viscous_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -12813,6 +13006,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_viscous_set_2",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12891,6 +13085,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_viscous",
     "cost": null,
     "dof_while_zoomed": null,
@@ -12953,6 +13148,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_warden_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -13035,6 +13231,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_warden",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13097,6 +13294,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_warden_lock_down",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13159,6 +13357,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_warden_high_alert",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13221,6 +13420,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_warden_crowd_control",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13283,6 +13483,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_warden_riot_protocol",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13345,6 +13546,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_wraith_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -13427,6 +13629,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_melee_wraith",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13489,6 +13692,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_psychic_lift",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13551,6 +13755,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_projectmind",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13613,6 +13818,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_psychic_daggers",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13675,6 +13881,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_wraith_rapidfire",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13737,6 +13944,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_card_toss",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13799,6 +14007,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_psychic_pulse",
     "cost": null,
     "dof_while_zoomed": null,
@@ -13861,6 +14070,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_wrecker_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -13943,6 +14153,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_wrecker",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14005,6 +14216,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_wrecking_ball",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14067,6 +14279,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_wrecking_ball_throw",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14129,6 +14342,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_wrecker_salvage",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14191,6 +14405,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_scrap_blast",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14253,6 +14468,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_wrecker_ultimate",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14315,6 +14531,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_wrecker_teleport",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14377,6 +14594,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_yamato_set",
     "cost": null,
     "dof_while_zoomed": {
@@ -14456,6 +14674,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_weapon_yamato_alt",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14531,6 +14750,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "ability_melee_yamato",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14593,6 +14813,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_power_slash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14655,6 +14876,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_flying_strike",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14717,6 +14939,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_healing_slash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14779,6 +15002,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "citadel_ability_infinity_slash",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14841,6 +15065,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_base",
     "cost": null,
     "dof_while_zoomed": null,
@@ -14903,6 +15128,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_clip_size",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -14965,6 +15191,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_non_player_bonus",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15027,6 +15254,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_ammo_scavenger",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15089,6 +15317,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_clip_size_fixed",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -15151,6 +15380,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_clip_size_fixed_t3",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -15213,6 +15443,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_chain_lightning",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -15275,6 +15506,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_galvanic_storm",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -15337,6 +15569,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_hollow_point_rounds",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15399,6 +15632,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_pristine_emblem",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -15461,6 +15695,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_stabilizer",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15523,6 +15758,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_high_velocity_mag",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15585,6 +15821,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_lifestrike_gauntlets",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15647,6 +15884,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_close_range",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15709,6 +15947,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_long_range",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -15771,6 +16010,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_slowing_bullets",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -15833,6 +16073,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_inhibitor",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -15895,6 +16136,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_small_attack_speed",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -15957,6 +16199,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_defense_shredders",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -16019,6 +16262,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_attack_speed_1",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -16081,6 +16325,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_nearby_enemy_boost",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -16143,6 +16388,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_dps_aura",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -16205,6 +16451,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_armor_reduction_debuff",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -16267,6 +16514,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_weapon_detention_ammo",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -16329,6 +16577,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_height_advantage",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -16391,6 +16640,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_targeted_silence",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -16453,6 +16703,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_proc_silence",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -16515,6 +16766,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_slowing_bullets"
+    ],
     "class_name": "upgrade_silencer",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -16577,6 +16831,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_proc_disarm",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -16639,6 +16894,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_berserker",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -16701,6 +16957,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_fervor",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -16763,6 +17020,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_siphon_bullets",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -16825,6 +17083,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_headshot_booster",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -16887,6 +17146,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_long_range"
+    ],
     "class_name": "upgrade_sharpshooter",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -16949,6 +17211,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_high_velocity_mag"
+    ],
     "class_name": "upgrade_headhunter",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17011,6 +17276,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_banshee_slugs",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -17073,6 +17339,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_proc_tech_damage",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17135,6 +17402,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_crackshot",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -17197,6 +17465,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_critshot",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -17259,6 +17528,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_close_range"
+    ],
     "class_name": "upgrade_close_quarter_combat",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17321,6 +17593,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_clip_size_2",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -17383,6 +17656,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_clip_size_3",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17445,6 +17719,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_toxic_bullets",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17507,6 +17782,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_attack_speed_2",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17569,6 +17845,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_drum_magazine",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -17631,6 +17908,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_ricochet",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -17693,6 +17971,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_health",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -17755,6 +18034,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_toughness_3",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -17817,6 +18097,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bullet_armor",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -17879,6 +18160,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_armor",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -17941,6 +18223,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_health_regen_1",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -18003,6 +18286,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_vampire",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18065,6 +18349,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_double_jump",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -18127,6 +18412,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_health_regen_aura",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18189,6 +18475,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_combo_breaker",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -18251,6 +18538,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_debuff_reducer",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18313,6 +18601,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_debuff_reducer"
+    ],
     "class_name": "upgrade_reduce_debuff_duration",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18375,6 +18666,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_high_impact_armor",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18437,6 +18729,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_slow_immunity",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18499,6 +18792,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bullet_armor_2",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18561,6 +18855,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_weapon_power_and_health_drain",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18623,6 +18918,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_active_bullet_shield",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -18685,6 +18981,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_ablative_coat",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -18747,6 +19044,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_tech_armor"
+    ],
     "class_name": "upgrade_tech_purge",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18809,6 +19109,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_bullet_armor"
+    ],
     "class_name": "upgrade_improved_bullet_armor",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18871,6 +19174,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_metal_skin",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -18933,6 +19237,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_healing_booster",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -18995,6 +19300,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_chonky",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -19057,6 +19363,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_damage_recycler",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -19119,6 +19426,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bullet_damage_reduction_aura",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19181,6 +19489,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_sprint_booster",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -19243,6 +19552,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_sprint_booster"
+    ],
     "class_name": "upgrade_cardio_calibrator",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19305,6 +19617,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_improved_stamina"
+    ],
     "class_name": "upgrade_superior_stamina",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -19367,6 +19682,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rapid_rounds",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -19429,6 +19745,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_improved_stamina",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -19491,6 +19808,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bullet_armor_reduction_aura",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -19553,6 +19871,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_camouflage",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19615,6 +19934,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_regenerative_armor",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19677,6 +19997,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_regenerating_bullet_shield",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19739,6 +20060,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_shield",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -19801,6 +20123,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_improved_spirit",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -19863,6 +20186,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_improved_spirit"
+    ],
     "class_name": "upgrade_soaring_spirit",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -19925,6 +20251,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_overflow",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -19987,6 +20314,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_return_fire",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -20065,6 +20393,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_magic_reach"
+    ],
     "class_name": "upgrade_tech_range",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -20127,6 +20458,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_reach",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -20189,6 +20521,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_extra_charge",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -20251,6 +20584,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_health_stealing_magic",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -20313,6 +20647,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_disarm",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -20375,6 +20710,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bullet_resist_shredder",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -20437,6 +20773,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_bleed",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -20499,6 +20836,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_burst",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -20561,6 +20899,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_magic_burst"
+    ],
     "class_name": "upgrade_magic_shock",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -20623,6 +20964,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_arcane_medallion",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -20685,6 +21027,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_vulnerability",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -20747,6 +21090,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_healbane",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -20809,6 +21153,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_suppressor"
+    ],
     "class_name": "upgrade_magic_slow",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -20871,6 +21218,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_magic_vulnerability"
+    ],
     "class_name": "upgrade_escalating_exposure",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -20933,6 +21283,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_extra_charge"
+    ],
     "class_name": "upgrade_rapid_recharge",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -20995,6 +21348,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_tempo",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -21057,6 +21411,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_magic_tempo"
+    ],
     "class_name": "upgrade_cooldown_reduction",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21119,6 +21476,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_duration_extender",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -21181,6 +21539,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_slowing_tech",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -21243,6 +21602,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_containment",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -21305,6 +21665,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_withering_whip",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -21367,6 +21728,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rescue_beam",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21429,6 +21791,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_personal_rejuvenator",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21491,6 +21854,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rebirth",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -21553,6 +21917,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_long_range_slowing_tech",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21615,6 +21980,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_full_spectrum",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -21677,6 +22043,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_cleave",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21739,6 +22106,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_bonus_ability_charge_3",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -21801,6 +22169,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_charge_mastery",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -21863,6 +22232,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rupture",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -21925,6 +22295,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_discord",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -21987,6 +22358,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_aoe_tech_shield",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -22049,6 +22421,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_target_stun",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22111,6 +22484,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_phantom_strike",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22173,6 +22547,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_warp_stone",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22235,6 +22610,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_aoe_root",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22297,6 +22673,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_ability_refresher",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22359,6 +22736,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_ability_power_shard",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22421,6 +22799,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_damage_pulse",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22483,6 +22862,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_cheat_death",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22545,6 +22925,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_reload_speed",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -22607,6 +22988,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_cloaking_device",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22669,6 +23051,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_cloaking_device_active",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -22731,6 +23114,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_zipine_mastery",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22793,6 +23177,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_fire_rate_aura",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -22855,6 +23240,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_weapon_overdrive_clip",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22917,6 +23303,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rocket_boots",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -22979,6 +23366,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_rocket_booster",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -23041,6 +23429,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_aerial_assault",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -23103,6 +23492,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_health_stimpak"
+    ],
     "class_name": "upgrade_health_nova",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23165,6 +23557,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_restorative_locket",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23227,6 +23620,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_health_stimpak",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -23289,6 +23683,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_infuser",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -23351,6 +23746,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_savior",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23413,6 +23809,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_aoe_smoke_bomb",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -23475,6 +23872,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_thermal_detonator",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -23537,6 +23935,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_fleetfoot_boots",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23599,6 +23998,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_kinetic_sash",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23661,6 +24061,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_weapon_eater",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -23723,6 +24124,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_weapon_instant_reload",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -23785,6 +24187,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_tech_defender",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -23847,6 +24250,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_unstoppable",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -23909,6 +24313,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_colossus",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -23971,6 +24376,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_cold_front",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -24033,6 +24439,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_aoe_silence",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -24095,6 +24502,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_self_bubble",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -24157,6 +24565,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_stasis_bomb",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24219,6 +24628,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_quarantine",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -24281,6 +24691,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_glitch",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24343,6 +24754,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_imbued_ability",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24405,6 +24817,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_arcane_extension",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -24467,6 +24880,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_arcane_extension"
+    ],
     "class_name": "upgrade_imbued_duration_extender",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -24529,6 +24945,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_glass_cannon",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24591,6 +25008,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_surging_power",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24653,6 +25071,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_mod_disruptor",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24715,6 +25134,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_frenzy",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -24777,6 +25197,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_burst_fire_actuator",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -24839,6 +25260,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_lifestrike_gauntlets"
+    ],
     "class_name": "upgrade_boxing_glove",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -24901,6 +25325,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_acolytes_glove",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -24963,6 +25388,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_melee_charge",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25025,6 +25451,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_charmed_wraps",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25087,6 +25514,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_belt_fed_magazine",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -25149,6 +25577,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_diviners_kevlar",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -25211,6 +25640,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_stabilizing_tripod",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -25273,6 +25703,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_soaring_spirit"
+    ],
     "class_name": "upgrade_mega_spirit",
     "cost": 6200,
     "dof_while_zoomed": null,
@@ -25335,6 +25768,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_burst_fire",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -25397,6 +25831,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_resilience",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -25459,6 +25894,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_endurance",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -25521,6 +25957,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_clarity",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25583,6 +26020,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_storm",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -25645,6 +26083,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_suppressor",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25707,6 +26146,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_quick_silver",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25769,6 +26209,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_arcane_eater",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25831,6 +26272,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_predator_precision",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -25893,6 +26335,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_intensifying_clip",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -25955,6 +26398,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_reinforcing_casings",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -26017,6 +26461,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_blitz_bullets",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -26079,6 +26524,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_veil_walker",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -26141,6 +26587,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_vex_barrier",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -26203,6 +26650,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_medic_bullets",
     "cost": 500,
     "dof_while_zoomed": null,
@@ -26265,6 +26713,9 @@
     }
   },
   {
+    "child_items": [
+      "upgrade_clip_size"
+    ],
     "class_name": "upgrade_titan_round",
     "cost": 3000,
     "dof_while_zoomed": null,
@@ -26327,6 +26778,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_active_reload",
     "cost": 1250,
     "dof_while_zoomed": null,
@@ -26389,6 +26841,7 @@
     }
   },
   {
+    "child_items": null,
     "class_name": "upgrade_magic_carpet",
     "cost": 6200,
     "dof_while_zoomed": null,

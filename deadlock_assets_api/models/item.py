@@ -208,6 +208,9 @@ class Item(BaseModel):
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
     tier: str | int | None = Field(None, validation_alias="m_iItemTier")
+    child_items: list[str] | list[int] | None = Field(
+        None, validation_alias="m_vecComponentItems"
+    )
     language: Language = Field(Language.English, exclude=True)
 
     @computed_field
@@ -294,3 +297,12 @@ class Item(BaseModel):
         with open(file) as f:
             language_data = json.load(f)["lang"]["Tokens"]
         return language_data.get(self.class_name, None)
+
+    def postfix(self, items: list["Item"]):
+        if self.child_items is None:
+            return
+        self.child_items = [
+            next(item.id for item in items if item.class_name == child_item)
+            for child_item in self.child_items
+            if self.id != child_item and self.class_name != child_item
+        ]

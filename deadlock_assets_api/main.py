@@ -80,6 +80,7 @@ def get_items(request: Request, language: Language = Language.English) -> list[I
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
         item.language = language
+        item.postfix(items)
     return items
 
 
