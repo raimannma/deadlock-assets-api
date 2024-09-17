@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = { extras = ["standard"], version = "^0.114.2" }
-cachetools = "^5.5.0"
+murmurhash2 = "^0.2.10"
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"

@@ -76,17 +76,6 @@ jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
-name = "cachetools"
-version = "5.5.0"
-description = "Extensible memoizing collections and decorators"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "cachetools-5.5.0-py3-none-any.whl", hash = "sha256:02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"},
-    {file = "cachetools-5.5.0.tar.gz", hash = "sha256:2cc24fb4cbe39633fb7badd9db9ca6295d766d9c2995f245725a46715d050f2a"},
-]
-
-[[package]]
 name = "certifi"
 version = "2024.8.30"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -516,6 +505,31 @@ python-versions = ">=3.7"
 files = [
     {file = "mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},
     {file = "mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
+]
+
+[[package]]
+name = "murmurhash2"
+version = "0.2.10"
+description = "murmurhash2 for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "murmurhash2-0.2.10-cp36-abi3-macosx_10_7_x86_64.whl", hash = "sha256:8aa85c6be43fcac4557d3a63a4bb4f0e373452a8d14423e32ab238085710585d"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:ad06c68883891a98c0bed77108078d5aac37c8aea6fbd31c42dbf2a5c654cee5"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1de92a56476e2501c12de20f774748c709116e1bde8d91df827024f7a5cc4c2f"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:515527856c248aa14add576a483fcaa1bcc469cbaf77c9ad3625c84d6f99d5d0"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:b9051dd9378cd0bc5a8581f618adda1bac27d0b4dfad30da89cbada3caa4542a"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:ab6736ba5930608102be7caf13b326b3bd08f2d18ae971b59f590251b84a2331"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:c42e073c0ff931259c72d5548547bc4c8ef18f9ffb522e5fcd60f7349edb54c2"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:3eeba0aa25a467aca53569232dfbd838f81125a6110c1eb79e0b383ae1ff31ac"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:ab1b141508358c6c30bc3c90a90267d8aa2eea4bfa5673d63da9c9b325dda77c"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:59d952b3d6a8804f8bd5e686ab2a9603eb6065042d736ffde9f173ffeedce5c0"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:0c2a3726123a6341ba28a1abe694d53f7f3f3bc79885435f83379ce8c8156a37"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-musllinux_1_2_i686.whl", hash = "sha256:1c8c38fa514af71931e8db71b5decd0ab324ce0aa04aae626da4db579b9daf3a"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:55ab1b9d2626cb06ebd14f0de0c36bb88b76089561694a9fe60e54e2be5bb282"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-win32.whl", hash = "sha256:4dc10ef47f37af89fe8b179beac8d3a7d1873214540df61721abd0701a6fa7a7"},
+    {file = "murmurhash2-0.2.10-cp36-abi3-win_amd64.whl", hash = "sha256:2d473f7e18965b3a7f31ed6a13f330cc7a4889672b381a40427153f0166cf3cc"},
+    {file = "murmurhash2-0.2.10.tar.gz", hash = "sha256:d89c624687ef1f0eb57862555a7e6cbe22869b1978c8d8d88bc461bd997dc1c9"},
 ]
 
 [[package]]
@@ -1191,4 +1205,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "4c4196c15cc56a43cea7b2115b322adbb257cd6aed5ebe908f52f6749ab90792"
+content-hash = "a30f98ff603e747d0b3d3c46035084a202f6bf7073df2573be1240b6bd2ec641"

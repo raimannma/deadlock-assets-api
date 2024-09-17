@@ -1,7 +1,6 @@
 import logging
 import os
 
-from cachetools.func import ttl_cache
 from fastapi import FastAPI, HTTPException
 from pydantic import TypeAdapter
 from starlette.requests import Request
@@ -35,7 +34,8 @@ def redirect_to_docs():
 
 @app.get("/heroes", response_model_exclude_none=True)
 def get_heroes(request: Request) -> list[Hero]:
-    content = read_file("res/heroes.json")
+    with open("res/heroes.json") as f:
+        content = f.read()
     ta = TypeAdapter(list[Hero])
     heroes = ta.validate_json(content)
     for hero in heroes:
@@ -65,7 +65,8 @@ def get_hero_by_name(request: Request, name: str) -> Hero:
 
 @app.get("/abilities", response_model_exclude_none=True)
 def get_abilities(request: Request) -> list[Ability]:
-    content = read_file("res/abilities.json")
+    with open("res/abilities.json") as f:
+        content = f.read()
     ta = TypeAdapter(list[Ability])
     abilities = ta.validate_json(content)
     for ability in abilities:
@@ -75,8 +76,17 @@ def get_abilities(request: Request) -> list[Ability]:
     return abilities
 
 
-@app.get("/abilities/{name}", response_model_exclude_none=True)
-def get_ability(request: Request, name: str) -> Ability:
+@app.get("/abilities/{id}", response_model_exclude_none=True)
+def get_ability(request: Request, id: int) -> Ability:
+    abilities = get_abilities(request)
+    for ability in abilities:
+        if ability.id == id:
+            return ability
+    raise HTTPException(status_code=404, detail="Ability not found")
+
+
+@app.get("/abilities/by-name/{name}", response_model_exclude_none=True)
+def get_ability_by_name(request: Request, name: str) -> Ability:
     abilities = get_abilities(request)
     for ability in abilities:
         if ability.name.lower() == name.lower():
@@ -87,12 +97,6 @@ def get_ability(request: Request, name: str) -> Ability:
 @app.get("/health")
 def get_health():
     return {"status": "ok"}
-
-
-@ttl_cache(ttl=10 * 60)
-def read_file(file: str) -> str:
-    with open(file) as f:
-        return f.read()
 
 
 if __name__ == "__main__":

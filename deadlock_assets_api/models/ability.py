@@ -1,5 +1,6 @@
 import re
 
+from murmurhash2.murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -173,6 +174,7 @@ class AbilityDofWhileZoomed(BaseModel):
 class Ability(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
+    id: int | None = Field(None)
     name: str = Field()
     patched_name: str | None = Field(None)
     ability_image: str | None = Field(None, validation_alias="m_strAbilityImage")
@@ -195,15 +197,18 @@ class Ability(BaseModel):
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
 
     def model_post_init(self, __context):
+        if self.id is None and self.name:
+            self.id = murmurhash2(self.name.encode(), 0x31415926)
+
         if self.patched_name is None and self.name:
             self.patched_name = self.prettify_snake_case(self.name)
 
         if self.ability_image:
+            split_index = self.ability_image.find("abilities/")
+            if split_index == -1:
+                split_index = self.ability_image.find("upgrades/")
             self.ability_image = (
-                (
-                    "images/"
-                    + self.ability_image[self.ability_image.find("abilities/") :]
-                )
+                ("images/" + self.ability_image[split_index:])
                 .replace('"', "")
                 .replace(".psd", "_psd.png")
             )

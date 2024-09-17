@@ -38,7 +38,7 @@ def parse_heroes(data: dict) -> list[Hero]:
 
 def parse_abilities(data: dict) -> list[Ability]:
     ability_dicts = {
-        k.removeprefix("citadel_").removeprefix("upgrade_").removeprefix("ability_"): v
+        k: v
         for k, v in data.items()
         if k.startswith("citadel_")
         or k.startswith("upgrade_")
