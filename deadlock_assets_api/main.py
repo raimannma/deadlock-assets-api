@@ -46,6 +46,8 @@ def get_heroes(request: Request, language: Language = Language.English) -> list[
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
         hero.language = language
+    heroes = [h for h in heroes if not h.disabled]
+    heroes = sorted(heroes, key=lambda x: x.name)
     return heroes
 
 

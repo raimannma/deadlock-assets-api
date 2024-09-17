@@ -30,8 +30,8 @@
       70,
       45
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 1,
     "images": {
@@ -353,7 +353,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 6,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
@@ -389,7 +389,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "gigawatt",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -418,8 +418,8 @@
       149,
       60
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 2,
     "images": {
@@ -682,7 +682,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -741,7 +741,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 4,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.76,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -777,7 +777,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "hornet",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -806,8 +806,8 @@
       205,
       236
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 3,
     "images": {
@@ -1070,7 +1070,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1129,7 +1129,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 3,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 20.0,
@@ -1165,7 +1165,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "ghost",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -1194,8 +1194,8 @@
       137,
       89
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 4,
     "images": {
@@ -1458,7 +1458,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1517,7 +1517,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 2.1,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -1553,7 +1553,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "atlas",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -1582,8 +1582,8 @@
       146,
       174
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 6,
     "images": {
@@ -1846,7 +1846,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1905,7 +1905,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 4,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.32,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 32.0,
@@ -1941,7 +1941,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "wraith",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -1970,8 +1970,8 @@
       77,
       120
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 7,
     "images": {
@@ -2234,7 +2234,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -2293,7 +2293,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 3,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.48,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -2329,7 +2329,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "forge",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -2358,8 +2358,8 @@
       104,
       155
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 8,
     "images": {
@@ -2622,7 +2622,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -2681,7 +2681,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 5,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.44,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -2746,8 +2746,8 @@
       57,
       82
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 10,
     "images": {
@@ -3069,7 +3069,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.42,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
@@ -3105,7 +3105,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "dynamo",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -3134,8 +3134,8 @@
       185,
       69
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 11,
     "images": {
@@ -3398,7 +3398,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -3457,7 +3457,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 4,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
@@ -3493,7 +3493,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "kelvin",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -3522,8 +3522,8 @@
       171,
       188
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 12,
     "images": {
@@ -3786,7 +3786,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -3845,7 +3845,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 3,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 50.0,
@@ -3881,7 +3881,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "haze",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -3910,8 +3910,8 @@
       97,
       51
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 13,
     "images": {
@@ -4174,7 +4174,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -4233,7 +4233,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 5,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.285,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
@@ -4298,8 +4298,8 @@
       76,
       49
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 14,
     "images": {
@@ -4310,7 +4310,7 @@
       "sm": "images/heroes/astro_sm_psd.png",
       "vertical": "images/heroes/astro_vertical_psd.png"
     },
-    "in_development": false,
+    "in_development": true,
     "item_slot_info": {
       "armor": {
         "max_purchase_for_tier": [
@@ -4563,7 +4563,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -4621,7 +4621,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 2,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
@@ -4657,7 +4657,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "bebop",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -4686,8 +4686,8 @@
       71,
       52
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 15,
     "images": {
@@ -4950,7 +4950,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -5046,7 +5046,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "nano",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -5075,8 +5075,8 @@
       15,
       214
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 1,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 16,
     "images": {
@@ -5087,7 +5087,7 @@
       "sm": "images/heroes/nano_sm_psd.png",
       "vertical": "images/heroes/nano_vertical_psd.png"
     },
-    "in_development": false,
+    "in_development": true,
     "item_slot_info": {
       "armor": {
         "max_purchase_for_tier": [
@@ -5339,8 +5339,8 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
-    "needs_testing": true,
+    "limited_testing": false,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -5398,7 +5398,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 4,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.159,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -5434,7 +5434,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "orion",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -5463,8 +5463,8 @@
       176,
       131
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 17,
     "images": {
@@ -5727,7 +5727,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -5786,7 +5786,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 5,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.8,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
@@ -5851,8 +5851,8 @@
       75,
       133
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 18,
     "images": {
@@ -6210,7 +6210,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "shiv",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -6239,8 +6239,8 @@
       60,
       135
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 19,
     "images": {
@@ -6503,7 +6503,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -6562,7 +6562,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
@@ -6627,8 +6627,8 @@
       115,
       217
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 20,
     "images": {
@@ -6950,7 +6950,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
@@ -7015,7 +7015,7 @@
       218,
       79
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 21,
@@ -7027,7 +7027,7 @@
       "sm": "images/heroes/kali_sm_psd.png",
       "vertical": "images/heroes/kali_vertical_psd.png"
     },
-    "in_development": true,
+    "in_development": false,
     "item_slot_info": {
       "armor": {
         "max_purchase_for_tier": [
@@ -7338,7 +7338,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -7374,7 +7374,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "warden",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -7403,8 +7403,8 @@
       97,
       120
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 25,
     "images": {
@@ -7667,7 +7667,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -7726,7 +7726,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
@@ -7791,8 +7791,8 @@
       144,
       128
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 27,
     "images": {
@@ -8114,7 +8114,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -8150,7 +8150,7 @@
   },
   {
     "assigned_players_only": false,
-    "bot_selectable": false,
+    "bot_selectable": true,
     "class_name": "lash",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -8179,8 +8179,8 @@
       75,
       86
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 31,
     "images": {
@@ -8443,7 +8443,7 @@
         "use_standard_upgrade": true
       }
     },
-    "limited_testing": true,
+    "limited_testing": false,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -8502,7 +8502,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 2,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
@@ -8567,8 +8567,8 @@
       195,
       99
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 35,
     "images": {
@@ -8890,7 +8890,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 3,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.1,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
@@ -8925,7 +8925,7 @@
     "step_sound_time": 0.3
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "gunslinger",
     "collision_height": 80.0,
@@ -8955,7 +8955,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 38,
@@ -9278,7 +9278,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -9343,7 +9343,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 39,
@@ -9608,7 +9608,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -9666,7 +9666,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -9701,7 +9701,7 @@
     "step_sound_time": 0.3
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "genericperson",
     "collision_height": 80.0,
@@ -9731,8 +9731,8 @@
       255,
       255
     ],
-    "complexity": 0,
-    "disabled": false,
+    "complexity": 2,
+    "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 46,
     "images": {
@@ -10054,7 +10054,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10119,7 +10119,7 @@
       141,
       173
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 47,
@@ -10384,7 +10384,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -10442,7 +10442,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.8487,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10507,8 +10507,8 @@
       45,
       177
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 3,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 48,
     "images": {
@@ -10519,7 +10519,7 @@
       "sm": "images/heroes/wrecker_sm_psd.png",
       "vertical": "images/heroes/wrecker_vertical_psd.png"
     },
-    "in_development": false,
+    "in_development": true,
     "item_slot_info": {
       "armor": {
         "max_purchase_for_tier": [
@@ -10772,7 +10772,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -10830,7 +10830,7 @@
         }
       ]
     },
-    "readability": 3,
+    "readability": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10865,7 +10865,7 @@
     "step_sound_time": 0.33
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "rutger",
     "collision_height": 80.0,
@@ -10895,7 +10895,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 49,
@@ -11218,7 +11218,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -11283,8 +11283,8 @@
       95,
       149
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 50,
     "images": {
@@ -11606,7 +11606,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -11641,7 +11641,7 @@
     "step_sound_time": 0.3
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "thumper",
     "collision_height": 80.0,
@@ -11671,7 +11671,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 51,
@@ -11994,7 +11994,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12059,8 +12059,8 @@
       103,
       60
     ],
-    "complexity": 0,
-    "disabled": true,
+    "complexity": 2,
+    "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 52,
     "images": {
@@ -12071,7 +12071,7 @@
       "sm": "images/heroes/mirage_sm_psd.png",
       "vertical": "images/heroes/mirage_vertical_psd.png"
     },
-    "in_development": false,
+    "in_development": true,
     "item_slot_info": {
       "armor": {
         "max_purchase_for_tier": [
@@ -12324,7 +12324,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -12382,7 +12382,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12447,7 +12447,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 53,
@@ -12712,7 +12712,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -12770,7 +12770,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.73,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12805,7 +12805,7 @@
     "step_sound_time": 0.385
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "cadence",
     "collision_height": 80.0,
@@ -12835,7 +12835,7 @@
       255,
       255
     ],
-    "complexity": 0,
+    "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 54,
@@ -13158,7 +13158,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -13193,7 +13193,7 @@
     "step_sound_time": 0.3
   },
   {
-    "assigned_players_only": true,
+    "assigned_players_only": false,
     "bot_selectable": false,
     "class_name": "targetdummy",
     "collision_height": 80.0,
@@ -13223,8 +13223,8 @@
       255,
       255
     ],
-    "complexity": 0,
-    "disabled": false,
+    "complexity": 2,
+    "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 55,
     "images": {
@@ -13546,7 +13546,7 @@
         }
       ]
     },
-    "readability": 2,
+    "readability": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -13611,7 +13611,7 @@
       15,
       214
     ],
-    "complexity": 0,
+    "complexity": 1,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
     "id": 56,
@@ -13876,7 +13876,7 @@
       }
     },
     "limited_testing": false,
-    "needs_testing": true,
+    "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
       "armor": [
@@ -13934,7 +13934,7 @@
         }
       ]
     },
-    "readability": 1,
+    "readability": 4,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.159,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
