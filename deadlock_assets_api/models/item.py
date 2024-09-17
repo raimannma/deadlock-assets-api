@@ -216,19 +216,6 @@ class Item(BaseModel):
 
     @computed_field
     @property
-    def hero(self) -> str | None:
-        if self.type != ItemType.WEAPON:
-            return None
-        hero = self.patched_name.split(" ")[0]
-        if len(hero) == 0:
-            return None
-        b_words = ["Base", "Bosstier", "Digger", "Engineer"]
-        if any(hero.startswith(w) for w in b_words):
-            return None
-        return hero
-
-    @computed_field
-    @property
     def type(self) -> ItemType | None:
         name = utils.strip_prefix(self.class_name, "citadel_")
         first_word = name.split("_")[0]
@@ -236,21 +223,6 @@ class Item(BaseModel):
             return ItemType(first_word.capitalize())
         except ValueError:
             return None
-
-    @computed_field
-    @property
-    def patched_name(self) -> str:
-        patched_name = utils.prettify_snake_case(self.class_name)
-        for prefix in [
-            "Citadel",
-            "Component",
-            "Weapon",
-            "Upgrade",
-            "Tier 2",
-            "Tier 3",
-        ]:
-            patched_name = utils.strip_prefix(patched_name, prefix)
-        return patched_name.strip().title()
 
     @field_validator("properties")
     @classmethod
