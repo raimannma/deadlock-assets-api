@@ -9,4 +9,4 @@ def parse_items(data: dict) -> list[Item]:
         or k.startswith("upgrade_")
         or k.startswith("ability_")
     }
-    return [Item(name=k, **v) for k, v in ability_dicts.items()]
+    return [Item(class_name=k, **v) for k, v in ability_dicts.items()]

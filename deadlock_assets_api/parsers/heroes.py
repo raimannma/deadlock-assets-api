@@ -17,7 +17,7 @@ def parse_heroes(data: dict) -> list[Hero]:
     ]
     return [
         Hero(
-            name=name,
+            class_name=name,
             images=HeroImages(
                 **{
                     img_name: f"images/heroes/{name}{postfix}_psd.png"

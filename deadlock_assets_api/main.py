@@ -9,6 +9,7 @@ from starlette.staticfiles import StaticFiles
 
 from deadlock_assets_api.models.hero import Hero
 from deadlock_assets_api.models.item import Item, ItemType
+from deadlock_assets_api.models.languages import Language
 
 logging.basicConfig(level=logging.INFO)
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
@@ -34,21 +35,23 @@ def redirect_to_docs():
 
 
 @app.get("/heroes", response_model_exclude_none=True)
-def get_heroes(request: Request) -> list[Hero]:
+def get_heroes(request: Request, language: Language = Language.English) -> list[Hero]:
     with open("res/heroes.json") as f:
-        content = f.read()
+        heroes = f.read()
+
     ta = TypeAdapter(list[Hero])
-    heroes = ta.validate_json(content)
+    heroes = ta.validate_json(heroes)
     for hero in heroes:
         hero.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
+        hero.language = language
     return heroes
 
 
 @app.get("/heroes/{id}", response_model_exclude_none=True)
-def get_hero(request: Request, id: int) -> Hero:
-    heroes = get_heroes(request)
+def get_hero(request: Request, id: int, language: Language = Language.English) -> Hero:
+    heroes = get_heroes(request, language)
     for hero in heroes:
         if hero.id == id:
             return hero
@@ -56,30 +59,33 @@ def get_hero(request: Request, id: int) -> Hero:
 
 
 @app.get("/heroes/by-name/{name}", response_model_exclude_none=True)
-def get_hero_by_name(request: Request, name: str) -> Hero:
-    heroes = get_heroes(request)
+def get_hero_by_name(
+    request: Request, name: str, language: Language = Language.English
+) -> Hero:
+    heroes = get_heroes(request, language)
     for hero in heroes:
-        if hero.name.lower() == name.lower():
+        if hero.class_name.lower() == name.lower():
             return hero
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
 @app.get("/items", response_model_exclude_none=True)
-def get_items(request: Request) -> list[Item]:
+def get_items(request: Request, language: Language = Language.English) -> list[Item]:
     with open("res/items.json") as f:
         content = f.read()
     ta = TypeAdapter(list[Item])
     items = ta.validate_json(content)
-    for c in items:
-        c.set_base_url(
+    for item in items:
+        item.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
+        item.language = language
     return items
 
 
 @app.get("/items/{id}", response_model_exclude_none=True)
-def get_item(request: Request, id: int) -> Item:
-    items = get_items(request)
+def get_item(request: Request, id: int, language: Language = Language.English) -> Item:
+    items = get_items(request, language)
     for item in items:
         if item.id == id:
             return item
@@ -87,17 +93,21 @@ def get_item(request: Request, id: int) -> Item:
 
 
 @app.get("/items/by-name/{name}", response_model_exclude_none=True)
-def get_items_by_name(request: Request, name: str) -> Item:
-    items = get_items(request)
+def get_items_by_name(
+    request: Request, name: str, language: Language = Language.English
+) -> Item:
+    items = get_items(request, language)
     for item in items:
-        if item.name.lower() == name.lower():
+        if item.class_name.lower() == name.lower():
             return item
     raise HTTPException(status_code=404, detail="Item not found")
 
 
 @app.get("/items/by-type/{type}", response_model_exclude_none=True)
-def get_items_by_type(request: Request, type: ItemType) -> list[Item]:
-    items = get_items(request)
+def get_items_by_type(
+    request: Request, type: ItemType, language: Language = Language.English
+) -> list[Item]:
+    items = get_items(request, language)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
 

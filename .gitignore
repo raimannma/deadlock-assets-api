@@ -1,6 +1,6 @@
 vdata/
 images/
-localization/
+/localization
 
 # Game File Extractor
 DepotDownloader

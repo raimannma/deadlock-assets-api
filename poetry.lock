@@ -993,6 +993,17 @@ docs = ["Sphinx (>=4.1.2,<4.2.0)", "sphinx-rtd-theme (>=0.5.2,<0.6.0)", "sphinxc
 test = ["Cython (>=0.29.36,<0.30.0)", "aiohttp (==3.9.0b0)", "aiohttp (>=3.8.1)", "flake8 (>=5.0,<6.0)", "mypy (>=0.800)", "psutil", "pyOpenSSL (>=23.0.0,<23.1.0)", "pycodestyle (>=2.9.0,<2.10.0)"]
 
 [[package]]
+name = "vdf"
+version = "3.4"
+description = "Library for working with Valve's VDF text format"
+optional = false
+python-versions = "*"
+files = [
+    {file = "vdf-3.4-py2.py3-none-any.whl", hash = "sha256:68c1a125cc49e343d535af2dd25074e9cb0908c6607f073947c4a04bbe234534"},
+    {file = "vdf-3.4.tar.gz", hash = "sha256:fd5419f41e07a1009e5ffd027c7dcbe43d1f7e8ef453aeaa90d9d04b807de2af"},
+]
+
+[[package]]
 name = "virtualenv"
 version = "20.26.4"
 description = "Virtual Python Environment builder"
@@ -1205,4 +1216,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a30f98ff603e747d0b3d3c46035084a202f6bf7073df2573be1240b6bd2ec641"
+content-hash = "469393448984566cc1f5b261c50df6d80e73d666d0074f0bf85307cfcd7d3e1a"

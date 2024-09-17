@@ -60,7 +60,8 @@ cp depots/game/citadel/scripts/abilities.vdata vdata/
 cp depots/game/citadel/scripts/heroes.vdata vdata/
 
 # Extract localization files
-cp -r depots/game/citadel/resource/localization .
+mkdir -p localization
+cp -r depots/game/citadel/resource/localization/citadel_gc/* localization/
 
 # Extract image files
 mkdir -p images/abilities

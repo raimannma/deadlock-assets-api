@@ -1,5 +1,6 @@
 [
   {
+    "class_name": "citadel_weapon_bosstier2_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -9,7 +10,6 @@
     "id": 2976789773,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_bosstier2_set",
     "patched_name": "Bosstier 2 Set",
     "points_cost": null,
     "properties": null,
@@ -83,6 +83,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_bosstier3_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -92,7 +93,6 @@
     "id": 3317486525,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_bosstier3_set",
     "patched_name": "Bosstier 3 Set",
     "points_cost": null,
     "properties": null,
@@ -166,6 +166,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_base_defense_turret",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -175,7 +176,6 @@
     "id": 1755130750,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_base_defense_turret",
     "patched_name": "Base Defense Turret",
     "points_cost": null,
     "properties": null,
@@ -249,6 +249,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_rutger_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -258,7 +259,6 @@
     "id": 2470199706,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_rutger_set",
     "patched_name": "Rutger Set",
     "points_cost": null,
     "properties": null,
@@ -332,6 +332,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_kali_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -341,7 +342,6 @@
     "id": 1115497205,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_kali_set",
     "patched_name": "Kali Set",
     "points_cost": null,
     "properties": null,
@@ -415,6 +415,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_gunslinger_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -424,7 +425,6 @@
     "id": 2790538565,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_gunslinger_set",
     "patched_name": "Gunslinger Set",
     "points_cost": null,
     "properties": null,
@@ -498,6 +498,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_yakuza_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -507,7 +508,6 @@
     "id": 2772141905,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_yakuza_set",
     "patched_name": "Yakuza Set",
     "points_cost": null,
     "properties": null,
@@ -581,6 +581,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_architect_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -590,7 +591,6 @@
     "id": 3033433915,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_architect_set",
     "patched_name": "Architect Set",
     "points_cost": null,
     "properties": null,
@@ -664,6 +664,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_thumper_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -673,7 +674,6 @@
     "id": 2914777625,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_thumper_set",
     "patched_name": "Thumper Set",
     "points_cost": null,
     "properties": null,
@@ -747,12 +747,12 @@
     }
   },
   {
+    "class_name": "ability_medic_trooper_heal",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1889173382,
     "image": null,
     "max_level": null,
-    "name": "ability_medic_trooper_heal",
     "patched_name": "Ability Medic Trooper Heal",
     "points_cost": null,
     "properties": null,
@@ -810,12 +810,12 @@
     }
   },
   {
+    "class_name": "ability_golden_idol",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2521299219,
     "image": null,
     "max_level": 1,
-    "name": "ability_golden_idol",
     "patched_name": "Ability Golden Idol",
     "points_cost": null,
     "properties": null,
@@ -873,12 +873,12 @@
     }
   },
   {
+    "class_name": "ability_item_pickup_effects",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2641680935,
     "image": null,
     "max_level": null,
-    "name": "ability_item_pickup_effects",
     "patched_name": "Ability Item Pickup Effects",
     "points_cost": null,
     "properties": null,
@@ -936,12 +936,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_zip_line",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2573821048,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_zip_line",
     "patched_name": "Ability Zip Line",
     "points_cost": null,
     "properties": null,
@@ -999,12 +999,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_zipline_boost",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 875395762,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_zipline_boost",
     "patched_name": "Ability Zipline Boost",
     "points_cost": null,
     "properties": null,
@@ -1062,12 +1062,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_trooper_zip_line",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1751980904,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_trooper_zip_line",
     "patched_name": "Ability Trooper Zip Line",
     "points_cost": null,
     "properties": null,
@@ -1125,12 +1125,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_mantle",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4109126631,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_mantle",
     "patched_name": "Ability Mantle",
     "points_cost": null,
     "properties": null,
@@ -1188,12 +1188,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_climb_rope",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4261702459,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_climb_rope",
     "patched_name": "Ability Climb Rope",
     "points_cost": null,
     "properties": null,
@@ -1251,12 +1251,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_jump",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1466127517,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_jump",
     "patched_name": "Ability Jump",
     "points_cost": null,
     "properties": null,
@@ -1314,12 +1314,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_sprint",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1443159618,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_sprint",
     "patched_name": "Ability Sprint",
     "points_cost": null,
     "properties": null,
@@ -1377,12 +1377,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_dash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2207638101,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_dash",
     "patched_name": "Ability Dash",
     "points_cost": null,
     "properties": null,
@@ -1440,12 +1440,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_slide",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2335418656,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_slide",
     "patched_name": "Ability Slide",
     "points_cost": null,
     "properties": null,
@@ -1503,12 +1503,12 @@
     }
   },
   {
+    "class_name": "ability_melee_butcher",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 677666973,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_butcher",
     "patched_name": "Ability Melee Butcher",
     "points_cost": null,
     "properties": null,
@@ -1566,12 +1566,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_kali",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2950623773,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_kali",
     "patched_name": "Ability Melee Kali",
     "points_cost": null,
     "properties": null,
@@ -1629,12 +1629,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_butcher",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 755819616,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_butcher",
     "patched_name": "Ability Melee Butcher",
     "points_cost": null,
     "properties": null,
@@ -1692,12 +1692,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_gunslinger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3299584775,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_gunslinger",
     "patched_name": "Ability Melee Gunslinger",
     "points_cost": null,
     "properties": null,
@@ -1755,12 +1755,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_yakuza",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3571834135,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_yakuza",
     "patched_name": "Ability Melee Yakuza",
     "points_cost": null,
     "properties": null,
@@ -1818,12 +1818,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_thumper",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1208692244,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_thumper",
     "patched_name": "Ability Melee Thumper",
     "points_cost": null,
     "properties": null,
@@ -1881,12 +1881,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_architect",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3123925900,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_architect",
     "patched_name": "Ability Melee Architect",
     "points_cost": null,
     "properties": null,
@@ -1944,12 +1944,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_parry",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 664285540,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_parry",
     "patched_name": "Ability Melee Parry",
     "points_cost": null,
     "properties": null,
@@ -2007,12 +2007,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tier2boss_rocket_barrage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1792983333,
     "image": null,
     "max_level": null,
-    "name": "citadel_ability_tier2boss_rocket_barrage",
     "patched_name": "Boss Rocket Barrage",
     "points_cost": null,
     "properties": null,
@@ -2070,12 +2070,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tier2boss_laser_beam",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4101890370,
     "image": null,
     "max_level": null,
-    "name": "citadel_ability_tier2boss_laser_beam",
     "patched_name": "Boss Laser Beam",
     "points_cost": null,
     "properties": null,
@@ -2133,12 +2133,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tier2boss_stomp",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1233550373,
     "image": null,
     "max_level": null,
-    "name": "citadel_ability_tier2boss_stomp",
     "patched_name": "Boss Stomp",
     "points_cost": null,
     "properties": null,
@@ -2196,12 +2196,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tier3boss_laser_beam",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 337723920,
     "image": null,
     "max_level": null,
-    "name": "citadel_ability_tier3boss_laser_beam",
     "patched_name": "Boss Laser Beam",
     "points_cost": null,
     "properties": null,
@@ -2259,12 +2259,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tier3boss_damage_pulse",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 346024533,
     "image": null,
     "max_level": null,
-    "name": "citadel_ability_tier3boss_damage_pulse",
     "patched_name": "Boss Damage Pulse",
     "points_cost": null,
     "properties": null,
@@ -2322,12 +2322,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_kali_spinning_blade",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4260284622,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_kali_spinning_blade",
     "patched_name": "Ability Kali Spinning Blade",
     "points_cost": null,
     "properties": null,
@@ -2385,12 +2385,12 @@
     }
   },
   {
+    "class_name": "ability_kali_dust_storm",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 21628267,
     "image": null,
     "max_level": 1,
-    "name": "ability_kali_dust_storm",
     "patched_name": "Ability Kali Dust Storm",
     "points_cost": null,
     "properties": null,
@@ -2448,12 +2448,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_kali_disruptive_charge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3219375905,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_kali_disruptive_charge",
     "patched_name": "Ability Kali Disruptive Charge",
     "points_cost": null,
     "properties": null,
@@ -2511,12 +2511,12 @@
     }
   },
   {
+    "class_name": "ability_kali_trappers_bolo",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 488392205,
     "image": null,
     "max_level": 1,
-    "name": "ability_kali_trappers_bolo",
     "patched_name": "Ability Kali Trappers Bolo",
     "points_cost": null,
     "properties": null,
@@ -2574,12 +2574,12 @@
     }
   },
   {
+    "class_name": "ability_trigger_base",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1113896001,
     "image": null,
     "max_level": 1,
-    "name": "ability_trigger_base",
     "patched_name": "Ability Trigger Base",
     "points_cost": null,
     "properties": null,
@@ -2637,12 +2637,12 @@
     }
   },
   {
+    "class_name": "citadel_hold_melee",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3152711215,
     "image": null,
     "max_level": 1,
-    "name": "citadel_hold_melee",
     "patched_name": "Hold Melee",
     "points_cost": null,
     "properties": null,
@@ -2700,12 +2700,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_genericperson",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 384715776,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_genericperson",
     "patched_name": "Ability Melee Genericperson",
     "points_cost": null,
     "properties": null,
@@ -2763,12 +2763,12 @@
     }
   },
   {
+    "class_name": "citadel_base_lockon_ability",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1165827104,
     "image": null,
     "max_level": null,
-    "name": "citadel_base_lockon_ability",
     "patched_name": "Base Lockon Ability",
     "points_cost": null,
     "properties": null,
@@ -2778,6 +2778,7 @@
     "weapon_info": null
   },
   {
+    "class_name": "citadel_weapon_astro_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -2787,7 +2788,6 @@
     "id": 2082220949,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_astro_set",
     "patched_name": "Astro Set",
     "points_cost": null,
     "properties": null,
@@ -2861,6 +2861,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_astro_set_shotgun_shared_base",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -2870,7 +2871,6 @@
     "id": 3072845424,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_astro_set_shotgun_shared_base",
     "patched_name": "Astro Set Shotgun Shared Base",
     "points_cost": null,
     "properties": null,
@@ -2944,12 +2944,12 @@
     }
   },
   {
+    "class_name": "citadel_weapon_astro_set_shotgun_shared_weapon_info",
     "dof_while_zoomed": null,
     "hero": "Astro",
     "id": 2743971415,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_astro_set_shotgun_shared_weapon_info",
     "patched_name": "Astro Set Shotgun Shared Weapon Info",
     "points_cost": null,
     "properties": null,
@@ -3015,6 +3015,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_astro_set_shotgun",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -3024,7 +3025,6 @@
     "id": 1398703271,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_astro_set_shotgun",
     "patched_name": "Astro Set Shotgun",
     "points_cost": null,
     "properties": null,
@@ -3098,6 +3098,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_astro_set_shotgun_backwards",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -3107,7 +3108,6 @@
     "id": 4161463520,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_astro_set_shotgun_backwards",
     "patched_name": "Astro Set Shotgun Backwards",
     "points_cost": null,
     "properties": null,
@@ -3181,12 +3181,12 @@
     }
   },
   {
+    "class_name": "ability_melee_astro",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 519260576,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_astro",
     "patched_name": "Ability Melee Astro",
     "points_cost": null,
     "properties": null,
@@ -3244,12 +3244,12 @@
     }
   },
   {
+    "class_name": "ability_explosive_barrel",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1235098866,
     "image": null,
     "max_level": 1,
-    "name": "ability_explosive_barrel",
     "patched_name": "Ability Explosive Barrel",
     "points_cost": null,
     "properties": null,
@@ -3307,12 +3307,12 @@
     }
   },
   {
+    "class_name": "ability_bounce_pad",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2240607294,
     "image": null,
     "max_level": 1,
-    "name": "ability_bounce_pad",
     "patched_name": "Ability Bounce Pad",
     "points_cost": null,
     "properties": null,
@@ -3370,12 +3370,12 @@
     }
   },
   {
+    "class_name": "ability_target_practice",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 943923461,
     "image": null,
     "max_level": 1,
-    "name": "ability_target_practice",
     "patched_name": "Ability Target Practice",
     "points_cost": null,
     "properties": null,
@@ -3433,12 +3433,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_running_decoy",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1138666069,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_running_decoy",
     "patched_name": "Ability Running Decoy",
     "points_cost": null,
     "properties": null,
@@ -3496,12 +3496,12 @@
     }
   },
   {
+    "class_name": "ability_gravity_lasso",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3190606822,
     "image": null,
     "max_level": 1,
-    "name": "ability_gravity_lasso",
     "patched_name": "Ability Gravity Lasso",
     "points_cost": null,
     "properties": null,
@@ -3559,12 +3559,12 @@
     }
   },
   {
+    "class_name": "ability_astro_shotgun_toggle",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2395530931,
     "image": null,
     "max_level": 1,
-    "name": "ability_astro_shotgun_toggle",
     "patched_name": "Ability Astro Shotgun Toggle",
     "points_cost": null,
     "properties": null,
@@ -3622,12 +3622,12 @@
     }
   },
   {
+    "class_name": "ability_astro_rifle",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3000276336,
     "image": null,
     "max_level": 1,
-    "name": "ability_astro_rifle",
     "patched_name": "Ability Astro Rifle",
     "points_cost": null,
     "properties": null,
@@ -3685,12 +3685,12 @@
     }
   },
   {
+    "class_name": "ability_hat_trick",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3913047754,
     "image": null,
     "max_level": 1,
-    "name": "ability_hat_trick",
     "patched_name": "Ability Hat Trick",
     "points_cost": null,
     "properties": null,
@@ -3748,6 +3748,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_bull_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -3757,7 +3758,6 @@
     "id": 3609948706,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_bull_set",
     "patched_name": "Bull Set",
     "points_cost": null,
     "properties": null,
@@ -3828,12 +3828,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_bull",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3415298717,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_bull",
     "patched_name": "Ability Melee Bull",
     "points_cost": null,
     "properties": null,
@@ -3891,12 +3891,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_bull_charge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2824119765,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_bull_charge",
     "patched_name": "Ability Bull Charge",
     "points_cost": null,
     "properties": null,
@@ -3954,12 +3954,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_passive_beefy",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 715762406,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_passive_beefy",
     "patched_name": "Ability Passive Beefy",
     "points_cost": null,
     "properties": null,
@@ -4017,12 +4017,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_bull_leap",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 509856396,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_bull_leap",
     "patched_name": "Ability Bull Leap",
     "points_cost": null,
     "properties": null,
@@ -4080,12 +4080,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_bull_heal",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4072270083,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_bull_heal",
     "patched_name": "Ability Bull Heal",
     "points_cost": null,
     "properties": null,
@@ -4143,6 +4143,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_bebop_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -4152,7 +4153,6 @@
     "id": 3764085067,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_bebop_set",
     "patched_name": "Bebop Set",
     "points_cost": null,
     "properties": null,
@@ -4226,12 +4226,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_bebop",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2373292985,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_bebop",
     "patched_name": "Ability Melee Bebop",
     "points_cost": null,
     "properties": null,
@@ -4289,12 +4289,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_uppercut",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3089858203,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_uppercut",
     "patched_name": "Ability Uppercut",
     "points_cost": null,
     "properties": null,
@@ -4352,12 +4352,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_sticky_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2521902222,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_sticky_bomb",
     "patched_name": "Ability Sticky Bomb",
     "points_cost": null,
     "properties": null,
@@ -4415,12 +4415,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_bebop_laser_beam",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3832675871,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_bebop_laser_beam",
     "patched_name": "Ability Bebop Laser Beam",
     "points_cost": null,
     "properties": null,
@@ -4478,12 +4478,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hook",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1928108461,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hook",
     "patched_name": "Ability Hook",
     "points_cost": null,
     "properties": null,
@@ -4541,6 +4541,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_bomber_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -4550,7 +4551,6 @@
     "id": 2605652378,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_bomber_set",
     "patched_name": "Bomber Set",
     "points_cost": null,
     "properties": null,
@@ -4624,12 +4624,12 @@
     }
   },
   {
+    "class_name": "ability_melee_bomber",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1759542823,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_bomber",
     "patched_name": "Ability Melee Bomber",
     "points_cost": null,
     "properties": null,
@@ -4687,12 +4687,12 @@
     }
   },
   {
+    "class_name": "ability_charged_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3338528319,
     "image": null,
     "max_level": 1,
-    "name": "ability_charged_bomb",
     "patched_name": "Ability Charged Bomb",
     "points_cost": null,
     "properties": null,
@@ -4750,12 +4750,12 @@
     }
   },
   {
+    "class_name": "ability_charged_bomb_throw",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 511336372,
     "image": null,
     "max_level": 1,
-    "name": "ability_charged_bomb_throw",
     "patched_name": "Ability Charged Bomb Throw",
     "points_cost": null,
     "properties": null,
@@ -4813,12 +4813,12 @@
     }
   },
   {
+    "class_name": "ability_bomber_ability02",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3875361929,
     "image": null,
     "max_level": 1,
-    "name": "ability_bomber_ability02",
     "patched_name": "Ability Bomber Ability 02",
     "points_cost": null,
     "properties": null,
@@ -4876,12 +4876,12 @@
     }
   },
   {
+    "class_name": "ability_bomber_ability03",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4081662205,
     "image": null,
     "max_level": 1,
-    "name": "ability_bomber_ability03",
     "patched_name": "Ability Bomber Ability 03",
     "points_cost": null,
     "properties": null,
@@ -4939,12 +4939,12 @@
     }
   },
   {
+    "class_name": "ability_bomber_ult",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3232290270,
     "image": null,
     "max_level": 1,
-    "name": "ability_bomber_ult",
     "patched_name": "Ability Bomber Ult",
     "points_cost": null,
     "properties": null,
@@ -5002,6 +5002,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_cadence_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -5011,7 +5012,6 @@
     "id": 3155417712,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_cadence_set",
     "patched_name": "Cadence Set",
     "points_cost": null,
     "properties": null,
@@ -5085,12 +5085,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_cadence",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 852374872,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_cadence",
     "patched_name": "Ability Melee Cadence",
     "points_cost": null,
     "properties": null,
@@ -5148,6 +5148,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_chrono_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -5157,7 +5158,6 @@
     "id": 2390964381,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_chrono_set",
     "patched_name": "Chrono Set",
     "points_cost": null,
     "properties": null,
@@ -5231,12 +5231,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_chrono",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3672737523,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_chrono",
     "patched_name": "Ability Melee Chrono",
     "points_cost": null,
     "properties": null,
@@ -5294,12 +5294,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_chrono_pulse_grenade",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 58655583,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_chrono_pulse_grenade",
     "patched_name": "Ability Chrono Pulse Grenade",
     "points_cost": null,
     "properties": null,
@@ -5357,12 +5357,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_chrono_time_wall",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1366719170,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_chrono_time_wall",
     "patched_name": "Ability Chrono Time Wall",
     "points_cost": null,
     "properties": null,
@@ -5420,12 +5420,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_chrono_kinetic_carbine",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1128670012,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_chrono_kinetic_carbine",
     "patched_name": "Ability Chrono Kinetic Carbine",
     "points_cost": null,
     "properties": null,
@@ -5483,12 +5483,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_chrono_swap",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2917891787,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_chrono_swap",
     "patched_name": "Ability Chrono Swap",
     "points_cost": null,
     "properties": null,
@@ -5546,6 +5546,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_sumo_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -5555,7 +5556,6 @@
     "id": 602440127,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_sumo_set",
     "patched_name": "Sumo Set",
     "points_cost": null,
     "properties": null,
@@ -5629,12 +5629,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_sumo",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 855695370,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_sumo",
     "patched_name": "Ability Melee Sumo",
     "points_cost": null,
     "properties": null,
@@ -5692,12 +5692,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_stomp",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3760705623,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_stomp",
     "patched_name": "Ability Stomp",
     "points_cost": null,
     "properties": null,
@@ -5755,12 +5755,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_void_sphere",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2031714424,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_void_sphere",
     "patched_name": "Ability Void Sphere",
     "points_cost": null,
     "properties": null,
@@ -5818,12 +5818,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_charged_tackle",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3954890388,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_charged_tackle",
     "patched_name": "Ability Charged Tackle",
     "points_cost": null,
     "properties": null,
@@ -5881,12 +5881,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_nikuman",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 492030745,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_nikuman",
     "patched_name": "Ability Nikuman",
     "points_cost": null,
     "properties": null,
@@ -5944,12 +5944,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_self_vacuum",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 249410288,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_self_vacuum",
     "patched_name": "Ability Self Vacuum",
     "points_cost": null,
     "properties": null,
@@ -6007,6 +6007,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_engineer_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -6016,7 +6017,6 @@
     "id": 1975078202,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_engineer_set",
     "patched_name": "Engineer Set",
     "points_cost": null,
     "properties": null,
@@ -6090,12 +6090,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_engineer",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2660222379,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_engineer",
     "patched_name": "Ability Melee Engineer",
     "points_cost": null,
     "properties": null,
@@ -6153,12 +6153,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_mobile_resupply",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2142734020,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_mobile_resupply",
     "patched_name": "Ability Mobile Resupply",
     "points_cost": null,
     "properties": null,
@@ -6216,12 +6216,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_shieldedsentry",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3133377790,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_shieldedsentry",
     "patched_name": "Ability Shieldedsentry",
     "points_cost": null,
     "properties": null,
@@ -6295,12 +6295,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_fissure_wall",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1725685134,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_fissure_wall",
     "patched_name": "Ability Fissure Wall",
     "points_cost": null,
     "properties": null,
@@ -6358,12 +6358,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_fissure_wall_trigger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 318567870,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_fissure_wall_trigger",
     "patched_name": "Ability Fissure Wall Trigger",
     "points_cost": null,
     "properties": null,
@@ -6421,12 +6421,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_fissure_wall_cancel",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1690335039,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_fissure_wall_cancel",
     "patched_name": "Ability Fissure Wall Cancel",
     "points_cost": null,
     "properties": null,
@@ -6484,12 +6484,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_rocket_barrage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3503044146,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_rocket_barrage",
     "patched_name": "Ability Rocket Barrage",
     "points_cost": null,
     "properties": null,
@@ -6547,6 +6547,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_genericperson_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -6556,7 +6557,6 @@
     "id": 1150061901,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_genericperson_set",
     "patched_name": "Genericperson Set",
     "points_cost": null,
     "properties": null,
@@ -6630,6 +6630,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_targetdummy_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -6639,7 +6640,6 @@
     "id": 1875978329,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_targetdummy_set",
     "patched_name": "Targetdummy Set",
     "points_cost": null,
     "properties": null,
@@ -6713,12 +6713,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_targetdummy",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3134673014,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_targetdummy",
     "patched_name": "Ability Melee Targetdummy",
     "points_cost": null,
     "properties": null,
@@ -6776,6 +6776,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_ghost_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -6785,7 +6786,6 @@
     "id": 1558668879,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_ghost_set",
     "patched_name": "Ghost Set",
     "points_cost": null,
     "properties": null,
@@ -6859,12 +6859,12 @@
     }
   },
   {
+    "class_name": "ability_melee_ghost",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2500675101,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_ghost",
     "patched_name": "Ability Melee Ghost",
     "points_cost": null,
     "properties": null,
@@ -6922,12 +6922,12 @@
     }
   },
   {
+    "class_name": "ability_blood_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 715325746,
     "image": null,
     "max_level": 1,
-    "name": "ability_blood_bomb",
     "patched_name": "Ability Blood Bomb",
     "points_cost": null,
     "properties": null,
@@ -6985,12 +6985,12 @@
     }
   },
   {
+    "class_name": "ability_blood_shards",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3230530872,
     "image": null,
     "max_level": 1,
-    "name": "ability_blood_shards",
     "patched_name": "Ability Blood Shards",
     "points_cost": null,
     "properties": null,
@@ -7048,12 +7048,12 @@
     }
   },
   {
+    "class_name": "ability_life_drain",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 218284420,
     "image": null,
     "max_level": 1,
-    "name": "ability_life_drain",
     "patched_name": "Ability Life Drain",
     "points_cost": null,
     "properties": null,
@@ -7111,12 +7111,12 @@
     }
   },
   {
+    "class_name": "ability_death_tax",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2364803451,
     "image": null,
     "max_level": 1,
-    "name": "ability_death_tax",
     "patched_name": "Ability Death Tax",
     "points_cost": null,
     "properties": null,
@@ -7174,12 +7174,12 @@
     }
   },
   {
+    "class_name": "ability_health_swap",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1307289689,
     "image": null,
     "max_level": 1,
-    "name": "ability_health_swap",
     "patched_name": "Ability Health Swap",
     "points_cost": null,
     "properties": null,
@@ -7237,6 +7237,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_gigawatt_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -7246,7 +7247,6 @@
     "id": 2695625322,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_gigawatt_set",
     "patched_name": "Gigawatt Set",
     "points_cost": null,
     "properties": null,
@@ -7320,12 +7320,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_gigawatt",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2372182196,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_gigawatt",
     "patched_name": "Ability Melee Gigawatt",
     "points_cost": null,
     "properties": null,
@@ -7383,12 +7383,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_lightning_ball",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1065103387,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_lightning_ball",
     "patched_name": "Ability Lightning Ball",
     "points_cost": null,
     "properties": null,
@@ -7446,12 +7446,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_static_charge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1074714947,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_static_charge",
     "patched_name": "Ability Static Charge",
     "points_cost": null,
     "properties": null,
@@ -7509,12 +7509,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_chain_lightning",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3534969709,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_chain_lightning",
     "patched_name": "Ability Chain Lightning",
     "points_cost": null,
     "properties": null,
@@ -7572,12 +7572,12 @@
     }
   },
   {
+    "class_name": "ability_power_surge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 539192269,
     "image": null,
     "max_level": 1,
-    "name": "ability_power_surge",
     "patched_name": "Ability Power Surge",
     "points_cost": null,
     "properties": null,
@@ -7635,12 +7635,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_storm_cloud",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2061574352,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_storm_cloud",
     "patched_name": "Ability Storm Cloud",
     "points_cost": null,
     "properties": null,
@@ -7698,6 +7698,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_haze_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -7707,7 +7708,6 @@
     "id": 2679155647,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_haze_set",
     "patched_name": "Haze Set",
     "points_cost": null,
     "properties": null,
@@ -7781,12 +7781,12 @@
     }
   },
   {
+    "class_name": "ability_melee_haze",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3104292528,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_haze",
     "patched_name": "Ability Melee Haze",
     "points_cost": null,
     "properties": null,
@@ -7844,12 +7844,12 @@
     }
   },
   {
+    "class_name": "ability_sleep_dagger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2948410412,
     "image": null,
     "max_level": 1,
-    "name": "ability_sleep_dagger",
     "patched_name": "Ability Sleep Dagger",
     "points_cost": null,
     "properties": null,
@@ -7907,12 +7907,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_poison_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3491630813,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_poison_bullets",
     "patched_name": "Ability Poison Bullets",
     "points_cost": null,
     "properties": null,
@@ -7970,12 +7970,12 @@
     }
   },
   {
+    "class_name": "ability_smoke_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2414191464,
     "image": null,
     "max_level": 1,
-    "name": "ability_smoke_bomb",
     "patched_name": "Ability Smoke Bomb",
     "points_cost": null,
     "properties": null,
@@ -8033,12 +8033,12 @@
     }
   },
   {
+    "class_name": "ability_stacking_damage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1080948381,
     "image": null,
     "max_level": 1,
-    "name": "ability_stacking_damage",
     "patched_name": "Ability Stacking Damage",
     "points_cost": null,
     "properties": null,
@@ -8096,12 +8096,12 @@
     }
   },
   {
+    "class_name": "ability_bullet_flurry",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 731943444,
     "image": null,
     "max_level": 1,
-    "name": "ability_bullet_flurry",
     "patched_name": "Ability Bullet Flurry",
     "points_cost": null,
     "properties": null,
@@ -8159,6 +8159,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_hornet_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -8168,7 +8169,6 @@
     "id": 3510968490,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_hornet_set",
     "patched_name": "Hornet Set",
     "points_cost": null,
     "properties": null,
@@ -8242,12 +8242,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_hornet",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1619999260,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_hornet",
     "patched_name": "Ability Melee Hornet",
     "points_cost": null,
     "properties": null,
@@ -8305,12 +8305,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_wing_blast",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 636273017,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_wing_blast",
     "patched_name": "Ability Wing Blast",
     "points_cost": null,
     "properties": null,
@@ -8368,12 +8368,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hornet_chain",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 537527508,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hornet_chain",
     "patched_name": "Ability Hornet Chain",
     "points_cost": null,
     "properties": null,
@@ -8431,12 +8431,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hornet_leap",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1796564033,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hornet_leap",
     "patched_name": "Ability Hornet Leap",
     "points_cost": null,
     "properties": null,
@@ -8494,12 +8494,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hornet_sting",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2048438176,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hornet_sting",
     "patched_name": "Ability Hornet Sting",
     "points_cost": null,
     "properties": null,
@@ -8557,12 +8557,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hornet_snipe",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 775377419,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hornet_snipe",
     "patched_name": "Ability Hornet Snipe",
     "points_cost": null,
     "properties": null,
@@ -8620,12 +8620,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_hornet_mark",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3965226174,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_hornet_mark",
     "patched_name": "Ability Hornet Mark",
     "points_cost": null,
     "properties": null,
@@ -8683,6 +8683,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_inferno_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -8692,7 +8693,6 @@
     "id": 556186193,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_inferno_set",
     "patched_name": "Inferno Set",
     "points_cost": null,
     "properties": null,
@@ -8766,12 +8766,12 @@
     }
   },
   {
+    "class_name": "ability_melee_inferno",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 750371308,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_inferno",
     "patched_name": "Ability Melee Inferno",
     "points_cost": null,
     "properties": null,
@@ -8829,12 +8829,12 @@
     }
   },
   {
+    "class_name": "ability_fire_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1142270357,
     "image": null,
     "max_level": 1,
-    "name": "ability_fire_bomb",
     "patched_name": "Ability Fire Bomb",
     "points_cost": null,
     "properties": null,
@@ -8892,12 +8892,12 @@
     }
   },
   {
+    "class_name": "ability_flame_dash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3516947824,
     "image": null,
     "max_level": 1,
-    "name": "ability_flame_dash",
     "patched_name": "Ability Flame Dash",
     "points_cost": null,
     "properties": null,
@@ -8955,12 +8955,12 @@
     }
   },
   {
+    "class_name": "ability_flame_dash_cancel_trigger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2715011005,
     "image": null,
     "max_level": 1,
-    "name": "ability_flame_dash_cancel_trigger",
     "patched_name": "Ability Flame Dash Cancel Trigger",
     "points_cost": null,
     "properties": null,
@@ -9018,12 +9018,12 @@
     }
   },
   {
+    "class_name": "ability_incendiary_projectile",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 491391007,
     "image": null,
     "max_level": 1,
-    "name": "ability_incendiary_projectile",
     "patched_name": "Ability Incendiary Projectile",
     "points_cost": null,
     "properties": null,
@@ -9081,12 +9081,12 @@
     }
   },
   {
+    "class_name": "ability_afterburn",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1593133799,
     "image": null,
     "max_level": 1,
-    "name": "ability_afterburn",
     "patched_name": "Ability Afterburn",
     "points_cost": null,
     "properties": null,
@@ -9144,6 +9144,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_kelvin_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -9153,7 +9154,6 @@
     "id": 3576988085,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_kelvin_set",
     "patched_name": "Kelvin Set",
     "points_cost": null,
     "properties": null,
@@ -9227,12 +9227,12 @@
     }
   },
   {
+    "class_name": "ability_melee_kelvin",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3403409980,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_kelvin",
     "patched_name": "Ability Melee Kelvin",
     "points_cost": null,
     "properties": null,
@@ -9290,12 +9290,12 @@
     }
   },
   {
+    "class_name": "ability_icebeam",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2351041382,
     "image": null,
     "max_level": 1,
-    "name": "ability_icebeam",
     "patched_name": "Ability Icebeam",
     "points_cost": null,
     "properties": null,
@@ -9353,12 +9353,12 @@
     }
   },
   {
+    "class_name": "ability_icepath",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1963397252,
     "image": null,
     "max_level": 1,
-    "name": "ability_icepath",
     "patched_name": "Ability Icepath",
     "points_cost": null,
     "properties": null,
@@ -9416,12 +9416,12 @@
     }
   },
   {
+    "class_name": "ability_ice_grenade",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 18921423,
     "image": null,
     "max_level": 1,
-    "name": "ability_ice_grenade",
     "patched_name": "Ability Ice Grenade",
     "points_cost": null,
     "properties": null,
@@ -9479,12 +9479,12 @@
     }
   },
   {
+    "class_name": "ability_ice_dome",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3826390464,
     "image": null,
     "max_level": 1,
-    "name": "ability_ice_dome",
     "patched_name": "Ability Ice Dome",
     "points_cost": null,
     "properties": null,
@@ -9542,6 +9542,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_lash_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -9551,7 +9552,6 @@
     "id": 2896288811,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_lash_set",
     "patched_name": "Lash Set",
     "points_cost": null,
     "properties": null,
@@ -9625,12 +9625,12 @@
     }
   },
   {
+    "class_name": "ability_melee_lash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3283820257,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_lash",
     "patched_name": "Ability Melee Lash",
     "points_cost": null,
     "properties": null,
@@ -9688,12 +9688,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_lash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2670099061,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_lash",
     "patched_name": "Ability Lash",
     "points_cost": null,
     "properties": null,
@@ -9751,12 +9751,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_lash_down_strike",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3561817145,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_lash_down_strike",
     "patched_name": "Ability Lash Down Strike",
     "points_cost": null,
     "properties": null,
@@ -9814,12 +9814,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_lash_ultimate",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 397010810,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_lash_ultimate",
     "patched_name": "Ability Lash Ultimate",
     "points_cost": null,
     "properties": null,
@@ -9877,12 +9877,12 @@
     }
   },
   {
+    "class_name": "ability_lash_flog",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 519124136,
     "image": null,
     "max_level": 1,
-    "name": "ability_lash_flog",
     "patched_name": "Ability Lash Flog",
     "points_cost": null,
     "properties": null,
@@ -9940,6 +9940,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_mirage_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -9949,7 +9950,6 @@
     "id": 2942562744,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_mirage_set",
     "patched_name": "Mirage Set",
     "points_cost": null,
     "properties": null,
@@ -10023,6 +10023,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_digger_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -10032,7 +10033,6 @@
     "id": 1895060499,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_digger_set",
     "patched_name": "Digger Set",
     "points_cost": null,
     "properties": null,
@@ -10106,12 +10106,12 @@
     }
   },
   {
+    "class_name": "ability_melee_digger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1400683724,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_digger",
     "patched_name": "Ability Melee Digger",
     "points_cost": null,
     "properties": null,
@@ -10169,12 +10169,12 @@
     }
   },
   {
+    "class_name": "ability_intimidate",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1454278799,
     "image": null,
     "max_level": 1,
-    "name": "ability_intimidate",
     "patched_name": "Ability Intimidate",
     "points_cost": null,
     "properties": null,
@@ -10232,12 +10232,12 @@
     }
   },
   {
+    "class_name": "ability_burrow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2406758797,
     "image": null,
     "max_level": 1,
-    "name": "ability_burrow",
     "patched_name": "Ability Burrow",
     "points_cost": null,
     "properties": null,
@@ -10295,12 +10295,12 @@
     }
   },
   {
+    "class_name": "ability_throw_sand",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1914797280,
     "image": null,
     "max_level": 1,
-    "name": "ability_throw_sand",
     "patched_name": "Ability Throw Sand",
     "points_cost": null,
     "properties": null,
@@ -10358,12 +10358,12 @@
     }
   },
   {
+    "class_name": "ability_ult_combo",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1917840730,
     "image": null,
     "max_level": 1,
-    "name": "ability_ult_combo",
     "patched_name": "Ability Ult Combo",
     "points_cost": null,
     "properties": null,
@@ -10421,6 +10421,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_nano_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -10430,7 +10431,6 @@
     "id": 3108987282,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_nano_set",
     "patched_name": "Nano Set",
     "points_cost": null,
     "properties": null,
@@ -10507,6 +10507,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_nano_alt",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -10516,7 +10517,6 @@
     "id": 3386449071,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_nano_alt",
     "patched_name": "Nano Alt",
     "points_cost": null,
     "properties": null,
@@ -10593,12 +10593,12 @@
     }
   },
   {
+    "class_name": "ability_melee_nano",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3861289372,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_nano",
     "patched_name": "Ability Melee Nano",
     "points_cost": null,
     "properties": null,
@@ -10656,12 +10656,12 @@
     }
   },
   {
+    "class_name": "ability_perched_predator",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3377867107,
     "image": null,
     "max_level": 1,
-    "name": "ability_perched_predator",
     "patched_name": "Ability Perched Predator",
     "points_cost": null,
     "properties": null,
@@ -10719,12 +10719,12 @@
     }
   },
   {
+    "class_name": "ability_perched_predator_trigger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3380228790,
     "image": null,
     "max_level": 1,
-    "name": "ability_perched_predator_trigger",
     "patched_name": "Ability Perched Predator Trigger",
     "points_cost": null,
     "properties": null,
@@ -10782,12 +10782,12 @@
     }
   },
   {
+    "class_name": "ability_nano_pounce",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3467292895,
     "image": null,
     "max_level": 1,
-    "name": "ability_nano_pounce",
     "patched_name": "Ability Nano Pounce",
     "points_cost": null,
     "properties": null,
@@ -10845,12 +10845,12 @@
     }
   },
   {
+    "class_name": "ability_nano_proximity_ritual",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 755723302,
     "image": null,
     "max_level": 1,
-    "name": "ability_nano_proximity_ritual",
     "patched_name": "Ability Nano Proximity Ritual",
     "points_cost": null,
     "properties": null,
@@ -10908,12 +10908,12 @@
     }
   },
   {
+    "class_name": "ability_nano_proximity_ritual_trigger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 90787918,
     "image": null,
     "max_level": 1,
-    "name": "ability_nano_proximity_ritual_trigger",
     "patched_name": "Ability Nano Proximity Ritual Trigger",
     "points_cost": null,
     "properties": null,
@@ -10971,12 +10971,12 @@
     }
   },
   {
+    "class_name": "ability_nano_ult_shadow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 686480410,
     "image": null,
     "max_level": 1,
-    "name": "ability_nano_ult_shadow",
     "patched_name": "Ability Nano Ult Shadow",
     "points_cost": null,
     "properties": null,
@@ -11034,6 +11034,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_archer_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -11043,7 +11044,6 @@
     "id": 2402901451,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_archer_set",
     "patched_name": "Archer Set",
     "points_cost": null,
     "properties": null,
@@ -11117,12 +11117,12 @@
     }
   },
   {
+    "class_name": "ability_melee_archer",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4220996204,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_archer",
     "patched_name": "Ability Melee Archer",
     "points_cost": null,
     "properties": null,
@@ -11180,12 +11180,12 @@
     }
   },
   {
+    "class_name": "ability_charged_shot",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 548943648,
     "image": null,
     "max_level": 1,
-    "name": "ability_charged_shot",
     "patched_name": "Ability Charged Shot",
     "points_cost": null,
     "properties": null,
@@ -11259,12 +11259,12 @@
     }
   },
   {
+    "class_name": "ability_power_jump",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3452399392,
     "image": null,
     "max_level": 1,
-    "name": "ability_power_jump",
     "patched_name": "Ability Power Jump",
     "points_cost": null,
     "properties": null,
@@ -11322,12 +11322,12 @@
     }
   },
   {
+    "class_name": "ability_immobilize_trap",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 512733154,
     "image": null,
     "max_level": 1,
-    "name": "ability_immobilize_trap",
     "patched_name": "Ability Immobilize Trap",
     "points_cost": null,
     "properties": null,
@@ -11385,12 +11385,12 @@
     }
   },
   {
+    "class_name": "ability_guided_arrow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3242902780,
     "image": null,
     "max_level": 1,
-    "name": "ability_guided_arrow",
     "patched_name": "Ability Guided Arrow",
     "points_cost": null,
     "properties": null,
@@ -11448,6 +11448,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_shiv_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -11457,7 +11458,6 @@
     "id": 3121968594,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_shiv_set",
     "patched_name": "Shiv Set",
     "points_cost": null,
     "properties": null,
@@ -11531,6 +11531,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_shiv_alt",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -11540,7 +11541,6 @@
     "id": 225271804,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_shiv_alt",
     "patched_name": "Shiv Alt",
     "points_cost": null,
     "properties": null,
@@ -11614,12 +11614,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_shiv",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 11664367,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_shiv",
     "patched_name": "Ability Melee Shiv",
     "points_cost": null,
     "properties": null,
@@ -11677,12 +11677,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_shiv_dagger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2460791803,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_shiv_dagger",
     "patched_name": "Ability Shiv Dagger",
     "points_cost": null,
     "properties": null,
@@ -11740,12 +11740,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_shiv_dash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1458044103,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_shiv_dash",
     "patched_name": "Ability Shiv Dash",
     "points_cost": null,
     "properties": null,
@@ -11803,12 +11803,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_shiv_defer_damage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1537272748,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_shiv_defer_damage",
     "patched_name": "Ability Shiv Defer Damage",
     "points_cost": null,
     "properties": null,
@@ -11866,12 +11866,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_shiv_killing_blow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1835738020,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_shiv_killing_blow",
     "patched_name": "Ability Shiv Killing Blow",
     "points_cost": null,
     "properties": null,
@@ -11929,6 +11929,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_slork_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -11938,7 +11939,6 @@
     "id": 2080724972,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_slork_set",
     "patched_name": "Slork Set",
     "points_cost": null,
     "properties": null,
@@ -12012,12 +12012,12 @@
     }
   },
   {
+    "class_name": "ability_chomp_cast_dash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3714943918,
     "image": null,
     "max_level": 1,
-    "name": "ability_chomp_cast_dash",
     "patched_name": "Ability Chomp Cast Dash",
     "points_cost": null,
     "properties": null,
@@ -12075,12 +12075,12 @@
     }
   },
   {
+    "class_name": "citadel_weapon_slork_alt",
     "dof_while_zoomed": null,
     "hero": "Slork",
     "id": 3765343215,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_slork_alt",
     "patched_name": "Slork Alt",
     "points_cost": null,
     "properties": null,
@@ -12154,6 +12154,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_synth_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -12163,7 +12164,6 @@
     "id": 3383556212,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_synth_set",
     "patched_name": "Synth Set",
     "points_cost": null,
     "properties": null,
@@ -12234,6 +12234,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_tengu_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -12243,7 +12244,6 @@
     "id": 1961353863,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_tengu_set",
     "patched_name": "Tengu Set",
     "points_cost": null,
     "properties": null,
@@ -12320,12 +12320,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_tengu",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2840115251,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_tengu",
     "patched_name": "Ability Melee Tengu",
     "points_cost": null,
     "properties": null,
@@ -12383,12 +12383,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tangotether",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1531378655,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_tangotether",
     "patched_name": "Ability Tangotether",
     "points_cost": null,
     "properties": null,
@@ -12446,12 +12446,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tangotether_trigger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3491113888,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_tangotether_trigger",
     "patched_name": "Ability Tangotether Trigger",
     "points_cost": null,
     "properties": null,
@@ -12509,12 +12509,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tengu_urn",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4111222521,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_tengu_urn",
     "patched_name": "Ability Tengu Urn",
     "points_cost": null,
     "properties": null,
@@ -12572,12 +12572,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tengu_stone_form",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3642273386,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_tengu_stone_form",
     "patched_name": "Ability Tengu Stone Form",
     "points_cost": null,
     "properties": null,
@@ -12635,12 +12635,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_tengu_airlift",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1247583368,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_tengu_airlift",
     "patched_name": "Ability Tengu Airlift",
     "points_cost": null,
     "properties": null,
@@ -12698,6 +12698,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_tokamak_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -12707,7 +12708,6 @@
     "id": 2053287272,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_tokamak_set",
     "patched_name": "Tokamak Set",
     "points_cost": null,
     "properties": null,
@@ -12781,12 +12781,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_tokamak",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3208168586,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_tokamak",
     "patched_name": "Ability Melee Tokamak",
     "points_cost": null,
     "properties": null,
@@ -12844,12 +12844,12 @@
     }
   },
   {
+    "class_name": "citadel_weapon_viscous_alt",
     "dof_while_zoomed": null,
     "hero": "Viscous",
     "id": 2171230865,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_viscous_alt",
     "patched_name": "Viscous Alt",
     "points_cost": null,
     "properties": null,
@@ -12923,6 +12923,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_viscous_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -12932,7 +12933,6 @@
     "id": 3413773852,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_viscous_set",
     "patched_name": "Viscous Set",
     "points_cost": null,
     "properties": null,
@@ -13006,12 +13006,12 @@
     }
   },
   {
+    "class_name": "citadel_weapon_viscous_set_2",
     "dof_while_zoomed": null,
     "hero": "Viscous",
     "id": 3819944797,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_viscous_set_2",
     "patched_name": "Viscous Set 2",
     "points_cost": null,
     "properties": null,
@@ -13085,12 +13085,12 @@
     }
   },
   {
+    "class_name": "ability_melee_viscous",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3914911135,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_viscous",
     "patched_name": "Ability Melee Viscous",
     "points_cost": null,
     "properties": null,
@@ -13148,6 +13148,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_warden_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -13157,7 +13158,6 @@
     "id": 816395058,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_warden_set",
     "patched_name": "Warden Set",
     "points_cost": null,
     "properties": null,
@@ -13231,12 +13231,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_warden",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3433765565,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_warden",
     "patched_name": "Ability Melee Warden",
     "points_cost": null,
     "properties": null,
@@ -13294,12 +13294,12 @@
     }
   },
   {
+    "class_name": "ability_warden_lock_down",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1656913918,
     "image": null,
     "max_level": 1,
-    "name": "ability_warden_lock_down",
     "patched_name": "Ability Warden Lock Down",
     "points_cost": null,
     "properties": null,
@@ -13357,12 +13357,12 @@
     }
   },
   {
+    "class_name": "ability_warden_high_alert",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2751689917,
     "image": null,
     "max_level": 1,
-    "name": "ability_warden_high_alert",
     "patched_name": "Ability Warden High Alert",
     "points_cost": null,
     "properties": null,
@@ -13420,12 +13420,12 @@
     }
   },
   {
+    "class_name": "ability_warden_crowd_control",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2656490109,
     "image": null,
     "max_level": 1,
-    "name": "ability_warden_crowd_control",
     "patched_name": "Ability Warden Crowd Control",
     "points_cost": null,
     "properties": null,
@@ -13483,12 +13483,12 @@
     }
   },
   {
+    "class_name": "ability_warden_riot_protocol",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2702908623,
     "image": null,
     "max_level": 1,
-    "name": "ability_warden_riot_protocol",
     "patched_name": "Ability Warden Riot Protocol",
     "points_cost": null,
     "properties": null,
@@ -13546,6 +13546,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_wraith_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -13555,7 +13556,6 @@
     "id": 1427059555,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_wraith_set",
     "patched_name": "Wraith Set",
     "points_cost": null,
     "properties": null,
@@ -13629,12 +13629,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_melee_wraith",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1192327851,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_melee_wraith",
     "patched_name": "Ability Melee Wraith",
     "points_cost": null,
     "properties": null,
@@ -13692,12 +13692,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_psychic_lift",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2981692841,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_psychic_lift",
     "patched_name": "Ability Psychic Lift",
     "points_cost": null,
     "properties": null,
@@ -13755,12 +13755,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_projectmind",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4147641675,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_projectmind",
     "patched_name": "Ability Projectmind",
     "points_cost": null,
     "properties": null,
@@ -13818,12 +13818,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_psychic_daggers",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2220233739,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_psychic_daggers",
     "patched_name": "Ability Psychic Daggers",
     "points_cost": null,
     "properties": null,
@@ -13881,12 +13881,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_wraith_rapidfire",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1842576017,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_wraith_rapidfire",
     "patched_name": "Ability Wraith Rapidfire",
     "points_cost": null,
     "properties": null,
@@ -13944,12 +13944,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_card_toss",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1999680326,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_card_toss",
     "patched_name": "Ability Card Toss",
     "points_cost": null,
     "properties": null,
@@ -14007,12 +14007,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_psychic_pulse",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 94928941,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_psychic_pulse",
     "patched_name": "Ability Psychic Pulse",
     "points_cost": null,
     "properties": null,
@@ -14070,6 +14070,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_wrecker_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -14079,7 +14080,6 @@
     "id": 495487721,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_wrecker_set",
     "patched_name": "Wrecker Set",
     "points_cost": null,
     "properties": null,
@@ -14153,12 +14153,12 @@
     }
   },
   {
+    "class_name": "ability_melee_wrecker",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2697859853,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_wrecker",
     "patched_name": "Ability Melee Wrecker",
     "points_cost": null,
     "properties": null,
@@ -14216,12 +14216,12 @@
     }
   },
   {
+    "class_name": "ability_wrecking_ball",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4062064977,
     "image": null,
     "max_level": 1,
-    "name": "ability_wrecking_ball",
     "patched_name": "Ability Wrecking Ball",
     "points_cost": null,
     "properties": null,
@@ -14279,12 +14279,12 @@
     }
   },
   {
+    "class_name": "ability_wrecking_ball_throw",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4016285240,
     "image": null,
     "max_level": 1,
-    "name": "ability_wrecking_ball_throw",
     "patched_name": "Ability Wrecking Ball Throw",
     "points_cost": null,
     "properties": null,
@@ -14342,12 +14342,12 @@
     }
   },
   {
+    "class_name": "ability_wrecker_salvage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 208809857,
     "image": null,
     "max_level": 1,
-    "name": "ability_wrecker_salvage",
     "patched_name": "Ability Wrecker Salvage",
     "points_cost": null,
     "properties": null,
@@ -14405,12 +14405,12 @@
     }
   },
   {
+    "class_name": "ability_scrap_blast",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3422822440,
     "image": null,
     "max_level": 1,
-    "name": "ability_scrap_blast",
     "patched_name": "Ability Scrap Blast",
     "points_cost": null,
     "properties": null,
@@ -14468,12 +14468,12 @@
     }
   },
   {
+    "class_name": "ability_wrecker_ultimate",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 100068731,
     "image": null,
     "max_level": 1,
-    "name": "ability_wrecker_ultimate",
     "patched_name": "Ability Wrecker Ultimate",
     "points_cost": null,
     "properties": null,
@@ -14531,12 +14531,12 @@
     }
   },
   {
+    "class_name": "ability_wrecker_teleport",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2493171901,
     "image": null,
     "max_level": 1,
-    "name": "ability_wrecker_teleport",
     "patched_name": "Ability Wrecker Teleport",
     "points_cost": null,
     "properties": null,
@@ -14594,6 +14594,7 @@
     }
   },
   {
+    "class_name": "citadel_weapon_yamato_set",
     "dof_while_zoomed": {
       "dof_far_blurry": 7000.0,
       "dof_far_crisp": 100.0,
@@ -14603,7 +14604,6 @@
     "id": 440716503,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_yamato_set",
     "patched_name": "Yamato Set",
     "points_cost": null,
     "properties": null,
@@ -14674,12 +14674,12 @@
     }
   },
   {
+    "class_name": "citadel_weapon_yamato_alt",
     "dof_while_zoomed": null,
     "hero": "Yamato",
     "id": 2725537392,
     "image": null,
     "max_level": null,
-    "name": "citadel_weapon_yamato_alt",
     "patched_name": "Yamato Alt",
     "points_cost": null,
     "properties": null,
@@ -14750,12 +14750,12 @@
     }
   },
   {
+    "class_name": "ability_melee_yamato",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3334760137,
     "image": null,
     "max_level": 1,
-    "name": "ability_melee_yamato",
     "patched_name": "Ability Melee Yamato",
     "points_cost": null,
     "properties": null,
@@ -14813,12 +14813,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_power_slash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3255651252,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_power_slash",
     "patched_name": "Ability Power Slash",
     "points_cost": null,
     "properties": null,
@@ -14876,12 +14876,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_flying_strike",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2566573207,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_flying_strike",
     "patched_name": "Ability Flying Strike",
     "points_cost": null,
     "properties": null,
@@ -14939,12 +14939,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_healing_slash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2366960452,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_healing_slash",
     "patched_name": "Ability Healing Slash",
     "points_cost": null,
     "properties": null,
@@ -15002,12 +15002,12 @@
     }
   },
   {
+    "class_name": "citadel_ability_infinity_slash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3319782965,
     "image": null,
     "max_level": 1,
-    "name": "citadel_ability_infinity_slash",
     "patched_name": "Ability Infinity Slash",
     "points_cost": null,
     "properties": null,
@@ -15065,12 +15065,12 @@
     }
   },
   {
+    "class_name": "upgrade_base",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4113832715,
     "image": null,
     "max_level": null,
-    "name": "upgrade_base",
     "patched_name": "Base",
     "points_cost": null,
     "properties": null,
@@ -15128,12 +15128,12 @@
     }
   },
   {
+    "class_name": "upgrade_clip_size",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1548066885,
     "image": null,
     "max_level": null,
-    "name": "upgrade_clip_size",
     "patched_name": "Clip Size",
     "points_cost": null,
     "properties": null,
@@ -15191,12 +15191,12 @@
     }
   },
   {
+    "class_name": "upgrade_non_player_bonus",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1009965641,
     "image": null,
     "max_level": null,
-    "name": "upgrade_non_player_bonus",
     "patched_name": "Non Player Bonus",
     "points_cost": null,
     "properties": null,
@@ -15254,12 +15254,12 @@
     }
   },
   {
+    "class_name": "upgrade_ammo_scavenger",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1248737459,
     "image": null,
     "max_level": null,
-    "name": "upgrade_ammo_scavenger",
     "patched_name": "Ammo Scavenger",
     "points_cost": null,
     "properties": null,
@@ -15317,12 +15317,12 @@
     }
   },
   {
+    "class_name": "upgrade_clip_size_fixed",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3535785353,
     "image": null,
     "max_level": null,
-    "name": "upgrade_clip_size_fixed",
     "patched_name": "Clip Size Fixed",
     "points_cost": null,
     "properties": null,
@@ -15380,12 +15380,12 @@
     }
   },
   {
+    "class_name": "upgrade_clip_size_fixed_t3",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2861048274,
     "image": null,
     "max_level": null,
-    "name": "upgrade_clip_size_fixed_t3",
     "patched_name": "Clip Size Fixed T 3",
     "points_cost": null,
     "properties": null,
@@ -15443,12 +15443,12 @@
     }
   },
   {
+    "class_name": "upgrade_chain_lightning",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 811521119,
     "image": null,
     "max_level": null,
-    "name": "upgrade_chain_lightning",
     "patched_name": "Chain Lightning",
     "points_cost": null,
     "properties": null,
@@ -15506,12 +15506,12 @@
     }
   },
   {
+    "class_name": "upgrade_galvanic_storm",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3316018900,
     "image": null,
     "max_level": null,
-    "name": "upgrade_galvanic_storm",
     "patched_name": "Galvanic Storm",
     "points_cost": null,
     "properties": null,
@@ -15569,12 +15569,12 @@
     }
   },
   {
+    "class_name": "upgrade_hollow_point_rounds",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2678489038,
     "image": null,
     "max_level": null,
-    "name": "upgrade_hollow_point_rounds",
     "patched_name": "Hollow Point Rounds",
     "points_cost": null,
     "properties": null,
@@ -15632,12 +15632,12 @@
     }
   },
   {
+    "class_name": "upgrade_pristine_emblem",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2064029594,
     "image": null,
     "max_level": null,
-    "name": "upgrade_pristine_emblem",
     "patched_name": "Pristine Emblem",
     "points_cost": null,
     "properties": null,
@@ -15695,12 +15695,12 @@
     }
   },
   {
+    "class_name": "upgrade_stabilizer",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1544322593,
     "image": null,
     "max_level": null,
-    "name": "upgrade_stabilizer",
     "patched_name": "Stabilizer",
     "points_cost": null,
     "properties": null,
@@ -15758,12 +15758,12 @@
     }
   },
   {
+    "class_name": "upgrade_high_velocity_mag",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3077079169,
     "image": null,
     "max_level": null,
-    "name": "upgrade_high_velocity_mag",
     "patched_name": "High Velocity Mag",
     "points_cost": null,
     "properties": null,
@@ -15821,12 +15821,12 @@
     }
   },
   {
+    "class_name": "upgrade_lifestrike_gauntlets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1437614329,
     "image": null,
     "max_level": null,
-    "name": "upgrade_lifestrike_gauntlets",
     "patched_name": "Lifestrike Gauntlets",
     "points_cost": null,
     "properties": null,
@@ -15884,12 +15884,12 @@
     }
   },
   {
+    "class_name": "upgrade_close_range",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1342610602,
     "image": null,
     "max_level": null,
-    "name": "upgrade_close_range",
     "patched_name": "Close Range",
     "points_cost": null,
     "properties": null,
@@ -15947,12 +15947,12 @@
     }
   },
   {
+    "class_name": "upgrade_long_range",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3331811235,
     "image": null,
     "max_level": null,
-    "name": "upgrade_long_range",
     "patched_name": "Long Range",
     "points_cost": null,
     "properties": null,
@@ -16010,12 +16010,12 @@
     }
   },
   {
+    "class_name": "upgrade_slowing_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 393974127,
     "image": null,
     "max_level": null,
-    "name": "upgrade_slowing_bullets",
     "patched_name": "Slowing Bullets",
     "points_cost": null,
     "properties": null,
@@ -16073,12 +16073,12 @@
     }
   },
   {
+    "class_name": "upgrade_inhibitor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2037039379,
     "image": null,
     "max_level": null,
-    "name": "upgrade_inhibitor",
     "patched_name": "Inhibitor",
     "points_cost": null,
     "properties": null,
@@ -16136,12 +16136,12 @@
     }
   },
   {
+    "class_name": "upgrade_small_attack_speed",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1889400890,
     "image": null,
     "max_level": null,
-    "name": "upgrade_small_attack_speed",
     "patched_name": "Small Attack Speed",
     "points_cost": null,
     "properties": null,
@@ -16199,12 +16199,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_defense_shredders",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1144549437,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_defense_shredders",
     "patched_name": "Tech Defense Shredders",
     "points_cost": null,
     "properties": null,
@@ -16262,12 +16262,12 @@
     }
   },
   {
+    "class_name": "upgrade_attack_speed_1",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1109351073,
     "image": null,
     "max_level": null,
-    "name": "upgrade_attack_speed_1",
     "patched_name": "Attack Speed 1",
     "points_cost": null,
     "properties": null,
@@ -16325,12 +16325,12 @@
     }
   },
   {
+    "class_name": "upgrade_nearby_enemy_boost",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1100809516,
     "image": null,
     "max_level": null,
-    "name": "upgrade_nearby_enemy_boost",
     "patched_name": "Nearby Enemy Boost",
     "points_cost": null,
     "properties": null,
@@ -16388,12 +16388,12 @@
     }
   },
   {
+    "class_name": "upgrade_dps_aura",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2108215830,
     "image": null,
     "max_level": null,
-    "name": "upgrade_dps_aura",
     "patched_name": "Dps Aura",
     "points_cost": null,
     "properties": null,
@@ -16451,12 +16451,12 @@
     }
   },
   {
+    "class_name": "upgrade_armor_reduction_debuff",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1031828968,
     "image": null,
     "max_level": null,
-    "name": "upgrade_armor_reduction_debuff",
     "patched_name": "Armor Reduction Debuff",
     "points_cost": null,
     "properties": null,
@@ -16514,12 +16514,12 @@
     }
   },
   {
+    "class_name": "upgrade_weapon_detention_ammo",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 775925321,
     "image": null,
     "max_level": null,
-    "name": "upgrade_weapon_detention_ammo",
     "patched_name": "Detention Ammo",
     "points_cost": null,
     "properties": null,
@@ -16577,12 +16577,12 @@
     }
   },
   {
+    "class_name": "upgrade_height_advantage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2854211216,
     "image": null,
     "max_level": null,
-    "name": "upgrade_height_advantage",
     "patched_name": "Height Advantage",
     "points_cost": null,
     "properties": null,
@@ -16640,12 +16640,12 @@
     }
   },
   {
+    "class_name": "upgrade_targeted_silence",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 619484391,
     "image": null,
     "max_level": null,
-    "name": "upgrade_targeted_silence",
     "patched_name": "Targeted Silence",
     "points_cost": null,
     "properties": null,
@@ -16703,12 +16703,12 @@
     }
   },
   {
+    "class_name": "upgrade_proc_silence",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1113837674,
     "image": null,
     "max_level": null,
-    "name": "upgrade_proc_silence",
     "patched_name": "Proc Silence",
     "points_cost": null,
     "properties": null,
@@ -16766,12 +16766,12 @@
     }
   },
   {
+    "class_name": "upgrade_silencer",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3133167885,
     "image": null,
     "max_level": null,
-    "name": "upgrade_silencer",
     "patched_name": "Silencer",
     "points_cost": null,
     "properties": null,
@@ -16829,12 +16829,12 @@
     }
   },
   {
+    "class_name": "upgrade_proc_disarm",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1503218332,
     "image": null,
     "max_level": null,
-    "name": "upgrade_proc_disarm",
     "patched_name": "Proc Disarm",
     "points_cost": null,
     "properties": null,
@@ -16892,12 +16892,12 @@
     }
   },
   {
+    "class_name": "upgrade_berserker",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1414319208,
     "image": null,
     "max_level": null,
-    "name": "upgrade_berserker",
     "patched_name": "Berserker",
     "points_cost": null,
     "properties": null,
@@ -16955,12 +16955,12 @@
     }
   },
   {
+    "class_name": "upgrade_fervor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 339443430,
     "image": null,
     "max_level": null,
-    "name": "upgrade_fervor",
     "patched_name": "Fervor",
     "points_cost": null,
     "properties": null,
@@ -17018,12 +17018,12 @@
     }
   },
   {
+    "class_name": "upgrade_siphon_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1282141666,
     "image": null,
     "max_level": null,
-    "name": "upgrade_siphon_bullets",
     "patched_name": "Siphon Bullets",
     "points_cost": null,
     "properties": null,
@@ -17081,12 +17081,12 @@
     }
   },
   {
+    "class_name": "upgrade_headshot_booster",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2010028405,
     "image": null,
     "max_level": null,
-    "name": "upgrade_headshot_booster",
     "patched_name": "Headshot Booster",
     "points_cost": null,
     "properties": null,
@@ -17144,12 +17144,12 @@
     }
   },
   {
+    "class_name": "upgrade_sharpshooter",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2152872419,
     "image": null,
     "max_level": null,
-    "name": "upgrade_sharpshooter",
     "patched_name": "Sharpshooter",
     "points_cost": null,
     "properties": null,
@@ -17207,12 +17207,12 @@
     }
   },
   {
+    "class_name": "upgrade_headhunter",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4053935515,
     "image": null,
     "max_level": null,
-    "name": "upgrade_headhunter",
     "patched_name": "Headhunter",
     "points_cost": null,
     "properties": null,
@@ -17270,12 +17270,12 @@
     }
   },
   {
+    "class_name": "upgrade_banshee_slugs",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3884003354,
     "image": null,
     "max_level": null,
-    "name": "upgrade_banshee_slugs",
     "patched_name": "Banshee Slugs",
     "points_cost": null,
     "properties": null,
@@ -17333,12 +17333,12 @@
     }
   },
   {
+    "class_name": "upgrade_proc_tech_damage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 184951197,
     "image": null,
     "max_level": null,
-    "name": "upgrade_proc_tech_damage",
     "patched_name": "Proc Tech Damage",
     "points_cost": null,
     "properties": null,
@@ -17396,12 +17396,12 @@
     }
   },
   {
+    "class_name": "upgrade_crackshot",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 395867183,
     "image": null,
     "max_level": null,
-    "name": "upgrade_crackshot",
     "patched_name": "Crackshot",
     "points_cost": null,
     "properties": null,
@@ -17459,12 +17459,12 @@
     }
   },
   {
+    "class_name": "upgrade_critshot",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1396247347,
     "image": null,
     "max_level": null,
-    "name": "upgrade_critshot",
     "patched_name": "Critshot",
     "points_cost": null,
     "properties": null,
@@ -17522,12 +17522,12 @@
     }
   },
   {
+    "class_name": "upgrade_close_quarter_combat",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2095565695,
     "image": null,
     "max_level": null,
-    "name": "upgrade_close_quarter_combat",
     "patched_name": "Close Quarter Combat",
     "points_cost": null,
     "properties": null,
@@ -17585,12 +17585,12 @@
     }
   },
   {
+    "class_name": "upgrade_clip_size_2",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4284855775,
     "image": null,
     "max_level": null,
-    "name": "upgrade_clip_size_2",
     "patched_name": "Clip Size 2",
     "points_cost": null,
     "properties": null,
@@ -17648,12 +17648,12 @@
     }
   },
   {
+    "class_name": "upgrade_clip_size_3",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3449296332,
     "image": null,
     "max_level": null,
-    "name": "upgrade_clip_size_3",
     "patched_name": "Clip Size 3",
     "points_cost": null,
     "properties": null,
@@ -17711,12 +17711,12 @@
     }
   },
   {
+    "class_name": "upgrade_toxic_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3696726732,
     "image": null,
     "max_level": null,
-    "name": "upgrade_toxic_bullets",
     "patched_name": "Toxic Bullets",
     "points_cost": null,
     "properties": null,
@@ -17774,12 +17774,12 @@
     }
   },
   {
+    "class_name": "upgrade_attack_speed_2",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3791295884,
     "image": null,
     "max_level": null,
-    "name": "upgrade_attack_speed_2",
     "patched_name": "Attack Speed 2",
     "points_cost": null,
     "properties": null,
@@ -17837,12 +17837,12 @@
     }
   },
   {
+    "class_name": "upgrade_drum_magazine",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4190165534,
     "image": null,
     "max_level": null,
-    "name": "upgrade_drum_magazine",
     "patched_name": "Drum Magazine",
     "points_cost": null,
     "properties": null,
@@ -17900,12 +17900,12 @@
     }
   },
   {
+    "class_name": "upgrade_ricochet",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2480592370,
     "image": null,
     "max_level": null,
-    "name": "upgrade_ricochet",
     "patched_name": "Ricochet",
     "points_cost": null,
     "properties": null,
@@ -17963,12 +17963,12 @@
     }
   },
   {
+    "class_name": "upgrade_health",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3633614685,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health",
     "patched_name": "Health",
     "points_cost": null,
     "properties": null,
@@ -18026,12 +18026,12 @@
     }
   },
   {
+    "class_name": "upgrade_toughness_3",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1448361452,
     "image": null,
     "max_level": null,
-    "name": "upgrade_toughness_3",
     "patched_name": "Toughness 3",
     "points_cost": null,
     "properties": null,
@@ -18089,12 +18089,12 @@
     }
   },
   {
+    "class_name": "upgrade_bullet_armor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3713423303,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bullet_armor",
     "patched_name": "Bullet Armor",
     "points_cost": null,
     "properties": null,
@@ -18152,12 +18152,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_armor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 223594321,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_armor",
     "patched_name": "Tech Armor",
     "points_cost": null,
     "properties": null,
@@ -18215,12 +18215,12 @@
     }
   },
   {
+    "class_name": "upgrade_health_regen_1",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1575167590,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health_regen_1",
     "patched_name": "Health Regen 1",
     "points_cost": null,
     "properties": null,
@@ -18278,12 +18278,12 @@
     }
   },
   {
+    "class_name": "upgrade_vampire",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 499683006,
     "image": null,
     "max_level": null,
-    "name": "upgrade_vampire",
     "patched_name": "Vampire",
     "points_cost": null,
     "properties": null,
@@ -18341,12 +18341,12 @@
     }
   },
   {
+    "class_name": "upgrade_double_jump",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 790496977,
     "image": null,
     "max_level": null,
-    "name": "upgrade_double_jump",
     "patched_name": "Double Jump",
     "points_cost": null,
     "properties": null,
@@ -18404,12 +18404,12 @@
     }
   },
   {
+    "class_name": "upgrade_health_regen_aura",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3321728133,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health_regen_aura",
     "patched_name": "Health Regen Aura",
     "points_cost": null,
     "properties": null,
@@ -18467,12 +18467,12 @@
     }
   },
   {
+    "class_name": "upgrade_combo_breaker",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4066757307,
     "image": null,
     "max_level": null,
-    "name": "upgrade_combo_breaker",
     "patched_name": "Combo Breaker",
     "points_cost": null,
     "properties": null,
@@ -18530,12 +18530,12 @@
     }
   },
   {
+    "class_name": "upgrade_debuff_reducer",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1047818222,
     "image": null,
     "max_level": null,
-    "name": "upgrade_debuff_reducer",
     "patched_name": "Debuff Reducer",
     "points_cost": null,
     "properties": null,
@@ -18593,12 +18593,12 @@
     }
   },
   {
+    "class_name": "upgrade_reduce_debuff_duration",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3731635960,
     "image": null,
     "max_level": null,
-    "name": "upgrade_reduce_debuff_duration",
     "patched_name": "Reduce Debuff Duration",
     "points_cost": null,
     "properties": null,
@@ -18656,12 +18656,12 @@
     }
   },
   {
+    "class_name": "upgrade_high_impact_armor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1825391146,
     "image": null,
     "max_level": null,
-    "name": "upgrade_high_impact_armor",
     "patched_name": "High Impact Armor",
     "points_cost": null,
     "properties": null,
@@ -18719,12 +18719,12 @@
     }
   },
   {
+    "class_name": "upgrade_slow_immunity",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1711193274,
     "image": null,
     "max_level": null,
-    "name": "upgrade_slow_immunity",
     "patched_name": "Slow Immunity",
     "points_cost": null,
     "properties": null,
@@ -18782,12 +18782,12 @@
     }
   },
   {
+    "class_name": "upgrade_bullet_armor_2",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2887128033,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bullet_armor_2",
     "patched_name": "Bullet Armor 2",
     "points_cost": null,
     "properties": null,
@@ -18845,12 +18845,12 @@
     }
   },
   {
+    "class_name": "upgrade_weapon_power_and_health_drain",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 471704443,
     "image": null,
     "max_level": null,
-    "name": "upgrade_weapon_power_and_health_drain",
     "patched_name": "Power And Health Drain",
     "points_cost": null,
     "properties": null,
@@ -18908,12 +18908,12 @@
     }
   },
   {
+    "class_name": "upgrade_active_bullet_shield",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1319649491,
     "image": null,
     "max_level": null,
-    "name": "upgrade_active_bullet_shield",
     "patched_name": "Active Bullet Shield",
     "points_cost": null,
     "properties": null,
@@ -18971,12 +18971,12 @@
     }
   },
   {
+    "class_name": "upgrade_ablative_coat",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4168302000,
     "image": null,
     "max_level": null,
-    "name": "upgrade_ablative_coat",
     "patched_name": "Ablative Coat",
     "points_cost": null,
     "properties": null,
@@ -19034,12 +19034,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_purge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2163598980,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_purge",
     "patched_name": "Tech Purge",
     "points_cost": null,
     "properties": null,
@@ -19097,12 +19097,12 @@
     }
   },
   {
+    "class_name": "upgrade_improved_bullet_armor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3140772621,
     "image": null,
     "max_level": null,
-    "name": "upgrade_improved_bullet_armor",
     "patched_name": "Improved Bullet Armor",
     "points_cost": null,
     "properties": null,
@@ -19160,12 +19160,12 @@
     }
   },
   {
+    "class_name": "upgrade_metal_skin",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1378931225,
     "image": null,
     "max_level": null,
-    "name": "upgrade_metal_skin",
     "patched_name": "Metal Skin",
     "points_cost": null,
     "properties": null,
@@ -19223,12 +19223,12 @@
     }
   },
   {
+    "class_name": "upgrade_healing_booster",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2566692615,
     "image": null,
     "max_level": null,
-    "name": "upgrade_healing_booster",
     "patched_name": "Healing Booster",
     "points_cost": null,
     "properties": null,
@@ -19286,12 +19286,12 @@
     }
   },
   {
+    "class_name": "upgrade_chonky",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3585132399,
     "image": null,
     "max_level": null,
-    "name": "upgrade_chonky",
     "patched_name": "Chonky",
     "points_cost": null,
     "properties": null,
@@ -19349,12 +19349,12 @@
     }
   },
   {
+    "class_name": "upgrade_damage_recycler",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 865846625,
     "image": null,
     "max_level": null,
-    "name": "upgrade_damage_recycler",
     "patched_name": "Damage Recycler",
     "points_cost": null,
     "properties": null,
@@ -19412,12 +19412,12 @@
     }
   },
   {
+    "class_name": "upgrade_bullet_damage_reduction_aura",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1298427343,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bullet_damage_reduction_aura",
     "patched_name": "Bullet Damage Reduction Aura",
     "points_cost": null,
     "properties": null,
@@ -19475,12 +19475,12 @@
     }
   },
   {
+    "class_name": "upgrade_sprint_booster",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3399065363,
     "image": null,
     "max_level": null,
-    "name": "upgrade_sprint_booster",
     "patched_name": "Sprint Booster",
     "points_cost": null,
     "properties": null,
@@ -19538,12 +19538,12 @@
     }
   },
   {
+    "class_name": "upgrade_cardio_calibrator",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2447176615,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cardio_calibrator",
     "patched_name": "Cardio Calibrator",
     "points_cost": null,
     "properties": null,
@@ -19601,12 +19601,12 @@
     }
   },
   {
+    "class_name": "upgrade_superior_stamina",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 334300056,
     "image": null,
     "max_level": null,
-    "name": "upgrade_superior_stamina",
     "patched_name": "Superior Stamina",
     "points_cost": null,
     "properties": null,
@@ -19664,12 +19664,12 @@
     }
   },
   {
+    "class_name": "upgrade_rapid_rounds",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 668299740,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rapid_rounds",
     "patched_name": "Rapid Rounds",
     "points_cost": null,
     "properties": null,
@@ -19727,12 +19727,12 @@
     }
   },
   {
+    "class_name": "upgrade_improved_stamina",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4139877411,
     "image": null,
     "max_level": null,
-    "name": "upgrade_improved_stamina",
     "patched_name": "Improved Stamina",
     "points_cost": null,
     "properties": null,
@@ -19790,12 +19790,12 @@
     }
   },
   {
+    "class_name": "upgrade_bullet_armor_reduction_aura",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2481177645,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bullet_armor_reduction_aura",
     "patched_name": "Bullet Armor Reduction Aura",
     "points_cost": null,
     "properties": null,
@@ -19853,12 +19853,12 @@
     }
   },
   {
+    "class_name": "upgrade_camouflage",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1962740586,
     "image": null,
     "max_level": null,
-    "name": "upgrade_camouflage",
     "patched_name": "Camouflage",
     "points_cost": null,
     "properties": null,
@@ -19916,12 +19916,12 @@
     }
   },
   {
+    "class_name": "upgrade_regenerative_armor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3038950099,
     "image": null,
     "max_level": null,
-    "name": "upgrade_regenerative_armor",
     "patched_name": "Regenerative Armor",
     "points_cost": null,
     "properties": null,
@@ -19979,12 +19979,12 @@
     }
   },
   {
+    "class_name": "upgrade_regenerating_bullet_shield",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1235347618,
     "image": null,
     "max_level": null,
-    "name": "upgrade_regenerating_bullet_shield",
     "patched_name": "Regenerating Bullet Shield",
     "points_cost": null,
     "properties": null,
@@ -20042,12 +20042,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_shield",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3970837787,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_shield",
     "patched_name": "Magic Shield",
     "points_cost": null,
     "properties": null,
@@ -20105,12 +20105,12 @@
     }
   },
   {
+    "class_name": "upgrade_improved_spirit",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 968099481,
     "image": null,
     "max_level": null,
-    "name": "upgrade_improved_spirit",
     "patched_name": "Improved Spirit",
     "points_cost": null,
     "properties": null,
@@ -20168,12 +20168,12 @@
     }
   },
   {
+    "class_name": "upgrade_soaring_spirit",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 7409189,
     "image": null,
     "max_level": null,
-    "name": "upgrade_soaring_spirit",
     "patched_name": "Soaring Spirit",
     "points_cost": null,
     "properties": null,
@@ -20231,12 +20231,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_overflow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2226497419,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_overflow",
     "patched_name": "Tech Overflow",
     "points_cost": null,
     "properties": null,
@@ -20294,12 +20294,12 @@
     }
   },
   {
+    "class_name": "upgrade_return_fire",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3361075077,
     "image": null,
     "max_level": null,
-    "name": "upgrade_return_fire",
     "patched_name": "Return Fire",
     "points_cost": null,
     "properties": null,
@@ -20373,12 +20373,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_range",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1193964439,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_range",
     "patched_name": "Tech Range",
     "points_cost": null,
     "properties": null,
@@ -20436,12 +20436,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_reach",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 754480263,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_reach",
     "patched_name": "Magic Reach",
     "points_cost": null,
     "properties": null,
@@ -20499,12 +20499,12 @@
     }
   },
   {
+    "class_name": "upgrade_extra_charge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3776945997,
     "image": null,
     "max_level": null,
-    "name": "upgrade_extra_charge",
     "patched_name": "Extra Charge",
     "points_cost": null,
     "properties": null,
@@ -20562,12 +20562,12 @@
     }
   },
   {
+    "class_name": "upgrade_health_stealing_magic",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 876563814,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health_stealing_magic",
     "patched_name": "Health Stealing Magic",
     "points_cost": null,
     "properties": null,
@@ -20625,12 +20625,12 @@
     }
   },
   {
+    "class_name": "upgrade_disarm",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2645639421,
     "image": null,
     "max_level": null,
-    "name": "upgrade_disarm",
     "patched_name": "Disarm",
     "points_cost": null,
     "properties": null,
@@ -20688,12 +20688,12 @@
     }
   },
   {
+    "class_name": "upgrade_bullet_resist_shredder",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2971868509,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bullet_resist_shredder",
     "patched_name": "Bullet Resist Shredder",
     "points_cost": null,
     "properties": null,
@@ -20751,12 +20751,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_bleed",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 869090587,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_bleed",
     "patched_name": "Tech Bleed",
     "points_cost": null,
     "properties": null,
@@ -20814,12 +20814,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_burst",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1998374645,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_burst",
     "patched_name": "Magic Burst",
     "points_cost": null,
     "properties": null,
@@ -20877,12 +20877,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_shock",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2121044373,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_shock",
     "patched_name": "Magic Shock",
     "points_cost": null,
     "properties": null,
@@ -20940,12 +20940,12 @@
     }
   },
   {
+    "class_name": "upgrade_arcane_medallion",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1052584266,
     "image": null,
     "max_level": null,
-    "name": "upgrade_arcane_medallion",
     "patched_name": "Arcane Medallion",
     "points_cost": null,
     "properties": null,
@@ -21003,12 +21003,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_vulnerability",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2081037738,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_vulnerability",
     "patched_name": "Magic Vulnerability",
     "points_cost": null,
     "properties": null,
@@ -21066,12 +21066,12 @@
     }
   },
   {
+    "class_name": "upgrade_healbane",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2603935618,
     "image": null,
     "max_level": null,
-    "name": "upgrade_healbane",
     "patched_name": "Healbane",
     "points_cost": null,
     "properties": null,
@@ -21129,12 +21129,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_slow",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1102081447,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_slow",
     "patched_name": "Magic Slow",
     "points_cost": null,
     "properties": null,
@@ -21192,12 +21192,12 @@
     }
   },
   {
+    "class_name": "upgrade_escalating_exposure",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3005970438,
     "image": null,
     "max_level": null,
-    "name": "upgrade_escalating_exposure",
     "patched_name": "Escalating Exposure",
     "points_cost": null,
     "properties": null,
@@ -21255,12 +21255,12 @@
     }
   },
   {
+    "class_name": "upgrade_rapid_recharge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 787198704,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rapid_recharge",
     "patched_name": "Rapid Recharge",
     "points_cost": null,
     "properties": null,
@@ -21318,12 +21318,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_tempo",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 380806748,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_tempo",
     "patched_name": "Magic Tempo",
     "points_cost": null,
     "properties": null,
@@ -21381,12 +21381,12 @@
     }
   },
   {
+    "class_name": "upgrade_cooldown_reduction",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3261353684,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cooldown_reduction",
     "patched_name": "Cooldown Reduction",
     "points_cost": null,
     "properties": null,
@@ -21444,12 +21444,12 @@
     }
   },
   {
+    "class_name": "upgrade_duration_extender",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3789823638,
     "image": null,
     "max_level": null,
-    "name": "upgrade_duration_extender",
     "patched_name": "Duration Extender",
     "points_cost": null,
     "properties": null,
@@ -21507,12 +21507,12 @@
     }
   },
   {
+    "class_name": "upgrade_slowing_tech",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3013879715,
     "image": null,
     "max_level": null,
-    "name": "upgrade_slowing_tech",
     "patched_name": "Slowing Tech",
     "points_cost": null,
     "properties": null,
@@ -21570,12 +21570,12 @@
     }
   },
   {
+    "class_name": "upgrade_containment",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1813726886,
     "image": null,
     "max_level": null,
-    "name": "upgrade_containment",
     "patched_name": "Containment",
     "points_cost": null,
     "properties": null,
@@ -21633,12 +21633,12 @@
     }
   },
   {
+    "class_name": "upgrade_withering_whip",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2922054143,
     "image": null,
     "max_level": null,
-    "name": "upgrade_withering_whip",
     "patched_name": "Withering Whip",
     "points_cost": null,
     "properties": null,
@@ -21696,12 +21696,12 @@
     }
   },
   {
+    "class_name": "upgrade_rescue_beam",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1804594021,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rescue_beam",
     "patched_name": "Rescue Beam",
     "points_cost": null,
     "properties": null,
@@ -21759,12 +21759,12 @@
     }
   },
   {
+    "class_name": "upgrade_personal_rejuvenator",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2329546537,
     "image": null,
     "max_level": null,
-    "name": "upgrade_personal_rejuvenator",
     "patched_name": "Personal Rejuvenator",
     "points_cost": null,
     "properties": null,
@@ -21822,12 +21822,12 @@
     }
   },
   {
+    "class_name": "upgrade_rebirth",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4003032160,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rebirth",
     "patched_name": "Rebirth",
     "points_cost": null,
     "properties": null,
@@ -21885,12 +21885,12 @@
     }
   },
   {
+    "class_name": "upgrade_long_range_slowing_tech",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1993213427,
     "image": null,
     "max_level": null,
-    "name": "upgrade_long_range_slowing_tech",
     "patched_name": "Long Range Slowing Tech",
     "points_cost": null,
     "properties": null,
@@ -21948,12 +21948,12 @@
     }
   },
   {
+    "class_name": "upgrade_full_spectrum",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3064545951,
     "image": null,
     "max_level": null,
-    "name": "upgrade_full_spectrum",
     "patched_name": "Full Spectrum",
     "points_cost": null,
     "properties": null,
@@ -22011,12 +22011,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_cleave",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4249800570,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_cleave",
     "patched_name": "Tech Cleave",
     "points_cost": null,
     "properties": null,
@@ -22074,12 +22074,12 @@
     }
   },
   {
+    "class_name": "upgrade_bonus_ability_charge_3",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1288322878,
     "image": null,
     "max_level": null,
-    "name": "upgrade_bonus_ability_charge_3",
     "patched_name": "Bonus Ability Charge 3",
     "points_cost": null,
     "properties": null,
@@ -22137,12 +22137,12 @@
     }
   },
   {
+    "class_name": "upgrade_charge_mastery",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4245766497,
     "image": null,
     "max_level": null,
-    "name": "upgrade_charge_mastery",
     "patched_name": "Charge Mastery",
     "points_cost": null,
     "properties": null,
@@ -22200,12 +22200,12 @@
     }
   },
   {
+    "class_name": "upgrade_rupture",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3144988365,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rupture",
     "patched_name": "Rupture",
     "points_cost": null,
     "properties": null,
@@ -22263,12 +22263,12 @@
     }
   },
   {
+    "class_name": "upgrade_discord",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2417568017,
     "image": null,
     "max_level": null,
-    "name": "upgrade_discord",
     "patched_name": "Discord",
     "points_cost": null,
     "properties": null,
@@ -22326,12 +22326,12 @@
     }
   },
   {
+    "class_name": "upgrade_aoe_tech_shield",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 776145721,
     "image": null,
     "max_level": null,
-    "name": "upgrade_aoe_tech_shield",
     "patched_name": "Aoe Tech Shield",
     "points_cost": null,
     "properties": null,
@@ -22389,12 +22389,12 @@
     }
   },
   {
+    "class_name": "upgrade_target_stun",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1254091416,
     "image": null,
     "max_level": null,
-    "name": "upgrade_target_stun",
     "patched_name": "Target Stun",
     "points_cost": null,
     "properties": null,
@@ -22452,12 +22452,12 @@
     }
   },
   {
+    "class_name": "upgrade_phantom_strike",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1371725689,
     "image": null,
     "max_level": null,
-    "name": "upgrade_phantom_strike",
     "patched_name": "Phantom Strike",
     "points_cost": null,
     "properties": null,
@@ -22515,12 +22515,12 @@
     }
   },
   {
+    "class_name": "upgrade_warp_stone",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3270001687,
     "image": null,
     "max_level": null,
-    "name": "upgrade_warp_stone",
     "patched_name": "Warp Stone",
     "points_cost": null,
     "properties": null,
@@ -22578,12 +22578,12 @@
     }
   },
   {
+    "class_name": "upgrade_aoe_root",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1152158042,
     "image": null,
     "max_level": null,
-    "name": "upgrade_aoe_root",
     "patched_name": "Aoe Root",
     "points_cost": null,
     "properties": null,
@@ -22641,12 +22641,12 @@
     }
   },
   {
+    "class_name": "upgrade_ability_refresher",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 677738769,
     "image": null,
     "max_level": null,
-    "name": "upgrade_ability_refresher",
     "patched_name": "Ability Refresher",
     "points_cost": null,
     "properties": null,
@@ -22704,12 +22704,12 @@
     }
   },
   {
+    "class_name": "upgrade_ability_power_shard",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 630839635,
     "image": null,
     "max_level": null,
-    "name": "upgrade_ability_power_shard",
     "patched_name": "Ability Power Shard",
     "points_cost": null,
     "properties": null,
@@ -22767,12 +22767,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_damage_pulse",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 395944548,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_damage_pulse",
     "patched_name": "Tech Damage Pulse",
     "points_cost": null,
     "properties": null,
@@ -22830,12 +22830,12 @@
     }
   },
   {
+    "class_name": "upgrade_cheat_death",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3361811174,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cheat_death",
     "patched_name": "Cheat Death",
     "points_cost": null,
     "properties": null,
@@ -22893,12 +22893,12 @@
     }
   },
   {
+    "class_name": "upgrade_reload_speed",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3276909180,
     "image": null,
     "max_level": null,
-    "name": "upgrade_reload_speed",
     "patched_name": "Reload Speed",
     "points_cost": null,
     "properties": null,
@@ -22956,12 +22956,12 @@
     }
   },
   {
+    "class_name": "upgrade_cloaking_device",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2560018361,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cloaking_device",
     "patched_name": "Cloaking Device",
     "points_cost": null,
     "properties": null,
@@ -23019,12 +23019,12 @@
     }
   },
   {
+    "class_name": "upgrade_cloaking_device_active",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1798666702,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cloaking_device_active",
     "patched_name": "Cloaking Device Active",
     "points_cost": null,
     "properties": null,
@@ -23082,12 +23082,12 @@
     }
   },
   {
+    "class_name": "upgrade_zipine_mastery",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2382983502,
     "image": null,
     "max_level": null,
-    "name": "upgrade_zipine_mastery",
     "patched_name": "Zipine Mastery",
     "points_cost": null,
     "properties": null,
@@ -23145,12 +23145,12 @@
     }
   },
   {
+    "class_name": "upgrade_fire_rate_aura",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3662153307,
     "image": null,
     "max_level": null,
-    "name": "upgrade_fire_rate_aura",
     "patched_name": "Fire Rate Aura",
     "points_cost": null,
     "properties": null,
@@ -23208,12 +23208,12 @@
     }
   },
   {
+    "class_name": "upgrade_weapon_overdrive_clip",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 607292868,
     "image": null,
     "max_level": null,
-    "name": "upgrade_weapon_overdrive_clip",
     "patched_name": "Overdrive Clip",
     "points_cost": null,
     "properties": null,
@@ -23271,12 +23271,12 @@
     }
   },
   {
+    "class_name": "upgrade_rocket_boots",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3830846077,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rocket_boots",
     "patched_name": "Rocket Boots",
     "points_cost": null,
     "properties": null,
@@ -23334,12 +23334,12 @@
     }
   },
   {
+    "class_name": "upgrade_rocket_booster",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 600033864,
     "image": null,
     "max_level": null,
-    "name": "upgrade_rocket_booster",
     "patched_name": "Rocket Booster",
     "points_cost": null,
     "properties": null,
@@ -23397,12 +23397,12 @@
     }
   },
   {
+    "class_name": "upgrade_aerial_assault",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 271801138,
     "image": null,
     "max_level": null,
-    "name": "upgrade_aerial_assault",
     "patched_name": "Aerial Assault",
     "points_cost": null,
     "properties": null,
@@ -23460,12 +23460,12 @@
     }
   },
   {
+    "class_name": "upgrade_health_nova",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2956256701,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health_nova",
     "patched_name": "Health Nova",
     "points_cost": null,
     "properties": null,
@@ -23523,12 +23523,12 @@
     }
   },
   {
+    "class_name": "upgrade_restorative_locket",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2059712766,
     "image": null,
     "max_level": null,
-    "name": "upgrade_restorative_locket",
     "patched_name": "Restorative Locket",
     "points_cost": null,
     "properties": null,
@@ -23586,12 +23586,12 @@
     }
   },
   {
+    "class_name": "upgrade_health_stimpak",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1710079648,
     "image": null,
     "max_level": null,
-    "name": "upgrade_health_stimpak",
     "patched_name": "Health Stimpak",
     "points_cost": null,
     "properties": null,
@@ -23649,12 +23649,12 @@
     }
   },
   {
+    "class_name": "upgrade_infuser",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1797283378,
     "image": null,
     "max_level": null,
-    "name": "upgrade_infuser",
     "patched_name": "Infuser",
     "points_cost": null,
     "properties": null,
@@ -23712,12 +23712,12 @@
     }
   },
   {
+    "class_name": "upgrade_savior",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3147316197,
     "image": null,
     "max_level": null,
-    "name": "upgrade_savior",
     "patched_name": "Savior",
     "points_cost": null,
     "properties": null,
@@ -23775,12 +23775,12 @@
     }
   },
   {
+    "class_name": "upgrade_aoe_smoke_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 937242723,
     "image": null,
     "max_level": null,
-    "name": "upgrade_aoe_smoke_bomb",
     "patched_name": "Aoe Smoke Bomb",
     "points_cost": null,
     "properties": null,
@@ -23838,12 +23838,12 @@
     }
   },
   {
+    "class_name": "upgrade_thermal_detonator",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1932939246,
     "image": null,
     "max_level": null,
-    "name": "upgrade_thermal_detonator",
     "patched_name": "Thermal Detonator",
     "points_cost": null,
     "properties": null,
@@ -23901,12 +23901,12 @@
     }
   },
   {
+    "class_name": "upgrade_fleetfoot_boots",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3403085434,
     "image": null,
     "max_level": null,
-    "name": "upgrade_fleetfoot_boots",
     "patched_name": "Fleetfoot Boots",
     "points_cost": null,
     "properties": null,
@@ -23964,12 +23964,12 @@
     }
   },
   {
+    "class_name": "upgrade_kinetic_sash",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3977876567,
     "image": null,
     "max_level": null,
-    "name": "upgrade_kinetic_sash",
     "patched_name": "Kinetic Sash",
     "points_cost": null,
     "properties": null,
@@ -24027,12 +24027,12 @@
     }
   },
   {
+    "class_name": "upgrade_weapon_eater",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 389243496,
     "image": null,
     "max_level": null,
-    "name": "upgrade_weapon_eater",
     "patched_name": "Eater",
     "points_cost": null,
     "properties": null,
@@ -24090,12 +24090,12 @@
     }
   },
   {
+    "class_name": "upgrade_weapon_instant_reload",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 315518818,
     "image": null,
     "max_level": null,
-    "name": "upgrade_weapon_instant_reload",
     "patched_name": "Instant Reload",
     "points_cost": null,
     "properties": null,
@@ -24153,12 +24153,12 @@
     }
   },
   {
+    "class_name": "upgrade_tech_defender",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1947620709,
     "image": null,
     "max_level": null,
-    "name": "upgrade_tech_defender",
     "patched_name": "Tech Defender",
     "points_cost": null,
     "properties": null,
@@ -24216,12 +24216,12 @@
     }
   },
   {
+    "class_name": "upgrade_unstoppable",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3357231760,
     "image": null,
     "max_level": null,
-    "name": "upgrade_unstoppable",
     "patched_name": "Unstoppable",
     "points_cost": null,
     "properties": null,
@@ -24279,12 +24279,12 @@
     }
   },
   {
+    "class_name": "upgrade_colossus",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2407781327,
     "image": null,
     "max_level": null,
-    "name": "upgrade_colossus",
     "patched_name": "Colossus",
     "points_cost": null,
     "properties": null,
@@ -24342,12 +24342,12 @@
     }
   },
   {
+    "class_name": "upgrade_cold_front",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1976391348,
     "image": null,
     "max_level": null,
-    "name": "upgrade_cold_front",
     "patched_name": "Cold Front",
     "points_cost": null,
     "properties": null,
@@ -24405,12 +24405,12 @@
     }
   },
   {
+    "class_name": "upgrade_aoe_silence",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 486220748,
     "image": null,
     "max_level": null,
-    "name": "upgrade_aoe_silence",
     "patched_name": "Aoe Silence",
     "points_cost": null,
     "properties": null,
@@ -24468,12 +24468,12 @@
     }
   },
   {
+    "class_name": "upgrade_self_bubble",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2533252781,
     "image": null,
     "max_level": null,
-    "name": "upgrade_self_bubble",
     "patched_name": "Self Bubble",
     "points_cost": null,
     "properties": null,
@@ -24531,12 +24531,12 @@
     }
   },
   {
+    "class_name": "upgrade_stasis_bomb",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 385745034,
     "image": null,
     "max_level": null,
-    "name": "upgrade_stasis_bomb",
     "patched_name": "Stasis Bomb",
     "points_cost": null,
     "properties": null,
@@ -24594,12 +24594,12 @@
     }
   },
   {
+    "class_name": "upgrade_quarantine",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1641353616,
     "image": null,
     "max_level": null,
-    "name": "upgrade_quarantine",
     "patched_name": "Quarantine",
     "points_cost": null,
     "properties": null,
@@ -24657,12 +24657,12 @@
     }
   },
   {
+    "class_name": "upgrade_glitch",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2617435668,
     "image": null,
     "max_level": null,
-    "name": "upgrade_glitch",
     "patched_name": "Glitch",
     "points_cost": null,
     "properties": null,
@@ -24720,12 +24720,12 @@
     }
   },
   {
+    "class_name": "upgrade_imbued_ability",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1959600032,
     "image": null,
     "max_level": null,
-    "name": "upgrade_imbued_ability",
     "patched_name": "Imbued Ability",
     "points_cost": null,
     "properties": null,
@@ -24783,12 +24783,12 @@
     }
   },
   {
+    "class_name": "upgrade_arcane_extension",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2951612397,
     "image": null,
     "max_level": null,
-    "name": "upgrade_arcane_extension",
     "patched_name": "Arcane Extension",
     "points_cost": null,
     "properties": null,
@@ -24846,12 +24846,12 @@
     }
   },
   {
+    "class_name": "upgrade_imbued_duration_extender",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2717651715,
     "image": null,
     "max_level": null,
-    "name": "upgrade_imbued_duration_extender",
     "patched_name": "Imbued Duration Extender",
     "points_cost": null,
     "properties": null,
@@ -24909,12 +24909,12 @@
     }
   },
   {
+    "class_name": "upgrade_glass_cannon",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 365620721,
     "image": null,
     "max_level": null,
-    "name": "upgrade_glass_cannon",
     "patched_name": "Glass Cannon",
     "points_cost": null,
     "properties": null,
@@ -24972,12 +24972,12 @@
     }
   },
   {
+    "class_name": "upgrade_surging_power",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1055679805,
     "image": null,
     "max_level": null,
-    "name": "upgrade_surging_power",
     "patched_name": "Surging Power",
     "points_cost": null,
     "properties": null,
@@ -25035,12 +25035,12 @@
     }
   },
   {
+    "class_name": "upgrade_mod_disruptor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 481022061,
     "image": null,
     "max_level": null,
-    "name": "upgrade_mod_disruptor",
     "patched_name": "Mod Disruptor",
     "points_cost": null,
     "properties": null,
@@ -25098,12 +25098,12 @@
     }
   },
   {
+    "class_name": "upgrade_frenzy",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2039312305,
     "image": null,
     "max_level": null,
-    "name": "upgrade_frenzy",
     "patched_name": "Frenzy",
     "points_cost": null,
     "properties": null,
@@ -25161,12 +25161,12 @@
     }
   },
   {
+    "class_name": "upgrade_burst_fire_actuator",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 253917113,
     "image": null,
     "max_level": null,
-    "name": "upgrade_burst_fire_actuator",
     "patched_name": "Burst Fire Actuator",
     "points_cost": null,
     "properties": null,
@@ -25224,12 +25224,12 @@
     }
   },
   {
+    "class_name": "upgrade_boxing_glove",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1252627263,
     "image": null,
     "max_level": null,
-    "name": "upgrade_boxing_glove",
     "patched_name": "Boxing Glove",
     "points_cost": null,
     "properties": null,
@@ -25287,12 +25287,12 @@
     }
   },
   {
+    "class_name": "upgrade_acolytes_glove",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 465043967,
     "image": null,
     "max_level": null,
-    "name": "upgrade_acolytes_glove",
     "patched_name": "Acolytes Glove",
     "points_cost": null,
     "properties": null,
@@ -25350,12 +25350,12 @@
     }
   },
   {
+    "class_name": "upgrade_melee_charge",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 26002154,
     "image": null,
     "max_level": null,
-    "name": "upgrade_melee_charge",
     "patched_name": "Melee Charge",
     "points_cost": null,
     "properties": null,
@@ -25413,12 +25413,12 @@
     }
   },
   {
+    "class_name": "upgrade_charmed_wraps",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3572021243,
     "image": null,
     "max_level": null,
-    "name": "upgrade_charmed_wraps",
     "patched_name": "Charmed Wraps",
     "points_cost": null,
     "properties": null,
@@ -25476,12 +25476,12 @@
     }
   },
   {
+    "class_name": "upgrade_belt_fed_magazine",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1326137213,
     "image": null,
     "max_level": null,
-    "name": "upgrade_belt_fed_magazine",
     "patched_name": "Belt Fed Magazine",
     "points_cost": null,
     "properties": null,
@@ -25539,12 +25539,12 @@
     }
   },
   {
+    "class_name": "upgrade_diviners_kevlar",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2820116164,
     "image": null,
     "max_level": null,
-    "name": "upgrade_diviners_kevlar",
     "patched_name": "Diviners Kevlar",
     "points_cost": null,
     "properties": null,
@@ -25602,12 +25602,12 @@
     }
   },
   {
+    "class_name": "upgrade_stabilizing_tripod",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2672389724,
     "image": null,
     "max_level": null,
-    "name": "upgrade_stabilizing_tripod",
     "patched_name": "Stabilizing Tripod",
     "points_cost": null,
     "properties": null,
@@ -25665,12 +25665,12 @@
     }
   },
   {
+    "class_name": "upgrade_mega_spirit",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3612042342,
     "image": null,
     "max_level": null,
-    "name": "upgrade_mega_spirit",
     "patched_name": "Mega Spirit",
     "points_cost": null,
     "properties": null,
@@ -25728,12 +25728,12 @@
     }
   },
   {
+    "class_name": "upgrade_burst_fire",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2739107182,
     "image": null,
     "max_level": null,
-    "name": "upgrade_burst_fire",
     "patched_name": "Burst Fire",
     "points_cost": null,
     "properties": null,
@@ -25791,12 +25791,12 @@
     }
   },
   {
+    "class_name": "upgrade_resilience",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 558396679,
     "image": null,
     "max_level": null,
-    "name": "upgrade_resilience",
     "patched_name": "Resilience",
     "points_cost": null,
     "properties": null,
@@ -25854,12 +25854,12 @@
     }
   },
   {
+    "class_name": "upgrade_endurance",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2829638276,
     "image": null,
     "max_level": null,
-    "name": "upgrade_endurance",
     "patched_name": "Endurance",
     "points_cost": null,
     "properties": null,
@@ -25917,12 +25917,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_clarity",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2985482185,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_clarity",
     "patched_name": "Magic Clarity",
     "points_cost": null,
     "properties": null,
@@ -25980,12 +25980,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_storm",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1292979587,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_storm",
     "patched_name": "Magic Storm",
     "points_cost": null,
     "properties": null,
@@ -26043,12 +26043,12 @@
     }
   },
   {
+    "class_name": "upgrade_suppressor",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1925087134,
     "image": null,
     "max_level": null,
-    "name": "upgrade_suppressor",
     "patched_name": "Suppressor",
     "points_cost": null,
     "properties": null,
@@ -26106,12 +26106,12 @@
     }
   },
   {
+    "class_name": "upgrade_quick_silver",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 84321454,
     "image": null,
     "max_level": null,
-    "name": "upgrade_quick_silver",
     "patched_name": "Quick Silver",
     "points_cost": null,
     "properties": null,
@@ -26169,12 +26169,12 @@
     }
   },
   {
+    "class_name": "upgrade_arcane_eater",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2717142638,
     "image": null,
     "max_level": null,
-    "name": "upgrade_arcane_eater",
     "patched_name": "Arcane Eater",
     "points_cost": null,
     "properties": null,
@@ -26232,12 +26232,12 @@
     }
   },
   {
+    "class_name": "upgrade_predator_precision",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2574520834,
     "image": null,
     "max_level": null,
-    "name": "upgrade_predator_precision",
     "patched_name": "Predator Precision",
     "points_cost": null,
     "properties": null,
@@ -26295,12 +26295,12 @@
     }
   },
   {
+    "class_name": "upgrade_intensifying_clip",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2407033488,
     "image": null,
     "max_level": null,
-    "name": "upgrade_intensifying_clip",
     "patched_name": "Intensifying Clip",
     "points_cost": null,
     "properties": null,
@@ -26358,12 +26358,12 @@
     }
   },
   {
+    "class_name": "upgrade_reinforcing_casings",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2463960640,
     "image": null,
     "max_level": null,
-    "name": "upgrade_reinforcing_casings",
     "patched_name": "Reinforcing Casings",
     "points_cost": null,
     "properties": null,
@@ -26421,12 +26421,12 @@
     }
   },
   {
+    "class_name": "upgrade_blitz_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 4104549924,
     "image": null,
     "max_level": null,
-    "name": "upgrade_blitz_bullets",
     "patched_name": "Blitz Bullets",
     "points_cost": null,
     "properties": null,
@@ -26484,12 +26484,12 @@
     }
   },
   {
+    "class_name": "upgrade_veil_walker",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 865958998,
     "image": null,
     "max_level": null,
-    "name": "upgrade_veil_walker",
     "patched_name": "Veil Walker",
     "points_cost": null,
     "properties": null,
@@ -26547,12 +26547,12 @@
     }
   },
   {
+    "class_name": "upgrade_vex_barrier",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 1644605047,
     "image": null,
     "max_level": null,
-    "name": "upgrade_vex_barrier",
     "patched_name": "Vex Barrier",
     "points_cost": null,
     "properties": null,
@@ -26610,12 +26610,12 @@
     }
   },
   {
+    "class_name": "upgrade_medic_bullets",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 3862866912,
     "image": null,
     "max_level": null,
-    "name": "upgrade_medic_bullets",
     "patched_name": "Medic Bullets",
     "points_cost": null,
     "properties": null,
@@ -26673,12 +26673,12 @@
     }
   },
   {
+    "class_name": "upgrade_titan_round",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2356412290,
     "image": null,
     "max_level": null,
-    "name": "upgrade_titan_round",
     "patched_name": "Titan Round",
     "points_cost": null,
     "properties": null,
@@ -26736,12 +26736,12 @@
     }
   },
   {
+    "class_name": "upgrade_active_reload",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 381961617,
     "image": null,
     "max_level": null,
-    "name": "upgrade_active_reload",
     "patched_name": "Active Reload",
     "points_cost": null,
     "properties": null,
@@ -26799,12 +26799,12 @@
     }
   },
   {
+    "class_name": "upgrade_magic_carpet",
     "dof_while_zoomed": null,
     "hero": null,
     "id": 2800629741,
     "image": null,
     "max_level": null,
-    "name": "upgrade_magic_carpet",
     "patched_name": "Magic Carpet",
     "points_cost": null,
     "properties": null,

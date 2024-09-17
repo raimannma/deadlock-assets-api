@@ -12,6 +12,7 @@ murmurhash2 = "^0.2.10"
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"
+vdf = "^3.4"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"

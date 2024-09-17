@@ -1,9 +1,12 @@
+import json
+import os
 from enum import StrEnum
 
 from murmurhash2.murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
 
 from deadlock_assets_api.models import utils
+from deadlock_assets_api.models.languages import Language
 
 
 class ItemInfoProperty(BaseModel):
@@ -187,7 +190,7 @@ class ItemType(StrEnum):
 class Item(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    name: str = Field()
+    class_name: str = Field()
     image: str | None = Field(None, validation_alias="m_strComponentImage")
     properties: dict[str, ItemInfoProperty | str | float] | None = Field(
         None, validation_alias="m_mapComponentProperties"
@@ -204,11 +207,12 @@ class Item(BaseModel):
         None, validation_alias="m_nAbillityUnlocksCost"
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
+    language: Language = Field(Language.English, exclude=True)
 
     @computed_field
     @property
     def id(self) -> int:
-        return murmurhash2(self.name.encode(), 0x31415926)
+        return murmurhash2(self.class_name.encode(), 0x31415926)
 
     @computed_field
     @property
@@ -226,7 +230,7 @@ class Item(BaseModel):
     @computed_field
     @property
     def type(self) -> ItemType | None:
-        name = utils.strip_prefix(self.name, "citadel_")
+        name = utils.strip_prefix(self.class_name, "citadel_")
         first_word = name.split("_")[0]
         try:
             return ItemType(first_word.capitalize())
@@ -236,7 +240,7 @@ class Item(BaseModel):
     @computed_field
     @property
     def patched_name(self) -> str:
-        patched_name = utils.prettify_snake_case(self.name)
+        patched_name = utils.prettify_snake_case(self.class_name)
         for prefix in [
             "Citadel",
             "Component",
@@ -276,3 +280,24 @@ class Item(BaseModel):
     def set_base_url(self, base_url: str):
         if self.image:
             self.image = f"{base_url}{self.image}"
+
+    @computed_field
+    @property
+    def name(self) -> str:
+        file = f"res/localization/citadel_gc_{self.language.value}.json"
+        if not os.path.exists(file):
+            file = f"res/localization/citadel_gc_english.json"
+            if not os.path.exists(file):
+                return self.class_name
+
+        with open(file) as f:
+            language_data = json.load(f)["lang"]["Tokens"]
+        name = language_data.get(self.class_name, None)
+        if name is not None:
+            return name
+        if self.language == Language.English:
+            return self.class_name
+        file = f"res/localization/citadel_gc_english.json"
+        with open(file) as f:
+            language_data = json.load(f)["lang"]["Tokens"]
+        return language_data.get(self.class_name, None)

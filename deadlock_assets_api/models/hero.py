@@ -1,10 +1,15 @@
+import json
+import os.path
 from enum import StrEnum
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+
+from deadlock_assets_api.models.languages import Language
 
 
 class HeroStartingStats(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     max_move_speed: float = Field(..., validation_alias="EMaxMoveSpeed")
     sprint_speed: float = Field(..., validation_alias="ESprintSpeed")
     crouch_speed: float = Field(..., validation_alias="ECrouchSpeed")
@@ -37,6 +42,7 @@ class HeroStartingStats(BaseModel):
 
 class HeroItemSlotInfoForTier(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     max_purchase_for_tier: list[int] = Field(
         ..., validation_alias="m_arMaxPurchasesForTier"
     )
@@ -44,6 +50,7 @@ class HeroItemSlotInfoForTier(BaseModel):
 
 class HeroItemSlotInfo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     weapon_mod: HeroItemSlotInfoForTier = Field(
         ..., validation_alias="EItemSlotType_WeaponMod"
     )
@@ -53,16 +60,14 @@ class HeroItemSlotInfo(BaseModel):
 
 class HeroPurchaseBonusesModifier(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     tier: int = Field(..., validation_alias="m_nTier")
     value: str = Field(..., validation_alias="m_strValue")
-    value_type: str = Field(..., validation_alias="m_ValueType")
-
-
-model_config = ConfigDict(populate_by_name=True)
 
 
 class HeroPurchaseBonuses(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     weapon_mod: list[HeroPurchaseBonusesModifier] = Field(
         ..., validation_alias="EItemSlotType_WeaponMod"
     )
@@ -81,11 +86,31 @@ class HeroLevelInfoBonusCurrencies(StrEnum):
 
 class HeroLevelInfo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
     required_gold: int | None = Field(None, validation_alias="m_unRequiredGold")
-    bonus_currencies: dict[HeroLevelInfoBonusCurrencies, int] | None = Field(
-        None, validation_alias="m_mapBonusCurrencies"
-    )
+    bonus_currencies: (
+        dict[HeroLevelInfoBonusCurrencies, int]
+        | list[HeroLevelInfoBonusCurrencies]
+        | None
+    ) = Field(None, validation_alias="m_mapBonusCurrencies")
     use_standard_upgrade: bool = Field(False, validation_alias="m_bUseStandardUpgrade")
+
+    @field_validator("bonus_currencies")
+    @classmethod
+    def validate_bonus_currencies(
+        cls,
+        value: (
+            dict[HeroLevelInfoBonusCurrencies, int]
+            | list[HeroLevelInfoBonusCurrencies]
+            | None
+        ),
+        _,
+    ):
+        if value is None or len(value) == 0:
+            return None
+        if isinstance(value, list):
+            return value
+        return list(value.keys())
 
 
 class HeroImages(BaseModel):
@@ -105,7 +130,7 @@ class Hero(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: int = Field(..., validation_alias="m_HeroID")
-    name: str = Field()
+    class_name: str = Field()
     images: HeroImages = Field()
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bPlayerSelectable")
@@ -127,10 +152,6 @@ class Hero(BaseModel):
         ..., validation_alias="m_mapPurchaseBonuses"
     )
     level_info: dict[int, HeroLevelInfo] = Field(..., validation_alias="m_mapLevelInfo")
-    footstep_sounds: str = Field(..., validation_alias="m_hFootstepSounds")
-    footstep_sound_event_default: str = Field(
-        ..., validation_alias="m_strFootstepSoundEventDefault"
-    )
     stealth_speed_meters_per_second: float = Field(
         ..., validation_alias="m_flStealthSpeedMetersPerSecond"
     )
@@ -154,6 +175,28 @@ class Hero(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
+    language: Language = Field(Language.English, exclude=True)
 
     def set_base_url(self, base_url: str):
         self.images.set_base_url(base_url)
+
+    @computed_field
+    @property
+    def name(self) -> str:
+        file = f"res/localization/citadel_gc_{self.language.value}.json"
+        if not os.path.exists(file):
+            file = f"res/localization/citadel_gc_english.json"
+            if not os.path.exists(file):
+                return self.class_name
+
+        with open(file) as f:
+            language_data = json.load(f)["lang"]["Tokens"]
+        name = language_data.get(f"hero_{self.class_name}", None)
+        if name is not None:
+            return name
+        if self.language == Language.English:
+            return self.class_name
+        file = f"res/localization/citadel_gc_english.json"
+        with open(file) as f:
+            language_data = json.load(f)["lang"]["Tokens"]
+        return language_data.get(f"hero_{self.class_name}", self.class_name)
