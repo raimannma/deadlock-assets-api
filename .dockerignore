@@ -1,0 +1,10 @@
+vdata/
+images/
+localization/
+
+# Game File Extractor
+DepotDownloader
+depots/
+Decompiler
+libSkiaSharp.so
+libTinyEXR.Native.so

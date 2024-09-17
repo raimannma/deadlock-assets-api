@@ -1,5 +1,13 @@
 vdata/
 images/
+localization/
+
+# Game File Extractor
+DepotDownloader
+depots/
+Decompiler
+libSkiaSharp.so
+libTinyEXR.Native.so
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jetbrains+all,visualstudiocode,visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jetbrains+all,visualstudiocode,visualstudio
