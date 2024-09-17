@@ -15,7 +15,6 @@ logging.basicConfig(level=logging.INFO)
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
 app = FastAPI()
-app.mount("/images", StaticFiles(directory="images"), name="images")
 
 
 @app.middleware("http")
@@ -23,6 +22,10 @@ async def add_cache_headers(request: Request, call_next):
     response = await call_next(request)
     response.headers["Cache-Control"] = "public, max-age=86400"
     return response
+
+
+if IMAGE_BASE_URL is None:
+    app.mount("/images", StaticFiles(directory="images"), name="images")
 
 
 @app.get("/")
