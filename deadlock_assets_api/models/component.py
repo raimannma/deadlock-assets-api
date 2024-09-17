@@ -174,7 +174,6 @@ class ComponentType(StrEnum):
     WEAPON = "weapon"
     ABILITY = "ability"
     UPGRADE = "upgrade"
-    OTHER = "other"
 
     @classmethod
     def _missing_(cls, value: str):
@@ -182,7 +181,7 @@ class ComponentType(StrEnum):
         for member in cls:
             if member.lower() == value:
                 return member
-        return cls.OTHER
+        return None
 
 
 class Component(BaseModel):
@@ -226,10 +225,13 @@ class Component(BaseModel):
 
     @computed_field
     @property
-    def type(self) -> ComponentType:
+    def type(self) -> ComponentType | None:
         name = utils.strip_prefix(self.name, "citadel_")
         first_word = name.split("_")[0]
-        return ComponentType(first_word.capitalize())
+        try:
+            return ComponentType(first_word.capitalize())
+        except ValueError:
+            return None
 
     @computed_field
     @property

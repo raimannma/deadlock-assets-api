@@ -2647,7 +2647,7 @@
     "points_cost": null,
     "properties": null,
     "start_trained": true,
-    "type": "other",
+    "type": null,
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -2773,7 +2773,7 @@
     "points_cost": null,
     "properties": null,
     "start_trained": null,
-    "type": "other",
+    "type": null,
     "unlocks_cost": null,
     "weapon_info": null
   },
