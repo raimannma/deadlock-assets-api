@@ -84,6 +84,11 @@ def get_ability(request: Request, name: str) -> Ability:
     raise HTTPException(status_code=404, detail="Ability not found")
 
 
+@app.get("/health")
+def get_health():
+    return {"status": "ok"}
+
+
 @ttl_cache(ttl=10 * 60)
 def read_file(file: str) -> str:
     with open(file) as f:
