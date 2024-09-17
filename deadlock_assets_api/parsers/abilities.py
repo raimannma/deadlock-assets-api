@@ -1,7 +1,7 @@
-from deadlock_assets_api.models.ability import Ability
+from deadlock_assets_api.models.component import Component
 
 
-def parse_abilities(data: dict) -> list[Ability]:
+def parse_abilities(data: dict) -> list[Component]:
     ability_dicts = {
         k: v
         for k, v in data.items()
@@ -9,4 +9,4 @@ def parse_abilities(data: dict) -> list[Ability]:
         or k.startswith("upgrade_")
         or k.startswith("ability_")
     }
-    return [Ability(name=k, **v) for k, v in ability_dicts.items()]
+    return [Component(name=k, **v) for k, v in ability_dicts.items()]

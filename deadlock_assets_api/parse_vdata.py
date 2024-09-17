@@ -8,7 +8,7 @@ from deadlock_assets_api.parsers.heroes import parse_heroes
 
 VDATA_FILES = [
     (parse_heroes, "vdata/heroes.vdata", "res/heroes.json"),
-    (parse_abilities, "vdata/abilities.vdata", "res/abilities.json"),
+    (parse_abilities, "vdata/abilities.vdata", "res/components.json"),
 ]
 
 if __name__ == "__main__":

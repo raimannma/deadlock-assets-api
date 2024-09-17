@@ -1,10 +1,12 @@
-import re
+from enum import StrEnum
 
 from murmurhash2.murmurhash2 import murmurhash2
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+
+from deadlock_assets_api.models import utils
 
 
-class AbilityInfoProperty(BaseModel):
+class ComponentInfoProperty(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     value: str | int | float | None = Field(None, validation_alias="m_strValue")
@@ -14,7 +16,7 @@ class AbilityInfoProperty(BaseModel):
     )
 
 
-class AbilityInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
+class ComponentInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     x: float
@@ -23,27 +25,27 @@ class AbilityInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
     slope_outgoing: float = Field(..., validation_alias="m_flSlopeOutgoing")
 
 
-class AbilityInfoWeaponInfoBulletSpeedCurveTangents(BaseModel):
+class ComponentInfoWeaponInfoBulletSpeedCurveTangents(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     incoming_tangent: str = Field(..., validation_alias="m_nIncomingTangent")
     outgoing_tangent: str = Field(..., validation_alias="m_nOutgoingTangent")
 
 
-class AbilityInfoWeaponInfoBulletSpeedCurve(BaseModel):
+class ComponentInfoWeaponInfoBulletSpeedCurve(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    spline: list[AbilityInfoWeaponInfoBulletSpeedCurveSpline] = Field(
+    spline: list[ComponentInfoWeaponInfoBulletSpeedCurveSpline] = Field(
         ..., validation_alias="m_spline"
     )
-    tangents: list[AbilityInfoWeaponInfoBulletSpeedCurveTangents] = Field(
+    tangents: list[ComponentInfoWeaponInfoBulletSpeedCurveTangents] = Field(
         ..., validation_alias="m_tangents"
     )
     domain_mins: list[float] = Field(..., validation_alias="m_vDomainMins")
     domain_maxs: list[float] = Field(..., validation_alias="m_vDomainMaxs")
 
 
-class AbilityInfoWeaponInfoRecoil(BaseModel):
+class ComponentInfoWeaponInfoRecoil(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     range: list[float] | float = Field(..., validation_alias="m_Range")
@@ -52,12 +54,9 @@ class AbilityInfoWeaponInfoRecoil(BaseModel):
     burst_constant: float | None = Field(None, validation_alias="m_flBurstConstant")
 
 
-class AbilityInfoWeaponInfo(BaseModel):
+class ComponentInfoWeaponInfo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    bullet_speed_curve: AbilityInfoWeaponInfoBulletSpeedCurve = Field(
-        ..., validation_alias="m_BulletSpeedCurve"
-    )
     spread: float | None = Field(None, validation_alias="m_Spread")
     standing_spread: float | None = Field(None, validation_alias="m_StandingSpread")
     scatter_yaw_scale: float | None = Field(
@@ -77,10 +76,10 @@ class AbilityInfoWeaponInfo(BaseModel):
     recoil_recovery_speed: float | None = Field(
         None, validation_alias="m_flRecoilRecoverySpeed"
     )
-    vertical_recoil: AbilityInfoWeaponInfoRecoil | None = Field(
+    vertical_recoil: ComponentInfoWeaponInfoRecoil | None = Field(
         None, validation_alias="m_VerticallRecoil"
     )
-    horizontal_recoil: AbilityInfoWeaponInfoRecoil | None = Field(
+    horizontal_recoil: ComponentInfoWeaponInfoRecoil | None = Field(
         None, validation_alias="m_HorizontalRecoil"
     )
     recoil_speed: float | None = Field(None, validation_alias="m_flRecoilSpeed")
@@ -163,63 +162,115 @@ class AbilityInfoWeaponInfo(BaseModel):
     bullet_damage: float | None = Field(None, validation_alias="m_flBulletDamage")
 
 
-class AbilityDofWhileZoomed(BaseModel):
+class DofWhileZoomed(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    m_fl_dof_near_crisp: float = Field(..., validation_alias="m_flDofNearCrisp")
-    m_fl_dof_far_crisp: float = Field(..., validation_alias="m_flDofFarCrisp")
-    m_fl_dof_far_blurry: float = Field(..., validation_alias="m_flDofFarBlurry")
+    dof_near_crisp: float = Field(..., validation_alias="m_flDofNearCrisp")
+    dof_far_crisp: float = Field(..., validation_alias="m_flDofFarCrisp")
+    dof_far_blurry: float = Field(..., validation_alias="m_flDofFarBlurry")
 
 
-class Ability(BaseModel):
+class ComponentType(StrEnum):
+    WEAPON = "weapon"
+    ABILITY = "ability"
+    UPGRADE = "upgrade"
+    OTHER = "other"
+
+    @classmethod
+    def _missing_(cls, value: str):
+        value = value.lower()
+        for member in cls:
+            if member.lower() == value:
+                return member
+        return cls.OTHER
+
+
+class Component(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    id: int | None = Field(None)
     name: str = Field()
-    patched_name: str | None = Field(None)
-    ability_image: str | None = Field(None, validation_alias="m_strAbilityImage")
-    properties: dict[str, AbilityInfoProperty] | None = Field(
-        None, validation_alias="m_mapAbilityProperties"
+    image: str | None = Field(None, validation_alias="m_strComponentImage")
+    properties: dict[str, ComponentInfoProperty | str | float | None] | None = Field(
+        None, validation_alias="m_mapComponentProperties"
     )
-    weapon_info: AbilityInfoWeaponInfo | None = Field(
+    weapon_info: ComponentInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
     start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
-    dof_while_zoomed: AbilityDofWhileZoomed | None = Field(
+    dof_while_zoomed: DofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
-    ability_points_cost: int | None = Field(
-        None, validation_alias="m_nAbilityPointsCost"
-    )
-    abillity_unlocks_cost: int | None = Field(
+    points_cost: int | None = Field(None, validation_alias="m_nComponentPointsCost")
+    unlocks_cost: int | None = Field(
         None, validation_alias="m_nAbillityUnlocksCost"
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
 
+    @computed_field
+    @property
+    def id(self) -> int:
+        return murmurhash2(self.name.encode(), 0x31415926)
+
+    @computed_field
+    @property
+    def hero(self) -> str | None:
+        if self.type != ComponentType.WEAPON:
+            return None
+        hero = self.patched_name.split(" ")[0]
+        if len(hero) == 0:
+            return None
+        b_words = ["Base", "Bosstier", "Digger", "Engineer"]
+        if any(hero.startswith(w) for w in b_words):
+            return None
+        return hero
+
+    @computed_field
+    @property
+    def type(self) -> ComponentType:
+        name = utils.strip_prefix(self.name, "citadel_")
+        first_word = name.split("_")[0]
+        return ComponentType(first_word.capitalize())
+
+    @computed_field
+    @property
+    def patched_name(self) -> str:
+        patched_name = utils.prettify_snake_case(self.name)
+        for prefix in [
+            "Citadel",
+            "Component",
+            "Weapon",
+            "Upgrade",
+            "Tier 2",
+            "Tier 3",
+        ]:
+            patched_name = utils.strip_prefix(patched_name, prefix)
+        return patched_name.strip().title()
+
+    @field_validator("properties")
+    @classmethod
+    def validate_properties(cls, value: dict[str, ComponentInfoProperty], _):
+        if value is None:
+            return {}
+        properties = dict()
+        for k, v in value.items():
+            k = utils.camel_to_snake(k)
+            if isinstance(v, ComponentInfoProperty):
+                properties[k] = float(v.value) if utils.is_float(v.value) else v.value
+            else:
+                properties[k] = v
+        return properties
+
     def model_post_init(self, __context):
-        if self.id is None and self.name:
-            self.id = murmurhash2(self.name.encode(), 0x31415926)
-
-        if self.patched_name is None and self.name:
-            self.patched_name = self.prettify_snake_case(self.name)
-
-        if self.ability_image:
-            split_index = self.ability_image.find("abilities/")
+        if self.image:
+            split_index = self.image.find("abilities/")
             if split_index == -1:
-                split_index = self.ability_image.find("upgrades/")
-            self.ability_image = (
-                ("images/" + self.ability_image[split_index:])
+                split_index = self.image.find("upgrades/")
+            self.image = (
+                ("images/" + self.image[split_index:])
                 .replace('"', "")
                 .replace(".psd", "_psd.png")
             )
 
     def set_base_url(self, base_url: str):
-        if self.ability_image:
-            self.ability_image = f"{base_url}{self.ability_image}"
-
-    @staticmethod
-    def prettify_snake_case(snake_str: str) -> str:
-        return " ".join(
-            re.sub(r"([a-zA-Z])(\d)", r"\1 \2", w.capitalize())
-            for w in snake_str.split("_")
-        )
+        if self.image:
+            self.image = f"{base_url}{self.image}"

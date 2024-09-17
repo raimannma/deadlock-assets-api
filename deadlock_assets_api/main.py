@@ -7,7 +7,7 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.staticfiles import StaticFiles
 
-from deadlock_assets_api.models.ability import Ability
+from deadlock_assets_api.models.component import Component, ComponentType
 from deadlock_assets_api.models.hero import Hero
 
 logging.basicConfig(level=logging.INFO)
@@ -63,38 +63,45 @@ def get_hero_by_name(request: Request, name: str) -> Hero:
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@app.get("/abilities", response_model_exclude_none=True)
-def get_abilities(request: Request) -> list[Ability]:
-    with open("res/abilities.json") as f:
+@app.get("/components", response_model_exclude_none=True)
+def get_components(request: Request) -> list[Component]:
+    with open("res/components.json") as f:
         content = f.read()
-    ta = TypeAdapter(list[Ability])
-    abilities = ta.validate_json(content)
-    for ability in abilities:
-        ability.set_base_url(
+    ta = TypeAdapter(list[Component])
+    components = ta.validate_json(content)
+    for c in components:
+        c.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
-    return abilities
+    return components
 
 
-@app.get("/abilities/{id}", response_model_exclude_none=True)
-def get_ability(request: Request, id: int) -> Ability:
-    abilities = get_abilities(request)
-    for ability in abilities:
-        if ability.id == id:
-            return ability
-    raise HTTPException(status_code=404, detail="Ability not found")
+@app.get("/components/{id}", response_model_exclude_none=True)
+def get_component(request: Request, id: int) -> Component:
+    components = get_components(request)
+    for component in components:
+        if component.id == id:
+            return component
+    raise HTTPException(status_code=404, detail="Component not found")
 
 
-@app.get("/abilities/by-name/{name}", response_model_exclude_none=True)
-def get_ability_by_name(request: Request, name: str) -> Ability:
-    abilities = get_abilities(request)
-    for ability in abilities:
-        if ability.name.lower() == name.lower():
-            return ability
-    raise HTTPException(status_code=404, detail="Ability not found")
+@app.get("/components/by-name/{name}", response_model_exclude_none=True)
+def get_components_by_name(request: Request, name: str) -> Component:
+    components = get_components(request)
+    for component in components:
+        if component.name.lower() == name.lower():
+            return component
+    raise HTTPException(status_code=404, detail="Component not found")
 
 
-@app.get("/health")
+@app.get("/components/by-type/{type}", response_model_exclude_none=True)
+def get_components_by_type(request: Request, type: ComponentType) -> list[Component]:
+    components = get_components(request)
+    type = ComponentType(type.capitalize())
+    return [c for c in components if c.type == type]
+
+
+@app.get("/health", include_in_schema=False)
 def get_health():
     return {"status": "ok"}
 
