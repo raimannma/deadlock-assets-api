@@ -68,4 +68,5 @@ cp -r depots/game/citadel/resource/localization/citadel_gc/* localization/
 mkdir -p images/abilities
 cp -r depots/game/citadel/panorama/images/heroes images/
 cp -r depots/game/citadel/panorama/images/hud/abilities images/
+cp depots/game/citadel/panorama/images/hud/hero_portraits/* images/heroes/
 cp -r depots/game/citadel/panorama/images/upgrades images/

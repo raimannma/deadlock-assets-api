@@ -245,6 +245,7 @@ class Hero(BaseModel):
                 return None
             v = utils.strip_prefix(v, "heroes/")
             v = utils.strip_prefix(v, "hero_portraits/")
+            v = utils.strip_prefix(v, "hud/")
             v = v.replace('.psd"', "_psd.png")
             return f"{self.base_url or ''}images/heroes/{v}"
 
