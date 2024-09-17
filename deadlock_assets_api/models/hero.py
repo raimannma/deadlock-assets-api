@@ -2,8 +2,9 @@ import json
 import os.path
 from enum import StrEnum
 
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
 
+from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.languages import Language
 
 
@@ -114,16 +115,30 @@ class HeroLevelInfo(BaseModel):
 
 
 class HeroImages(BaseModel):
-    portrait: str
-    card: str
-    vertical: str
-    mm: str
-    sm: str
-    gun: str
+    portrait: str | None = Field(None)
+    card: str | None = Field(None)
+    top_bar: str | None = Field(None)
+    minimap: str | None = Field(None)
+    small: str | None = Field(None)
+    weapon: str | None = Field(None)
 
     def set_base_url(self, base_url: str):
         for attr, value in self.__dict__.items():
             setattr(self, attr, f"{base_url}{value}")
+
+
+class WeaponStatsDisplay(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    weapon_image: str | None = Field(None, validation_alias="m_strWeaponImage")
+
+
+class HeroShopStatDisplay(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    weapon_stats_display: WeaponStatsDisplay | None = Field(
+        None, validation_alias="m_eWeaponStatsDisplay"
+    )
 
 
 class Hero(BaseModel):
@@ -132,7 +147,6 @@ class Hero(BaseModel):
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str = Field()
     name: str | None = Field(None)
-    images: HeroImages = Field()
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")
     in_development: bool = Field(..., validation_alias="m_bInDevelopment")
@@ -176,9 +190,18 @@ class Hero(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
+    hero_shop_stat_display: HeroShopStatDisplay | None = Field(
+        None, validation_alias="m_ShopStatDisplay"
+    )
+    selection_image: str | None = Field(None, validation_alias="m_strSelectionImage")
+    icon_image_small: str | None = Field(None, validation_alias="m_strIconImageSmall")
+    minimap_image: str | None = Field(None, validation_alias="m_strMinimapImage")
+    icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
+    top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
+    base_url: str | None = Field(None, exclude=True)
 
     def set_base_url(self, base_url: str):
-        self.images.set_base_url(base_url)
+        self.base_url = base_url
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
@@ -204,3 +227,25 @@ class Hero(BaseModel):
         with open(file) as f:
             language_data = json.load(f)["lang"]["Tokens"]
         return language_data.get(f"hero_{self.class_name}", self.class_name)
+
+    @computed_field
+    @property
+    def images(self) -> HeroImages:
+        img_dict = {
+            "portrait": self.selection_image,
+            "small": self.icon_image_small,
+            "minimap": self.minimap_image,
+            "card": self.icon_hero_card,
+            "top_bar": self.top_bar_image,
+            "weapon": self.hero_shop_stat_display.weapon_stats_display.weapon_image,
+        }
+
+        def parse_img_path(v):
+            if v is None:
+                return None
+            v = utils.strip_prefix(v, "heroes/")
+            v = utils.strip_prefix(v, "hero_portraits/")
+            v = v.replace('.psd"', "_psd.png")
+            return f"{self.base_url or ''}images/heroes/{v}"
+
+        return HeroImages(**{k: parse_img_path(v) for k, v in img_dict.items()})

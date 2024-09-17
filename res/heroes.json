@@ -33,14 +33,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/inferno_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/inferno_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/inferno_sm.psd\"",
     "id": 1,
     "images": {
       "card": "images/heroes/inferno_card_psd.png",
-      "gun": "images/heroes/inferno_gun_psd.png",
-      "mm": "images/heroes/inferno_mm_psd.png",
+      "minimap": "images/heroes/inferno_mm_psd.png",
       "portrait": "images/heroes/inferno_psd.png",
-      "sm": "images/heroes/inferno_sm_psd.png",
-      "vertical": "images/heroes/inferno_vertical_psd.png"
+      "small": "images/heroes/inferno_sm_psd.png",
+      "top_bar": "images/heroes/inferno_hud_psd.png",
+      "weapon": "images/heroes/guns/inferno_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -295,6 +302,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/inferno_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -354,6 +362,7 @@
       ]
     },
     "readability": 6,
+    "selection_image": "panorama:\"file://{images}/heroes/inferno.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
@@ -385,7 +394,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.34
+    "step_sound_time": 0.34,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/inferno_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -421,14 +431,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/gigawatt_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/gigawatt_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/gigawatt_sm.psd\"",
     "id": 2,
     "images": {
       "card": "images/heroes/gigawatt_card_psd.png",
-      "gun": "images/heroes/gigawatt_gun_psd.png",
-      "mm": "images/heroes/gigawatt_mm_psd.png",
+      "minimap": "images/heroes/gigawatt_mm_psd.png",
       "portrait": "images/heroes/gigawatt_psd.png",
-      "sm": "images/heroes/gigawatt_sm_psd.png",
-      "vertical": "images/heroes/gigawatt_vertical_psd.png"
+      "small": "images/heroes/gigawatt_sm_psd.png",
+      "top_bar": "images/heroes/gigwatt_hud_psd.png",
+      "weapon": "images/heroes/guns/gigawatt_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -683,6 +700,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/gigawatt_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -742,6 +760,7 @@
       ]
     },
     "readability": 4,
+    "selection_image": "panorama:\"file://{images}/heroes/gigawatt.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.76,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -773,7 +792,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.28
+    "step_sound_time": 0.28,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/gigwatt_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -809,14 +829,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/hornet_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/hornet_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/hornet_sm.png\"",
     "id": 3,
     "images": {
       "card": "images/heroes/hornet_card_psd.png",
-      "gun": "images/heroes/hornet_gun_psd.png",
-      "mm": "images/heroes/hornet_mm_psd.png",
+      "minimap": "images/heroes/hornet_mm_psd.png",
       "portrait": "images/heroes/hornet_psd.png",
-      "sm": "images/heroes/hornet_sm_psd.png",
-      "vertical": "images/heroes/hornet_vertical_psd.png"
+      "small": "images/heroes/hornet_sm.png\"",
+      "top_bar": "images/heroes/hornet_hud_psd.png",
+      "weapon": "images/heroes/guns/hornet_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -1071,6 +1098,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/hornet_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1130,6 +1158,7 @@
       ]
     },
     "readability": 3,
+    "selection_image": "panorama:\"file://{images}/heroes/hornet.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 20.0,
@@ -1161,7 +1190,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.4
+    "step_sound_time": 0.4,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/hornet_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -1197,14 +1227,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/spectre_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/spectre_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/spectre_sm.psd\"",
     "id": 4,
     "images": {
-      "card": "images/heroes/ghost_card_psd.png",
-      "gun": "images/heroes/ghost_gun_psd.png",
-      "mm": "images/heroes/ghost_mm_psd.png",
-      "portrait": "images/heroes/ghost_psd.png",
-      "sm": "images/heroes/ghost_sm_psd.png",
-      "vertical": "images/heroes/ghost_vertical_psd.png"
+      "card": "images/heroes/spectre_card_psd.png",
+      "minimap": "images/heroes/spectre_mm_psd.png",
+      "portrait": "images/heroes/spectre_psd.png",
+      "small": "images/heroes/spectre_sm_psd.png",
+      "top_bar": "images/heroes/spectre_hud_psd.png",
+      "weapon": "images/heroes/guns/spectre_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -1459,6 +1496,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/spectre_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1518,6 +1556,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/spectre.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 2.1,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -1549,7 +1588,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.25
+    "step_sound_time": 0.25,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/spectre_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -1585,14 +1625,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/bull_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/bull_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/bull_sm.psd\"",
     "id": 6,
     "images": {
-      "card": "images/heroes/atlas_card_psd.png",
-      "gun": "images/heroes/atlas_gun_psd.png",
-      "mm": "images/heroes/atlas_mm_psd.png",
-      "portrait": "images/heroes/atlas_psd.png",
-      "sm": "images/heroes/atlas_sm_psd.png",
-      "vertical": "images/heroes/atlas_vertical_psd.png"
+      "card": "images/heroes/bull_card_psd.png",
+      "minimap": "images/heroes/bull_mm_psd.png",
+      "portrait": "images/heroes/bull_psd.png",
+      "small": "images/heroes/bull_sm_psd.png",
+      "top_bar": "images/heroes/bull_hud_psd.png",
+      "weapon": "images/heroes/guns/bull_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -1847,6 +1894,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/bull_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -1906,6 +1954,7 @@
       ]
     },
     "readability": 4,
+    "selection_image": "panorama:\"file://{images}/heroes/bull.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.32,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 32.0,
@@ -1937,7 +1986,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.4
+    "step_sound_time": 0.4,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/bull_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -1973,14 +2023,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/wraith_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/wraith_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/wraith_sm.psd\"",
     "id": 7,
     "images": {
       "card": "images/heroes/wraith_card_psd.png",
-      "gun": "images/heroes/wraith_gun_psd.png",
-      "mm": "images/heroes/wraith_mm_psd.png",
+      "minimap": "images/heroes/wraith_mm_psd.png",
       "portrait": "images/heroes/wraith_psd.png",
-      "sm": "images/heroes/wraith_sm_psd.png",
-      "vertical": "images/heroes/wraith_vertical_psd.png"
+      "small": "images/heroes/wraith_sm_psd.png",
+      "top_bar": "images/heroes/wraith_hud_psd.png",
+      "weapon": "images/heroes/guns/wraith_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -2235,6 +2292,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/wraith_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -2294,6 +2352,7 @@
       ]
     },
     "readability": 3,
+    "selection_image": "panorama:\"file://{images}/heroes/wraith.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.48,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -2325,7 +2384,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/wraith_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -2361,14 +2421,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/engineer_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/engineer_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/engineer_sm.psd\"",
     "id": 8,
     "images": {
-      "card": "images/heroes/forge_card_psd.png",
-      "gun": "images/heroes/forge_gun_psd.png",
-      "mm": "images/heroes/forge_mm_psd.png",
-      "portrait": "images/heroes/forge_psd.png",
-      "sm": "images/heroes/forge_sm_psd.png",
-      "vertical": "images/heroes/forge_vertical_psd.png"
+      "card": "images/heroes/engineer_card_psd.png",
+      "minimap": "images/heroes/engineer_mm_psd.png",
+      "portrait": "images/heroes/engineer_psd.png",
+      "small": "images/heroes/engineer_sm_psd.png",
+      "top_bar": "images/heroes/engineer_hud_psd.png",
+      "weapon": "images/heroes/guns/engineer_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -2623,6 +2690,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/engineer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -2682,6 +2750,7 @@
       ]
     },
     "readability": 5,
+    "selection_image": "panorama:\"file://{images}/heroes/engineer.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.44,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -2713,7 +2782,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.315
+    "step_sound_time": 0.315,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/engineer_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -2749,14 +2819,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/chrono_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/chrono_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/chrono_sm.psd\"",
     "id": 10,
     "images": {
       "card": "images/heroes/chrono_card_psd.png",
-      "gun": "images/heroes/chrono_gun_psd.png",
-      "mm": "images/heroes/chrono_mm_psd.png",
+      "minimap": "images/heroes/chrono_mm_psd.png",
       "portrait": "images/heroes/chrono_psd.png",
-      "sm": "images/heroes/chrono_sm_psd.png",
-      "vertical": "images/heroes/chrono_vertical_psd.png"
+      "small": "images/heroes/chrono_sm_psd.png",
+      "top_bar": "images/heroes/chrono_hud_psd.png",
+      "weapon": "images/heroes/guns/chrono_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -3011,6 +3088,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/chrono_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -3070,6 +3148,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/chrono.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.42,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
@@ -3101,7 +3180,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.325
+    "step_sound_time": 0.325,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -3137,14 +3217,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/dynamo_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/sumo_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/sumo_sm.psd\"",
     "id": 11,
     "images": {
-      "card": "images/heroes/dynamo_card_psd.png",
-      "gun": "images/heroes/dynamo_gun_psd.png",
-      "mm": "images/heroes/dynamo_mm_psd.png",
-      "portrait": "images/heroes/dynamo_psd.png",
-      "sm": "images/heroes/dynamo_sm_psd.png",
-      "vertical": "images/heroes/dynamo_vertical_psd.png"
+      "card": "images/heroes/sumo_card_psd.png",
+      "minimap": "images/heroes/sumo_mm_psd.png",
+      "portrait": "images/heroes/sumo_psd.png",
+      "small": "images/heroes/sumo_sm_psd.png",
+      "top_bar": "images/heroes/sumo_hud_psd.png",
+      "weapon": "images/heroes/guns/dynamo_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -3399,6 +3486,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/sumo_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -3458,6 +3546,7 @@
       ]
     },
     "readability": 4,
+    "selection_image": "panorama:\"file://{images}/heroes/sumo.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
@@ -3489,7 +3578,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.29
+    "step_sound_time": 0.29,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/sumo_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -3525,14 +3615,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/kelvin_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/kelvin_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/kelvin_sm.psd\"",
     "id": 12,
     "images": {
       "card": "images/heroes/kelvin_card_psd.png",
-      "gun": "images/heroes/kelvin_gun_psd.png",
-      "mm": "images/heroes/kelvin_mm_psd.png",
+      "minimap": "images/heroes/kelvin_mm_psd.png",
       "portrait": "images/heroes/kelvin_psd.png",
-      "sm": "images/heroes/kelvin_sm_psd.png",
-      "vertical": "images/heroes/kelvin_vertical_psd.png"
+      "small": "images/heroes/kelvin_sm_psd.png",
+      "top_bar": "images/heroes/kelvin_hud_psd.png",
+      "weapon": "images/heroes/guns/kelvin_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -3787,6 +3884,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/kelvin_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -3846,6 +3944,7 @@
       ]
     },
     "readability": 3,
+    "selection_image": "panorama:\"file://{images}/heroes/kelvin.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 50.0,
@@ -3877,7 +3976,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.32
+    "step_sound_time": 0.32,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/kelvin_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -3913,14 +4013,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/haze_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/haze_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/haze_sm.psd\"",
     "id": 13,
     "images": {
       "card": "images/heroes/haze_card_psd.png",
-      "gun": "images/heroes/haze_gun_psd.png",
-      "mm": "images/heroes/haze_mm_psd.png",
+      "minimap": "images/heroes/haze_mm_psd.png",
       "portrait": "images/heroes/haze_psd.png",
-      "sm": "images/heroes/haze_sm_psd.png",
-      "vertical": "images/heroes/haze_vertical_psd.png"
+      "small": "images/heroes/haze_sm_psd.png",
+      "top_bar": "images/heroes/haze_hud_psd.png",
+      "weapon": "images/heroes/guns/haze_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -4175,6 +4282,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/haze_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -4234,6 +4342,7 @@
       ]
     },
     "readability": 5,
+    "selection_image": "panorama:\"file://{images}/heroes/haze.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.285,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
@@ -4265,7 +4374,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.27
+    "step_sound_time": 0.27,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/haze_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -4301,14 +4411,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/astro_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/astro_sm.psd\"",
     "id": 14,
     "images": {
       "card": "images/heroes/astro_card_psd.png",
-      "gun": "images/heroes/astro_gun_psd.png",
-      "mm": "images/heroes/astro_mm_psd.png",
+      "minimap": "images/heroes/astro_mm_psd.png",
       "portrait": "images/heroes/astro_psd.png",
-      "sm": "images/heroes/astro_sm_psd.png",
-      "vertical": "images/heroes/astro_vertical_psd.png"
+      "small": "images/heroes/astro_sm_psd.png",
+      "top_bar": "images/heroes/astro_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -4563,6 +4680,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/astro_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -4622,6 +4740,7 @@
       ]
     },
     "readability": 2,
+    "selection_image": "panorama:\"file://{images}/heroes/astro.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
@@ -4653,7 +4772,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/astro_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -4689,14 +4809,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/bebop_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/bebop_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/bebop_sm.psd\"",
     "id": 15,
     "images": {
       "card": "images/heroes/bebop_card_psd.png",
-      "gun": "images/heroes/bebop_gun_psd.png",
-      "mm": "images/heroes/bebop_mm_psd.png",
+      "minimap": "images/heroes/bebop_mm_psd.png",
       "portrait": "images/heroes/bebop_psd.png",
-      "sm": "images/heroes/bebop_sm_psd.png",
-      "vertical": "images/heroes/bebop_vertical_psd.png"
+      "small": "images/heroes/bebop_sm_psd.png",
+      "top_bar": "images/heroes/bebop_hud_psd.png",
+      "weapon": "images/heroes/guns/bebop_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -4951,6 +5078,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/bebop_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -5010,6 +5138,7 @@
       ]
     },
     "readability": 2,
+    "selection_image": "panorama:\"file://{images}/heroes/bebop.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.373,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -5042,7 +5171,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.372
+    "step_sound_time": 0.372,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/bebop_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -5078,14 +5208,21 @@
     "complexity": 1,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/nano_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/nano_sm.psd\"",
     "id": 16,
     "images": {
       "card": "images/heroes/nano_card_psd.png",
-      "gun": "images/heroes/nano_gun_psd.png",
-      "mm": "images/heroes/nano_mm_psd.png",
+      "minimap": "images/heroes/nano_mm_psd.png",
       "portrait": "images/heroes/nano_psd.png",
-      "sm": "images/heroes/nano_sm_psd.png",
-      "vertical": "images/heroes/nano_vertical_psd.png"
+      "small": "images/heroes/nano_sm_psd.png",
+      "top_bar": "images/heroes/nano_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -5340,6 +5477,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/nano_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -5399,6 +5537,7 @@
       ]
     },
     "readability": 4,
+    "selection_image": "panorama:\"file://{images}/heroes/nano.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.159,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -5430,7 +5569,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.325
+    "step_sound_time": 0.325,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/nano_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -5466,14 +5606,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/archer_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/archer_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/archer_sm.psd\"",
     "id": 17,
     "images": {
-      "card": "images/heroes/orion_card_psd.png",
-      "gun": "images/heroes/orion_gun_psd.png",
-      "mm": "images/heroes/orion_mm_psd.png",
-      "portrait": "images/heroes/orion_psd.png",
-      "sm": "images/heroes/orion_sm_psd.png",
-      "vertical": "images/heroes/orion_vertical_psd.png"
+      "card": "images/heroes/archer_card_psd.png",
+      "minimap": "images/heroes/archer_mm_psd.png",
+      "portrait": "images/heroes/archer_psd.png",
+      "small": "images/heroes/archer_sm_psd.png",
+      "top_bar": "images/heroes/archer_hud_psd.png",
+      "weapon": "images/heroes/guns/archer_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -5728,6 +5875,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/archer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -5787,6 +5935,7 @@
       ]
     },
     "readability": 5,
+    "selection_image": "panorama:\"file://{images}/heroes/archer.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.8,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 27.0,
@@ -5818,7 +5967,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.36
+    "step_sound_time": 0.36,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/archer_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -5854,14 +6004,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/digger_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/digger_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/digger_sm.psd\"",
     "id": 18,
     "images": {
-      "card": "images/heroes/krill_card_psd.png",
-      "gun": "images/heroes/krill_gun_psd.png",
-      "mm": "images/heroes/krill_mm_psd.png",
-      "portrait": "images/heroes/krill_psd.png",
-      "sm": "images/heroes/krill_sm_psd.png",
-      "vertical": "images/heroes/krill_vertical_psd.png"
+      "card": "images/heroes/digger_card_psd.png",
+      "minimap": "images/heroes/digger_mm_psd.png",
+      "portrait": "images/heroes/digger_psd.png",
+      "small": "images/heroes/digger_sm_psd.png",
+      "top_bar": "images/heroes/digger_hud_psd.png",
+      "weapon": "images/heroes/guns/digger_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -6116,6 +6273,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/digger_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -6175,6 +6333,7 @@
       ]
     },
     "readability": 3,
+    "selection_image": "panorama:\"file://{images}/heroes/digger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.25,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
@@ -6206,7 +6365,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 24.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/digger_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -6242,14 +6402,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/shiv_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/shiv_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/shiv_sm.psd\"",
     "id": 19,
     "images": {
       "card": "images/heroes/shiv_card_psd.png",
-      "gun": "images/heroes/shiv_gun_psd.png",
-      "mm": "images/heroes/shiv_mm_psd.png",
+      "minimap": "images/heroes/shiv_mm_psd.png",
       "portrait": "images/heroes/shiv_psd.png",
-      "sm": "images/heroes/shiv_sm_psd.png",
-      "vertical": "images/heroes/shiv_vertical_psd.png"
+      "small": "images/heroes/shiv_sm_psd.png",
+      "top_bar": "images/heroes/shiv_hud_psd.png",
+      "weapon": "images/heroes/guns/shiv_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -6504,6 +6671,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/shiv_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -6563,6 +6731,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/shiv.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
@@ -6594,7 +6763,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.315
+    "step_sound_time": 0.315,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/shiv_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -6630,14 +6800,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/ivy_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/tengu_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/tengu_sm.psd\"",
     "id": 20,
     "images": {
       "card": "images/heroes/tengu_card_psd.png",
-      "gun": "images/heroes/tengu_gun_psd.png",
-      "mm": "images/heroes/tengu_mm_psd.png",
+      "minimap": "images/heroes/tengu_mm_psd.png",
       "portrait": "images/heroes/tengu_psd.png",
-      "sm": "images/heroes/tengu_sm_psd.png",
-      "vertical": "images/heroes/tengu_vertical_psd.png"
+      "small": "images/heroes/tengu_sm_psd.png",
+      "top_bar": "images/heroes/tengu_hud_psd.png",
+      "weapon": "images/heroes/guns/ivy_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -6892,6 +7069,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/tengu_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -6951,6 +7129,7 @@
       ]
     },
     "readability": 0,
+    "selection_image": "panorama:\"file://{images}/heroes/tengu.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
@@ -6982,7 +7161,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.383
+    "step_sound_time": 0.383,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/tengu_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -7018,14 +7198,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/kali_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/kali_sm.psd\"",
     "id": 21,
     "images": {
       "card": "images/heroes/kali_card_psd.png",
-      "gun": "images/heroes/kali_gun_psd.png",
-      "mm": "images/heroes/kali_mm_psd.png",
+      "minimap": "images/heroes/kali_mm_psd.png",
       "portrait": "images/heroes/kali_psd.png",
-      "sm": "images/heroes/kali_sm_psd.png",
-      "vertical": "images/heroes/kali_vertical_psd.png"
+      "small": "images/heroes/kali_sm_psd.png",
+      "top_bar": "images/heroes/kali_hud_psd.png",
+      "weapon": null
     },
     "in_development": false,
     "item_slot_info": {
@@ -7280,6 +7467,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/kali_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -7339,6 +7527,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/kali.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -7370,7 +7559,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/kali_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -7406,14 +7596,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/warden_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/warden_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/warden_sm.psd\"",
     "id": 25,
     "images": {
       "card": "images/heroes/warden_card_psd.png",
-      "gun": "images/heroes/warden_gun_psd.png",
-      "mm": "images/heroes/warden_mm_psd.png",
+      "minimap": "images/heroes/warden_mm_psd.png",
       "portrait": "images/heroes/warden_psd.png",
-      "sm": "images/heroes/warden_sm_psd.png",
-      "vertical": "images/heroes/warden_vertical_psd.png"
+      "small": "images/heroes/warden_sm_psd.png",
+      "top_bar": "images/heroes/warden_hud_psd.png",
+      "weapon": "images/heroes/guns/warden_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -7668,6 +7865,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/warden_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -7727,6 +7925,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/warden.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
@@ -7758,7 +7957,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.33
+    "step_sound_time": 0.33,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/warden_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -7794,14 +7994,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/yamato_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/yamato_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/yamato_sm.psd\"",
     "id": 27,
     "images": {
       "card": "images/heroes/yamato_card_psd.png",
-      "gun": "images/heroes/yamato_gun_psd.png",
-      "mm": "images/heroes/yamato_mm_psd.png",
+      "minimap": "images/heroes/yamato_mm_psd.png",
       "portrait": "images/heroes/yamato_psd.png",
-      "sm": "images/heroes/yamato_sm_psd.png",
-      "vertical": "images/heroes/yamato_vertical_psd.png"
+      "small": "images/heroes/yamato_sm_psd.png",
+      "top_bar": "images/heroes/yamato_hud_psd.png",
+      "weapon": "images/heroes/guns/yamato_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -8056,6 +8263,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/yamato_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -8115,6 +8323,7 @@
       ]
     },
     "readability": 0,
+    "selection_image": "panorama:\"file://{images}/heroes/yamato.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -8146,7 +8355,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.325
+    "step_sound_time": 0.325,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/yamato_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -8182,14 +8392,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/lash_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/lash_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/lash_sm.psd\"",
     "id": 31,
     "images": {
       "card": "images/heroes/lash_card_psd.png",
-      "gun": "images/heroes/lash_gun_psd.png",
-      "mm": "images/heroes/lash_mm_psd.png",
-      "portrait": "images/heroes/lash_psd.png",
-      "sm": "images/heroes/lash_sm_psd.png",
-      "vertical": "images/heroes/lash_vertical_psd.png"
+      "minimap": "images/heroes/lash_mm_psd.png",
+      "portrait": null,
+      "small": "images/heroes/lash_sm_psd.png",
+      "top_bar": "images/heroes/lash_hud_psd.png",
+      "weapon": "images/heroes/guns/lash_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -8444,6 +8661,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/lash_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -8503,6 +8721,7 @@
       ]
     },
     "readability": 2,
+    "selection_image": null,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.9,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
@@ -8534,7 +8753,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.24
+    "step_sound_time": 0.24,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/lash_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -8570,14 +8790,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/viscous_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/viscous_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/viscous_sm.psd\"",
     "id": 35,
     "images": {
       "card": "images/heroes/viscous_card_psd.png",
-      "gun": "images/heroes/viscous_gun_psd.png",
-      "mm": "images/heroes/viscous_mm_psd.png",
+      "minimap": "images/heroes/viscous_mm_psd.png",
       "portrait": "images/heroes/viscous_psd.png",
-      "sm": "images/heroes/viscous_sm_psd.png",
-      "vertical": "images/heroes/viscous_vertical_psd.png"
+      "small": "images/heroes/viscous_sm_psd.png",
+      "top_bar": "images/heroes/viscous_hud_psd.png",
+      "weapon": "images/heroes/guns/viscous_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -8832,6 +9059,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/viscous_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -8891,6 +9119,7 @@
       ]
     },
     "readability": 3,
+    "selection_image": "panorama:\"file://{images}/heroes/viscous.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.1,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
@@ -8922,7 +9151,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/viscous_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -8958,14 +9188,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/gunslinger_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/gunslinger_sm.psd\"",
     "id": 38,
     "images": {
-      "card": "images/heroes/gunslinger_card_psd.png",
-      "gun": "images/heroes/gunslinger_gun_psd.png",
-      "mm": "images/heroes/gunslinger_mm_psd.png",
+      "card": "images/heroes/gunslinger_sm_psd.png",
+      "minimap": "images/heroes/gunslinger_mm_psd.png",
       "portrait": "images/heroes/gunslinger_psd.png",
-      "sm": "images/heroes/gunslinger_sm_psd.png",
-      "vertical": "images/heroes/gunslinger_vertical_psd.png"
+      "small": "images/heroes/gunslinger_sm_psd.png",
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -9220,6 +9457,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/gunslinger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -9279,6 +9517,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/gunslinger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -9310,7 +9549,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": null
   },
   {
     "assigned_players_only": false,
@@ -9346,14 +9586,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/yakuza_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/yakuza_sm.psd\"",
     "id": 39,
     "images": {
-      "card": "images/heroes/yakuza_card_psd.png",
-      "gun": "images/heroes/yakuza_gun_psd.png",
-      "mm": "images/heroes/yakuza_mm_psd.png",
+      "card": "images/heroes/yakuza_sm_psd.png",
+      "minimap": "images/heroes/yakuza_mm_psd.png",
       "portrait": "images/heroes/yakuza_psd.png",
-      "sm": "images/heroes/yakuza_sm_psd.png",
-      "vertical": "images/heroes/yakuza_vertical_psd.png"
+      "small": "images/heroes/yakuza_sm_psd.png",
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -9608,6 +9855,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/yakuza_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -9667,6 +9915,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/yakuza.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -9698,7 +9947,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": null
   },
   {
     "assigned_players_only": false,
@@ -9734,14 +9984,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/genericperson_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/genericperson_sm.psd\"",
     "id": 46,
     "images": {
-      "card": "images/heroes/genericperson_card_psd.png",
-      "gun": "images/heroes/genericperson_gun_psd.png",
-      "mm": "images/heroes/genericperson_mm_psd.png",
+      "card": "images/heroes/genericperson_sm_psd.png",
+      "minimap": "images/heroes/genericperson_mm_psd.png",
       "portrait": "images/heroes/genericperson_psd.png",
-      "sm": "images/heroes/genericperson_sm_psd.png",
-      "vertical": "images/heroes/genericperson_vertical_psd.png"
+      "small": "images/heroes/genericperson_sm_psd.png",
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -9996,6 +10253,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/genericperson_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
     "purchase_bonuses": {
@@ -10055,6 +10313,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/genericperson.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10086,7 +10345,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": null
   },
   {
     "assigned_players_only": false,
@@ -10122,14 +10382,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/hud/hero_portraits/tokamak_hud.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/tokamak_sm.psd\"",
     "id": 47,
     "images": {
-      "card": "images/heroes/tokamak_card_psd.png",
-      "gun": "images/heroes/tokamak_gun_psd.png",
-      "mm": "images/heroes/tokamak_mm_psd.png",
+      "card": "images/heroes/tokamak_hud_psd.png",
+      "minimap": "images/heroes/tokamak_mm_psd.png",
       "portrait": "images/heroes/tokamak_psd.png",
-      "sm": "images/heroes/tokamak_sm_psd.png",
-      "vertical": "images/heroes/tokamak_vertical_psd.png"
+      "small": "images/heroes/tokamak_sm_psd.png",
+      "top_bar": "images/heroes/tokamak_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -10384,6 +10651,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/tokamak_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -10443,6 +10711,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/tokamak.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.8487,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10474,7 +10743,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.375
+    "step_sound_time": 0.375,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/tokamak_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -10510,14 +10780,21 @@
     "complexity": 3,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/wrecker_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/wrecker_sm.psd\"",
     "id": 48,
     "images": {
       "card": "images/heroes/wrecker_card_psd.png",
-      "gun": "images/heroes/wrecker_gun_psd.png",
-      "mm": "images/heroes/wrecker_mm_psd.png",
+      "minimap": "images/heroes/wrecker_mm_psd.png",
       "portrait": "images/heroes/wrecker_psd.png",
-      "sm": "images/heroes/wrecker_sm_psd.png",
-      "vertical": "images/heroes/wrecker_vertical_psd.png"
+      "small": "images/heroes/wrecker_sm_psd.png",
+      "top_bar": "images/heroes/wrecker_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -10772,6 +11049,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/wrecker_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -10831,6 +11109,7 @@
       ]
     },
     "readability": 0,
+    "selection_image": "panorama:\"file://{images}/heroes/wrecker.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -10862,7 +11141,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.33
+    "step_sound_time": 0.33,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/wrecker_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -10898,14 +11178,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/rutger_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/rutger_sm.psd\"",
     "id": 49,
     "images": {
       "card": "images/heroes/rutger_card_psd.png",
-      "gun": "images/heroes/rutger_gun_psd.png",
-      "mm": "images/heroes/rutger_mm_psd.png",
+      "minimap": "images/heroes/rutger_mm_psd.png",
       "portrait": "images/heroes/rutger_psd.png",
-      "sm": "images/heroes/rutger_sm_psd.png",
-      "vertical": "images/heroes/rutger_vertical_psd.png"
+      "small": "images/heroes/rutger_sm_psd.png",
+      "top_bar": "images/heroes/rutger_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -11160,6 +11447,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/rutger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -11219,6 +11507,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/rutger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -11250,7 +11539,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/rutger_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -11286,14 +11576,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/synth_gun.psd\""
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/synth_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/synth_sm.psd\"",
     "id": 50,
     "images": {
       "card": "images/heroes/synth_card_psd.png",
-      "gun": "images/heroes/synth_gun_psd.png",
-      "mm": "images/heroes/synth_mm_psd.png",
+      "minimap": "images/heroes/synth_mm_psd.png",
       "portrait": "images/heroes/synth_psd.png",
-      "sm": "images/heroes/synth_sm_psd.png",
-      "vertical": "images/heroes/synth_vertical_psd.png"
+      "small": "images/heroes/synth_sm_psd.png",
+      "top_bar": "images/heroes/synth_hud_psd.png",
+      "weapon": "images/heroes/guns/synth_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -11548,6 +11845,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/synth_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -11607,6 +11905,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/synth.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
@@ -11638,7 +11937,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/synth_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -11674,14 +11974,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/thumper_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/thumper_sm.psd\"",
     "id": 51,
     "images": {
-      "card": "images/heroes/thumper_card_psd.png",
-      "gun": "images/heroes/thumper_gun_psd.png",
-      "mm": "images/heroes/thumper_mm_psd.png",
+      "card": "images/heroes/thumper_sm_psd.png",
+      "minimap": "images/heroes/thumper_mm_psd.png",
       "portrait": "images/heroes/thumper_psd.png",
-      "sm": "images/heroes/thumper_sm_psd.png",
-      "vertical": "images/heroes/thumper_vertical_psd.png"
+      "small": "images/heroes/thumper_sm_psd.png",
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -11936,6 +12243,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/thumper_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -11995,6 +12303,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/thumper.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12026,7 +12335,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": null
   },
   {
     "assigned_players_only": false,
@@ -12062,14 +12372,21 @@
     "complexity": 2,
     "disabled": false,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/mirage_card.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/mirage_sm.psd\"",
     "id": 52,
     "images": {
       "card": "images/heroes/mirage_card_psd.png",
-      "gun": "images/heroes/mirage_gun_psd.png",
-      "mm": "images/heroes/mirage_mm_psd.png",
+      "minimap": "images/heroes/mirage_mm_psd.png",
       "portrait": "images/heroes/mirage_psd.png",
-      "sm": "images/heroes/mirage_sm_psd.png",
-      "vertical": "images/heroes/mirage_vertical_psd.png"
+      "small": "images/heroes/mirage_sm_psd.png",
+      "top_bar": "images/heroes/mirage_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -12324,6 +12641,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/mirage_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -12383,6 +12701,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/mirage.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.4,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12414,7 +12733,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.35
+    "step_sound_time": 0.35,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/mirage_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -12450,14 +12770,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/slork_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/slork_sm.psd\"",
     "id": 53,
     "images": {
-      "card": "images/heroes/slork_card_psd.png",
-      "gun": "images/heroes/slork_gun_psd.png",
-      "mm": "images/heroes/slork_mm_psd.png",
+      "card": "images/heroes/slork_sm_psd.png",
+      "minimap": "images/heroes/slork_mm_psd.png",
       "portrait": "images/heroes/slork_psd.png",
-      "sm": "images/heroes/slork_sm_psd.png",
-      "vertical": "images/heroes/slork_vertical_psd.png"
+      "small": "images/heroes/slork_sm_psd.png",
+      "top_bar": "images/heroes/slork_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -12712,6 +13039,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/slork_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -12771,6 +13099,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/slork.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.73,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -12802,7 +13131,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.385
+    "step_sound_time": 0.385,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/slork_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -12838,14 +13168,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/cadence_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/cadence_sm.psd\"",
     "id": 54,
     "images": {
-      "card": "images/heroes/cadence_card_psd.png",
-      "gun": "images/heroes/cadence_gun_psd.png",
-      "mm": "images/heroes/cadence_mm_psd.png",
+      "card": "images/heroes/cadence_sm_psd.png",
+      "minimap": "images/heroes/cadence_mm_psd.png",
       "portrait": "images/heroes/cadence_psd.png",
-      "sm": "images/heroes/cadence_sm_psd.png",
-      "vertical": "images/heroes/cadence_vertical_psd.png"
+      "small": "images/heroes/cadence_sm_psd.png",
+      "top_bar": "images/heroes/cadence_hud_psd.png",
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -13100,6 +13437,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/cadence_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -13159,6 +13497,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/cadence.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -13190,7 +13529,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/cadence_hud.psd\""
   },
   {
     "assigned_players_only": false,
@@ -13226,14 +13566,21 @@
     "complexity": 2,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": "panorama:\"file://{images}/heroes/targetdummy_sm.psd\"",
+    "icon_image_small": "panorama:\"file://{images}/heroes/targetdummy_sm.psd\"",
     "id": 55,
     "images": {
-      "card": "images/heroes/targetdummy_card_psd.png",
-      "gun": "images/heroes/targetdummy_gun_psd.png",
-      "mm": "images/heroes/targetdummy_mm_psd.png",
+      "card": "images/heroes/targetdummy_sm_psd.png",
+      "minimap": "images/heroes/targetdummy_mm_psd.png",
       "portrait": "images/heroes/targetdummy_psd.png",
-      "sm": "images/heroes/targetdummy_sm_psd.png",
-      "vertical": "images/heroes/targetdummy_vertical_psd.png"
+      "small": "images/heroes/targetdummy_sm_psd.png",
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -13488,6 +13835,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": "panorama:\"file://{images}/heroes/targetdummy_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
     "purchase_bonuses": {
@@ -13547,6 +13895,7 @@
       ]
     },
     "readability": 1,
+    "selection_image": "panorama:\"file://{images}/heroes/targetdummy.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -13578,7 +13927,8 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.3,
+    "top_bar_image": null
   },
   {
     "assigned_players_only": false,
@@ -13614,14 +13964,21 @@
     "complexity": 1,
     "disabled": true,
     "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": null,
+    "icon_image_small": null,
     "id": 56,
     "images": {
-      "card": "images/heroes/bomber_card_psd.png",
-      "gun": "images/heroes/bomber_gun_psd.png",
-      "mm": "images/heroes/bomber_mm_psd.png",
-      "portrait": "images/heroes/bomber_psd.png",
-      "sm": "images/heroes/bomber_sm_psd.png",
-      "vertical": "images/heroes/bomber_vertical_psd.png"
+      "card": null,
+      "minimap": null,
+      "portrait": null,
+      "small": null,
+      "top_bar": null,
+      "weapon": null
     },
     "in_development": true,
     "item_slot_info": {
@@ -13876,6 +14233,7 @@
       }
     },
     "limited_testing": false,
+    "minimap_image": null,
     "needs_testing": false,
     "player_selectable": true,
     "purchase_bonuses": {
@@ -13935,6 +14293,7 @@
       ]
     },
     "readability": 4,
+    "selection_image": null,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.159,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
@@ -13966,6 +14325,7 @@
     },
     "stealth_speed_meters_per_second": 4.0,
     "step_height": 32.0,
-    "step_sound_time": 0.325
+    "step_sound_time": 0.325,
+    "top_bar_image": null
   }
 ]
