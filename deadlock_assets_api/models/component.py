@@ -189,7 +189,7 @@ class Component(BaseModel):
 
     name: str = Field()
     image: str | None = Field(None, validation_alias="m_strComponentImage")
-    properties: dict[str, ComponentInfoProperty | str | float | None] | None = Field(
+    properties: dict[str, ComponentInfoProperty | str | float] | None = Field(
         None, validation_alias="m_mapComponentProperties"
     )
     weapon_info: ComponentInfoWeaponInfo | None = Field(
@@ -251,8 +251,8 @@ class Component(BaseModel):
     @field_validator("properties")
     @classmethod
     def validate_properties(cls, value: dict[str, ComponentInfoProperty], _):
-        if value is None:
-            return {}
+        if value is None or len(value) == 0:
+            return None
         properties = dict()
         for k, v in value.items():
             k = utils.camel_to_snake(k)
