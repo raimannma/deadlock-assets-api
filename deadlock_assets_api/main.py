@@ -45,9 +45,9 @@ def get_heroes(request: Request, language: Language = Language.English) -> list[
         hero.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
-        hero.language = language
+        hero.set_language(language)
     heroes = [h for h in heroes if not h.disabled]
-    heroes = sorted(heroes, key=lambda x: x.name)
+    heroes = sorted(heroes, key=lambda x: x.id)
     return heroes
 
 
@@ -81,7 +81,7 @@ def get_items(request: Request, language: Language = Language.English) -> list[I
         item.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
-        item.language = language
+        item.set_language(language)
         item.postfix(items)
     return items
 

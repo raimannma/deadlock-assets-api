@@ -2,7 +2,7 @@ import json
 import os.path
 from enum import StrEnum
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from deadlock_assets_api.models.languages import Language
 
@@ -131,6 +131,7 @@ class Hero(BaseModel):
 
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str = Field()
+    name: str | None = Field(None)
     images: HeroImages = Field()
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")
@@ -175,15 +176,18 @@ class Hero(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
-    language: Language = Field(Language.English, exclude=True)
 
     def set_base_url(self, base_url: str):
         self.images.set_base_url(base_url)
 
-    @computed_field
-    @property
-    def name(self) -> str:
-        file = f"res/localization/citadel_gc_{self.language.value}.json"
+    def set_language(self, language: Language):
+        self.name = self.get_name(language)
+
+    def model_post_init(self, _):
+        self.name = self.get_name(Language.English)
+
+    def get_name(self, language: Language) -> str:
+        file = f"res/localization/citadel_gc_{language.value}.json"
         if not os.path.exists(file):
             file = f"res/localization/citadel_gc_english.json"
             if not os.path.exists(file):
@@ -194,7 +198,7 @@ class Hero(BaseModel):
         name = language_data.get(f"hero_{self.class_name}", None)
         if name is not None:
             return name
-        if self.language == Language.English:
+        if language == Language.English:
             return self.class_name
         file = f"res/localization/citadel_gc_english.json"
         with open(file) as f:

@@ -191,6 +191,7 @@ class ItemType(StrEnum):
 class Item(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
+    name: str | None = Field(None)
     class_name: str = Field()
     image: str | None = Field(None, validation_alias="m_strComponentImage")
     properties: dict[str, ItemInfoProperty | str | float] | None = Field(
@@ -211,7 +212,6 @@ class Item(BaseModel):
     child_items: list[str] | list[int] | None = Field(
         None, validation_alias="m_vecComponentItems"
     )
-    language: Language = Field(Language.English, exclude=True)
 
     @computed_field
     @property
@@ -263,6 +263,7 @@ class Item(BaseModel):
         return properties
 
     def model_post_init(self, __context):
+        self.name = self.get_name(Language.English)
         if self.image:
             split_index = self.image.find("abilities/")
             if split_index == -1:
@@ -277,10 +278,11 @@ class Item(BaseModel):
         if self.image:
             self.image = f"{base_url}{self.image}"
 
-    @computed_field
-    @property
-    def name(self) -> str:
-        file = f"res/localization/citadel_gc_{self.language.value}.json"
+    def set_language(self, language: Language):
+        self.name = self.get_name(language)
+
+    def get_name(self, language: Language) -> str:
+        file = f"res/localization/citadel_gc_{language.value}.json"
         if not os.path.exists(file):
             file = f"res/localization/citadel_gc_english.json"
             if not os.path.exists(file):
@@ -291,7 +293,7 @@ class Item(BaseModel):
         name = language_data.get(self.class_name, None)
         if name is not None:
             return name
-        if self.language == Language.English:
+        if language == Language.English:
             return self.class_name
         file = f"res/localization/citadel_gc_english.json"
         with open(file) as f:
