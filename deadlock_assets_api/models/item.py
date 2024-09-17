@@ -6,6 +6,7 @@ from murmurhash2.murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
 
 from deadlock_assets_api.models import utils
+from deadlock_assets_api.models.generic_data import GenericData
 from deadlock_assets_api.models.languages import Language
 
 
@@ -198,7 +199,6 @@ class Item(BaseModel):
     weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
-    start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
     dof_while_zoomed: ItemDofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
@@ -207,6 +207,7 @@ class Item(BaseModel):
         None, validation_alias="m_nAbillityUnlocksCost"
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
+    tier: str | int | None = Field(None, validation_alias="m_iItemTier")
     language: Language = Field(Language.English, exclude=True)
 
     @computed_field
@@ -223,6 +224,26 @@ class Item(BaseModel):
             return ItemType(first_word.capitalize())
         except ValueError:
             return None
+
+    @field_validator("tier")
+    @classmethod
+    def validate_tier(cls, value: str | int | None, _):
+        if value is None:
+            return None
+        if isinstance(value, int):
+            return value
+        return int(value[-1])
+
+    @computed_field
+    @property
+    def cost(self) -> int | None:
+        if self.tier is None:
+            return None
+        if not os.path.exists("res/generic_data.json"):
+            return None
+        with open("res/generic_data.json") as f:
+            generic_data = GenericData.model_validate_json(f.read())
+        return generic_data.item_price_per_tier[self.tier]
 
     @field_validator("properties")
     @classmethod

@@ -5,10 +5,12 @@ import vdf
 from kv3parser import KV3Parser
 from pydantic import BaseModel
 
+from deadlock_assets_api.parsers.generic_data import parse_generic_data
 from deadlock_assets_api.parsers.heroes import parse_heroes
 from deadlock_assets_api.parsers.items import parse_items
 
 VDATA_FILES = [
+    (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json"),
     (parse_heroes, "vdata/heroes.vdata", "res/heroes.json"),
     (parse_items, "vdata/abilities.vdata", "res/items.json"),
 ]
@@ -28,6 +30,8 @@ def parse_vdata():
                 )
                 for d in data
             ]
+        if isinstance(data, BaseModel):
+            data = data.model_dump(exclude={"name"})
         with open(out_path, "w") as f:
             json.dump(data, f, indent=4)
 

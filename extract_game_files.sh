@@ -58,6 +58,7 @@ done
 mkdir -p vdata
 cp depots/game/citadel/scripts/abilities.vdata vdata/
 cp depots/game/citadel/scripts/heroes.vdata vdata/
+cp depots/game/citadel/scripts/generic_data.vdata vdata/
 
 # Extract localization files
 mkdir -p localization
