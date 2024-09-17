@@ -7,8 +7,8 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.staticfiles import StaticFiles
 
-from deadlock_assets_api.models.component import Component, ComponentType
 from deadlock_assets_api.models.hero import Hero
+from deadlock_assets_api.models.item import Item, ItemType
 
 logging.basicConfig(level=logging.INFO)
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
@@ -64,42 +64,42 @@ def get_hero_by_name(request: Request, name: str) -> Hero:
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@app.get("/components", response_model_exclude_none=True)
-def get_components(request: Request) -> list[Component]:
-    with open("res/components.json") as f:
+@app.get("/items", response_model_exclude_none=True)
+def get_items(request: Request) -> list[Item]:
+    with open("res/items.json") as f:
         content = f.read()
-    ta = TypeAdapter(list[Component])
-    components = ta.validate_json(content)
-    for c in components:
+    ta = TypeAdapter(list[Item])
+    items = ta.validate_json(content)
+    for c in items:
         c.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
-    return components
+    return items
 
 
-@app.get("/components/{id}", response_model_exclude_none=True)
-def get_component(request: Request, id: int) -> Component:
-    components = get_components(request)
-    for component in components:
-        if component.id == id:
-            return component
-    raise HTTPException(status_code=404, detail="Component not found")
+@app.get("/items/{id}", response_model_exclude_none=True)
+def get_item(request: Request, id: int) -> Item:
+    items = get_items(request)
+    for item in items:
+        if item.id == id:
+            return item
+    raise HTTPException(status_code=404, detail="Item not found")
 
 
-@app.get("/components/by-name/{name}", response_model_exclude_none=True)
-def get_components_by_name(request: Request, name: str) -> Component:
-    components = get_components(request)
-    for component in components:
-        if component.name.lower() == name.lower():
-            return component
-    raise HTTPException(status_code=404, detail="Component not found")
+@app.get("/items/by-name/{name}", response_model_exclude_none=True)
+def get_items_by_name(request: Request, name: str) -> Item:
+    items = get_items(request)
+    for item in items:
+        if item.name.lower() == name.lower():
+            return item
+    raise HTTPException(status_code=404, detail="Item not found")
 
 
-@app.get("/components/by-type/{type}", response_model_exclude_none=True)
-def get_components_by_type(request: Request, type: ComponentType) -> list[Component]:
-    components = get_components(request)
-    type = ComponentType(type.capitalize())
-    return [c for c in components if c.type == type]
+@app.get("/items/by-type/{type}", response_model_exclude_none=True)
+def get_items_by_type(request: Request, type: ItemType) -> list[Item]:
+    items = get_items(request)
+    type = ItemType(type.capitalize())
+    return [c for c in items if c.type == type]
 
 
 @app.get("/health", include_in_schema=False)

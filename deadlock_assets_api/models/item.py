@@ -6,7 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validat
 from deadlock_assets_api.models import utils
 
 
-class ComponentInfoProperty(BaseModel):
+class ItemInfoProperty(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     value: str | int | float | None = Field(None, validation_alias="m_strValue")
@@ -16,7 +16,7 @@ class ComponentInfoProperty(BaseModel):
     )
 
 
-class ComponentInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     x: float
@@ -25,27 +25,27 @@ class ComponentInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
     slope_outgoing: float = Field(..., validation_alias="m_flSlopeOutgoing")
 
 
-class ComponentInfoWeaponInfoBulletSpeedCurveTangents(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurveTangents(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     incoming_tangent: str = Field(..., validation_alias="m_nIncomingTangent")
     outgoing_tangent: str = Field(..., validation_alias="m_nOutgoingTangent")
 
 
-class ComponentInfoWeaponInfoBulletSpeedCurve(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurve(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    spline: list[ComponentInfoWeaponInfoBulletSpeedCurveSpline] = Field(
+    spline: list[ItemInfoWeaponInfoBulletSpeedCurveSpline] = Field(
         ..., validation_alias="m_spline"
     )
-    tangents: list[ComponentInfoWeaponInfoBulletSpeedCurveTangents] = Field(
+    tangents: list[ItemInfoWeaponInfoBulletSpeedCurveTangents] = Field(
         ..., validation_alias="m_tangents"
     )
     domain_mins: list[float] = Field(..., validation_alias="m_vDomainMins")
     domain_maxs: list[float] = Field(..., validation_alias="m_vDomainMaxs")
 
 
-class ComponentInfoWeaponInfoRecoil(BaseModel):
+class ItemInfoWeaponInfoRecoil(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     range: list[float] | float = Field(..., validation_alias="m_Range")
@@ -54,7 +54,7 @@ class ComponentInfoWeaponInfoRecoil(BaseModel):
     burst_constant: float | None = Field(None, validation_alias="m_flBurstConstant")
 
 
-class ComponentInfoWeaponInfo(BaseModel):
+class ItemInfoWeaponInfo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     spread: float | None = Field(None, validation_alias="m_Spread")
@@ -76,10 +76,10 @@ class ComponentInfoWeaponInfo(BaseModel):
     recoil_recovery_speed: float | None = Field(
         None, validation_alias="m_flRecoilRecoverySpeed"
     )
-    vertical_recoil: ComponentInfoWeaponInfoRecoil | None = Field(
+    vertical_recoil: ItemInfoWeaponInfoRecoil | None = Field(
         None, validation_alias="m_VerticallRecoil"
     )
-    horizontal_recoil: ComponentInfoWeaponInfoRecoil | None = Field(
+    horizontal_recoil: ItemInfoWeaponInfoRecoil | None = Field(
         None, validation_alias="m_HorizontalRecoil"
     )
     recoil_speed: float | None = Field(None, validation_alias="m_flRecoilSpeed")
@@ -162,7 +162,7 @@ class ComponentInfoWeaponInfo(BaseModel):
     bullet_damage: float | None = Field(None, validation_alias="m_flBulletDamage")
 
 
-class DofWhileZoomed(BaseModel):
+class ItemDofWhileZoomed(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     dof_near_crisp: float = Field(..., validation_alias="m_flDofNearCrisp")
@@ -170,7 +170,7 @@ class DofWhileZoomed(BaseModel):
     dof_far_blurry: float = Field(..., validation_alias="m_flDofFarBlurry")
 
 
-class ComponentType(StrEnum):
+class ItemType(StrEnum):
     WEAPON = "weapon"
     ABILITY = "ability"
     UPGRADE = "upgrade"
@@ -184,19 +184,19 @@ class ComponentType(StrEnum):
         return None
 
 
-class Component(BaseModel):
+class Item(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     name: str = Field()
     image: str | None = Field(None, validation_alias="m_strComponentImage")
-    properties: dict[str, ComponentInfoProperty | str | float] | None = Field(
+    properties: dict[str, ItemInfoProperty | str | float] | None = Field(
         None, validation_alias="m_mapComponentProperties"
     )
-    weapon_info: ComponentInfoWeaponInfo | None = Field(
+    weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
     start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
-    dof_while_zoomed: DofWhileZoomed | None = Field(
+    dof_while_zoomed: ItemDofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
     points_cost: int | None = Field(None, validation_alias="m_nComponentPointsCost")
@@ -213,7 +213,7 @@ class Component(BaseModel):
     @computed_field
     @property
     def hero(self) -> str | None:
-        if self.type != ComponentType.WEAPON:
+        if self.type != ItemType.WEAPON:
             return None
         hero = self.patched_name.split(" ")[0]
         if len(hero) == 0:
@@ -225,11 +225,11 @@ class Component(BaseModel):
 
     @computed_field
     @property
-    def type(self) -> ComponentType | None:
+    def type(self) -> ItemType | None:
         name = utils.strip_prefix(self.name, "citadel_")
         first_word = name.split("_")[0]
         try:
-            return ComponentType(first_word.capitalize())
+            return ItemType(first_word.capitalize())
         except ValueError:
             return None
 
@@ -250,13 +250,13 @@ class Component(BaseModel):
 
     @field_validator("properties")
     @classmethod
-    def validate_properties(cls, value: dict[str, ComponentInfoProperty], _):
+    def validate_properties(cls, value: dict[str, ItemInfoProperty], _):
         if value is None or len(value) == 0:
             return None
         properties = dict()
         for k, v in value.items():
             k = utils.camel_to_snake(k)
-            if isinstance(v, ComponentInfoProperty):
+            if isinstance(v, ItemInfoProperty):
                 properties[k] = float(v.value) if utils.is_float(v.value) else v.value
             else:
                 properties[k] = v

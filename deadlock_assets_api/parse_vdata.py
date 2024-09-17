@@ -3,12 +3,12 @@ import json
 from kv3parser import KV3Parser
 from pydantic import BaseModel
 
-from deadlock_assets_api.parsers.abilities import parse_abilities
 from deadlock_assets_api.parsers.heroes import parse_heroes
+from deadlock_assets_api.parsers.items import parse_items
 
 VDATA_FILES = [
     (parse_heroes, "vdata/heroes.vdata", "res/heroes.json"),
-    (parse_abilities, "vdata/abilities.vdata", "res/components.json"),
+    (parse_items, "vdata/abilities.vdata", "res/items.json"),
 ]
 
 if __name__ == "__main__":
