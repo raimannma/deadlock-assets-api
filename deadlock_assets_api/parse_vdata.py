@@ -3,49 +3,8 @@ import json
 from kv3parser import KV3Parser
 from pydantic import BaseModel
 
-from deadlock_assets_api.models.ability import Ability
-from deadlock_assets_api.models.hero import Hero, HeroImages
-
-
-def parse_heroes(data: dict) -> list[Hero]:
-    hero_dicts = {
-        k.removeprefix("hero_"): v
-        for k, v in data.items()
-        if k.startswith("hero_") and k != "hero_base"
-    }
-    images = [
-        ("portrait", ""),
-        ("card", "_card"),
-        ("vertical", "_vertical"),
-        ("mm", "_mm"),
-        ("sm", "_sm"),
-        ("gun", "_gun"),
-    ]
-    return [
-        Hero(
-            name=name,
-            images=HeroImages(
-                **{
-                    img_name: f"images/heroes/{name}{postfix}_psd.png"
-                    for (img_name, postfix) in images
-                }
-            ),
-            **v,
-        )
-        for name, v in hero_dicts.items()
-    ]
-
-
-def parse_abilities(data: dict) -> list[Ability]:
-    ability_dicts = {
-        k: v
-        for k, v in data.items()
-        if k.startswith("citadel_")
-        or k.startswith("upgrade_")
-        or k.startswith("ability_")
-    }
-    return [Ability(name=k, **v) for k, v in ability_dicts.items()]
-
+from deadlock_assets_api.parsers.abilities import parse_abilities
+from deadlock_assets_api.parsers.heroes import parse_heroes
 
 VDATA_FILES = [
     (parse_heroes, "vdata/heroes.vdata", "res/heroes.json"),
