@@ -1,14 +1,21 @@
 import logging
+import os
 
 from fastapi import FastAPI, HTTPException
 from pydantic import TypeAdapter
+from starlette.requests import Request
 from starlette.responses import RedirectResponse
+from starlette.staticfiles import StaticFiles
 
 from deadlock_assets_api.models.ability import Ability
 from deadlock_assets_api.models.hero import Hero
 
 logging.basicConfig(level=logging.INFO)
 app = FastAPI()
+
+app.mount("/images", StaticFiles(directory="images"), name="images")
+
+IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
 
 @app.get("/")
@@ -17,16 +24,19 @@ def redirect_to_docs():
 
 
 @app.get("/heroes", response_model_exclude_none=True)
-def get_heroes() -> list[Hero]:
+def get_heroes(request: Request) -> list[Hero]:
     with open("res/heroes.json") as f:
         content = f.read()
     ta = TypeAdapter(list[Hero])
-    return ta.validate_json(content)
+    heroes = ta.validate_json(content)
+    for hero in heroes:
+        hero.set_base_url(IMAGE_BASE_URL or request.base_url)
+    return heroes
 
 
 @app.get("/heroes/{id}", response_model_exclude_none=True)
-def get_hero(id: int) -> Hero:
-    heroes = get_heroes()
+def get_hero(request: Request, id: int) -> Hero:
+    heroes = get_heroes(request)
     for hero in heroes:
         if hero.id == id:
             return hero
@@ -34,8 +44,8 @@ def get_hero(id: int) -> Hero:
 
 
 @app.get("/heroes/by-name/{name}", response_model_exclude_none=True)
-def get_hero_by_name(name: str) -> Hero:
-    heroes = get_heroes()
+def get_hero_by_name(request: Request, name: str) -> Hero:
+    heroes = get_heroes(request)
     for hero in heroes:
         if hero.name.lower() == name.lower():
             return hero

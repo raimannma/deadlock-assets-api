@@ -88,11 +88,25 @@ class HeroLevelInfo(BaseModel):
     use_standard_upgrade: bool = Field(False, validation_alias="m_bUseStandardUpgrade")
 
 
+class HeroImages(BaseModel):
+    portrait: str
+    card: str
+    vertical: str
+    mm: str
+    sm: str
+    gun: str
+
+    def set_base_url(self, base_url: str):
+        for attr, value in self.__dict__.items():
+            setattr(self, attr, f"{base_url}{value}")
+
+
 class Hero(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: int = Field(..., validation_alias="m_HeroID")
     name: str = Field()
+    images: HeroImages = Field()
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bPlayerSelectable")
     in_development: bool = Field(..., validation_alias="m_bDisabled")
@@ -140,3 +154,6 @@ class Hero(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
+
+    def set_base_url(self, base_url: str):
+        self.images.set_base_url(base_url)
