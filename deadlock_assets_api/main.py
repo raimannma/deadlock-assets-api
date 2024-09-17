@@ -30,7 +30,9 @@ def get_heroes(request: Request) -> list[Hero]:
     ta = TypeAdapter(list[Hero])
     heroes = ta.validate_json(content)
     for hero in heroes:
-        hero.set_base_url(IMAGE_BASE_URL or request.base_url)
+        hero.set_base_url(
+            IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
+        )
     return heroes
 
 
@@ -59,7 +61,9 @@ def get_abilities(request: Request) -> list[Ability]:
     ta = TypeAdapter(list[Ability])
     abilities = ta.validate_json(content)
     for ability in abilities:
-        ability.set_base_url(IMAGE_BASE_URL or request.base_url)
+        ability.set_base_url(
+            IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
+        )
     return abilities
 
 
