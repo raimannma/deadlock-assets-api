@@ -53,16 +53,19 @@ def get_hero_by_name(request: Request, name: str) -> Hero:
 
 
 @app.get("/abilities", response_model_exclude_none=True)
-def get_abilities() -> list[Ability]:
+def get_abilities(request: Request) -> list[Ability]:
     with open("res/abilities.json") as f:
         content = f.read()
     ta = TypeAdapter(list[Ability])
-    return ta.validate_json(content)
+    abilities = ta.validate_json(content)
+    for ability in abilities:
+        ability.set_base_url(IMAGE_BASE_URL or request.base_url)
+    return abilities
 
 
 @app.get("/abilities/{name}", response_model_exclude_none=True)
-def get_ability(name: str) -> Ability:
-    abilities = get_abilities()
+def get_ability(request: Request, name: str) -> Ability:
+    abilities = get_abilities(request)
     for ability in abilities:
         if ability.name.lower() == name.lower():
             return ability

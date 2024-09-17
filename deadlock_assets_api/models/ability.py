@@ -172,6 +172,7 @@ class Ability(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     name: str = Field()
+    ability_image: str | None = Field(None, alias="m_strAbilityImage")
     properties: dict[str, AbilityInfoProperty] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
@@ -182,3 +183,23 @@ class Ability(BaseModel):
     dof_while_zoomed: AbilityDofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
+    ability_points_cost: int | None = Field(None, alias="m_nAbilityPointsCost")
+    abillity_unlocks_cost: int | None = Field(
+        None, alias="m_nAbillityUnlocksCost"
+    )  # typo in the original data
+    max_level: int | None = Field(None, alias="m_iMaxLevel")
+
+    def model_post_init(self, __context):
+        if self.ability_image:
+            self.ability_image = (
+                (
+                    "images/"
+                    + self.ability_image[self.ability_image.find("abilities/") :]
+                )
+                .replace('"', "")
+                .replace(".psd", "_psd.png")
+            )
+
+    def set_base_url(self, base_url: str):
+        if self.ability_image:
+            self.ability_image = f"{base_url}{self.ability_image}"
