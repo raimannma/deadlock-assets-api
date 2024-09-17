@@ -10,6 +10,7 @@
     },
     "max_level": null,
     "name": "weapon_bosstier2_set",
+    "patched_name": "Weapon Bosstier 2 Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -189,6 +190,7 @@
     },
     "max_level": null,
     "name": "weapon_bosstier3_set",
+    "patched_name": "Weapon Bosstier 3 Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -368,6 +370,7 @@
     },
     "max_level": null,
     "name": "weapon_base_defense_turret",
+    "patched_name": "Weapon Base Defense Turret",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -547,6 +550,7 @@
     },
     "max_level": null,
     "name": "weapon_rutger_set",
+    "patched_name": "Weapon Rutger Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -726,6 +730,7 @@
     },
     "max_level": null,
     "name": "weapon_kali_set",
+    "patched_name": "Weapon Kali Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -905,6 +910,7 @@
     },
     "max_level": null,
     "name": "weapon_gunslinger_set",
+    "patched_name": "Weapon Gunslinger Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1084,6 +1090,7 @@
     },
     "max_level": null,
     "name": "weapon_yakuza_set",
+    "patched_name": "Weapon Yakuza Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1263,6 +1270,7 @@
     },
     "max_level": null,
     "name": "weapon_architect_set",
+    "patched_name": "Weapon Architect Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1442,6 +1450,7 @@
     },
     "max_level": null,
     "name": "weapon_thumper_set",
+    "patched_name": "Weapon Thumper Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1622,6 +1631,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "medic_trooper_heal",
+    "patched_name": "Medic Trooper Heal",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1806,6 +1816,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "golden_idol",
+    "patched_name": "Golden Idol",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -1990,6 +2001,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "item_pickup_effects",
+    "patched_name": "Item Pickup Effects",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -2149,6 +2161,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "zip_line",
+    "patched_name": "Zip Line",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -2423,6 +2436,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "zipline_boost",
+    "patched_name": "Zipline Boost",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -2582,6 +2596,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "trooper_zip_line",
+    "patched_name": "Trooper Zip Line",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -2856,6 +2871,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "mantle",
+    "patched_name": "Mantle",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3015,6 +3031,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "climb_rope",
+    "patched_name": "Climb Rope",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3174,6 +3191,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "jump",
+    "patched_name": "Jump",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3358,6 +3376,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "sprint",
+    "patched_name": "Sprint",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3517,6 +3536,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "dash",
+    "patched_name": "Dash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3706,6 +3726,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "slide",
+    "patched_name": "Slide",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -3865,6 +3886,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_butcher",
+    "patched_name": "Melee Butcher",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4039,6 +4061,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_kali",
+    "patched_name": "Melee Kali",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4213,6 +4236,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_gunslinger",
+    "patched_name": "Melee Gunslinger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4387,6 +4411,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_yakuza",
+    "patched_name": "Melee Yakuza",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4561,6 +4586,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_thumper",
+    "patched_name": "Melee Thumper",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4735,6 +4761,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_architect",
+    "patched_name": "Melee Architect",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -4909,6 +4936,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_parry",
+    "patched_name": "Melee Parry",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5083,6 +5111,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tier2boss_rocket_barrage",
+    "patched_name": "Tier 2boss Rocket Barrage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5292,6 +5321,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tier2boss_laser_beam",
+    "patched_name": "Tier 2boss Laser Beam",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5481,6 +5511,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tier2boss_stomp",
+    "patched_name": "Tier 2boss Stomp",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5660,6 +5691,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tier3boss_laser_beam",
+    "patched_name": "Tier 3boss Laser Beam",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5829,6 +5861,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tier3boss_damage_pulse",
+    "patched_name": "Tier 3boss Damage Pulse",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -5988,6 +6021,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "kali_spinning_blade",
+    "patched_name": "Kali Spinning Blade",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -6222,6 +6256,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "kali_dust_storm",
+    "patched_name": "Kali Dust Storm",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -6461,6 +6496,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "kali_disruptive_charge",
+    "patched_name": "Kali Disruptive Charge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -6645,6 +6681,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "kali_trappers_bolo",
+    "patched_name": "Kali Trappers Bolo",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -6869,6 +6906,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "trigger_base",
+    "patched_name": "Trigger Base",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7028,6 +7066,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hold_melee",
+    "patched_name": "Hold Melee",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7202,6 +7241,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_genericperson",
+    "patched_name": "Melee Genericperson",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7376,6 +7416,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "base_lockon_ability",
+    "patched_name": "Base Lockon Ability",
     "properties": {
       "LockonConeAngle": {
         "can_set_token_override": null,
@@ -7422,6 +7463,7 @@
     },
     "max_level": null,
     "name": "weapon_astro_set",
+    "patched_name": "Weapon Astro Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7601,6 +7643,7 @@
     },
     "max_level": null,
     "name": "weapon_astro_set_shotgun_shared_base",
+    "patched_name": "Weapon Astro Set Shotgun Shared Base",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7806,6 +7849,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_astro_set_shotgun_shared_weapon_info",
+    "patched_name": "Weapon Astro Set Shotgun Shared Weapon Info",
     "properties": null,
     "start_trained": null,
     "weapon_info": {
@@ -7911,6 +7955,7 @@
     },
     "max_level": null,
     "name": "weapon_astro_set_shotgun",
+    "patched_name": "Weapon Astro Set Shotgun",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -8120,6 +8165,7 @@
     },
     "max_level": null,
     "name": "weapon_astro_set_shotgun_backwards",
+    "patched_name": "Weapon Astro Set Shotgun Backwards",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -8345,6 +8391,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_astro",
+    "patched_name": "Melee Astro",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -8519,6 +8566,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "explosive_barrel",
+    "patched_name": "Explosive Barrel",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -8753,6 +8801,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bounce_pad",
+    "patched_name": "Bounce Pad",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -8992,6 +9041,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "target_practice",
+    "patched_name": "Target Practice",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -9191,6 +9241,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "running_decoy",
+    "patched_name": "Running Decoy",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -9370,6 +9421,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "gravity_lasso",
+    "patched_name": "Gravity Lasso",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -9599,6 +9651,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "astro_shotgun_toggle",
+    "patched_name": "Astro Shotgun Toggle",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -9798,6 +9851,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "astro_rifle",
+    "patched_name": "Astro Rifle",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -9987,6 +10041,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hat_trick",
+    "patched_name": "Hat Trick",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -10170,6 +10225,7 @@
     },
     "max_level": null,
     "name": "weapon_bull_set",
+    "patched_name": "Weapon Bull Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -10342,6 +10398,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_bull",
+    "patched_name": "Melee Bull",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -10516,6 +10573,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bull_charge",
+    "patched_name": "Bull Charge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -10745,6 +10803,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "passive_beefy",
+    "patched_name": "Passive Beefy",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -10934,6 +10993,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bull_leap",
+    "patched_name": "Bull Leap",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -11138,6 +11198,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bull_heal",
+    "patched_name": "Bull Heal",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -11326,6 +11387,7 @@
     },
     "max_level": null,
     "name": "weapon_bebop_set",
+    "patched_name": "Weapon Bebop Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -11511,6 +11573,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_bebop",
+    "patched_name": "Melee Bebop",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -11685,6 +11748,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "uppercut",
+    "patched_name": "Uppercut",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -11919,6 +11983,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "sticky_bomb",
+    "patched_name": "Sticky Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -12108,6 +12173,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bebop_laser_beam",
+    "patched_name": "Bebop Laser Beam",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -12362,6 +12428,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hook",
+    "patched_name": "Hook",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -12600,6 +12667,7 @@
     },
     "max_level": null,
     "name": "weapon_bomber_set",
+    "patched_name": "Weapon Bomber Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -12775,6 +12843,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_bomber",
+    "patched_name": "Melee Bomber",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -12949,6 +13018,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "charged_bomb",
+    "patched_name": "Charged Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13138,6 +13208,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "charged_bomb_throw",
+    "patched_name": "Charged Bomb Throw",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13297,6 +13368,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bomber_ability02",
+    "patched_name": "Bomber Ability 02",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13456,6 +13528,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bomber_ability03",
+    "patched_name": "Bomber Ability 03",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13615,6 +13688,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bomber_ult",
+    "patched_name": "Bomber Ult",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13778,6 +13852,7 @@
     },
     "max_level": null,
     "name": "weapon_cadence_set",
+    "patched_name": "Weapon Cadence Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -13973,6 +14048,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_cadence",
+    "patched_name": "Melee Cadence",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -14151,6 +14227,7 @@
     },
     "max_level": null,
     "name": "weapon_chrono_set",
+    "patched_name": "Weapon Chrono Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -14326,6 +14403,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_chrono",
+    "patched_name": "Melee Chrono",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -14500,6 +14578,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "chrono_pulse_grenade",
+    "patched_name": "Chrono Pulse Grenade",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -14704,6 +14783,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "chrono_time_wall",
+    "patched_name": "Chrono Time Wall",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -14933,6 +15013,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "chrono_kinetic_carbine",
+    "patched_name": "Chrono Kinetic Carbine",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -15172,6 +15253,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "chrono_swap",
+    "patched_name": "Chrono Swap",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -15380,6 +15462,7 @@
     },
     "max_level": null,
     "name": "weapon_sumo_set",
+    "patched_name": "Weapon Sumo Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -15555,6 +15638,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_sumo",
+    "patched_name": "Melee Sumo",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -15729,6 +15813,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "stomp",
+    "patched_name": "Stomp",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -15958,6 +16043,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "void_sphere",
+    "patched_name": "Void Sphere",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -16147,6 +16233,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "charged_tackle",
+    "patched_name": "Charged Tackle",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -16376,6 +16463,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "nikuman",
+    "patched_name": "Nikuman",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -16565,6 +16653,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "self_vacuum",
+    "patched_name": "Self Vacuum",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -16768,6 +16857,7 @@
     },
     "max_level": null,
     "name": "weapon_engineer_set",
+    "patched_name": "Weapon Engineer Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -16943,6 +17033,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_engineer",
+    "patched_name": "Melee Engineer",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -17117,6 +17208,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "mobile_resupply",
+    "patched_name": "Mobile Resupply",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -17306,6 +17398,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "shieldedsentry",
+    "patched_name": "Shieldedsentry",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -17586,6 +17679,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "fissure_wall",
+    "patched_name": "Fissure Wall",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -17815,6 +17909,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "fissure_wall_trigger",
+    "patched_name": "Fissure Wall Trigger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -17974,6 +18069,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "fissure_wall_cancel",
+    "patched_name": "Fissure Wall Cancel",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -18133,6 +18229,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "rocket_barrage",
+    "patched_name": "Rocket Barrage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -18391,6 +18488,7 @@
     },
     "max_level": null,
     "name": "weapon_genericperson_set",
+    "patched_name": "Weapon Genericperson Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -18570,6 +18668,7 @@
     },
     "max_level": null,
     "name": "weapon_targetdummy_set",
+    "patched_name": "Weapon Targetdummy Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -18745,6 +18844,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_targetdummy",
+    "patched_name": "Melee Targetdummy",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -18923,6 +19023,7 @@
     },
     "max_level": null,
     "name": "weapon_ghost_set",
+    "patched_name": "Weapon Ghost Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -19098,6 +19199,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_ghost",
+    "patched_name": "Melee Ghost",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -19272,6 +19374,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "blood_bomb",
+    "patched_name": "Blood Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -19481,6 +19584,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "blood_shards",
+    "patched_name": "Blood Shards",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -19685,6 +19789,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "life_drain",
+    "patched_name": "Life Drain",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -19874,6 +19979,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "death_tax",
+    "patched_name": "Death Tax",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -20058,6 +20164,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "health_swap",
+    "patched_name": "Health Swap",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -20271,6 +20378,7 @@
     },
     "max_level": null,
     "name": "weapon_gigawatt_set",
+    "patched_name": "Weapon Gigawatt Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -20446,6 +20554,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_gigawatt",
+    "patched_name": "Melee Gigawatt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -20620,6 +20729,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "lightning_ball",
+    "patched_name": "Lightning Ball",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -20819,6 +20929,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "static_charge",
+    "patched_name": "Static Charge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21003,6 +21114,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "chain_lightning",
+    "patched_name": "Chain Lightning",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21202,6 +21314,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "power_surge",
+    "patched_name": "Power Surge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21401,6 +21514,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "storm_cloud",
+    "patched_name": "Storm Cloud",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21614,6 +21728,7 @@
     },
     "max_level": null,
     "name": "weapon_haze_set",
+    "patched_name": "Weapon Haze Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21797,6 +21912,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_haze",
+    "patched_name": "Melee Haze",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21971,6 +22087,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "sleep_dagger",
+    "patched_name": "Sleep Dagger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -22215,6 +22332,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "poison_bullets",
+    "patched_name": "Poison Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -22394,6 +22512,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "smoke_bomb",
+    "patched_name": "Smoke Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -22613,6 +22732,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "stacking_damage",
+    "patched_name": "Stacking Damage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -22807,6 +22927,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "bullet_flurry",
+    "patched_name": "Bullet Flurry",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -22995,6 +23116,7 @@
     },
     "max_level": null,
     "name": "weapon_hornet_set",
+    "patched_name": "Weapon Hornet Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -23170,6 +23292,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_hornet",
+    "patched_name": "Melee Hornet",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -23344,6 +23467,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wing_blast",
+    "patched_name": "Wing Blast",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -23528,6 +23652,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hornet_chain",
+    "patched_name": "Hornet Chain",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -23722,6 +23847,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hornet_leap",
+    "patched_name": "Hornet Leap",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -23931,6 +24057,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hornet_sting",
+    "patched_name": "Hornet Sting",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -24140,6 +24267,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hornet_snipe",
+    "patched_name": "Hornet Snipe",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -24369,6 +24497,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "hornet_mark",
+    "patched_name": "Hornet Mark",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -24537,6 +24666,7 @@
     },
     "max_level": null,
     "name": "weapon_inferno_set",
+    "patched_name": "Weapon Inferno Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -24712,6 +24842,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_inferno",
+    "patched_name": "Melee Inferno",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -24886,6 +25017,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "fire_bomb",
+    "patched_name": "Fire Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25080,6 +25212,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "flame_dash",
+    "patched_name": "Flame Dash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25319,6 +25452,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "flame_dash_cancel_trigger",
+    "patched_name": "Flame Dash Cancel Trigger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25478,6 +25612,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "incendiary_projectile",
+    "patched_name": "Incendiary Projectile",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25702,6 +25837,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "afterburn",
+    "patched_name": "Afterburn",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25900,6 +26036,7 @@
     },
     "max_level": null,
     "name": "weapon_kelvin_set",
+    "patched_name": "Weapon Kelvin Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -26075,6 +26212,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_kelvin",
+    "patched_name": "Melee Kelvin",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -26249,6 +26387,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "icebeam",
+    "patched_name": "Icebeam",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -26478,6 +26617,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "icepath",
+    "patched_name": "Icepath",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -26727,6 +26867,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "ice_grenade",
+    "patched_name": "Ice Grenade",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -26911,6 +27052,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "ice_dome",
+    "patched_name": "Ice Dome",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -27114,6 +27256,7 @@
     },
     "max_level": null,
     "name": "weapon_lash_set",
+    "patched_name": "Weapon Lash Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -27289,6 +27432,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_lash",
+    "patched_name": "Melee Lash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -27463,6 +27607,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "lash",
+    "patched_name": "Lash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -27667,6 +27812,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "lash_down_strike",
+    "patched_name": "Lash Down Strike",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -27881,6 +28027,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "lash_ultimate",
+    "patched_name": "Lash Ultimate",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -28135,6 +28282,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "lash_flog",
+    "patched_name": "Lash Flog",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -28333,6 +28481,7 @@
     },
     "max_level": null,
     "name": "weapon_mirage_set",
+    "patched_name": "Weapon Mirage Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -28512,6 +28661,7 @@
     },
     "max_level": null,
     "name": "weapon_digger_set",
+    "patched_name": "Weapon Digger Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -28687,6 +28837,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_digger",
+    "patched_name": "Melee Digger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -28861,6 +29012,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "intimidate",
+    "patched_name": "Intimidate",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29055,6 +29207,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "burrow",
+    "patched_name": "Burrow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29274,6 +29427,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "throw_sand",
+    "patched_name": "Throw Sand",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29458,6 +29612,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "ult_combo",
+    "patched_name": "Ult Combo",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29636,6 +29791,7 @@
     },
     "max_level": null,
     "name": "weapon_nano_set",
+    "patched_name": "Weapon Nano Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29818,6 +29974,7 @@
     },
     "max_level": null,
     "name": "weapon_nano_alt",
+    "patched_name": "Weapon Nano Alt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -29996,6 +30153,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_nano",
+    "patched_name": "Melee Nano",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -30170,6 +30328,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "perched_predator",
+    "patched_name": "Perched Predator",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -30389,6 +30548,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "perched_predator_trigger",
+    "patched_name": "Perched Predator Trigger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -30548,6 +30708,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "nano_pounce",
+    "patched_name": "Nano Pounce",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -30782,6 +30943,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "nano_proximity_ritual",
+    "patched_name": "Nano Proximity Ritual",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31036,6 +31198,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "nano_proximity_ritual_trigger",
+    "patched_name": "Nano Proximity Ritual Trigger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31195,6 +31358,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "nano_ult_shadow",
+    "patched_name": "Nano Ult Shadow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31433,6 +31597,7 @@
     },
     "max_level": null,
     "name": "weapon_archer_set",
+    "patched_name": "Weapon Archer Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31608,6 +31773,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_archer",
+    "patched_name": "Melee Archer",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31782,6 +31948,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "charged_shot",
+    "patched_name": "Charged Shot",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -31992,6 +32159,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "power_jump",
+    "patched_name": "Power Jump",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -32216,6 +32384,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "immobilize_trap",
+    "patched_name": "Immobilize Trap",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -32455,6 +32624,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "guided_arrow",
+    "patched_name": "Guided Arrow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -32648,6 +32818,7 @@
     },
     "max_level": null,
     "name": "weapon_shiv_set",
+    "patched_name": "Weapon Shiv Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -32827,6 +32998,7 @@
     },
     "max_level": null,
     "name": "weapon_shiv_alt",
+    "patched_name": "Weapon Shiv Alt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -33002,6 +33174,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_shiv",
+    "patched_name": "Melee Shiv",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -33176,6 +33349,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "shiv_dagger",
+    "patched_name": "Shiv Dagger",
     "properties": {
       "AOERadius": {
         "can_set_token_override": null,
@@ -33370,6 +33544,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "shiv_dash",
+    "patched_name": "Shiv Dash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -33599,6 +33774,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "shiv_defer_damage",
+    "patched_name": "Shiv Defer Damage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -33778,6 +33954,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "shiv_killing_blow",
+    "patched_name": "Shiv Killing Blow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34041,6 +34218,7 @@
     },
     "max_level": null,
     "name": "weapon_slork_set",
+    "patched_name": "Weapon Slork Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34266,6 +34444,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "chomp_cast_dash",
+    "patched_name": "Chomp Cast Dash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34430,6 +34609,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_slork_alt",
+    "patched_name": "Weapon Slork Alt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34609,6 +34789,7 @@
     },
     "max_level": null,
     "name": "weapon_synth_set",
+    "patched_name": "Weapon Synth Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34785,6 +34966,7 @@
     },
     "max_level": null,
     "name": "weapon_tengu_set",
+    "patched_name": "Weapon Tengu Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -34963,6 +35145,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_tengu",
+    "patched_name": "Melee Tengu",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -35137,6 +35320,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "tangotether",
+    "patched_name": "Tangotether",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -35331,6 +35515,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "tangotether_trigger",
+    "patched_name": "Tangotether Trigger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -35490,6 +35675,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "tengu_urn",
+    "patched_name": "Tengu Urn",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -35679,6 +35865,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "tengu_stone_form",
+    "patched_name": "Tengu Stone Form",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -35893,6 +36080,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "tengu_airlift",
+    "patched_name": "Tengu Airlift",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -36131,6 +36319,7 @@
     },
     "max_level": null,
     "name": "weapon_tokamak_set",
+    "patched_name": "Weapon Tokamak Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -36306,6 +36495,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_tokamak",
+    "patched_name": "Melee Tokamak",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -36480,6 +36670,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_viscous_alt",
+    "patched_name": "Weapon Viscous Alt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -36709,6 +36900,7 @@
     },
     "max_level": null,
     "name": "weapon_viscous_set",
+    "patched_name": "Weapon Viscous Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -36884,6 +37076,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_viscous_set_2",
+    "patched_name": "Weapon Viscous Set 2",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37059,6 +37252,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_viscous",
+    "patched_name": "Melee Viscous",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37237,6 +37431,7 @@
     },
     "max_level": null,
     "name": "weapon_warden_set",
+    "patched_name": "Weapon Warden Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37412,6 +37607,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_warden",
+    "patched_name": "Melee Warden",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37586,6 +37782,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "warden_lock_down",
+    "patched_name": "Warden Lock Down",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37775,6 +37972,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "warden_high_alert",
+    "patched_name": "Warden High Alert",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -37944,6 +38142,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "warden_crowd_control",
+    "patched_name": "Warden Crowd Control",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -38148,6 +38347,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "warden_riot_protocol",
+    "patched_name": "Warden Riot Protocol",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -38351,6 +38551,7 @@
     },
     "max_level": null,
     "name": "weapon_wraith_set",
+    "patched_name": "Weapon Wraith Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -38526,6 +38727,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_wraith",
+    "patched_name": "Melee Wraith",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -38700,6 +38902,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "psychic_lift",
+    "patched_name": "Psychic Lift",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -38874,6 +39077,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "projectmind",
+    "patched_name": "Projectmind",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -39053,6 +39257,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "psychic_daggers",
+    "patched_name": "Psychic Daggers",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -39272,6 +39477,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wraith_rapidfire",
+    "patched_name": "Wraith Rapidfire",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -39456,6 +39662,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "card_toss",
+    "patched_name": "Card Toss",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -39675,6 +39882,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "psychic_pulse",
+    "patched_name": "Psychic Pulse",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -39843,6 +40051,7 @@
     },
     "max_level": null,
     "name": "weapon_wrecker_set",
+    "patched_name": "Weapon Wrecker Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40018,6 +40227,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_wrecker",
+    "patched_name": "Melee Wrecker",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40192,6 +40402,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wrecking_ball",
+    "patched_name": "Wrecking Ball",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40381,6 +40592,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wrecking_ball_throw",
+    "patched_name": "Wrecking Ball Throw",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40540,6 +40752,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wrecker_salvage",
+    "patched_name": "Wrecker Salvage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40729,6 +40942,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "scrap_blast",
+    "patched_name": "Scrap Blast",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -40908,6 +41122,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wrecker_ultimate",
+    "patched_name": "Wrecker Ultimate",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -41137,6 +41352,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "wrecker_teleport",
+    "patched_name": "Wrecker Teleport",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -41320,6 +41536,7 @@
     },
     "max_level": null,
     "name": "weapon_yamato_set",
+    "patched_name": "Weapon Yamato Set",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -41512,6 +41729,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_yamato_alt",
+    "patched_name": "Weapon Yamato Alt",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -41684,6 +41902,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "melee_yamato",
+    "patched_name": "Melee Yamato",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -41858,6 +42077,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "power_slash",
+    "patched_name": "Power Slash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42077,6 +42297,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "flying_strike",
+    "patched_name": "Flying Strike",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42261,6 +42482,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "healing_slash",
+    "patched_name": "Healing Slash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42450,6 +42672,7 @@
     "dof_while_zoomed": null,
     "max_level": 1,
     "name": "infinity_slash",
+    "patched_name": "Infinity Slash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42639,6 +42862,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "base",
+    "patched_name": "Base",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42798,6 +43022,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "clip_size",
+    "patched_name": "Clip Size",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -42967,6 +43192,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "non_player_bonus",
+    "patched_name": "Non Player Bonus",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -43146,6 +43372,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "ammo_scavenger",
+    "patched_name": "Ammo Scavenger",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -43330,6 +43557,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "clip_size_fixed",
+    "patched_name": "Clip Size Fixed",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -43494,6 +43722,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "clip_size_fixed_t3",
+    "patched_name": "Clip Size Fixed T 3",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -43658,6 +43887,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "galvanic_storm",
+    "patched_name": "Galvanic Storm",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -43882,6 +44112,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "hollow_point_rounds",
+    "patched_name": "Hollow Point Rounds",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44056,6 +44287,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "pristine_emblem",
+    "patched_name": "Pristine Emblem",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44235,6 +44467,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "stabilizer",
+    "patched_name": "Stabilizer",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44409,6 +44642,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "high_velocity_mag",
+    "patched_name": "High Velocity Mag",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44583,6 +44817,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "lifestrike_gauntlets",
+    "patched_name": "Lifestrike Gauntlets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44767,6 +45002,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "close_range",
+    "patched_name": "Close Range",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -44941,6 +45177,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "long_range",
+    "patched_name": "Long Range",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45120,6 +45357,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "slowing_bullets",
+    "patched_name": "Slowing Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45294,6 +45532,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "inhibitor",
+    "patched_name": "Inhibitor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45478,6 +45717,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "small_attack_speed",
+    "patched_name": "Small Attack Speed",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45642,6 +45882,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_defense_shredders",
+    "patched_name": "Tech Defense Shredders",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45821,6 +46062,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "attack_speed_1",
+    "patched_name": "Attack Speed 1",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45985,6 +46227,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "nearby_enemy_boost",
+    "patched_name": "Nearby Enemy Boost",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -46179,6 +46422,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "dps_aura",
+    "patched_name": "Dps Aura",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -46378,6 +46622,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "armor_reduction_debuff",
+    "patched_name": "Armor Reduction Debuff",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -46552,6 +46797,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_detention_ammo",
+    "patched_name": "Weapon Detention Ammo",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -46746,6 +46992,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "height_advantage",
+    "patched_name": "Height Advantage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -46910,6 +47157,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "targeted_silence",
+    "patched_name": "Targeted Silence",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -47084,6 +47332,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "proc_silence",
+    "patched_name": "Proc Silence",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -47268,6 +47517,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "silencer",
+    "patched_name": "Silencer",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -47447,6 +47697,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "proc_disarm",
+    "patched_name": "Proc Disarm",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -47621,6 +47872,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "berserker",
+    "patched_name": "Berserker",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -47810,6 +48062,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "fervor",
+    "patched_name": "Fervor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48009,6 +48262,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "siphon_bullets",
+    "patched_name": "Siphon Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48208,6 +48462,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "headshot_booster",
+    "patched_name": "Headshot Booster",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48382,6 +48637,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "sharpshooter",
+    "patched_name": "Sharpshooter",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48571,6 +48827,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "headhunter",
+    "patched_name": "Headhunter",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48770,6 +49027,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "banshee_slugs",
+    "patched_name": "Banshee Slugs",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -48959,6 +49217,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "proc_tech_damage",
+    "patched_name": "Proc Tech Damage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -49143,6 +49402,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "crackshot",
+    "patched_name": "Crackshot",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -49332,6 +49592,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "critshot",
+    "patched_name": "Critshot",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -49521,6 +49782,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "close_quarter_combat",
+    "patched_name": "Close Quarter Combat",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -49710,6 +49972,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "clip_size_2",
+    "patched_name": "Clip Size 2",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -49874,6 +50137,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "clip_size_3",
+    "patched_name": "Clip Size 3",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50038,6 +50302,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "toxic_bullets",
+    "patched_name": "Toxic Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50242,6 +50507,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "attack_speed_2",
+    "patched_name": "Attack Speed 2",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50406,6 +50672,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "drum_magazine",
+    "patched_name": "Drum Magazine",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50575,6 +50842,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "ricochet",
+    "patched_name": "Ricochet",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50764,6 +51032,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health",
+    "patched_name": "Health",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50933,6 +51202,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "toughness_3",
+    "patched_name": "Toughness 3",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51102,6 +51372,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bullet_armor",
+    "patched_name": "Bullet Armor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51271,6 +51542,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_armor",
+    "patched_name": "Tech Armor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51435,6 +51707,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health_regen_1",
+    "patched_name": "Health Regen 1",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51599,6 +51872,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "vampire",
+    "patched_name": "Vampire",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51768,6 +52042,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "double_jump",
+    "patched_name": "Double Jump",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -51942,6 +52217,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health_regen_aura",
+    "patched_name": "Health Regen Aura",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52116,6 +52392,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "combo_breaker",
+    "patched_name": "Combo Breaker",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52295,6 +52572,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "debuff_reducer",
+    "patched_name": "Debuff Reducer",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52469,6 +52747,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "reduce_debuff_duration",
+    "patched_name": "Reduce Debuff Duration",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52653,6 +52932,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "high_impact_armor",
+    "patched_name": "High Impact Armor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52822,6 +53102,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "slow_immunity",
+    "patched_name": "Slow Immunity",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -52981,6 +53262,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bullet_armor_2",
+    "patched_name": "Bullet Armor 2",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53145,6 +53427,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_power_and_health_drain",
+    "patched_name": "Weapon Power And Health Drain",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53319,6 +53602,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "active_bullet_shield",
+    "patched_name": "Active Bullet Shield",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53498,6 +53782,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "ablative_coat",
+    "patched_name": "Ablative Coat",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53682,6 +53967,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_purge",
+    "patched_name": "Tech Purge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53846,6 +54132,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "improved_bullet_armor",
+    "patched_name": "Improved Bullet Armor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54015,6 +54302,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "metal_skin",
+    "patched_name": "Metal Skin",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54184,6 +54472,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "healing_booster",
+    "patched_name": "Healing Booster",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54368,6 +54657,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "chonky",
+    "patched_name": "Chonky",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54557,6 +54847,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "damage_recycler",
+    "patched_name": "Damage Recycler",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54736,6 +55027,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bullet_damage_reduction_aura",
+    "patched_name": "Bullet Damage Reduction Aura",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -54905,6 +55197,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "sprint_booster",
+    "patched_name": "Sprint Booster",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55079,6 +55372,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cardio_calibrator",
+    "patched_name": "Cardio Calibrator",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55263,6 +55557,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "superior_stamina",
+    "patched_name": "Superior Stamina",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55442,6 +55737,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rapid_rounds",
+    "patched_name": "Rapid Rounds",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55611,6 +55907,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "improved_stamina",
+    "patched_name": "Improved Stamina",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55785,6 +56082,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bullet_armor_reduction_aura",
+    "patched_name": "Bullet Armor Reduction Aura",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -55969,6 +56267,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "camouflage",
+    "patched_name": "Camouflage",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56173,6 +56472,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "regenerative_armor",
+    "patched_name": "Regenerative Armor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56337,6 +56637,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "regenerating_bullet_shield",
+    "patched_name": "Regenerating Bullet Shield",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56511,6 +56812,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_shield",
+    "patched_name": "Magic Shield",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56685,6 +56987,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "improved_spirit",
+    "patched_name": "Improved Spirit",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56854,6 +57157,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "soaring_spirit",
+    "patched_name": "Soaring Spirit",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57028,6 +57332,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_overflow",
+    "patched_name": "Tech Overflow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57217,6 +57522,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "return_fire",
+    "patched_name": "Return Fire",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57412,6 +57718,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_range",
+    "patched_name": "Tech Range",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57596,6 +57903,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_reach",
+    "patched_name": "Magic Reach",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57770,6 +58078,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "extra_charge",
+    "patched_name": "Extra Charge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -57949,6 +58258,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health_stealing_magic",
+    "patched_name": "Health Stealing Magic",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -58123,6 +58433,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "disarm",
+    "patched_name": "Disarm",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -58302,6 +58613,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bullet_resist_shredder",
+    "patched_name": "Bullet Resist Shredder",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -58476,6 +58788,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_bleed",
+    "patched_name": "Tech Bleed",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -58680,6 +58993,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_burst",
+    "patched_name": "Magic Burst",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -58859,6 +59173,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_shock",
+    "patched_name": "Magic Shock",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59043,6 +59358,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "arcane_medallion",
+    "patched_name": "Arcane Medallion",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59207,6 +59523,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_vulnerability",
+    "patched_name": "Magic Vulnerability",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59376,6 +59693,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "healbane",
+    "patched_name": "Healbane",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59555,6 +59873,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_slow",
+    "patched_name": "Magic Slow",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59734,6 +60053,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "escalating_exposure",
+    "patched_name": "Escalating Exposure",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -59918,6 +60238,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rapid_recharge",
+    "patched_name": "Rapid Recharge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60097,6 +60418,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_tempo",
+    "patched_name": "Magic Tempo",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60266,6 +60588,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cooldown_reduction",
+    "patched_name": "Cooldown Reduction",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60440,6 +60763,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "duration_extender",
+    "patched_name": "Duration Extender",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60604,6 +60928,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "slowing_tech",
+    "patched_name": "Slowing Tech",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60773,6 +61098,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "containment",
+    "patched_name": "Containment",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -60952,6 +61278,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "withering_whip",
+    "patched_name": "Withering Whip",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -61136,6 +61463,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rescue_beam",
+    "patched_name": "Rescue Beam",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -61325,6 +61653,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "personal_rejuvenator",
+    "patched_name": "Personal Rejuvenator",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -61494,6 +61823,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rebirth",
+    "patched_name": "Rebirth",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -61668,6 +61998,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "long_range_slowing_tech",
+    "patched_name": "Long Range Slowing Tech",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -61847,6 +62178,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "full_spectrum",
+    "patched_name": "Full Spectrum",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62031,6 +62363,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_cleave",
+    "patched_name": "Tech Cleave",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62205,6 +62538,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "bonus_ability_charge_3",
+    "patched_name": "Bonus Ability Charge 3",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62369,6 +62703,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "charge_mastery",
+    "patched_name": "Charge Mastery",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62548,6 +62883,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rupture",
+    "patched_name": "Rupture",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62727,6 +63063,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "discord",
+    "patched_name": "Discord",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -62911,6 +63248,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "aoe_tech_shield",
+    "patched_name": "Aoe Tech Shield",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63080,6 +63418,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "target_stun",
+    "patched_name": "Target Stun",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63269,6 +63608,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "phantom_strike",
+    "patched_name": "Phantom Strike",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63453,6 +63793,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "warp_stone",
+    "patched_name": "Warp Stone",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63627,6 +63968,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "aoe_root",
+    "patched_name": "Aoe Root",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63811,6 +64153,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "refresher",
+    "patched_name": "Refresher",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -63980,6 +64323,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "power_shard",
+    "patched_name": "Power Shard",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -64149,6 +64493,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_damage_pulse",
+    "patched_name": "Tech Damage Pulse",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -64323,6 +64668,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cheat_death",
+    "patched_name": "Cheat Death",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -64517,6 +64863,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "reload_speed",
+    "patched_name": "Reload Speed",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -64681,6 +65028,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cloaking_device",
+    "patched_name": "Cloaking Device",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -64880,6 +65228,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cloaking_device_active",
+    "patched_name": "Cloaking Device Active",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -65109,6 +65458,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "zipine_mastery",
+    "patched_name": "Zipine Mastery",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -65288,6 +65638,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "fire_rate_aura",
+    "patched_name": "Fire Rate Aura",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -65462,6 +65813,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_overdrive_clip",
+    "patched_name": "Weapon Overdrive Clip",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -65641,6 +65993,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rocket_boots",
+    "patched_name": "Rocket Boots",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -65820,6 +66173,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "rocket_booster",
+    "patched_name": "Rocket Booster",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66044,6 +66398,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "aerial_assault",
+    "patched_name": "Aerial Assault",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66243,6 +66598,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health_nova",
+    "patched_name": "Health Nova",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66432,6 +66788,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "restorative_locket",
+    "patched_name": "Restorative Locket",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66611,6 +66968,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "health_stimpak",
+    "patched_name": "Health Stimpak",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66790,6 +67148,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "infuser",
+    "patched_name": "Infuser",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -66969,6 +67328,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "savior",
+    "patched_name": "Savior",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -67168,6 +67528,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "aoe_smoke_bomb",
+    "patched_name": "Aoe Smoke Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -67372,6 +67733,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "thermal_detonator",
+    "patched_name": "Thermal Detonator",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -67581,6 +67943,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "fleetfoot_boots",
+    "patched_name": "Fleetfoot Boots",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -67775,6 +68138,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "kinetic_sash",
+    "patched_name": "Kinetic Sash",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -67954,6 +68318,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_eater",
+    "patched_name": "Weapon Eater",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -68138,6 +68503,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "weapon_instant_reload",
+    "patched_name": "Weapon Instant Reload",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -68302,6 +68668,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "tech_defender",
+    "patched_name": "Tech Defender",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -68471,6 +68838,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "unstoppable",
+    "patched_name": "Unstoppable",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -68650,6 +69018,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "colossus",
+    "patched_name": "Colossus",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -68854,6 +69223,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "cold_front",
+    "patched_name": "Cold Front",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69043,6 +69413,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "aoe_silence",
+    "patched_name": "Aoe Silence",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69227,6 +69598,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "self_bubble",
+    "patched_name": "Self Bubble",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69411,6 +69783,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "stasis_bomb",
+    "patched_name": "Stasis Bomb",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69640,6 +70013,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "quarantine",
+    "patched_name": "Quarantine",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69799,6 +70173,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "glitch",
+    "patched_name": "Glitch",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -69973,6 +70348,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "imbued_ability",
+    "patched_name": "Imbued Ability",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -70157,6 +70533,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "arcane_extension",
+    "patched_name": "Arcane Extension",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -70331,6 +70708,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "imbued_duration_extender",
+    "patched_name": "Imbued Duration Extender",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -70515,6 +70893,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "glass_cannon",
+    "patched_name": "Glass Cannon",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -70714,6 +71093,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "surging_power",
+    "patched_name": "Surging Power",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -70903,6 +71283,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "mod_disruptor",
+    "patched_name": "Mod Disruptor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -71092,6 +71473,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "frenzy",
+    "patched_name": "Frenzy",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -71286,6 +71668,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "burst_fire_actuator",
+    "patched_name": "Burst Fire Actuator",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -71490,6 +71873,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "boxing_glove",
+    "patched_name": "Boxing Glove",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -71689,6 +72073,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "acolytes_glove",
+    "patched_name": "Acolytes Glove",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -71873,6 +72258,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "melee_charge",
+    "patched_name": "Melee Charge",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72057,6 +72443,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "charmed_wraps",
+    "patched_name": "Charmed Wraps",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72226,6 +72613,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "belt_fed_magazine",
+    "patched_name": "Belt Fed Magazine",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72415,6 +72803,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "diviners_kevlar",
+    "patched_name": "Diviners Kevlar",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72599,6 +72988,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "stabilizing_tripod",
+    "patched_name": "Stabilizing Tripod",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72818,6 +73208,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "mega_spirit",
+    "patched_name": "Mega Spirit",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -72997,6 +73388,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "burst_fire",
+    "patched_name": "Burst Fire",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -73181,6 +73573,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "resilience",
+    "patched_name": "Resilience",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -73350,6 +73743,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "endurance",
+    "patched_name": "Endurance",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -73524,6 +73918,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_clarity",
+    "patched_name": "Magic Clarity",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -73708,6 +74103,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_storm",
+    "patched_name": "Magic Storm",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -73892,6 +74288,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "suppressor",
+    "patched_name": "Suppressor",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74066,6 +74463,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "quick_silver",
+    "patched_name": "Quick Silver",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74245,6 +74643,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "arcane_eater",
+    "patched_name": "Arcane Eater",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74434,6 +74833,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "predator_precision",
+    "patched_name": "Predator Precision",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74608,6 +75008,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "intensifying_clip",
+    "patched_name": "Intensifying Clip",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74787,6 +75188,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "reinforcing_casings",
+    "patched_name": "Reinforcing Casings",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -74971,6 +75373,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "blitz_bullets",
+    "patched_name": "Blitz Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -75145,6 +75548,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "veil_walker",
+    "patched_name": "Veil Walker",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -75379,6 +75783,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "vex_barrier",
+    "patched_name": "Vex Barrier",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -75568,6 +75973,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "medic_bullets",
+    "patched_name": "Medic Bullets",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -75757,6 +76163,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "titan_round",
+    "patched_name": "Titan Round",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -75931,6 +76338,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "active_reload",
+    "patched_name": "Active Reload",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -76110,6 +76518,7 @@
     "dof_while_zoomed": null,
     "max_level": null,
     "name": "magic_carpet",
+    "patched_name": "Magic Carpet",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,

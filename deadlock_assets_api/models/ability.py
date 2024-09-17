@@ -1,3 +1,5 @@
+import re
+
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -172,6 +174,7 @@ class Ability(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     name: str = Field()
+    patched_name: str | None = Field(None)
     ability_image: str | None = Field(None, validation_alias="m_strAbilityImage")
     properties: dict[str, AbilityInfoProperty] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
@@ -192,6 +195,9 @@ class Ability(BaseModel):
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
 
     def model_post_init(self, __context):
+        if self.patched_name is None and self.name:
+            self.patched_name = self.prettify_snake_case(self.name)
+
         if self.ability_image:
             self.ability_image = (
                 (
@@ -205,3 +211,10 @@ class Ability(BaseModel):
     def set_base_url(self, base_url: str):
         if self.ability_image:
             self.ability_image = f"{base_url}{self.ability_image}"
+
+    @staticmethod
+    def prettify_snake_case(snake_str: str) -> str:
+        return " ".join(
+            re.sub(r"([a-zA-Z])(\d)", r"\1 \2", w.capitalize())
+            for w in snake_str.split("_")
+        )
