@@ -11,11 +11,17 @@ from deadlock_assets_api.models.ability import Ability
 from deadlock_assets_api.models.hero import Hero
 
 logging.basicConfig(level=logging.INFO)
-app = FastAPI()
+IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
+app = FastAPI()
 app.mount("/images", StaticFiles(directory="images"), name="images")
 
-IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
+
+@app.middleware("http")
+async def add_cache_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return response
 
 
 @app.get("/")
