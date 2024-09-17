@@ -20,7 +20,9 @@ app = FastAPI()
 @app.middleware("http")
 async def add_cache_headers(request: Request, call_next):
     response = await call_next(request)
-    if not request.url.path.replace("/", "").startswith("docs"):
+    is_success = 200 <= response.status_code < 300
+    is_docs = request.url.path.replace("/", "").startswith("docs")
+    if is_success and not is_docs:
         response.headers["Cache-Control"] = "public, max-age=3600"
     return response
 
