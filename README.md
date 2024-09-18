@@ -7,11 +7,9 @@ A static API containing most of the in-game items, assets and more from the game
 ## Extract Data from Game Files
 
 ```bash
-export STEAM_USERNAME=your_steam_username
-export STEAM_PASSWORD=your_steam_password
-
-bash extract_game_files.sh
-
+# Extract Game Files
+STEAM_USERNAME=your_steam_username STEAM_PASSWORD=your_steam_password ./extract_game_files.sh
+# Parse Game Data
 python3 -m deadlock_assets_api.parse_game_data
 ```
 
