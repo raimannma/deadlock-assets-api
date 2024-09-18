@@ -2,9 +2,17 @@ import json
 import os.path
 from enum import StrEnum
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    TypeAdapter,
+    computed_field,
+    field_validator,
+)
 
 from deadlock_assets_api.models import utils
+from deadlock_assets_api.models.item import Item
 from deadlock_assets_api.models.languages import Language
 
 
@@ -141,8 +149,27 @@ class HeroShopStatDisplay(BaseModel):
     )
 
 
+class HeroItemType(StrEnum):
+    weapon_primary = "ESlot_Weapon_Primary"
+    weapon_secondary = "ESlot_Weapon_Secondary"
+    weapon_melee = "ESlot_Weapon_Melee"
+    ability_mantle = "ESlot_Ability_Mantle"
+    ability_jump = "ESlot_Ability_Jump"
+    ability_slide = "ESlot_Ability_Slide"
+    ability_zip_line = "ESlot_Ability_ZipLine"
+    ability_zip_line_boost = "ESlot_Ability_ZipLineBoost"
+    ability_climb_rope = "ESlot_Ability_ClimbRope"
+    ability_innate1 = "ESlot_Ability_Innate_1"
+    ability_innate2 = "ESlot_Ability_Innate_2"
+    ability_innate3 = "ESlot_Ability_Innate_3"
+    signature1 = "ESlot_Signature_1"
+    signature2 = "ESlot_Signature_2"
+    signature3 = "ESlot_Signature_3"
+    signature4 = "ESlot_Signature_4"
+
+
 class Hero(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str = Field()
@@ -162,6 +189,7 @@ class Hero(BaseModel):
     collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
     collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
     step_height: float = Field(..., validation_alias="m_flStepHeight")
+    items: dict[str, Item | None] = Field(..., validation_alias="m_mapBoundAbilities")
     item_slot_info: HeroItemSlotInfo = Field(..., validation_alias="m_mapItemSlotInfo")
     purchase_bonuses: HeroPurchaseBonuses = Field(
         ..., validation_alias="m_mapPurchaseBonuses"
@@ -199,6 +227,26 @@ class Hero(BaseModel):
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
     base_url: str | None = Field(None, exclude=True)
+
+    @field_validator("items", mode="before")
+    @classmethod
+    def validate_items(cls, value: dict[str, str | Item]) -> dict[str, Item]:
+        with open("res/items.json") as f:
+            content = f.read()
+        ta = TypeAdapter(list[Item])
+        items = ta.validate_json(content)
+
+        def convert_key(k):
+            if k.startswith("E"):
+                return HeroItemType(k).name
+            return k
+
+        def convert_val(v: str | Item) -> Item | None:
+            if not isinstance(v, str):
+                return v
+            return next((i for i in items if i.class_name == v), None)
+
+        return {convert_key(k): convert_val(v) for k, v in value.items()}
 
     def set_base_url(self, base_url: str):
         self.base_url = base_url
