@@ -98,12 +98,12 @@ def get_item(request: Request, id: int, language: Language = Language.English) -
 
 
 @app.get("/items/by-name/{name}", response_model_exclude_none=True)
-def get_items_by_name(
+def get_item_by_name(
     request: Request, name: str, language: Language = Language.English
 ) -> Item:
     items = get_items(request, language)
     for item in items:
-        if item.class_name.lower() == name.lower():
+        if name.lower() in [item.name.lower(), item.class_name.lower()]:
             return item
     raise HTTPException(status_code=404, detail="Item not found")
 
