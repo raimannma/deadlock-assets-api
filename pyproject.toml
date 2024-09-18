@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 fastapi = { extras = ["standard"], version = "^0.114.2" }
 murmurhash2 = "^0.2.10"
+prometheus-fastapi-instrumentator = "^7.0.0"
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"

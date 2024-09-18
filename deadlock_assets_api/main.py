@@ -2,6 +2,7 @@ import logging
 import os
 
 from fastapi import FastAPI, HTTPException
+from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.staticfiles import StaticFiles
@@ -14,6 +15,8 @@ logging.basicConfig(level=logging.INFO)
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
 app = FastAPI()
+
+Instrumentator().instrument(app).expose(app, include_in_schema=False)
 
 
 @app.middleware("http")
