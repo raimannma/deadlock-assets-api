@@ -1,5 +1,8 @@
 # Deadlock Static Assets API
 
+![Uptime](https://status.manuel-hexe.de/api/badge/27/uptime/810?label=Uptime%20%2830%20days%29)
+![Build](https://github.com/raimannma/deadlock-assets-api/actions/workflows/docker-image.yaml/badge.svg)
+
 A static API containing most of the in-game items, assets and more from the game Deadlock.
 
 **Documentation:** [https://deadlock.manuel-hexe.de/docs](https://deadlock.manuel-hexe.de/docs)
