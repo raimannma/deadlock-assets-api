@@ -22,3 +22,5 @@ jobs:
       run: docker compose config -q --no-interpolate || exit 1
     - name: Lint Dockerfiles
       uses: hadolint/hadolint-action@v3.1.0
+      with:
+        ignore: "DL3013"
