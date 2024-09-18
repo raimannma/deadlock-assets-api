@@ -1,10 +1,19 @@
 import json
 import os
 from enum import StrEnum
+from functools import lru_cache
 
 from murmurhash2.murmurhash2 import murmurhash2
-from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    TypeAdapter,
+    computed_field,
+    field_validator,
+)
 
+import deadlock_assets_api.models.generic_data
 from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.languages import Language
 
@@ -241,7 +250,7 @@ class Item(BaseModel):
     def cost(self) -> int | None:
         if self.tier is None:
             return None
-        generic_data = utils.load_generic_data()
+        generic_data = deadlock_assets_api.models.generic_data.load_generic_data()
         return generic_data.item_price_per_tier[self.tier]
 
     @field_validator("properties")
@@ -304,3 +313,13 @@ class Item(BaseModel):
             for child_item in self.child_items
             if self.id != child_item and self.class_name != child_item
         ]
+
+
+@lru_cache
+def load_items() -> list[Item] | None:
+    if not os.path.exists("res/items.json"):
+        return None
+    with open("res/items.json") as f:
+        content = f.read()
+    ta = TypeAdapter(list[Item])
+    return ta.validate_json(content)

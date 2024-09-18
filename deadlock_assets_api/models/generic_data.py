@@ -1,3 +1,6 @@
+import os
+from functools import lru_cache
+
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -64,3 +67,11 @@ class GenericData(BaseModel):
         ..., validation_alias="m_NewPlayerMetrics"
     )
     item_price_per_tier: list[int] = Field(..., validation_alias="m_nItemPricePerTier")
+
+
+@lru_cache
+def load_generic_data() -> GenericData | None:
+    if not os.path.exists("res/generic_data.json"):
+        return None
+    with open("res/generic_data.json") as f:
+        return GenericData.model_validate_json(f.read())

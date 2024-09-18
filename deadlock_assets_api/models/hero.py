@@ -1,9 +1,19 @@
 import json
+import os
 import os.path
 from enum import StrEnum
+from functools import lru_cache
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    TypeAdapter,
+    computed_field,
+    field_validator,
+)
 
+import deadlock_assets_api.models.item
 from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.item import Item
 from deadlock_assets_api.models.languages import Language
@@ -224,7 +234,7 @@ class Hero(BaseModel):
     @field_validator("items", mode="before")
     @classmethod
     def validate_items(cls, value: dict[str, str | Item]) -> dict[str, Item]:
-        items = utils.load_items()
+        items = deadlock_assets_api.models.item.load_items()
 
         def convert_key(k):
             if k.startswith("E"):
@@ -288,3 +298,13 @@ class Hero(BaseModel):
             return f"{self.base_url or ''}images/heroes/{v}"
 
         return HeroImages(**{k: parse_img_path(v) for k, v in img_dict.items()})
+
+
+@lru_cache
+def load_heroes() -> list[Hero] | None:
+    if not os.path.exists("res/heroes.json"):
+        return None
+    with open("res/heroes.json") as f:
+        content = f.read()
+    ta = TypeAdapter(list[Hero])
+    return ta.validate_json(content)

@@ -6,9 +6,8 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.staticfiles import StaticFiles
 
-from deadlock_assets_api.models import utils
-from deadlock_assets_api.models.hero import Hero
-from deadlock_assets_api.models.item import Item, ItemType
+from deadlock_assets_api.models.hero import Hero, load_heroes
+from deadlock_assets_api.models.item import Item, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
 
 logging.basicConfig(level=logging.INFO)
@@ -38,7 +37,7 @@ def redirect_to_docs():
 
 @app.get("/heroes", response_model_exclude_none=True)
 def get_heroes(request: Request, language: Language = Language.English) -> list[Hero]:
-    heroes = utils.load_heroes()
+    heroes = load_heroes()
     for hero in heroes:
         hero.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
@@ -71,7 +70,7 @@ def get_hero_by_name(
 
 @app.get("/items", response_model_exclude_none=True)
 def get_items(request: Request, language: Language = Language.English) -> list[Item]:
-    items = utils.load_items()
+    items = load_items()
     for item in items:
         item.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
