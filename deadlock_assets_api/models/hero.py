@@ -2,14 +2,7 @@ import json
 import os.path
 from enum import StrEnum
 
-from pydantic import (
-    BaseModel,
-    ConfigDict,
-    Field,
-    TypeAdapter,
-    computed_field,
-    field_validator,
-)
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
 
 from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.item import Item
@@ -231,10 +224,7 @@ class Hero(BaseModel):
     @field_validator("items", mode="before")
     @classmethod
     def validate_items(cls, value: dict[str, str | Item]) -> dict[str, Item]:
-        with open("res/items.json") as f:
-            content = f.read()
-        ta = TypeAdapter(list[Item])
-        items = ta.validate_json(content)
+        items = utils.load_items()
 
         def convert_key(k):
             if k.startswith("E"):

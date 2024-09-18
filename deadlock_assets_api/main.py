@@ -2,11 +2,11 @@ import logging
 import os
 
 from fastapi import FastAPI, HTTPException
-from pydantic import TypeAdapter
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.staticfiles import StaticFiles
 
+from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.hero import Hero
 from deadlock_assets_api.models.item import Item, ItemType
 from deadlock_assets_api.models.languages import Language
@@ -38,11 +38,7 @@ def redirect_to_docs():
 
 @app.get("/heroes", response_model_exclude_none=True)
 def get_heroes(request: Request, language: Language = Language.English) -> list[Hero]:
-    with open("res/heroes.json") as f:
-        heroes = f.read()
-
-    ta = TypeAdapter(list[Hero])
-    heroes = ta.validate_json(heroes)
+    heroes = utils.load_heroes()
     for hero in heroes:
         hero.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
@@ -75,10 +71,7 @@ def get_hero_by_name(
 
 @app.get("/items", response_model_exclude_none=True)
 def get_items(request: Request, language: Language = Language.English) -> list[Item]:
-    with open("res/items.json") as f:
-        content = f.read()
-    ta = TypeAdapter(list[Item])
-    items = ta.validate_json(content)
+    items = utils.load_items()
     for item in items:
         item.set_base_url(
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")

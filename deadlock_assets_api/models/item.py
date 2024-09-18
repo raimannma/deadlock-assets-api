@@ -6,7 +6,6 @@ from murmurhash2.murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator
 
 from deadlock_assets_api.models import utils
-from deadlock_assets_api.models.generic_data import GenericData
 from deadlock_assets_api.models.languages import Language
 
 
@@ -242,10 +241,7 @@ class Item(BaseModel):
     def cost(self) -> int | None:
         if self.tier is None:
             return None
-        if not os.path.exists("res/generic_data.json"):
-            return None
-        with open("res/generic_data.json") as f:
-            generic_data = GenericData.model_validate_json(f.read())
+        generic_data = utils.load_generic_data()
         return generic_data.item_price_per_tier[self.tier]
 
     @field_validator("properties")
