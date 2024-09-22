@@ -36,7 +36,7 @@ if IMAGE_BASE_URL is None:
     app.mount("/images", StaticFiles(directory="images"), name="images")
 
 
-@app.get("/")
+@app.get("/", include_in_schema=False)
 def redirect_to_docs():
     return RedirectResponse("/docs")
 
