@@ -5,7 +5,7 @@
 
 A static API containing most of the in-game items, assets and more from the game Deadlock.
 
-**Documentation:** [https://deadlock.manuel-hexe.de/docs](https://deadlock.manuel-hexe.de/docs)
+**Documentation:** [https://assets.deadlock-api.com/docs](https://assets.deadlock-api.com/docs)
 
 ## Extract Data from Game Files
 
