@@ -14,7 +14,10 @@ from deadlock_assets_api.models.languages import Language
 logging.basicConfig(level=logging.INFO)
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
-app = FastAPI()
+app = FastAPI(
+    title="Deadlock Assets API",
+    description="API for Deadlock assets, including hero stats and images, and item stats and images.",
+)
 
 Instrumentator().instrument(app).expose(app, include_in_schema=False)
 
