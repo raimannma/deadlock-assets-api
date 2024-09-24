@@ -19,7 +19,7 @@ app = FastAPI(
 
 Instrumentator().instrument(app).expose(app, include_in_schema=False)
 
-app.include_router(base.router)
+app.include_router(base.router, include_in_schema=False)
 app.include_router(v1.router)
 
 
