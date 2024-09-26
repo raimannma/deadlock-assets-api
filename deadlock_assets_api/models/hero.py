@@ -250,6 +250,9 @@ class Hero(BaseModel):
 
     def set_base_url(self, base_url: str):
         self.base_url = base_url
+        for item in self.items.values():
+            if isinstance(item, Item):
+                item.set_base_url(base_url)
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
