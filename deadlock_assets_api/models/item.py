@@ -2,6 +2,7 @@ import json
 import os
 from enum import StrEnum
 from functools import lru_cache
+from logging import warning
 
 from murmurhash2.murmurhash2 import murmurhash2
 from pydantic import (
@@ -186,6 +187,8 @@ class ItemType(StrEnum):
     WEAPON = "weapon"
     ABILITY = "ability"
     UPGRADE = "upgrade"
+    TECH = "tech"
+    ARMOR = "armor"
 
     @classmethod
     def _missing_(cls, value: str):
@@ -193,6 +196,45 @@ class ItemType(StrEnum):
         for member in cls:
             if member.lower() == value:
                 return member
+        hero_list = [
+            "astro",
+            "atlas",
+            "bebop",
+            "bomber",
+            "cadence",
+            "chrono",
+            "dynamo",
+            "forge",
+            "ghost",
+            "gigawatt",
+            "gunslinger",
+            "haze",
+            "hornet",
+            "inferno",
+            "kali",
+            "kelvin",
+            "krill",
+            "lash",
+            "mirage",
+            "nano",
+            "orion",
+            "rutger",
+            "shiv",
+            "slork",
+            "synth",
+            "tengu",
+            "thumper",
+            "tokamak",
+            "viscous",
+            "warden",
+            "wraith",
+            "wrecker",
+            "yakuza",
+            "yamato",
+        ]
+        if value.strip() in hero_list:
+            return cls.ABILITY
+        warning(f"Unknown ItemType: {value}")
         return None
 
 

@@ -3272,7 +3272,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -3375,7 +3375,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -3471,7 +3471,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -3555,7 +3555,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4013,7 +4013,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4097,7 +4097,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4176,7 +4176,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4258,7 +4258,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4342,7 +4342,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4427,7 +4427,7 @@
       "weapon_power_debuff": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4504,7 +4504,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4591,7 +4591,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4668,7 +4668,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4745,7 +4745,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4823,7 +4823,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4900,7 +4900,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -4979,7 +4979,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -5060,7 +5060,7 @@
       "weapon_recoil_reduction": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -5145,7 +5145,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -5235,7 +5235,7 @@
       "weapon_power_buff_duration": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -5315,7 +5315,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -5401,7 +5401,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -8861,7 +8861,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -8943,7 +8943,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -9026,7 +9026,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -9111,7 +9111,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -9192,7 +9192,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -11197,314 +11197,6 @@
       },
       "zoom_fov": 35.0,
       "zoom_move_speed_percent": 1.0
-    }
-  },
-  {
-    "child_items": null,
-    "class_name": "genericperson_ability_1",
-    "cost": null,
-    "dof_while_zoomed": null,
-    "id": 1087935946,
-    "image": "images/abilities/genericperson/genericperson_ability_1_psd.png",
-    "max_level": 1,
-    "points_cost": 0,
-    "properties": {
-      "ability_cast_delay": 1.0,
-      "ability_cast_range": 0.0,
-      "ability_channel_time": 0.0,
-      "ability_charges": 0.0,
-      "ability_cooldown": 10.5,
-      "ability_cooldown_between_charge": 0.0,
-      "ability_duration": 0.0,
-      "ability_post_cast_duration": 0.0,
-      "ability_resource_cost": 0.0,
-      "ability_unit_target_limit": 1.0,
-      "channel_move_speed": 50.0,
-      "tech_power": 0.0,
-      "weapon_power": 0.0
-    },
-    "tier": null,
-    "type": null,
-    "unlocks_cost": 1,
-    "weapon_info": {
-      "auto_replenish_clip": null,
-      "bullet_damage": null,
-      "bullet_gravity_scale": null,
-      "bullet_inherit_shooter_velocity_scale": null,
-      "bullet_lifetime": null,
-      "bullet_radius": null,
-      "bullet_reflect_amount": null,
-      "bullet_reflect_scale": null,
-      "bullet_whiz_distance": null,
-      "bullets": null,
-      "burst_shot_cooldown": null,
-      "burst_shot_count": null,
-      "can_zoom": null,
-      "clip_size": null,
-      "crit_bonus_against_npcs": null,
-      "crit_bonus_end": null,
-      "crit_bonus_end_range": null,
-      "crit_bonus_start": null,
-      "crit_bonus_start_range": null,
-      "cycle_time": null,
-      "damage_falloff_bias": null,
-      "damage_falloff_end_range": null,
-      "damage_falloff_end_scale": null,
-      "damage_falloff_start_range": null,
-      "damage_falloff_start_scale": null,
-      "horizontal_punch": null,
-      "horizontal_recoil": null,
-      "npc_aiming_spread": null,
-      "penetration_percent": null,
-      "range": null,
-      "recoil_recovery_speed": null,
-      "recoil_shot_index_recovery_time_factor": null,
-      "recoil_speed": null,
-      "reload_duration": null,
-      "reload_move_speed": null,
-      "scatter_yaw_scale": null,
-      "shoot_move_speed_percent": null,
-      "shoot_spread_penalty_decay": null,
-      "shoot_spread_penalty_decay_delay": null,
-      "shoot_spread_penalty_per_shot": null,
-      "shooting_up_spread_penalty": null,
-      "spread": null,
-      "standing_spread": null,
-      "vertical_punch": null,
-      "vertical_recoil": null,
-      "zoom_fov": null,
-      "zoom_move_speed_percent": null
-    }
-  },
-  {
-    "child_items": null,
-    "class_name": "genericperson_ability_2",
-    "cost": null,
-    "dof_while_zoomed": null,
-    "id": 451176394,
-    "image": "images/abilities/genericperson/genericperson_ability_2_psd.png",
-    "max_level": 1,
-    "points_cost": 0,
-    "properties": {
-      "ability_cast_delay": 1.0,
-      "ability_cast_range": 0.0,
-      "ability_channel_time": 0.0,
-      "ability_charges": 0.0,
-      "ability_cooldown": 10.5,
-      "ability_cooldown_between_charge": 0.0,
-      "ability_duration": 0.0,
-      "ability_post_cast_duration": 0.0,
-      "ability_resource_cost": 0.0,
-      "ability_unit_target_limit": 1.0,
-      "channel_move_speed": 50.0,
-      "tech_power": 0.0,
-      "weapon_power": 0.0
-    },
-    "tier": null,
-    "type": null,
-    "unlocks_cost": 1,
-    "weapon_info": {
-      "auto_replenish_clip": null,
-      "bullet_damage": null,
-      "bullet_gravity_scale": null,
-      "bullet_inherit_shooter_velocity_scale": null,
-      "bullet_lifetime": null,
-      "bullet_radius": null,
-      "bullet_reflect_amount": null,
-      "bullet_reflect_scale": null,
-      "bullet_whiz_distance": null,
-      "bullets": null,
-      "burst_shot_cooldown": null,
-      "burst_shot_count": null,
-      "can_zoom": null,
-      "clip_size": null,
-      "crit_bonus_against_npcs": null,
-      "crit_bonus_end": null,
-      "crit_bonus_end_range": null,
-      "crit_bonus_start": null,
-      "crit_bonus_start_range": null,
-      "cycle_time": null,
-      "damage_falloff_bias": null,
-      "damage_falloff_end_range": null,
-      "damage_falloff_end_scale": null,
-      "damage_falloff_start_range": null,
-      "damage_falloff_start_scale": null,
-      "horizontal_punch": null,
-      "horizontal_recoil": null,
-      "npc_aiming_spread": null,
-      "penetration_percent": null,
-      "range": null,
-      "recoil_recovery_speed": null,
-      "recoil_shot_index_recovery_time_factor": null,
-      "recoil_speed": null,
-      "reload_duration": null,
-      "reload_move_speed": null,
-      "scatter_yaw_scale": null,
-      "shoot_move_speed_percent": null,
-      "shoot_spread_penalty_decay": null,
-      "shoot_spread_penalty_decay_delay": null,
-      "shoot_spread_penalty_per_shot": null,
-      "shooting_up_spread_penalty": null,
-      "spread": null,
-      "standing_spread": null,
-      "vertical_punch": null,
-      "vertical_recoil": null,
-      "zoom_fov": null,
-      "zoom_move_speed_percent": null
-    }
-  },
-  {
-    "child_items": null,
-    "class_name": "genericperson_ability_3",
-    "cost": null,
-    "dof_while_zoomed": null,
-    "id": 2046089634,
-    "image": "images/abilities/genericperson/genericperson_ability_3_psd.png",
-    "max_level": 1,
-    "points_cost": 0,
-    "properties": {
-      "ability_cast_delay": 1.0,
-      "ability_cast_range": 0.0,
-      "ability_channel_time": 0.0,
-      "ability_charges": 0.0,
-      "ability_cooldown": 10.5,
-      "ability_cooldown_between_charge": 0.0,
-      "ability_duration": 0.0,
-      "ability_post_cast_duration": 0.0,
-      "ability_resource_cost": 0.0,
-      "ability_unit_target_limit": 1.0,
-      "channel_move_speed": 50.0,
-      "tech_power": 0.0,
-      "weapon_power": 0.0
-    },
-    "tier": null,
-    "type": null,
-    "unlocks_cost": 1,
-    "weapon_info": {
-      "auto_replenish_clip": null,
-      "bullet_damage": null,
-      "bullet_gravity_scale": null,
-      "bullet_inherit_shooter_velocity_scale": null,
-      "bullet_lifetime": null,
-      "bullet_radius": null,
-      "bullet_reflect_amount": null,
-      "bullet_reflect_scale": null,
-      "bullet_whiz_distance": null,
-      "bullets": null,
-      "burst_shot_cooldown": null,
-      "burst_shot_count": null,
-      "can_zoom": null,
-      "clip_size": null,
-      "crit_bonus_against_npcs": null,
-      "crit_bonus_end": null,
-      "crit_bonus_end_range": null,
-      "crit_bonus_start": null,
-      "crit_bonus_start_range": null,
-      "cycle_time": null,
-      "damage_falloff_bias": null,
-      "damage_falloff_end_range": null,
-      "damage_falloff_end_scale": null,
-      "damage_falloff_start_range": null,
-      "damage_falloff_start_scale": null,
-      "horizontal_punch": null,
-      "horizontal_recoil": null,
-      "npc_aiming_spread": null,
-      "penetration_percent": null,
-      "range": null,
-      "recoil_recovery_speed": null,
-      "recoil_shot_index_recovery_time_factor": null,
-      "recoil_speed": null,
-      "reload_duration": null,
-      "reload_move_speed": null,
-      "scatter_yaw_scale": null,
-      "shoot_move_speed_percent": null,
-      "shoot_spread_penalty_decay": null,
-      "shoot_spread_penalty_decay_delay": null,
-      "shoot_spread_penalty_per_shot": null,
-      "shooting_up_spread_penalty": null,
-      "spread": null,
-      "standing_spread": null,
-      "vertical_punch": null,
-      "vertical_recoil": null,
-      "zoom_fov": null,
-      "zoom_move_speed_percent": null
-    }
-  },
-  {
-    "child_items": null,
-    "class_name": "genericperson_ability_4",
-    "cost": null,
-    "dof_while_zoomed": null,
-    "id": 1254152082,
-    "image": "images/abilities/genericperson/genericperson_ability_4_psd.png",
-    "max_level": 1,
-    "points_cost": 0,
-    "properties": {
-      "ability_cast_delay": 1.0,
-      "ability_cast_range": 0.0,
-      "ability_channel_time": 0.0,
-      "ability_charges": 0.0,
-      "ability_cooldown": 10.5,
-      "ability_cooldown_between_charge": 0.0,
-      "ability_duration": 0.0,
-      "ability_post_cast_duration": 0.0,
-      "ability_resource_cost": 0.0,
-      "ability_unit_target_limit": 1.0,
-      "channel_move_speed": 50.0,
-      "tech_power": 0.0,
-      "weapon_power": 0.0
-    },
-    "tier": null,
-    "type": null,
-    "unlocks_cost": 1,
-    "weapon_info": {
-      "auto_replenish_clip": null,
-      "bullet_damage": null,
-      "bullet_gravity_scale": null,
-      "bullet_inherit_shooter_velocity_scale": null,
-      "bullet_lifetime": null,
-      "bullet_radius": null,
-      "bullet_reflect_amount": null,
-      "bullet_reflect_scale": null,
-      "bullet_whiz_distance": null,
-      "bullets": null,
-      "burst_shot_cooldown": null,
-      "burst_shot_count": null,
-      "can_zoom": null,
-      "clip_size": null,
-      "crit_bonus_against_npcs": null,
-      "crit_bonus_end": null,
-      "crit_bonus_end_range": null,
-      "crit_bonus_start": null,
-      "crit_bonus_start_range": null,
-      "cycle_time": null,
-      "damage_falloff_bias": null,
-      "damage_falloff_end_range": null,
-      "damage_falloff_end_scale": null,
-      "damage_falloff_start_range": null,
-      "damage_falloff_start_scale": null,
-      "horizontal_punch": null,
-      "horizontal_recoil": null,
-      "npc_aiming_spread": null,
-      "penetration_percent": null,
-      "range": null,
-      "recoil_recovery_speed": null,
-      "recoil_shot_index_recovery_time_factor": null,
-      "recoil_speed": null,
-      "reload_duration": null,
-      "reload_move_speed": null,
-      "scatter_yaw_scale": null,
-      "shoot_move_speed_percent": null,
-      "shoot_spread_penalty_decay": null,
-      "shoot_spread_penalty_decay_delay": null,
-      "shoot_spread_penalty_per_shot": null,
-      "shooting_up_spread_penalty": null,
-      "spread": null,
-      "standing_spread": null,
-      "vertical_punch": null,
-      "vertical_recoil": null,
-      "zoom_fov": null,
-      "zoom_move_speed_percent": null
     }
   },
   {
@@ -15805,7 +15497,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -15891,7 +15583,7 @@
       "whirlwind_evasion_chance": 50.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -15977,7 +15669,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -16059,7 +15751,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -16152,7 +15844,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -16240,7 +15932,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -18916,7 +18608,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19003,7 +18695,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19161,7 +18853,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19249,7 +18941,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19341,7 +19033,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19430,7 +19122,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19700,7 +19392,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19777,7 +19469,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19859,7 +19551,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -19944,7 +19636,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -20021,7 +19713,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -20111,7 +19803,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -20210,7 +19902,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -20294,7 +19986,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21159,7 +20851,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21252,7 +20944,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21336,7 +21028,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21423,7 +21115,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21505,7 +21197,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21586,7 +21278,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -21670,7 +21362,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -22131,7 +21823,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -22224,7 +21916,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -22306,7 +21998,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -22402,7 +22094,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -22490,7 +22182,7 @@
       "weapon_power": 0.0
     },
     "tier": null,
-    "type": null,
+    "type": "ability",
     "unlocks_cost": 1,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25031,7 +24723,7 @@
       "weapon_power": 0.0
     },
     "tier": 1,
-    "type": null,
+    "type": "armor",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25108,7 +24800,7 @@
       "weapon_power": 0.0
     },
     "tier": 2,
-    "type": null,
+    "type": "armor",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25185,7 +24877,7 @@
       "weapon_power": 0.0
     },
     "tier": 3,
-    "type": null,
+    "type": "armor",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25262,7 +24954,7 @@
       "weapon_power": 0.0
     },
     "tier": 4,
-    "type": null,
+    "type": "armor",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25647,7 +25339,7 @@
       "weapon_power": 0.0
     },
     "tier": 1,
-    "type": null,
+    "type": "tech",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25724,7 +25416,7 @@
       "weapon_power": 0.0
     },
     "tier": 2,
-    "type": null,
+    "type": "tech",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25801,7 +25493,7 @@
       "weapon_power": 0.0
     },
     "tier": 3,
-    "type": null,
+    "type": "tech",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,
@@ -25878,7 +25570,7 @@
       "weapon_power": 0.0
     },
     "tier": 4,
-    "type": null,
+    "type": "tech",
     "unlocks_cost": null,
     "weapon_info": {
       "auto_replenish_clip": null,

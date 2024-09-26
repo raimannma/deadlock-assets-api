@@ -19,9 +19,7 @@ def get_heroes(request: Request, language: Language = Language.English) -> list[
             IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
         )
         hero.set_language(language)
-    heroes = [h for h in heroes if not h.disabled]
-    heroes = sorted(heroes, key=lambda x: x.id)
-    return heroes
+    return sorted(heroes, key=lambda x: x.id)
 
 
 @router.get("/heroes/{id}", response_model_exclude_none=True)
