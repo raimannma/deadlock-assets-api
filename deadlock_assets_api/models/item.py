@@ -280,7 +280,7 @@ class Item(BaseModel):
             )
 
     def set_base_url(self, base_url: str):
-        if self.image:
+        if self.image and not self.image.startswith(base_url):
             self.image = f"{base_url}{self.image}"
 
     def set_language(self, language: Language):
