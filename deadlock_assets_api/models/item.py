@@ -211,7 +211,7 @@ class Item(BaseModel):
     dof_while_zoomed: ItemDofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
-    points_cost: int | None = Field(None, validation_alias="m_nComponentPointsCost")
+    points_cost: int | None = Field(None, validation_alias="m_nAbilityPointsCost")
     unlocks_cost: int | None = Field(
         None, validation_alias="m_nAbillityUnlocksCost"
     )  # typo in the original data
