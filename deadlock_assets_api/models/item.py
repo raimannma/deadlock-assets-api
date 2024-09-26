@@ -202,8 +202,8 @@ class Item(BaseModel):
     name: str | None = Field(None)
     class_name: str = Field()
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
-    properties: dict[str, ItemInfoProperty | str | float] | None = Field(
-        None, validation_alias="m_mapComponentProperties"
+    properties: dict[str, ItemInfoProperty | str | float | None] | None = Field(
+        None, validation_alias="m_mapAbilityProperties"
     )
     weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"

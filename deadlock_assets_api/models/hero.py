@@ -192,7 +192,7 @@ class Hero(BaseModel):
     collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
     collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
     step_height: float = Field(..., validation_alias="m_flStepHeight")
-    items: dict[str, Item | None] = Field(..., validation_alias="m_mapBoundAbilities")
+    items: dict[str, int | None] = Field(..., validation_alias="m_mapBoundAbilities")
     item_slot_info: HeroItemSlotInfo = Field(..., validation_alias="m_mapItemSlotInfo")
     purchase_bonuses: HeroPurchaseBonuses = Field(
         ..., validation_alias="m_mapPurchaseBonuses"
@@ -233,7 +233,7 @@ class Hero(BaseModel):
 
     @field_validator("items", mode="before")
     @classmethod
-    def validate_items(cls, value: dict[str, str | Item]) -> dict[str, Item]:
+    def validate_items(cls, value: dict[str, str | Item]) -> dict[str, int]:
         items = deadlock_assets_api.models.item.load_items()
 
         def convert_key(k):
@@ -244,7 +244,7 @@ class Hero(BaseModel):
         def convert_val(v: str | Item) -> Item | None:
             if not isinstance(v, str):
                 return v
-            return next((i for i in items if i.class_name == v), None)
+            return next((i.id for i in items if i.class_name == v), None)
 
         return {convert_key(k): convert_val(v) for k, v in value.items()}
 
