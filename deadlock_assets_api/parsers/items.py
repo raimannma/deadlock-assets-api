@@ -5,8 +5,6 @@ def parse_items(data: dict) -> list[Item]:
     ability_dicts = {
         k: v
         for k, v in data.items()
-        if k.startswith("citadel_")
-        or k.startswith("upgrade_")
-        or k.startswith("ability_")
+        if "base" not in k and "dummy" not in k and isinstance(v, dict)
     }
     return [Item(class_name=k, **v) for k, v in ability_dicts.items()]

@@ -42,7 +42,7 @@ def parse_vdf():
             if not file.endswith(".txt"):
                 continue
             file = os.path.join(root, file)
-            print(f"Reading {file}")
+            # print(f"Reading {file}")
             with open(file, encoding="utf8", errors="ignore") as f:
                 data = vdf.loads(f.read().replace("\ufeff", ""))
             out_file = os.path.join("res", file.replace(".txt", ".json"))
