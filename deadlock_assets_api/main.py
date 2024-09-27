@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI
 from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.requests import Request
-from starlette.responses import RedirectResponse
+from starlette.responses import RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
 
 from deadlock_assets_api.routes import base, v1
@@ -26,6 +26,9 @@ app.include_router(v1.router)
 @app.middleware("http")
 async def add_cache_headers(request: Request, call_next):
     response = await call_next(request)
+    if "Cache-Control" in response.headers:
+        return response
+
     is_success = 200 <= response.status_code < 300
     is_docs = request.url.path.replace("/", "").startswith("docs")
     is_health = request.url.path.replace("/", "").startswith("health")
@@ -34,8 +37,17 @@ async def add_cache_headers(request: Request, call_next):
     return response
 
 
+class StaticFilesCache(StaticFiles):
+    def file_response(self, *args, **kwargs) -> Response:
+        resp: Response = super().file_response(*args, **kwargs)
+        resp.headers.setdefault(
+            "Cache-Control", "public, max-age=604800, s-maxage=604800, immutable"
+        )
+        return resp
+
+
 if IMAGE_BASE_URL is None:
-    app.mount("/images", StaticFiles(directory="images"), name="images")
+    app.mount("/images", StaticFilesCache(directory="images"), name="images")
 
 
 @app.get("/", include_in_schema=False)
