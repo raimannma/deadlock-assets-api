@@ -6,6 +6,7 @@ from starlette.requests import Request
 from deadlock_assets_api.models.hero import Hero, load_heroes
 from deadlock_assets_api.models.item import Item, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
+from deadlock_assets_api.models.map import Map, get_default_map
 
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 router = APIRouter(prefix="/v1")
@@ -81,3 +82,12 @@ def get_items_by_type(
     items = get_items(request, language)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
+
+
+@router.get("/map", response_model_exclude_none=True)
+def get_map(request: Request) -> Map:
+    dl_map = get_default_map()
+    dl_map.set_base_url(
+        IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
+    )
+    return dl_map
