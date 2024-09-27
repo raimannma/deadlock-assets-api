@@ -65,8 +65,12 @@ mkdir -p localization
 cp -r depots/game/citadel/resource/localization/citadel_gc/* localization/
 
 # Extract image files
-mkdir -p images/abilities
 cp -r depots/game/citadel/panorama/images/heroes images/
-cp -r depots/game/citadel/panorama/images/hud/abilities images/
 cp depots/game/citadel/panorama/images/hud/hero_portraits/* images/heroes/
+
+mkdir -p images/abilities
+cp -r depots/game/citadel/panorama/images/hud/abilities images/
 cp -r depots/game/citadel/panorama/images/upgrades images/
+
+mkdir -p images/maps
+cp -r depots/game/citadel/panorama/images/minimap/base/* images/maps/
