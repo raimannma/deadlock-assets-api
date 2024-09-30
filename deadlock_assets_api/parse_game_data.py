@@ -40,7 +40,22 @@ def parse_vdata():
             json.dump(data, f, indent=4)
 
 
-def parse_vdf():
+def parse_localization():
+    for root, _, files in os.walk("localization"):
+        for file in files:
+            if not file.endswith(".txt"):
+                continue
+            file = os.path.join(root, file)
+            # print(f"Reading {file}")
+            with open(file, encoding="utf8", errors="ignore") as f:
+                data = vdf.loads(f.read().replace("\ufeff", ""))
+            out_file = os.path.join("res", file.replace(".txt", ".json"))
+            os.makedirs(os.path.dirname(out_file), exist_ok=True)
+            with open(out_file, "w") as f:
+                json.dump(data, f, indent=4)
+
+
+def parse_vtex():
     for root, _, files in os.walk("localization"):
         for file in files:
             if not file.endswith(".txt"):
@@ -57,4 +72,4 @@ def parse_vdf():
 
 if __name__ == "__main__":
     parse_vdata()
-    parse_vdf()
+    parse_localization()

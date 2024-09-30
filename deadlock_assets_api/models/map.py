@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 import css_parser
 from css_parser.css import CSSStyleRule
 from pydantic import BaseModel, ConfigDict, Field
@@ -124,6 +126,7 @@ def get_default_map() -> Map:
     )
 
 
+@lru_cache
 def load_objectives() -> ObjectivePositions:
     objectives = css_parser.parseFile("res/objectives_map.css")
 
@@ -134,11 +137,11 @@ def load_objectives() -> ObjectivePositions:
 
     return ObjectivePositions.model_validate(
         {
-            TOWER_IDS[t.selectorText]: ObjectivePosition(
-                left_relative=parse_percentage(t.style.marginLeft),
-                top_relative=parse_percentage(t.style.marginTop),
+            TOWER_IDS[rule.selectorText]: ObjectivePosition(
+                left_relative=parse_percentage(rule.style.marginLeft),
+                top_relative=parse_percentage(rule.style.marginTop),
             )
-            for t in objectives.cssRules
-            if isinstance(t, CSSStyleRule) and t.selectorText in TOWER_IDS
+            for rule in objectives.cssRules
+            if isinstance(rule, CSSStyleRule) and rule.selectorText in TOWER_IDS
         }
     )
