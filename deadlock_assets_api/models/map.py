@@ -2,7 +2,9 @@ from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSStyleRule
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, computed_field
+
+from deadlock_assets_api.models.map_lanes import LANES
 
 TOWER_IDS = {
     **{f"#Team{team_id + 1}Core": f"team{team_id}_core" for team_id in range(2)},
@@ -89,6 +91,31 @@ class MapImages(BaseModel):
         #     self.neutrals[k] = f"{base_url}{v}"
 
 
+class ZiplanePath(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    P0_points: list[tuple[float, float, float]] = Field(
+        ...,
+        description="The P0 points of the path.",
+    )
+    P1_points: list[tuple[float, float, float]] = Field(
+        ...,
+        description="The P1 points of the path.",
+    )
+    P2_points: list[tuple[float, float, float]] = Field(
+        ...,
+        description="The P2 points of the path.",
+    )
+
+    @classmethod
+    def from_pathnodes(cls, pathnodes: list[list[float]]) -> "ZiplanePath":
+        return cls(
+            P0_points=[(n[0], n[1], n[2]) for n in pathnodes],
+            P1_points=[(n[3], n[4], n[5]) for n in pathnodes],
+            P2_points=[(n[6], n[7], n[8]) for n in pathnodes],
+        )
+
+
 class Map(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -96,52 +123,59 @@ class Map(BaseModel):
         ...,
         description="The images of the map.",
     )
-    objective_positions: ObjectivePositions = Field(
-        ...,
-        description="The positions of the objectives on the map.",
-    )
 
     def set_base_url(self, base_url: str):
         self.images.set_base_url(base_url)
 
+    @computed_field
+    @property
+    def objective_positions(self) -> ObjectivePositions:
+        objectives = load_objectives()
 
-def get_default_map() -> Map:
-    return Map(
-        objective_positions=load_objectives(),
-        images=MapImages(
-            background="images/maps/minimap_bg_psd.png",
-            frame="images/maps/minimap_frame_psd.png",
-            mid="images/maps/minimap_mid_psd.png",
-            # lanes=[
-            #     "images/maps/minimap_lane_1_psd.png",
-            #     "images/maps/minimap_lane_2_psd.png",
-            #     "images/maps/minimap_lane_3_psd.png",
-            #     "images/maps/minimap_lane_4_psd.png",
-            # ],
-            # neutrals={
-            #     f.replace("_png.png", ""): os.path.join("images", "maps", "neutrals", f)
-            #     for f in os.listdir("images/maps/neutrals")
-            # },
-        ),
+        def parse_percentage(value: str) -> float:
+            if value.endswith("%"):
+                return float(value[:-1]) / 100
+            return float(value)
+
+        return ObjectivePositions.model_validate(
+            {
+                TOWER_IDS[rule.selectorText]: ObjectivePosition(
+                    left_relative=parse_percentage(rule.style.marginLeft),
+                    top_relative=parse_percentage(rule.style.marginTop),
+                )
+                for rule in objectives.cssRules
+                if isinstance(rule, CSSStyleRule) and rule.selectorText in TOWER_IDS
+            }
+        )
+
+    @computed_field(
+        description="The ziplane paths of the map. Each path is a list of P0, P1, and P2 points, describing the cubic spline."
     )
+    @property
+    def zipline_paths(self) -> list[ZiplanePath]:
+        return [ZiplanePath.from_pathnodes(lane) for lane in LANES]
+
+    @classmethod
+    def get_default(cls) -> "Map":
+        return cls(
+            images=MapImages(
+                background="images/maps/minimap_bg_psd.png",
+                frame="images/maps/minimap_frame_psd.png",
+                mid="images/maps/minimap_mid_psd.png",
+                # lanes=[
+                #     "images/maps/minimap_lane_1_psd.png",
+                #     "images/maps/minimap_lane_2_psd.png",
+                #     "images/maps/minimap_lane_3_psd.png",
+                #     "images/maps/minimap_lane_4_psd.png",
+                # ],
+                # neutrals={
+                #     f.replace("_png.png", ""): os.path.join("images", "maps", "neutrals", f)
+                #     for f in os.listdir("images/maps/neutrals")
+                # },
+            ),
+        )
 
 
 @lru_cache
-def load_objectives() -> ObjectivePositions:
-    objectives = css_parser.parseFile("res/objectives_map.css")
-
-    def parse_percentage(value: str) -> float:
-        if value.endswith("%"):
-            return float(value[:-1]) / 100
-        return float(value)
-
-    return ObjectivePositions.model_validate(
-        {
-            TOWER_IDS[rule.selectorText]: ObjectivePosition(
-                left_relative=parse_percentage(rule.style.marginLeft),
-                top_relative=parse_percentage(rule.style.marginTop),
-            )
-            for rule in objectives.cssRules
-            if isinstance(rule, CSSStyleRule) and rule.selectorText in TOWER_IDS
-        }
-    )
+def load_objectives():
+    return css_parser.parseFile("res/objectives_map.css")

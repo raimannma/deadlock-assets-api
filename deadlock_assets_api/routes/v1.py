@@ -8,7 +8,7 @@ from deadlock_assets_api.models.colors import Color
 from deadlock_assets_api.models.hero import Hero, load_heroes
 from deadlock_assets_api.models.item import Item, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
-from deadlock_assets_api.models.map import Map, get_default_map
+from deadlock_assets_api.models.map import Map
 
 IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 router = APIRouter(prefix="/v1")
@@ -88,7 +88,7 @@ def get_items_by_type(
 
 @router.get("/map", response_model_exclude_none=True)
 def get_map(request: Request) -> Map:
-    dl_map = get_default_map()
+    dl_map = Map.get_default()
     dl_map.set_base_url(
         IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
     )
