@@ -1,4 +1,55 @@
+import css_parser
+from css_parser.css import CSSStyleRule
 from pydantic import BaseModel, ConfigDict, Field
+
+TOWER_IDS = {
+    **{f"#Team{team_id + 1}Core": f"team{team_id}_core" for team_id in range(2)},
+    **{f"#Team{team_id + 1}Titan": f"team{team_id}_titan" for team_id in range(2)},
+    **{
+        f"#Team{team_id + 1}Tier{tier + 1}_{i}": f"team{team_id}_tier{tier + 1}_{i}"
+        for team_id in range(2)
+        for tier in range(2)
+        for i in range(1, 5)
+    },
+}
+
+
+class ObjectivePosition(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    left_relative: float = Field(
+        ...,
+        description="The relative margin left of the map image.",
+    )
+    top_relative: float = Field(
+        ...,
+        description="The relative margin top of the map image.",
+    )
+
+
+class ObjectivePositions(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    team0_core: ObjectivePosition
+    team1_core: ObjectivePosition
+    team0_titan: ObjectivePosition
+    team1_titan: ObjectivePosition
+    team0_tier2_1: ObjectivePosition
+    team0_tier2_2: ObjectivePosition
+    team0_tier2_3: ObjectivePosition
+    team0_tier2_4: ObjectivePosition
+    team1_tier2_1: ObjectivePosition
+    team1_tier2_2: ObjectivePosition
+    team1_tier2_3: ObjectivePosition
+    team1_tier2_4: ObjectivePosition
+    team0_tier1_1: ObjectivePosition
+    team0_tier1_2: ObjectivePosition
+    team0_tier1_3: ObjectivePosition
+    team0_tier1_4: ObjectivePosition
+    team1_tier1_1: ObjectivePosition
+    team1_tier1_2: ObjectivePosition
+    team1_tier1_3: ObjectivePosition
+    team1_tier1_4: ObjectivePosition
 
 
 class MapImages(BaseModel):
@@ -43,6 +94,10 @@ class Map(BaseModel):
         ...,
         description="The images of the map.",
     )
+    objective_positions: ObjectivePositions = Field(
+        ...,
+        description="The positions of the objectives on the map.",
+    )
 
     def set_base_url(self, base_url: str):
         self.images.set_base_url(base_url)
@@ -50,6 +105,7 @@ class Map(BaseModel):
 
 def get_default_map() -> Map:
     return Map(
+        objective_positions=load_objectives(),
         images=MapImages(
             background="images/maps/minimap_bg_psd.png",
             frame="images/maps/minimap_frame_psd.png",
@@ -64,5 +120,25 @@ def get_default_map() -> Map:
             #     f.replace("_png.png", ""): os.path.join("images", "maps", "neutrals", f)
             #     for f in os.listdir("images/maps/neutrals")
             # },
-        )
+        ),
+    )
+
+
+def load_objectives() -> ObjectivePositions:
+    objectives = css_parser.parseFile("res/objectives_map.css")
+
+    def parse_percentage(value: str) -> float:
+        if value.endswith("%"):
+            return float(value[:-1]) / 100
+        return float(value)
+
+    return ObjectivePositions.model_validate(
+        {
+            TOWER_IDS[t.selectorText]: ObjectivePosition(
+                left_relative=parse_percentage(t.style.marginLeft),
+                top_relative=parse_percentage(t.style.marginTop),
+            )
+            for t in objectives.cssRules
+            if isinstance(t, CSSStyleRule) and t.selectorText in TOWER_IDS
+        }
     )

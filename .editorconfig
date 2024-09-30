@@ -14,3 +14,6 @@ trim_trailing_whitespace = false
 
 [*.{json,yaml,yml}]
 indent_size = 2
+
+[*.css]
+indent_style = tab
