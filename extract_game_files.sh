@@ -56,21 +56,22 @@ done
 
 # Extract vData files
 mkdir -p vdata
-cp depots/game/citadel/scripts/abilities.vdata vdata/
-cp depots/game/citadel/scripts/heroes.vdata vdata/
-cp depots/game/citadel/scripts/generic_data.vdata vdata/
+cp "$citadel_folder"/scripts/abilities.vdata vdata/
+cp "$citadel_folder"/scripts/heroes.vdata vdata/
+cp "$citadel_folder"/scripts/generic_data.vdata vdata/
 
 # Extract localization files
 mkdir -p localization
-cp -r depots/game/citadel/resource/localization/citadel_gc/* localization/
+cp -r "$citadel_folder"/resource/localization/citadel_gc/* localization/
 
 # Extract image files
-cp -r depots/game/citadel/panorama/images/heroes images/
-cp depots/game/citadel/panorama/images/hud/hero_portraits/* images/heroes/
+mkdir -p images
+cp -r "$citadel_folder"/panorama/images/heroes images/
+cp "$citadel_folder"/panorama/images/hud/hero_portraits/* images/heroes/
 
 mkdir -p images/abilities
-cp -r depots/game/citadel/panorama/images/hud/abilities images/
-cp -r depots/game/citadel/panorama/images/upgrades images/
+cp -r "$citadel_folder"/panorama/images/hud/abilities images/
+cp -r "$citadel_folder"/panorama/images/upgrades images/
 
 mkdir -p images/maps
-cp -r depots/game/citadel/panorama/images/minimap/base/* images/maps/
+cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
