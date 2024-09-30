@@ -3,6 +3,8 @@ import os
 from fastapi import APIRouter, HTTPException
 from starlette.requests import Request
 
+from deadlock_assets_api.models import colors
+from deadlock_assets_api.models.colors import Color
 from deadlock_assets_api.models.hero import Hero, load_heroes
 from deadlock_assets_api.models.item import Item, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
@@ -91,3 +93,8 @@ def get_map(request: Request) -> Map:
         IMAGE_BASE_URL or str(request.base_url).replace("http://", "https://")
     )
     return dl_map
+
+
+@router.get("/colors", response_model_exclude_none=True)
+def get_colors() -> dict[str, Color]:
+    return colors.get_colors()

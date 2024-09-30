@@ -70,7 +70,8 @@ cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
 
 # Extract css files
 mkdir -p res
-cp -r "$citadel_folder"/panorama/styles/objectives_map.css res/
+cp "$citadel_folder"/panorama/styles/objectives_map.css res/
+cp "$citadel_folder"/panorama/styles/citadel_shared_colors.css res/
 
 # Extract image files
 mkdir -p images
