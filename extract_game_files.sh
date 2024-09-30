@@ -64,6 +64,10 @@ cp "$citadel_folder"/scripts/generic_data.vdata vdata/
 mkdir -p localization
 cp -r "$citadel_folder"/resource/localization/citadel_gc/* localization/
 
+# Extract video files
+mkdir -p videos
+cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
+
 # Extract image files
 mkdir -p images
 cp -r "$citadel_folder"/panorama/images/heroes images/

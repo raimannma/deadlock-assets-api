@@ -48,6 +48,7 @@ class StaticFilesCache(StaticFiles):
 
 if IMAGE_BASE_URL is None:
     app.mount("/images", StaticFilesCache(directory="images"), name="images")
+    app.mount("/videos", StaticFilesCache(directory="videos"), name="videos")
 
 
 @app.get("/", include_in_schema=False)

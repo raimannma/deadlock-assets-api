@@ -244,6 +244,7 @@ class Item(BaseModel):
     name: str | None = Field(None)
     class_name: str = Field()
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
+    video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
     properties: dict[str, ItemInfoProperty | str | float | None] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
@@ -320,10 +321,15 @@ class Item(BaseModel):
                 .replace('"', "")
                 .replace(".psd", "_psd.png")
             )
+        if self.video:
+            if "videos/" in self.video:
+                self.video = "videos/" + self.video.split("videos/")[-1]
 
     def set_base_url(self, base_url: str):
         if self.image and not self.image.startswith(base_url):
             self.image = f"{base_url}{self.image}"
+        if self.video and not self.video.startswith(base_url):
+            self.video = f"{base_url}{self.video}"
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
