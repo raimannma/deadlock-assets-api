@@ -361,7 +361,7 @@ class Item(BaseModel):
             for s in (
                 next((item.id for item in items if item.class_name == child_item), None)
                 for child_item in self.child_items
-                if self.id != child_item and self.class_name != child_item
+                if self.class_name != child_item
             )
             if s is not None
         ]
