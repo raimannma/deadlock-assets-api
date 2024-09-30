@@ -1,3 +1,19 @@
+MAP_RADIUS = 10752
+
+LANE_ORIGINS: list[tuple[float, float, float]] = [
+    (-240.0, 11520.0, 1504.0),
+    (-80.0, -11520.0, 1504.0),
+    (80.0, -11520.0, 1504.0),
+    (240.0, -11520.0, 1504.0),
+]
+
+LANE_COLORS: list[str] = [
+    "#ff6a00",
+    "#ff0000",
+    "#0019ff",
+    "#8b008b",
+]
+
 LANES: list[list[list[float]]] = [
     [
         [

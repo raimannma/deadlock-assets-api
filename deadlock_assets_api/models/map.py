@@ -4,7 +4,12 @@ import css_parser
 from css_parser.css import CSSStyleRule
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
-from deadlock_assets_api.models.map_lanes import LANES
+from deadlock_assets_api.models.map_data import (
+    LANE_COLORS,
+    LANE_ORIGINS,
+    LANES,
+    MAP_RADIUS,
+)
 
 TOWER_IDS = {
     **{f"#Team{team_id + 1}Core": f"team{team_id}_core" for team_id in range(2)},
@@ -59,6 +64,10 @@ class ObjectivePositions(BaseModel):
 class MapImages(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
+    minimap: str = Field(
+        ...,
+        description="The minimap image of the map.",
+    )
     background: str = Field(
         ...,
         description="The background image of the map.",
@@ -72,27 +81,19 @@ class MapImages(BaseModel):
         description="The mid image of the map.",
     )
 
-    # lanes: list[str] = Field(
-    #     ...,
-    #     description="The lane images of the map.",
-    # )
-    # neutrals: dict[str, str] = Field(
-    #     ...,
-    #     description="The neutral images of the map.",
-    # )
-
     def set_base_url(self, base_url: str):
-        self.background = f"{base_url}{self.background}"
-        self.frame = f"{base_url}{self.frame}"
-        self.mid = f"{base_url}{self.mid}"
-        # for i, lane in enumerate(self.lanes):
-        #     self.lanes[i] = f"{base_url}{lane}"
-        # for k, v in self.neutrals.items():
-        #     self.neutrals[k] = f"{base_url}{v}"
+        for attr in self.model_fields.keys():
+            setattr(self, attr, f"{base_url}{getattr(self, attr)}")
 
 
 class ZiplanePath(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
+    origin: tuple[float, float, float] = Field(
+        ..., description="The origin of the path."
+    )
+
+    color: str = Field(..., description="The color of the path.")
 
     P0_points: list[tuple[float, float, float]] = Field(
         ...,
@@ -108,16 +109,22 @@ class ZiplanePath(BaseModel):
     )
 
     @classmethod
-    def from_pathnodes(cls, pathnodes: list[list[float]]) -> "ZiplanePath":
+    def from_pathnodes(cls, pathnodes: list[list[float]], **kwargs) -> "ZiplanePath":
         return cls(
             P0_points=[(n[0], n[1], n[2]) for n in pathnodes],
             P1_points=[(n[3], n[4], n[5]) for n in pathnodes],
             P2_points=[(n[6], n[7], n[8]) for n in pathnodes],
+            **kwargs,
         )
 
 
 class Map(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
+
+    radius: int = Field(
+        MAP_RADIUS,
+        description="The radius of the map.",
+    )
 
     images: MapImages = Field(
         ...,
@@ -153,25 +160,19 @@ class Map(BaseModel):
     )
     @property
     def zipline_paths(self) -> list[ZiplanePath]:
-        return [ZiplanePath.from_pathnodes(lane) for lane in LANES]
+        return [
+            ZiplanePath.from_pathnodes(lane, color=color, origin=origin)
+            for lane, color, origin in zip(LANES, LANE_COLORS, LANE_ORIGINS)
+        ]
 
     @classmethod
     def get_default(cls) -> "Map":
         return cls(
             images=MapImages(
+                minimap="images/maps/minimap.png",
                 background="images/maps/minimap_bg_psd.png",
                 frame="images/maps/minimap_frame_psd.png",
                 mid="images/maps/minimap_mid_psd.png",
-                # lanes=[
-                #     "images/maps/minimap_lane_1_psd.png",
-                #     "images/maps/minimap_lane_2_psd.png",
-                #     "images/maps/minimap_lane_3_psd.png",
-                #     "images/maps/minimap_lane_4_psd.png",
-                # ],
-                # neutrals={
-                #     f.replace("_png.png", ""): os.path.join("images", "maps", "neutrals", f)
-                #     for f in os.listdir("images/maps/neutrals")
-                # },
             ),
         )
 
