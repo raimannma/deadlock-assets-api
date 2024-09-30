@@ -20,6 +20,10 @@ def parse_vdata():
     for parse_func, file_path, out_path in VDATA_FILES:
         with open(file_path) as f:
             data = KV3Parser(f.read()).parse()
+        with open(
+            f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w"
+        ) as f:
+            json.dump(data, f, indent=4)
         data = parse_func(data)
         if isinstance(data, list):
             data = [

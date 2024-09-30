@@ -1,6 +1,8 @@
 vdata/
 images/
+videos/
 /localization
+res/raw_*
 
 # Game File Extractor
 DepotDownloader
