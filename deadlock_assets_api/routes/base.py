@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from deadlock_assets_api.models.hero import Hero
-from deadlock_assets_api.models.item import Item
+from deadlock_assets_api.models.item import Item, ItemType
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.routes import v1
 
@@ -39,5 +39,7 @@ def get_item_by_name(name: str, language: Language = Language.English) -> Item:
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
-def get_items_by_type(language: Language = Language.English) -> list[Item]:
-    return v1.get_items_by_type(language)
+def get_items_by_type(
+    type: ItemType, language: Language = Language.English
+) -> list[Item]:
+    return v1.get_items_by_type(type, language)
