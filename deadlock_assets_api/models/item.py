@@ -297,7 +297,7 @@ class Item(BaseModel):
 
     @computed_field
     @property
-    def video_mp4_h265(self) -> str | None:
+    def video_mp4_h264(self) -> str | None:
         if self.video is None:
             return None
         return self.video.replace(".webm", ".mp4")
