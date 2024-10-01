@@ -6,6 +6,7 @@ from deadlock_assets_api.models.hero import Hero, load_heroes
 from deadlock_assets_api.models.item import Item, ItemSlotType, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.map import Map
+from deadlock_assets_api.models.steam_info import SteamInfo
 
 router = APIRouter(prefix="/v1")
 
@@ -89,3 +90,8 @@ def get_map() -> Map:
 @router.get("/colors", response_model_exclude_none=True)
 def get_colors() -> dict[str, Color]:
     return colors.get_colors()
+
+
+@router.get("/steam-info")
+def get_steam_info() -> SteamInfo:
+    return SteamInfo.load()

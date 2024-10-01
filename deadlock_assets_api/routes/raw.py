@@ -22,3 +22,8 @@ def get_items() -> FileResponse:
 @router.get("/colors")
 def get_colors() -> FileResponse:
     return FileResponse("res/citadel_shared_colors.css")
+
+
+@router.get("/steam-info")
+def get_steam_info() -> FileResponse:
+    return FileResponse("res/steam.inf")
