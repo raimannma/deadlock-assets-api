@@ -73,7 +73,7 @@ def get_items_by_type(
 
 
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
-def get_items_by_type(
+def get_items_by_slot_type(
     slot_type: ItemSlotType, language: Language = Language.English
 ) -> list[Item]:
     items = get_items(language)
