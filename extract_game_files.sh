@@ -54,6 +54,10 @@ for vpk_file in $(find depots -type f -name "*.vpk"); do
     rm "$vpk_file"
 done
 
+# Extract Steam Info
+mkdir -p res
+cp "$citadel_folder"/steam.inf res/
+
 # Extract vData files
 mkdir -p vdata
 cp "$citadel_folder"/scripts/abilities.vdata vdata/
@@ -69,7 +73,6 @@ mkdir -p videos
 cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
 
 # Extract css files
-mkdir -p res
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
 cp "$citadel_folder"/panorama/styles/citadel_shared_colors.css res/
 
