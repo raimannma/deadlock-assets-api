@@ -297,6 +297,13 @@ class Item(BaseModel):
 
     @computed_field
     @property
+    def video_mp4_h265(self) -> str | None:
+        if self.video is None:
+            return None
+        return self.video.replace(".webm", ".mp4")
+
+    @computed_field
+    @property
     def type(self) -> ItemType | None:
         name = utils.strip_prefix(self.class_name, "citadel_")
         first_word = name.split("_")[0]
