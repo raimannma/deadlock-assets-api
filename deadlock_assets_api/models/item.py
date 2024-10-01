@@ -16,6 +16,7 @@ from pydantic import (
 )
 
 import deadlock_assets_api.models.generic_data
+from deadlock_assets_api.glob import IMAGE_BASE_URL, VIDEO_BASE_URL
 from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.languages import Language
 
@@ -341,20 +342,10 @@ class Item(BaseModel):
             split_index = self.image.find("abilities/")
             if split_index == -1:
                 split_index = self.image.find("upgrades/")
-            self.image = (
-                ("images/" + self.image[split_index:])
-                .replace('"', "")
-                .replace(".psd", "_psd.png")
-            )
-        if self.video:
-            if "videos/" in self.video:
-                self.video = "videos/" + self.video.split("videos/")[-1]
-
-    def set_base_url(self, base_url: str):
-        if self.image and not self.image.startswith(base_url):
-            self.image = f"{base_url}{self.image}"
-        if self.video and not self.video.startswith(base_url):
-            self.video = f"{base_url}{self.video}"
+            self.image = f"{IMAGE_BASE_URL}/{self.image[split_index:]}"
+            self.image = self.image.replace('"', "").replace(".psd", "_psd.png")
+        if self.video and "videos/" in self.video:
+            self.video = f"{VIDEO_BASE_URL}/{self.video.split('videos/')[-1]}"
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)

@@ -4,6 +4,7 @@ import css_parser
 from css_parser.css import CSSStyleRule
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
+from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.map_data import (
     LANE_COLORS,
     LANE_ORIGINS,
@@ -68,6 +69,10 @@ class MapImages(BaseModel):
         ...,
         description="The minimap image of the map.",
     )
+    plain: str = Field(
+        ...,
+        description="The minimap image of the map without background image and frame image.",
+    )
     background: str = Field(
         ...,
         description="The background image of the map.",
@@ -80,10 +85,6 @@ class MapImages(BaseModel):
         ...,
         description="The mid image of the map.",
     )
-
-    def set_base_url(self, base_url: str):
-        for attr in self.model_fields.keys():
-            setattr(self, attr, f"{base_url}{getattr(self, attr)}")
 
 
 class ZiplanePath(BaseModel):
@@ -131,9 +132,6 @@ class Map(BaseModel):
         description="The images of the map.",
     )
 
-    def set_base_url(self, base_url: str):
-        self.images.set_base_url(base_url)
-
     @computed_field
     @property
     def objective_positions(self) -> ObjectivePositions:
@@ -169,10 +167,11 @@ class Map(BaseModel):
     def get_default(cls) -> "Map":
         return cls(
             images=MapImages(
-                minimap="images/maps/minimap.png",
-                background="images/maps/minimap_bg_psd.png",
-                frame="images/maps/minimap_frame_psd.png",
-                mid="images/maps/minimap_mid_psd.png",
+                minimap=f"{IMAGE_BASE_URL}/maps/minimap.png",
+                plain=f"{IMAGE_BASE_URL}/maps/minimap_plain.png",
+                background=f"{IMAGE_BASE_URL}/maps/minimap_bg_psd.png",
+                frame=f"{IMAGE_BASE_URL}/maps/minimap_frame_psd.png",
+                mid=f"{IMAGE_BASE_URL}/maps/minimap_mid_psd.png",
             ),
         )
 

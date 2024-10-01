@@ -14,6 +14,7 @@ from pydantic import (
 )
 
 import deadlock_assets_api.models.item
+from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.item import Item
 from deadlock_assets_api.models.languages import Language
@@ -133,10 +134,6 @@ class HeroImages(BaseModel):
     small: str | None = Field(None)
     weapon: str | None = Field(None)
 
-    def set_base_url(self, base_url: str):
-        for attr, value in self.__dict__.items():
-            setattr(self, attr, f"{base_url}{value}")
-
 
 class WeaponStatsDisplay(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
@@ -229,7 +226,6 @@ class Hero(BaseModel):
     minimap_image: str | None = Field(None, validation_alias="m_strMinimapImage")
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
-    base_url: str | None = Field(None, exclude=True)
 
     @field_validator("items", mode="before")
     @classmethod
@@ -249,12 +245,6 @@ class Hero(BaseModel):
             return next((i.id for i in items if i.class_name == v), None)
 
         return {convert_key(k): convert_val(v) for k, v in value.items()}
-
-    def set_base_url(self, base_url: str):
-        self.base_url = base_url
-        for item in self.items.values():
-            if isinstance(item, Item):
-                item.set_base_url(base_url)
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
@@ -300,7 +290,7 @@ class Hero(BaseModel):
             v = utils.strip_prefix(v, "hero_portraits/")
             v = utils.strip_prefix(v, "hud/")
             v = v.replace('.psd"', "_psd.png")
-            return f"{self.base_url or ''}images/heroes/{v}"
+            return f"{IMAGE_BASE_URL}/heroes/{v}"
 
         return HeroImages(**{k: parse_img_path(v) for k, v in img_dict.items()})
 

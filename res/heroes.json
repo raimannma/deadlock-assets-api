@@ -42,12 +42,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/inferno_sm.psd\"",
     "id": 1,
     "images": {
-      "card": "images/heroes/inferno_card_psd.png",
-      "minimap": "images/heroes/inferno_mm_psd.png",
-      "portrait": "images/heroes/inferno_psd.png",
-      "small": "images/heroes/inferno_sm_psd.png",
-      "top_bar": "images/heroes/inferno_hud_psd.png",
-      "weapon": "images/heroes/guns/inferno_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/inferno_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/inferno_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/inferno_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/inferno_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/inferno_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/inferno_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -457,12 +457,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/gigawatt_sm.psd\"",
     "id": 2,
     "images": {
-      "card": "images/heroes/gigawatt_card_psd.png",
-      "minimap": "images/heroes/gigawatt_mm_psd.png",
-      "portrait": "images/heroes/gigawatt_psd.png",
-      "small": "images/heroes/gigawatt_sm_psd.png",
-      "top_bar": "images/heroes/gigwatt_hud_psd.png",
-      "weapon": "images/heroes/guns/gigawatt_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/gigawatt_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/gigawatt_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/gigawatt_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/gigawatt_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/gigwatt_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/gigawatt_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -872,12 +872,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/hornet_sm.png\"",
     "id": 3,
     "images": {
-      "card": "images/heroes/hornet_card_psd.png",
-      "minimap": "images/heroes/hornet_mm_psd.png",
-      "portrait": "images/heroes/hornet_psd.png",
-      "small": "images/heroes/hornet_sm.png\"",
-      "top_bar": "images/heroes/hornet_hud_psd.png",
-      "weapon": "images/heroes/guns/hornet_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/hornet_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/hornet_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/hornet_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/hornet_sm.png\"",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/hornet_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/hornet_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -1287,12 +1287,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/spectre_sm.psd\"",
     "id": 4,
     "images": {
-      "card": "images/heroes/spectre_card_psd.png",
-      "minimap": "images/heroes/spectre_mm_psd.png",
-      "portrait": "images/heroes/spectre_psd.png",
-      "small": "images/heroes/spectre_sm_psd.png",
-      "top_bar": "images/heroes/spectre_hud_psd.png",
-      "weapon": "images/heroes/guns/spectre_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/spectre_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/spectre_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/spectre_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/spectre_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/spectre_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/spectre_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -1702,12 +1702,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/bull_sm.psd\"",
     "id": 6,
     "images": {
-      "card": "images/heroes/bull_card_psd.png",
-      "minimap": "images/heroes/bull_mm_psd.png",
-      "portrait": "images/heroes/bull_psd.png",
-      "small": "images/heroes/bull_sm_psd.png",
-      "top_bar": "images/heroes/bull_hud_psd.png",
-      "weapon": "images/heroes/guns/bull_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/bull_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/bull_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/bull_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/bull_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/bull_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/bull_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -2117,12 +2117,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/wraith_sm.psd\"",
     "id": 7,
     "images": {
-      "card": "images/heroes/wraith_card_psd.png",
-      "minimap": "images/heroes/wraith_mm_psd.png",
-      "portrait": "images/heroes/wraith_psd.png",
-      "small": "images/heroes/wraith_sm_psd.png",
-      "top_bar": "images/heroes/wraith_hud_psd.png",
-      "weapon": "images/heroes/guns/wraith_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/wraith_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/wraith_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/wraith_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/wraith_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/wraith_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/wraith_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -2532,12 +2532,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/engineer_sm.psd\"",
     "id": 8,
     "images": {
-      "card": "images/heroes/engineer_card_psd.png",
-      "minimap": "images/heroes/engineer_mm_psd.png",
-      "portrait": "images/heroes/engineer_psd.png",
-      "small": "images/heroes/engineer_sm_psd.png",
-      "top_bar": "images/heroes/engineer_hud_psd.png",
-      "weapon": "images/heroes/guns/engineer_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/engineer_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/engineer_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/engineer_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/engineer_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/engineer_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/engineer_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -2947,12 +2947,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/chrono_sm.psd\"",
     "id": 10,
     "images": {
-      "card": "images/heroes/chrono_card_psd.png",
-      "minimap": "images/heroes/chrono_mm_psd.png",
-      "portrait": "images/heroes/chrono_psd.png",
-      "small": "images/heroes/chrono_sm_psd.png",
-      "top_bar": "images/heroes/chrono_hud_psd.png",
-      "weapon": "images/heroes/guns/chrono_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/chrono_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/chrono_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/chrono_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/chrono_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/chrono_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/chrono_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -3362,12 +3362,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/sumo_sm.psd\"",
     "id": 11,
     "images": {
-      "card": "images/heroes/sumo_card_psd.png",
-      "minimap": "images/heroes/sumo_mm_psd.png",
-      "portrait": "images/heroes/sumo_psd.png",
-      "small": "images/heroes/sumo_sm_psd.png",
-      "top_bar": "images/heroes/sumo_hud_psd.png",
-      "weapon": "images/heroes/guns/dynamo_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/sumo_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/sumo_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/sumo_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/sumo_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/sumo_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/dynamo_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -3777,12 +3777,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/kelvin_sm.psd\"",
     "id": 12,
     "images": {
-      "card": "images/heroes/kelvin_card_psd.png",
-      "minimap": "images/heroes/kelvin_mm_psd.png",
-      "portrait": "images/heroes/kelvin_psd.png",
-      "small": "images/heroes/kelvin_sm_psd.png",
-      "top_bar": "images/heroes/kelvin_hud_psd.png",
-      "weapon": "images/heroes/guns/kelvin_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/kelvin_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/kelvin_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/kelvin_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/kelvin_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/kelvin_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/kelvin_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -4192,12 +4192,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/haze_sm.psd\"",
     "id": 13,
     "images": {
-      "card": "images/heroes/haze_card_psd.png",
-      "minimap": "images/heroes/haze_mm_psd.png",
-      "portrait": "images/heroes/haze_psd.png",
-      "small": "images/heroes/haze_sm_psd.png",
-      "top_bar": "images/heroes/haze_hud_psd.png",
-      "weapon": "images/heroes/guns/haze_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/haze_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/haze_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/haze_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/haze_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/haze_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/haze_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -4607,11 +4607,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/astro_sm.psd\"",
     "id": 14,
     "images": {
-      "card": "images/heroes/astro_card_psd.png",
-      "minimap": "images/heroes/astro_mm_psd.png",
-      "portrait": "images/heroes/astro_psd.png",
-      "small": "images/heroes/astro_sm_psd.png",
-      "top_bar": "images/heroes/astro_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/astro_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/astro_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/astro_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/astro_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/astro_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -5022,12 +5022,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/bebop_sm.psd\"",
     "id": 15,
     "images": {
-      "card": "images/heroes/bebop_card_psd.png",
-      "minimap": "images/heroes/bebop_mm_psd.png",
-      "portrait": "images/heroes/bebop_psd.png",
-      "small": "images/heroes/bebop_sm_psd.png",
-      "top_bar": "images/heroes/bebop_hud_psd.png",
-      "weapon": "images/heroes/guns/bebop_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/bebop_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/bebop_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/bebop_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/bebop_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/bebop_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/bebop_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -5438,11 +5438,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/nano_sm.psd\"",
     "id": 16,
     "images": {
-      "card": "images/heroes/nano_card_psd.png",
-      "minimap": "images/heroes/nano_mm_psd.png",
-      "portrait": "images/heroes/nano_psd.png",
-      "small": "images/heroes/nano_sm_psd.png",
-      "top_bar": "images/heroes/nano_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/nano_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/nano_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/nano_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/nano_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/nano_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -5854,12 +5854,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/archer_sm.psd\"",
     "id": 17,
     "images": {
-      "card": "images/heroes/archer_card_psd.png",
-      "minimap": "images/heroes/archer_mm_psd.png",
-      "portrait": "images/heroes/archer_psd.png",
-      "small": "images/heroes/archer_sm_psd.png",
-      "top_bar": "images/heroes/archer_hud_psd.png",
-      "weapon": "images/heroes/guns/archer_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/archer_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/archer_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/archer_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/archer_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/archer_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/archer_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -6269,12 +6269,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/digger_sm.psd\"",
     "id": 18,
     "images": {
-      "card": "images/heroes/digger_card_psd.png",
-      "minimap": "images/heroes/digger_mm_psd.png",
-      "portrait": "images/heroes/digger_psd.png",
-      "small": "images/heroes/digger_sm_psd.png",
-      "top_bar": "images/heroes/digger_hud_psd.png",
-      "weapon": "images/heroes/guns/digger_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/digger_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/digger_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/digger_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/digger_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/digger_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/digger_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -6684,12 +6684,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/shiv_sm.psd\"",
     "id": 19,
     "images": {
-      "card": "images/heroes/shiv_card_psd.png",
-      "minimap": "images/heroes/shiv_mm_psd.png",
-      "portrait": "images/heroes/shiv_psd.png",
-      "small": "images/heroes/shiv_sm_psd.png",
-      "top_bar": "images/heroes/shiv_hud_psd.png",
-      "weapon": "images/heroes/guns/shiv_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/shiv_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/shiv_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/shiv_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/shiv_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/shiv_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/shiv_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -7100,12 +7100,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/tengu_sm.psd\"",
     "id": 20,
     "images": {
-      "card": "images/heroes/tengu_card_psd.png",
-      "minimap": "images/heroes/tengu_mm_psd.png",
-      "portrait": "images/heroes/tengu_psd.png",
-      "small": "images/heroes/tengu_sm_psd.png",
-      "top_bar": "images/heroes/tengu_hud_psd.png",
-      "weapon": "images/heroes/guns/ivy_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/tengu_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/tengu_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/tengu_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/tengu_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/tengu_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/ivy_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -7515,11 +7515,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/kali_sm.psd\"",
     "id": 21,
     "images": {
-      "card": "images/heroes/kali_card_psd.png",
-      "minimap": "images/heroes/kali_mm_psd.png",
-      "portrait": "images/heroes/kali_psd.png",
-      "small": "images/heroes/kali_sm_psd.png",
-      "top_bar": "images/heroes/kali_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/kali_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/kali_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/kali_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/kali_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/kali_hud_psd.png",
       "weapon": null
     },
     "in_development": false,
@@ -7930,12 +7930,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/warden_sm.psd\"",
     "id": 25,
     "images": {
-      "card": "images/heroes/warden_card_psd.png",
-      "minimap": "images/heroes/warden_mm_psd.png",
-      "portrait": "images/heroes/warden_psd.png",
-      "small": "images/heroes/warden_sm_psd.png",
-      "top_bar": "images/heroes/warden_hud_psd.png",
-      "weapon": "images/heroes/guns/warden_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/warden_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/warden_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/warden_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/warden_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/warden_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/warden_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -8345,12 +8345,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/yamato_sm.psd\"",
     "id": 27,
     "images": {
-      "card": "images/heroes/yamato_card_psd.png",
-      "minimap": "images/heroes/yamato_mm_psd.png",
-      "portrait": "images/heroes/yamato_psd.png",
-      "small": "images/heroes/yamato_sm_psd.png",
-      "top_bar": "images/heroes/yamato_hud_psd.png",
-      "weapon": "images/heroes/guns/yamato_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/yamato_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/yamato_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/yamato_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/yamato_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/yamato_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/yamato_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -8761,12 +8761,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/lash_sm.psd\"",
     "id": 31,
     "images": {
-      "card": "images/heroes/lash_card_psd.png",
-      "minimap": "images/heroes/lash_mm_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/lash_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/lash_mm_psd.png",
       "portrait": null,
-      "small": "images/heroes/lash_sm_psd.png",
-      "top_bar": "images/heroes/lash_hud_psd.png",
-      "weapon": "images/heroes/guns/lash_gun_psd.png"
+      "small": "https://assets.deadlock-api.com/images/heroes/lash_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/lash_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/lash_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -9176,12 +9176,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/viscous_sm.psd\"",
     "id": 35,
     "images": {
-      "card": "images/heroes/viscous_card_psd.png",
-      "minimap": "images/heroes/viscous_mm_psd.png",
-      "portrait": "images/heroes/viscous_psd.png",
-      "small": "images/heroes/viscous_sm_psd.png",
-      "top_bar": "images/heroes/viscous_hud_psd.png",
-      "weapon": "images/heroes/guns/viscous_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/viscous_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/viscous_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/viscous_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/viscous_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/viscous_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/viscous_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -9592,10 +9592,10 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/gunslinger_sm.psd\"",
     "id": 38,
     "images": {
-      "card": "images/heroes/gunslinger_sm_psd.png",
-      "minimap": "images/heroes/gunslinger_mm_psd.png",
-      "portrait": "images/heroes/gunslinger_psd.png",
-      "small": "images/heroes/gunslinger_sm_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/gunslinger_sm_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/gunslinger_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/gunslinger_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/gunslinger_sm_psd.png",
       "top_bar": null,
       "weapon": null
     },
@@ -10007,10 +10007,10 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/yakuza_sm.psd\"",
     "id": 39,
     "images": {
-      "card": "images/heroes/yakuza_sm_psd.png",
-      "minimap": "images/heroes/yakuza_mm_psd.png",
-      "portrait": "images/heroes/yakuza_psd.png",
-      "small": "images/heroes/yakuza_sm_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/yakuza_sm_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/yakuza_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/yakuza_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/yakuza_sm_psd.png",
       "top_bar": null,
       "weapon": null
     },
@@ -10422,11 +10422,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/tokamak_sm.psd\"",
     "id": 47,
     "images": {
-      "card": "images/heroes/tokamak_hud_psd.png",
-      "minimap": "images/heroes/tokamak_mm_psd.png",
-      "portrait": "images/heroes/tokamak_psd.png",
-      "small": "images/heroes/tokamak_sm_psd.png",
-      "top_bar": "images/heroes/tokamak_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/tokamak_hud_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/tokamak_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/tokamak_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/tokamak_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/tokamak_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -10837,11 +10837,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/wrecker_sm.psd\"",
     "id": 48,
     "images": {
-      "card": "images/heroes/wrecker_card_psd.png",
-      "minimap": "images/heroes/wrecker_mm_psd.png",
-      "portrait": "images/heroes/wrecker_psd.png",
-      "small": "images/heroes/wrecker_sm_psd.png",
-      "top_bar": "images/heroes/wrecker_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/wrecker_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/wrecker_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/wrecker_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/wrecker_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/wrecker_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -11252,11 +11252,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/rutger_sm.psd\"",
     "id": 49,
     "images": {
-      "card": "images/heroes/rutger_card_psd.png",
-      "minimap": "images/heroes/rutger_mm_psd.png",
-      "portrait": "images/heroes/rutger_psd.png",
-      "small": "images/heroes/rutger_sm_psd.png",
-      "top_bar": "images/heroes/rutger_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/rutger_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/rutger_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/rutger_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/rutger_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/rutger_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -11667,12 +11667,12 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/synth_sm.psd\"",
     "id": 50,
     "images": {
-      "card": "images/heroes/synth_card_psd.png",
-      "minimap": "images/heroes/synth_mm_psd.png",
-      "portrait": "images/heroes/synth_psd.png",
-      "small": "images/heroes/synth_sm_psd.png",
-      "top_bar": "images/heroes/synth_hud_psd.png",
-      "weapon": "images/heroes/guns/synth_gun_psd.png"
+      "card": "https://assets.deadlock-api.com/images/heroes/synth_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/synth_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/synth_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/synth_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/synth_hud_psd.png",
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/synth_gun_psd.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -12082,10 +12082,10 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/thumper_sm.psd\"",
     "id": 51,
     "images": {
-      "card": "images/heroes/thumper_sm_psd.png",
-      "minimap": "images/heroes/thumper_mm_psd.png",
-      "portrait": "images/heroes/thumper_psd.png",
-      "small": "images/heroes/thumper_sm_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/thumper_sm_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/thumper_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/thumper_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/thumper_sm_psd.png",
       "top_bar": null,
       "weapon": null
     },
@@ -12497,11 +12497,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/mirage_sm.psd\"",
     "id": 52,
     "images": {
-      "card": "images/heroes/mirage_card_psd.png",
-      "minimap": "images/heroes/mirage_mm_psd.png",
-      "portrait": "images/heroes/mirage_psd.png",
-      "small": "images/heroes/mirage_sm_psd.png",
-      "top_bar": "images/heroes/mirage_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/mirage_card_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/mirage_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/mirage_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/mirage_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/mirage_hud_psd.png",
       "weapon": null
     },
     "in_development": false,
@@ -12912,11 +12912,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/slork_sm.psd\"",
     "id": 53,
     "images": {
-      "card": "images/heroes/slork_sm_psd.png",
-      "minimap": "images/heroes/slork_mm_psd.png",
-      "portrait": "images/heroes/slork_psd.png",
-      "small": "images/heroes/slork_sm_psd.png",
-      "top_bar": "images/heroes/slork_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/slork_sm_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/slork_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/slork_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/slork_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/slork_hud_psd.png",
       "weapon": null
     },
     "in_development": true,
@@ -13328,11 +13328,11 @@
     "icon_image_small": "panorama:\"file://{images}/heroes/cadence_sm.psd\"",
     "id": 54,
     "images": {
-      "card": "images/heroes/cadence_sm_psd.png",
-      "minimap": "images/heroes/cadence_mm_psd.png",
-      "portrait": "images/heroes/cadence_psd.png",
-      "small": "images/heroes/cadence_sm_psd.png",
-      "top_bar": "images/heroes/cadence_hud_psd.png",
+      "card": "https://assets.deadlock-api.com/images/heroes/cadence_sm_psd.png",
+      "minimap": "https://assets.deadlock-api.com/images/heroes/cadence_mm_psd.png",
+      "portrait": "https://assets.deadlock-api.com/images/heroes/cadence_psd.png",
+      "small": "https://assets.deadlock-api.com/images/heroes/cadence_sm_psd.png",
+      "top_bar": "https://assets.deadlock-api.com/images/heroes/cadence_hud_psd.png",
       "weapon": null
     },
     "in_development": true,

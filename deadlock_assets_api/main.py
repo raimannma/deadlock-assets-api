@@ -1,5 +1,4 @@
 import logging
-import os
 
 from fastapi import FastAPI
 from prometheus_fastapi_instrumentator import Instrumentator
@@ -10,7 +9,6 @@ from starlette.staticfiles import StaticFiles
 from deadlock_assets_api.routes import base, v1
 
 logging.basicConfig(level=logging.INFO)
-IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL")
 
 app = FastAPI(
     title="Deadlock Assets API",
@@ -46,9 +44,8 @@ class StaticFilesCache(StaticFiles):
         return resp
 
 
-if IMAGE_BASE_URL is None:
-    app.mount("/images", StaticFilesCache(directory="images"), name="images")
-    app.mount("/videos", StaticFilesCache(directory="videos"), name="videos")
+app.mount("/images", StaticFilesCache(directory="images"), name="images")
+app.mount("/videos", StaticFilesCache(directory="videos"), name="videos")
 
 
 @app.get("/", include_in_schema=False)
