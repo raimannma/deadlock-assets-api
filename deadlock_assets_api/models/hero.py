@@ -244,6 +244,8 @@ class Hero(BaseModel):
         def convert_val(v: str | Item) -> Item | None:
             if not isinstance(v, str):
                 return v
+            if items is None:
+                return None
             return next((i.id for i in items if i.class_name == v), None)
 
         return {convert_key(k): convert_val(v) for k, v in value.items()}

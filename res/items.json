@@ -10,6 +10,7 @@
     },
     "id": 2976789773,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -108,6 +109,7 @@
     },
     "id": 3317486525,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -206,6 +208,7 @@
     },
     "id": 2470199706,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -304,6 +307,7 @@
     },
     "id": 1115497205,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -402,6 +406,7 @@
     },
     "id": 2790538565,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -500,6 +505,7 @@
     },
     "id": 2772141905,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -598,6 +604,7 @@
     },
     "id": 3033433915,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -696,6 +703,7 @@
     },
     "id": 2914777625,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -791,6 +799,7 @@
     "dof_while_zoomed": null,
     "id": 1889173382,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -874,6 +883,7 @@
     "dof_while_zoomed": null,
     "id": 1880975512,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -954,6 +964,7 @@
     "dof_while_zoomed": null,
     "id": 3500436034,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -1040,6 +1051,7 @@
     "dof_while_zoomed": null,
     "id": 3145617851,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -1125,6 +1137,7 @@
     "dof_while_zoomed": null,
     "id": 44956743,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -1211,6 +1224,7 @@
     "dof_while_zoomed": null,
     "id": 3882473045,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -1297,6 +1311,7 @@
     "dof_while_zoomed": null,
     "id": 2521299219,
     "image": "images/abilities/wraith_lift_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1380,6 +1395,7 @@
     "dof_while_zoomed": null,
     "id": 2641680935,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -1458,6 +1474,7 @@
     "dof_while_zoomed": null,
     "id": 2573821048,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1555,6 +1572,7 @@
     "dof_while_zoomed": null,
     "id": 875395762,
     "image": "images/upgrades/mods_utility/zipline_mastery_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1633,6 +1651,7 @@
     "dof_while_zoomed": null,
     "id": 1751980904,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1730,6 +1749,7 @@
     "dof_while_zoomed": null,
     "id": 4109126631,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1808,6 +1828,7 @@
     "dof_while_zoomed": null,
     "id": 4261702459,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1886,6 +1907,7 @@
     "dof_while_zoomed": null,
     "id": 1466127517,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -1969,6 +1991,7 @@
     "dof_while_zoomed": null,
     "id": 1443159618,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2047,6 +2070,7 @@
     "dof_while_zoomed": null,
     "id": 2207638101,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2131,6 +2155,7 @@
     "dof_while_zoomed": null,
     "id": 2335418656,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2209,6 +2234,7 @@
     "dof_while_zoomed": null,
     "id": 677666973,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2290,6 +2316,7 @@
     "dof_while_zoomed": null,
     "id": 2950623773,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2371,6 +2398,7 @@
     "dof_while_zoomed": null,
     "id": 755819616,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2452,6 +2480,7 @@
     "dof_while_zoomed": null,
     "id": 3299584775,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2533,6 +2562,7 @@
     "dof_while_zoomed": null,
     "id": 3571834135,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2614,6 +2644,7 @@
     "dof_while_zoomed": null,
     "id": 1208692244,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2695,6 +2726,7 @@
     "dof_while_zoomed": null,
     "id": 3123925900,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2776,6 +2808,7 @@
     "dof_while_zoomed": null,
     "id": 664285540,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -2857,6 +2890,7 @@
     "dof_while_zoomed": null,
     "id": 1792983333,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -2945,6 +2979,7 @@
     "dof_while_zoomed": null,
     "id": 4101890370,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -3029,6 +3064,7 @@
     "dof_while_zoomed": null,
     "id": 1233550373,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -3111,6 +3147,7 @@
     "dof_while_zoomed": null,
     "id": 337723920,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -3191,6 +3228,7 @@
     "dof_while_zoomed": null,
     "id": 346024533,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -3269,6 +3307,7 @@
     "dof_while_zoomed": null,
     "id": 4182904284,
     "image": "images/abilities/rutger/rutger_rocket_launcher_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3378,6 +3417,7 @@
     "dof_while_zoomed": null,
     "id": 639385332,
     "image": "images/abilities/rutger/rutger_force_field_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3482,6 +3522,7 @@
     "dof_while_zoomed": null,
     "id": 1613872264,
     "image": "images/abilities/rutger/rutger_cheat_death_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3563,6 +3604,7 @@
     "dof_while_zoomed": null,
     "id": 363299194,
     "image": "images/abilities/rutger/rutger_pulse_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3664,6 +3706,7 @@
     "dof_while_zoomed": null,
     "id": 4260284622,
     "image": "images/abilities/kali/kali_oscilloblade_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3757,6 +3800,7 @@
     "dof_while_zoomed": null,
     "id": 21628267,
     "image": "images/abilities/kali/kali_whirling_blade_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3851,6 +3895,7 @@
     "dof_while_zoomed": null,
     "id": 3219375905,
     "image": "images/abilities/kali/kali_speed_burst_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -3934,6 +3979,7 @@
     "dof_while_zoomed": null,
     "id": 488392205,
     "image": "images/abilities/bebop/bebop_sticky_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4025,6 +4071,7 @@
     "dof_while_zoomed": null,
     "id": 2219528978,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4111,6 +4158,7 @@
     "dof_while_zoomed": null,
     "id": 809682515,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4196,6 +4244,7 @@
     "dof_while_zoomed": null,
     "id": 3359246481,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4276,6 +4325,7 @@
     "dof_while_zoomed": null,
     "id": 948328221,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4359,6 +4409,7 @@
     "dof_while_zoomed": null,
     "id": 2984400727,
     "image": "images/abilities/theboss/the_boss_hired_muscle_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4444,6 +4495,7 @@
     "dof_while_zoomed": null,
     "id": 3577477084,
     "image": "images/abilities/theboss/the_boss_shakedown_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4530,6 +4582,7 @@
     "dof_while_zoomed": null,
     "id": 3108273022,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -4608,6 +4661,7 @@
     "dof_while_zoomed": null,
     "id": 3908497730,
     "image": "images/abilities/theboss/the_boss_setting_sun_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4696,6 +4750,7 @@
     "dof_while_zoomed": null,
     "id": 2250508707,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4774,6 +4829,7 @@
     "dof_while_zoomed": null,
     "id": 1685078091,
     "image": "images/abilities/duo/duo_cancel_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4852,6 +4908,7 @@
     "dof_while_zoomed": null,
     "id": 523691429,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -4931,6 +4988,7 @@
     "dof_while_zoomed": null,
     "id": 2340315673,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5009,6 +5067,7 @@
     "dof_while_zoomed": null,
     "id": 3176860010,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5089,6 +5148,7 @@
     "dof_while_zoomed": null,
     "id": 1584495732,
     "image": "images/abilities/theboss/the_boss_protection_racket_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5171,6 +5231,7 @@
     "dof_while_zoomed": null,
     "id": 348689004,
     "image": "images/abilities/thumper/thumper_ability_1_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5257,6 +5318,7 @@
     "dof_while_zoomed": null,
     "id": 2086284285,
     "image": "images/abilities/thumper/thumper_ability_2_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5348,6 +5410,7 @@
     "dof_while_zoomed": null,
     "id": 2489807574,
     "image": "images/abilities/thumper/thumper_ability_3_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5429,6 +5492,7 @@
     "dof_while_zoomed": null,
     "id": 2563620507,
     "image": "images/abilities/thumper/thumper_ability_4_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -5516,6 +5580,7 @@
     "dof_while_zoomed": null,
     "id": 2276686724,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -5594,6 +5659,7 @@
     "dof_while_zoomed": null,
     "id": 3152711215,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -5675,6 +5741,7 @@
     "dof_while_zoomed": null,
     "id": 384715776,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -5756,6 +5823,7 @@
     "dof_while_zoomed": null,
     "id": 2826225210,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -5850,6 +5918,7 @@
     "dof_while_zoomed": null,
     "id": 1983361803,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -5948,6 +6017,7 @@
     },
     "id": 2082220949,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -6042,6 +6112,7 @@
     "dof_while_zoomed": null,
     "id": 2743971415,
     "image": null,
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": null,
     "properties": null,
@@ -6118,6 +6189,7 @@
     },
     "id": 1398703271,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -6222,6 +6294,7 @@
     },
     "id": 4161463520,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -6326,6 +6399,7 @@
     "dof_while_zoomed": null,
     "id": 519260576,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -6407,6 +6481,7 @@
     "dof_while_zoomed": null,
     "id": 1235098866,
     "image": "images/abilities/inferno_bomb_v2_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6500,6 +6575,7 @@
     "dof_while_zoomed": null,
     "id": 2240607294,
     "image": "images/abilities/astro/bounce_pad_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6594,6 +6670,7 @@
     "dof_while_zoomed": null,
     "id": 943923461,
     "image": "images/upgrades/mods_weapon/longshot_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6680,6 +6757,7 @@
     "dof_while_zoomed": null,
     "id": 1138666069,
     "image": "images/abilities/astro/decoy_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6762,6 +6840,7 @@
     "dof_while_zoomed": null,
     "id": 3190606822,
     "image": "images/abilities/astro/gravity_lasso_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6854,6 +6933,7 @@
     "dof_while_zoomed": null,
     "id": 2395530931,
     "image": "images/abilities/astro/shotgun_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -6940,6 +7020,7 @@
     "dof_while_zoomed": null,
     "id": 3000276336,
     "image": "images/abilities/hornet/hornet_assassinate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7024,6 +7105,7 @@
     "dof_while_zoomed": null,
     "id": 3913047754,
     "image": "images/abilities/archer/archer_guided_arrow_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7110,6 +7192,7 @@
     },
     "id": 3609948706,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -7201,6 +7284,7 @@
     "dof_while_zoomed": null,
     "id": 3415298717,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -7282,6 +7366,7 @@
     "dof_while_zoomed": null,
     "id": 2824119765,
     "image": "images/abilities/bull_charge_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7374,6 +7459,7 @@
     "dof_while_zoomed": null,
     "id": 715762406,
     "image": "images/abilities/bull_beef_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7458,6 +7544,7 @@
     "dof_while_zoomed": null,
     "id": 509856396,
     "image": "images/abilities/bull_jump_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7545,6 +7632,7 @@
     "dof_while_zoomed": null,
     "id": 4072270083,
     "image": "images/abilities/bull_drain_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7632,6 +7720,7 @@
     },
     "id": 3764085067,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -7728,6 +7817,7 @@
     "dof_while_zoomed": null,
     "id": 2373292985,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -7809,6 +7899,7 @@
     "dof_while_zoomed": null,
     "id": 3089858203,
     "image": "images/abilities/bebop/bebop_uppercut_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7902,6 +7993,7 @@
     "dof_while_zoomed": null,
     "id": 2521902222,
     "image": "images/abilities/bebop/bebop_sticky_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -7986,6 +8078,7 @@
     "dof_while_zoomed": null,
     "id": 3832675871,
     "image": "images/abilities/bebop/bebop_hyper_beam_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8083,6 +8176,7 @@
     "dof_while_zoomed": null,
     "id": 1928108461,
     "image": "images/abilities/bebop/bebop_hook_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8180,6 +8274,7 @@
     },
     "id": 2605652378,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -8274,6 +8369,7 @@
     "dof_while_zoomed": null,
     "id": 1759542823,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -8355,6 +8451,7 @@
     "dof_while_zoomed": null,
     "id": 3338528319,
     "image": "images/abilities/bebop/bebop_sticky_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8439,6 +8536,7 @@
     "dof_while_zoomed": null,
     "id": 511336372,
     "image": "images/abilities/engineer_fissure_2_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -8517,6 +8615,7 @@
     "dof_while_zoomed": null,
     "id": 3875361929,
     "image": "images/abilities/nano/nano_roller_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8595,6 +8694,7 @@
     "dof_while_zoomed": null,
     "id": 4081662205,
     "image": "images/abilities/nano/nano_roller_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8673,6 +8773,7 @@
     "dof_while_zoomed": null,
     "id": 3232290270,
     "image": "images/abilities/nano/nano_tunnel_vision_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -8755,6 +8856,7 @@
     },
     "id": 3155417712,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -8853,6 +8955,7 @@
     "dof_while_zoomed": null,
     "id": 852374872,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -8934,6 +9037,7 @@
     "dof_while_zoomed": null,
     "id": 1157620447,
     "image": "images/abilities/cadence/cadence_ability_1_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9016,6 +9120,7 @@
     "dof_while_zoomed": null,
     "id": 957095276,
     "image": "images/abilities/cadence/cadence_ability_3_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9099,6 +9204,7 @@
     "dof_while_zoomed": null,
     "id": 421275722,
     "image": "images/abilities/cadence/cadence_ability_2_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9183,6 +9289,7 @@
     "dof_while_zoomed": null,
     "id": 3356256357,
     "image": "images/abilities/cadence/cadence_ability_4_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9269,6 +9376,7 @@
     "dof_while_zoomed": null,
     "id": 599532073,
     "image": "images/abilities/cadence/cadence_ability_4_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9355,6 +9463,7 @@
     },
     "id": 2390964381,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -9449,6 +9558,7 @@
     "dof_while_zoomed": null,
     "id": 3672737523,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -9530,6 +9640,7 @@
     "dof_while_zoomed": null,
     "id": 58655583,
     "image": "images/abilities/chrono/chrono_time_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9617,6 +9728,7 @@
     "dof_while_zoomed": null,
     "id": 1366719170,
     "image": "images/abilities/chrono/chrono_time_wall_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9709,6 +9821,7 @@
     "dof_while_zoomed": null,
     "id": 1128670012,
     "image": "images/abilities/duo/duo_attack_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9803,6 +9916,7 @@
     "dof_while_zoomed": null,
     "id": 2917891787,
     "image": "images/abilities/chrono/chrono_swap_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -9894,6 +10008,7 @@
     },
     "id": 602440127,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -9988,6 +10103,7 @@
     "dof_while_zoomed": null,
     "id": 855695370,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -10069,6 +10185,7 @@
     "dof_while_zoomed": null,
     "id": 3760705623,
     "image": "images/abilities/sumo/sumo_stomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10161,6 +10278,7 @@
     "dof_while_zoomed": null,
     "id": 2031714424,
     "image": "images/abilities/sumo/sumo_quantum_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10245,6 +10363,7 @@
     "dof_while_zoomed": null,
     "id": 3954890388,
     "image": "images/abilities/sumo/sumo_charge_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10337,6 +10456,7 @@
     "dof_while_zoomed": null,
     "id": 492030745,
     "image": "images/abilities/sumo/sumo_pork_bun_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10421,6 +10541,7 @@
     "dof_while_zoomed": null,
     "id": 249410288,
     "image": "images/abilities/sumo/sumo_vacuum_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10511,6 +10632,7 @@
     },
     "id": 1975078202,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -10605,6 +10727,7 @@
     "dof_while_zoomed": null,
     "id": 2660222379,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -10686,6 +10809,7 @@
     "dof_while_zoomed": null,
     "id": 2142734020,
     "image": "images/abilities/engineer_resupply_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10770,6 +10894,7 @@
     "dof_while_zoomed": null,
     "id": 3133377790,
     "image": "images/abilities/engineer_turret_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10885,6 +11010,7 @@
     "dof_while_zoomed": null,
     "id": 1725685134,
     "image": "images/abilities/engineer_fissure_2_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -10977,6 +11103,7 @@
     "dof_while_zoomed": null,
     "id": 318567870,
     "image": "images/abilities/engineer_fissure_2_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -11055,6 +11182,7 @@
     "dof_while_zoomed": null,
     "id": 1690335039,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -11133,6 +11261,7 @@
     "dof_while_zoomed": null,
     "id": 3503044146,
     "image": "images/abilities/engineer_rockets_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11234,6 +11363,7 @@
     },
     "id": 1150061901,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -11332,6 +11462,7 @@
     },
     "id": 1558668879,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -11426,6 +11557,7 @@
     "dof_while_zoomed": null,
     "id": 2500675101,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -11507,6 +11639,7 @@
     "dof_while_zoomed": null,
     "id": 715325746,
     "image": "images/abilities/spectre/blood_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11595,6 +11728,7 @@
     "dof_while_zoomed": null,
     "id": 3230530872,
     "image": "images/abilities/haze/haze_sleep_dagger_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11682,6 +11816,7 @@
     "dof_while_zoomed": null,
     "id": 218284420,
     "image": "images/abilities/spectre/life_drain_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11766,6 +11901,7 @@
     "dof_while_zoomed": null,
     "id": 2364803451,
     "image": "images/abilities/spectre/death_tax_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11849,6 +11985,7 @@
     "dof_while_zoomed": null,
     "id": 1307289689,
     "image": "images/abilities/spectre/blood_exchange_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -11941,6 +12078,7 @@
     },
     "id": 2695625322,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -12035,6 +12173,7 @@
     "dof_while_zoomed": null,
     "id": 2372182196,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -12116,6 +12255,7 @@
     "dof_while_zoomed": null,
     "id": 1065103387,
     "image": "images/abilities/giga_ball_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12202,6 +12342,7 @@
     "dof_while_zoomed": null,
     "id": 1074714947,
     "image": "images/abilities/giga_static_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12285,6 +12426,7 @@
     "dof_while_zoomed": null,
     "id": 3534969709,
     "image": "images/abilities/giga_chain_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12367,6 +12509,7 @@
     "dof_while_zoomed": null,
     "id": 539192269,
     "image": "images/abilities/giga_chain_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12453,6 +12596,7 @@
     "dof_while_zoomed": null,
     "id": 2061574352,
     "image": "images/abilities/giga_storm_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12545,6 +12689,7 @@
     },
     "id": 2679155647,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -12639,6 +12784,7 @@
     "dof_while_zoomed": null,
     "id": 3104292528,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -12720,6 +12866,7 @@
     "dof_while_zoomed": null,
     "id": 2948410412,
     "image": "images/abilities/haze/haze_sleep_dagger_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12815,6 +12962,7 @@
     "dof_while_zoomed": null,
     "id": 3491630813,
     "image": null,
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12897,6 +13045,7 @@
     "dof_while_zoomed": null,
     "id": 2414191464,
     "image": "images/abilities/haze/haze_smoke_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -12987,6 +13136,7 @@
     "dof_while_zoomed": null,
     "id": 1080948381,
     "image": "images/abilities/haze/haze_fixation_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13072,6 +13222,7 @@
     "dof_while_zoomed": null,
     "id": 731943444,
     "image": "images/abilities/haze/haze_bullet_flurry_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13160,6 +13311,7 @@
     },
     "id": 3510968490,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -13254,6 +13406,7 @@
     "dof_while_zoomed": null,
     "id": 1619999260,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -13335,6 +13488,7 @@
     "dof_while_zoomed": null,
     "id": 636273017,
     "image": "images/abilities/wasp_sonic_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13418,6 +13572,7 @@
     "dof_while_zoomed": null,
     "id": 537527508,
     "image": "images/abilities/pestilence/pestilence_chain_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13503,6 +13658,7 @@
     "dof_while_zoomed": null,
     "id": 1796564033,
     "image": "images/abilities/wasp_flight_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13591,6 +13747,7 @@
     "dof_while_zoomed": null,
     "id": 2048438176,
     "image": "images/abilities/hornet/hornet_crow_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13679,6 +13836,7 @@
     "dof_while_zoomed": null,
     "id": 775377419,
     "image": "images/abilities/hornet/hornet_assassinate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13771,6 +13929,7 @@
     "dof_while_zoomed": null,
     "id": 3965226174,
     "image": "images/abilities/wasp_mark_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -13854,6 +14013,7 @@
     },
     "id": 556186193,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -13948,6 +14108,7 @@
     "dof_while_zoomed": null,
     "id": 750371308,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -14029,6 +14190,7 @@
     "dof_while_zoomed": null,
     "id": 1142270357,
     "image": "images/abilities/inferno_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14114,6 +14276,7 @@
     "dof_while_zoomed": null,
     "id": 3516947824,
     "image": "images/abilities/inferno_dash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14208,6 +14371,7 @@
     "dof_while_zoomed": null,
     "id": 2715011005,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -14286,6 +14450,7 @@
     "dof_while_zoomed": null,
     "id": 491391007,
     "image": "images/abilities/inferno_molotov_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14377,6 +14542,7 @@
     "dof_while_zoomed": null,
     "id": 1593133799,
     "image": "images/abilities/inferno_deflect_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14466,6 +14632,7 @@
     },
     "id": 3576988085,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -14561,6 +14728,7 @@
     "dof_while_zoomed": null,
     "id": 3403409980,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -14642,6 +14810,7 @@
     "dof_while_zoomed": null,
     "id": 2351041382,
     "image": "images/abilities/kelvin/ice_beam_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14734,6 +14903,7 @@
     "dof_while_zoomed": null,
     "id": 1963397252,
     "image": "images/abilities/kelvin/ice_path_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14830,6 +15000,7 @@
     "dof_while_zoomed": null,
     "id": 18921423,
     "image": "images/abilities/kelvin/freezing_grenade_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -14913,6 +15084,7 @@
     "dof_while_zoomed": null,
     "id": 3826390464,
     "image": "images/abilities/kelvin/frozen_shelter_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15003,6 +15175,7 @@
     },
     "id": 2896288811,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -15097,6 +15270,7 @@
     "dof_while_zoomed": null,
     "id": 3283820257,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -15178,6 +15352,7 @@
     "dof_while_zoomed": null,
     "id": 2670099061,
     "image": "images/abilities/lash/lash_lash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15265,6 +15440,7 @@
     "dof_while_zoomed": null,
     "id": 3561817145,
     "image": "images/abilities/lash/lash_death_slam_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15354,6 +15530,7 @@
     "dof_while_zoomed": null,
     "id": 397010810,
     "image": "images/abilities/lash/lash_counter_lash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15451,6 +15628,7 @@
     "dof_while_zoomed": null,
     "id": 519124136,
     "image": "images/abilities/lash/lash_whip_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15540,6 +15718,7 @@
     },
     "id": 2942562744,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -15634,6 +15813,7 @@
     "dof_while_zoomed": null,
     "id": 1336069669,
     "image": "images/abilities/mirage/mirage_tornado_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15733,6 +15913,7 @@
     "dof_while_zoomed": null,
     "id": 2221949202,
     "image": "images/abilities/mirage/mirage_sand_phantom_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15821,6 +16002,7 @@
     "dof_while_zoomed": null,
     "id": 3733594387,
     "image": "images/abilities/mirage/mirage_fire_beetles_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -15914,6 +16096,7 @@
     "dof_while_zoomed": null,
     "id": 2604653402,
     "image": "images/",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16001,6 +16184,7 @@
     },
     "id": 1895060499,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -16095,6 +16279,7 @@
     "dof_while_zoomed": null,
     "id": 1400683724,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -16176,6 +16361,7 @@
     "dof_while_zoomed": null,
     "id": 1454278799,
     "image": "images/abilities/grappler/grappler_regen_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16261,6 +16447,7 @@
     "dof_while_zoomed": null,
     "id": 2406758797,
     "image": "images/abilities/grappler/grappler_spin_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16351,6 +16538,7 @@
     "dof_while_zoomed": null,
     "id": 1914797280,
     "image": "images/abilities/grappler/grappler_throw_sand_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16434,6 +16622,7 @@
     "dof_while_zoomed": null,
     "id": 1917840730,
     "image": "images/abilities/grappler/grappler_combo_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16519,6 +16708,7 @@
     },
     "id": 3108987282,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -16620,6 +16810,7 @@
     },
     "id": 3386449071,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -16717,6 +16908,7 @@
     "dof_while_zoomed": null,
     "id": 3861289372,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -16798,6 +16990,7 @@
     "dof_while_zoomed": null,
     "id": 3377867107,
     "image": "images/upgrades/mods_weapon/high_velocity_mag_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -16888,6 +17081,7 @@
     "dof_while_zoomed": null,
     "id": 3380228790,
     "image": "images/abilities/engineer_fissure_2_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -16966,6 +17160,7 @@
     "dof_while_zoomed": null,
     "id": 3467292895,
     "image": "images/abilities/nano/nano_warp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17059,6 +17254,7 @@
     "dof_while_zoomed": null,
     "id": 755723302,
     "image": "images/abilities/nano/nano_roller_bomb_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17155,6 +17351,7 @@
     "dof_while_zoomed": null,
     "id": 90787918,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -17233,6 +17430,7 @@
     "dof_while_zoomed": null,
     "id": 686480410,
     "image": "images/abilities/slork/slork_invis_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17330,6 +17528,7 @@
     },
     "id": 2402901451,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -17424,6 +17623,7 @@
     "dof_while_zoomed": null,
     "id": 4220996204,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -17505,6 +17705,7 @@
     "dof_while_zoomed": null,
     "id": 548943648,
     "image": "images/abilities/archer/archer_charged_shot_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17606,6 +17807,7 @@
     "dof_while_zoomed": null,
     "id": 3452399392,
     "image": "images/abilities/archer/archer_power_jump_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17698,6 +17900,7 @@
     "dof_while_zoomed": null,
     "id": 512733154,
     "image": "images/abilities/archer/imobolize_trap_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17792,6 +17995,7 @@
     "dof_while_zoomed": null,
     "id": 3242902780,
     "image": "images/abilities/archer/archer_guided_arrow_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -17879,6 +18083,7 @@
     },
     "id": 3121968594,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -17977,6 +18182,7 @@
     },
     "id": 225271804,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -18071,6 +18277,7 @@
     "dof_while_zoomed": null,
     "id": 11664367,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -18152,6 +18359,7 @@
     "dof_while_zoomed": null,
     "id": 2460791803,
     "image": "images/abilities/shiv/shiv_toss_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18237,6 +18445,7 @@
     "dof_while_zoomed": null,
     "id": 1458044103,
     "image": "images/abilities/shiv/shiv_flash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18329,6 +18538,7 @@
     "dof_while_zoomed": null,
     "id": 1537272748,
     "image": "images/abilities/rutger/rutger_cheat_death_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18411,6 +18621,7 @@
     "dof_while_zoomed": null,
     "id": 1835738020,
     "image": "images/abilities/shiv/shiv_killing_blow_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18513,6 +18724,7 @@
     },
     "id": 2080724972,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -18617,6 +18829,7 @@
     "dof_while_zoomed": null,
     "id": 1429365990,
     "image": "images/abilities/slork/slork_scald_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18702,6 +18915,7 @@
     "dof_while_zoomed": null,
     "id": 2867758359,
     "image": "images/abilities/slork/slork_current_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18790,6 +19004,7 @@
     "dof_while_zoomed": null,
     "id": 3714943918,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -18869,6 +19084,7 @@
     "dof_while_zoomed": null,
     "id": 575861774,
     "image": "images/abilities/slork/slork_current_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -18950,6 +19166,7 @@
     "dof_while_zoomed": null,
     "id": 1335487072,
     "image": "images/abilities/slork/slork_chomp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19039,6 +19256,7 @@
     "dof_while_zoomed": null,
     "id": 599179891,
     "image": "images/abilities/slork/slork_invis_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19132,6 +19350,7 @@
     "dof_while_zoomed": null,
     "id": 3295213753,
     "image": "images/abilities/slork/slork_scald_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19222,6 +19441,7 @@
     "dof_while_zoomed": null,
     "id": 3765343215,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -19320,6 +19540,7 @@
     },
     "id": 3383556212,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -19411,6 +19632,7 @@
     "dof_while_zoomed": null,
     "id": 1976701714,
     "image": "images/abilities/synth/synth_plasma_flux_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19495,6 +19717,7 @@
     "dof_while_zoomed": null,
     "id": 15584241,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -19573,6 +19796,7 @@
     "dof_while_zoomed": null,
     "id": 3747867012,
     "image": "images/abilities/synth/synth_pulse_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19656,6 +19880,7 @@
     "dof_while_zoomed": null,
     "id": 4025828983,
     "image": "images/abilities/synth/synth_grasp_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19742,6 +19967,7 @@
     "dof_while_zoomed": null,
     "id": 3168595809,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -19820,6 +20046,7 @@
     "dof_while_zoomed": null,
     "id": 938149308,
     "image": "images/abilities/synth/synth_barrage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -19927,6 +20154,7 @@
     "dof_while_zoomed": null,
     "id": 2274219904,
     "image": "images/abilities/synth/synth_blitz_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20011,6 +20239,7 @@
     "dof_while_zoomed": null,
     "id": 2954330093,
     "image": "images/abilities/synth/synth_affliction_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20100,6 +20329,7 @@
     },
     "id": 1961353863,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -20197,6 +20427,7 @@
     "dof_while_zoomed": null,
     "id": 2840115251,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -20278,6 +20509,7 @@
     "dof_while_zoomed": null,
     "id": 1531378655,
     "image": "images/abilities/tengu/tengu_tether_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20363,6 +20595,7 @@
     "dof_while_zoomed": null,
     "id": 3491113888,
     "image": "images/abilities/astro/gravity_lasso_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -20441,6 +20674,7 @@
     "dof_while_zoomed": null,
     "id": 4111222521,
     "image": "images/abilities/tengu/tengu_storm_flask_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20525,6 +20759,7 @@
     "dof_while_zoomed": null,
     "id": 3642273386,
     "image": "images/abilities/tengu/tengu_stone_form_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20614,6 +20849,7 @@
     "dof_while_zoomed": null,
     "id": 1247583368,
     "image": "images/abilities/tengu/tengu_lightning_crash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20711,6 +20947,7 @@
     },
     "id": 2053287272,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -20805,6 +21042,7 @@
     "dof_while_zoomed": null,
     "id": 3208168586,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -20886,6 +21124,7 @@
     "dof_while_zoomed": null,
     "id": 1564303265,
     "image": "images/abilities/tokamak/tokamak_hot_shot_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -20971,6 +21210,7 @@
     "dof_while_zoomed": null,
     "id": 2785646790,
     "image": "images/abilities/tokamak/tokamak_breach_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21065,6 +21305,7 @@
     "dof_while_zoomed": null,
     "id": 1498385915,
     "image": "images/abilities/tokamak/tokamak_blinding_radiance_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21150,6 +21391,7 @@
     "dof_while_zoomed": null,
     "id": 6698938,
     "image": "images/abilities/tokamak/tokamak_heat_sinks_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21238,6 +21480,7 @@
     "dof_while_zoomed": null,
     "id": 26435936,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -21321,6 +21564,7 @@
     "dof_while_zoomed": null,
     "id": 4042747505,
     "image": "images/abilities/tokamak/tokamak_dying_star_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21403,6 +21647,7 @@
     "dof_while_zoomed": null,
     "id": 4264339460,
     "image": "images/abilities/tokamak/tokamak_crimson_cannon_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21488,6 +21733,7 @@
     "dof_while_zoomed": null,
     "id": 2171230865,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -21596,6 +21842,7 @@
     },
     "id": 3413773852,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -21690,6 +21937,7 @@
     "dof_while_zoomed": null,
     "id": 3819944797,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -21784,6 +22032,7 @@
     "dof_while_zoomed": null,
     "id": 3914911135,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -21865,6 +22114,7 @@
     "dof_while_zoomed": null,
     "id": 3247040238,
     "image": "images/abilities/viscous/viscous_goo_ball_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -21954,6 +22204,7 @@
     "dof_while_zoomed": null,
     "id": 3788152387,
     "image": "images/abilities/viscous/viscous_restorative_goo_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22048,6 +22299,7 @@
     "dof_while_zoomed": null,
     "id": 3584864021,
     "image": "images/abilities/viscous/viscous_goo_puddle_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22131,6 +22383,7 @@
     "dof_while_zoomed": null,
     "id": 4206531918,
     "image": "images/abilities/viscous/viscous_goo_sphere_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22228,6 +22481,7 @@
     "dof_while_zoomed": null,
     "id": 1020817390,
     "image": "images/",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22321,6 +22575,7 @@
     },
     "id": 816395058,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -22415,6 +22670,7 @@
     "dof_while_zoomed": null,
     "id": 3433765565,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -22496,6 +22752,7 @@
     "dof_while_zoomed": null,
     "id": 1656913918,
     "image": "images/abilities/warden/warden_lock_down_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22580,6 +22837,7 @@
     "dof_while_zoomed": null,
     "id": 2751689917,
     "image": "images/abilities/warden/warden_high_alert_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22660,6 +22918,7 @@
     "dof_while_zoomed": null,
     "id": 2656490109,
     "image": "images/abilities/warden/warden_crowd_control_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22747,6 +23006,7 @@
     "dof_while_zoomed": null,
     "id": 2702908623,
     "image": "images/abilities/warden/warden_riot_protocol_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -22837,6 +23097,7 @@
     },
     "id": 1427059555,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -22931,6 +23192,7 @@
     "dof_while_zoomed": null,
     "id": 1192327851,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -23012,6 +23274,7 @@
     "dof_while_zoomed": null,
     "id": 2981692841,
     "image": "images/abilities/wraith_lift_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23093,6 +23356,7 @@
     "dof_while_zoomed": null,
     "id": 4147641675,
     "image": "images/abilities/wraith_teleport_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23175,6 +23439,7 @@
     "dof_while_zoomed": null,
     "id": 2220233739,
     "image": "images/abilities/wraith_daggers_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23265,6 +23530,7 @@
     "dof_while_zoomed": null,
     "id": 1842576017,
     "image": "images/abilities/wraith_aura_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23348,6 +23614,7 @@
     "dof_while_zoomed": null,
     "id": 1999680326,
     "image": "images/abilities/wraith_card_trick_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23438,6 +23705,7 @@
     "dof_while_zoomed": null,
     "id": 94928941,
     "image": "images/abilities/tokamak/tokamak_blinding_radiance_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23521,6 +23789,7 @@
     },
     "id": 495487721,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -23615,6 +23884,7 @@
     "dof_while_zoomed": null,
     "id": 2697859853,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -23696,6 +23966,7 @@
     "dof_while_zoomed": null,
     "id": 4062064977,
     "image": "images/abilities/wrecker/wrecking_ball_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23780,6 +24051,7 @@
     "dof_while_zoomed": null,
     "id": 4016285240,
     "image": "images/abilities/ability_activate_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -23858,6 +24130,7 @@
     "dof_while_zoomed": null,
     "id": 208809857,
     "image": "images/abilities/wrecker/salvage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -23942,6 +24215,7 @@
     "dof_while_zoomed": null,
     "id": 3422822440,
     "image": "images/abilities/wrecker/scrap_blast_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24024,6 +24298,7 @@
     "dof_while_zoomed": null,
     "id": 100068731,
     "image": "images/abilities/wrecker/wrecking_crew_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24116,6 +24391,7 @@
     "dof_while_zoomed": null,
     "id": 2493171901,
     "image": "images/abilities/wrecker/wrecking_crew_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24202,6 +24478,7 @@
     },
     "id": 440716503,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -24297,6 +24574,7 @@
     "dof_while_zoomed": null,
     "id": 2725537392,
     "image": "images/abilities/weapon_damage_psd.png",
+    "item_slot_type": null,
     "max_level": null,
     "points_cost": 1,
     "properties": {
@@ -24388,6 +24666,7 @@
     "dof_while_zoomed": null,
     "id": 3334760137,
     "image": "images/abilities/melee_damage_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": null,
     "properties": {
@@ -24469,6 +24748,7 @@
     "dof_while_zoomed": null,
     "id": 3255651252,
     "image": "images/abilities/yamato/yamato_power_slash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24559,6 +24839,7 @@
     "dof_while_zoomed": null,
     "id": 2566573207,
     "image": "images/abilities/yamato/yamato_flying_strike_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24642,6 +24923,7 @@
     "dof_while_zoomed": null,
     "id": 2366960452,
     "image": "images/abilities/yamato/yamato_crimson_slash_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24726,6 +25008,7 @@
     "dof_while_zoomed": null,
     "id": 3319782965,
     "image": "images/abilities/yamato/yamato_blinding_steel_psd.png",
+    "item_slot_type": null,
     "max_level": 1,
     "points_cost": 0,
     "properties": {
@@ -24808,6 +25091,7 @@
     "dof_while_zoomed": null,
     "id": 4049908402,
     "image": null,
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -24886,6 +25170,7 @@
     "dof_while_zoomed": null,
     "id": 2484189167,
     "image": null,
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -24964,6 +25249,7 @@
     "dof_while_zoomed": null,
     "id": 3162468251,
     "image": null,
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25042,6 +25328,7 @@
     "dof_while_zoomed": null,
     "id": 2366847482,
     "image": null,
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25120,6 +25407,7 @@
     "dof_while_zoomed": null,
     "id": 10546756,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25198,6 +25486,7 @@
     "dof_while_zoomed": null,
     "id": 1620942471,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25276,6 +25565,7 @@
     "dof_while_zoomed": null,
     "id": 506109244,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25354,6 +25644,7 @@
     "dof_while_zoomed": null,
     "id": 361904051,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25432,6 +25723,7 @@
     "dof_while_zoomed": null,
     "id": 1239500246,
     "image": null,
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25510,6 +25802,7 @@
     "dof_while_zoomed": null,
     "id": 2938348616,
     "image": null,
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25588,6 +25881,7 @@
     "dof_while_zoomed": null,
     "id": 562994648,
     "image": null,
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25666,6 +25960,7 @@
     "dof_while_zoomed": null,
     "id": 2729670681,
     "image": null,
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25744,6 +26039,7 @@
     "dof_while_zoomed": null,
     "id": 1548066885,
     "image": "images/upgrades/mods_weapon/clip_size_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25824,6 +26120,7 @@
     "dof_while_zoomed": null,
     "id": 1009965641,
     "image": "images/upgrades/mods_weapon/reaper_rounds_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25906,6 +26203,7 @@
     "dof_while_zoomed": null,
     "id": 1248737459,
     "image": "images/upgrades/mods_weapon/ammo_scavenger_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -25989,6 +26287,7 @@
     "dof_while_zoomed": null,
     "id": 3535785353,
     "image": "images/upgrades/mods_weapon/clip_size_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26068,6 +26367,7 @@
     "dof_while_zoomed": null,
     "id": 2861048274,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26147,6 +26447,7 @@
     "dof_while_zoomed": null,
     "id": 811521119,
     "image": "images/upgrades/mods_weapon/electrified_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26233,6 +26534,7 @@
     "dof_while_zoomed": null,
     "id": 3316018900,
     "image": "images/upgrades/mods_weapon/electrified_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26324,6 +26626,7 @@
     "dof_while_zoomed": null,
     "id": 2678489038,
     "image": "images/upgrades/mods_weapon/hollow_point_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26407,6 +26710,7 @@
     "dof_while_zoomed": null,
     "id": 2064029594,
     "image": "images/upgrades/mods_weapon/pristine_emblem_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26490,6 +26794,7 @@
     "dof_while_zoomed": null,
     "id": 1544322593,
     "image": "images/upgrades/mods_weapon/stabilizer_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26571,6 +26876,7 @@
     "dof_while_zoomed": null,
     "id": 3077079169,
     "image": "images/upgrades/mods_weapon/high_velocity_mag_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26652,6 +26958,7 @@
     "dof_while_zoomed": null,
     "id": 1437614329,
     "image": "images/upgrades/mods_weapon/lifestrike_gauntlets_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26735,6 +27042,7 @@
     "dof_while_zoomed": null,
     "id": 1342610602,
     "image": "images/upgrades/mods_weapon/close_range_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26816,6 +27124,7 @@
     "dof_while_zoomed": null,
     "id": 3331811235,
     "image": "images/upgrades/mods_weapon/long_range_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26898,6 +27207,7 @@
     "dof_while_zoomed": null,
     "id": 393974127,
     "image": "images/upgrades/mods_weapon/slowing_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -26979,6 +27289,7 @@
     "dof_while_zoomed": null,
     "id": 2037039379,
     "image": "images/upgrades/mods_weapon/inhibitor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27062,6 +27373,7 @@
     "dof_while_zoomed": null,
     "id": 1889400890,
     "image": "images/upgrades/mods_weapon/fire_rate_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27141,6 +27453,7 @@
     "dof_while_zoomed": null,
     "id": 1144549437,
     "image": "images/upgrades/mods_weapon/tech_resist_shredder_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27223,6 +27536,7 @@
     "dof_while_zoomed": null,
     "id": 1109351073,
     "image": "images/upgrades/mods_weapon/fire_rate_plus_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27302,6 +27616,7 @@
     "dof_while_zoomed": null,
     "id": 1100809516,
     "image": "images/upgrades/mods_weapon/adrenaline_rush_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27387,6 +27702,7 @@
     "dof_while_zoomed": null,
     "id": 2108215830,
     "image": "images/upgrades/mods_weapon/bullet_damage_aura_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27473,6 +27789,7 @@
     "dof_while_zoomed": null,
     "id": 1031828968,
     "image": "images/upgrades/mods_weapon/armor_breaking_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27554,6 +27871,7 @@
     "dof_while_zoomed": null,
     "id": 775925321,
     "image": "images/upgrades/mods_weapon/detention_rounds_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27639,6 +27957,7 @@
     "dof_while_zoomed": null,
     "id": 2854211216,
     "image": "images/upgrades/mods_weapon/height_advantage_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27718,6 +28037,7 @@
     "dof_while_zoomed": null,
     "id": 619484391,
     "image": "images/upgrades/mods_weapon/targeted_silence_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27799,6 +28119,7 @@
     "dof_while_zoomed": null,
     "id": 1113837674,
     "image": "images/upgrades/mods_weapon/emp_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27884,6 +28205,7 @@
     "dof_while_zoomed": null,
     "id": 3133167885,
     "image": "images/upgrades/mods_weapon/emp_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -27966,6 +28288,7 @@
     "dof_while_zoomed": null,
     "id": 1503218332,
     "image": "images/upgrades/mods_tech/disarm_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28047,6 +28370,7 @@
     "dof_while_zoomed": null,
     "id": 1414319208,
     "image": "images/upgrades/mods_weapon/berserker_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28131,6 +28455,7 @@
     "dof_while_zoomed": null,
     "id": 339443430,
     "image": "images/upgrades/mods_weapon/fervor_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28217,6 +28542,7 @@
     "dof_while_zoomed": null,
     "id": 1282141666,
     "image": "images/upgrades/mods_weapon/siphon_bullets_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28303,6 +28629,7 @@
     "dof_while_zoomed": null,
     "id": 2010028405,
     "image": "images/upgrades/mods_weapon/headshot_booster_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28386,6 +28713,7 @@
     "dof_while_zoomed": null,
     "id": 2152872419,
     "image": "images/upgrades/mods_weapon/longshot_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28472,6 +28800,7 @@
     "dof_while_zoomed": null,
     "id": 4053935515,
     "image": "images/upgrades/mods_weapon/headhunter_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28557,6 +28886,7 @@
     "dof_while_zoomed": null,
     "id": 3884003354,
     "image": "images/upgrades/mods_weapon/banshee_slugs_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28641,6 +28971,7 @@
     "dof_while_zoomed": null,
     "id": 184951197,
     "image": "images/upgrades/mods_tech/tech_imbued_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28724,6 +29055,7 @@
     "dof_while_zoomed": null,
     "id": 395867183,
     "image": "images/upgrades/mods_weapon/explosive_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28808,6 +29140,7 @@
     "dof_while_zoomed": null,
     "id": 1396247347,
     "image": "images/upgrades/mods_weapon/crit_damage_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28894,6 +29227,7 @@
     "dof_while_zoomed": null,
     "id": 2095565695,
     "image": "images/upgrades/mods_weapon/point_blank_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -28978,6 +29312,7 @@
     "dof_while_zoomed": null,
     "id": 4284855775,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29057,6 +29392,7 @@
     "dof_while_zoomed": null,
     "id": 3449296332,
     "image": null,
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29136,6 +29472,7 @@
     "dof_while_zoomed": null,
     "id": 3696726732,
     "image": "images/upgrades/mods_weapon/serrated_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29223,6 +29560,7 @@
     "dof_while_zoomed": null,
     "id": 3791295884,
     "image": "images/upgrades/mods_weapon/fire_rate_plus_plus_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29302,6 +29640,7 @@
     "dof_while_zoomed": null,
     "id": 4190165534,
     "image": "images/upgrades/mods_weapon/auto_reloader_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29382,6 +29721,7 @@
     "dof_while_zoomed": null,
     "id": 2480592370,
     "image": "images/upgrades/mods_weapon/ricochet_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29466,6 +29806,7 @@
     "dof_while_zoomed": null,
     "id": 3633614685,
     "image": "images/upgrades/mods_armor/health_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29546,6 +29887,7 @@
     "dof_while_zoomed": null,
     "id": 1448361452,
     "image": "images/upgrades/mods_armor/base_armor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29626,6 +29968,7 @@
     "dof_while_zoomed": null,
     "id": 3713423303,
     "image": "images/upgrades/mods_armor/bullet_armor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29706,6 +30049,7 @@
     "dof_while_zoomed": null,
     "id": 223594321,
     "image": "images/upgrades/mods_armor/tech_armor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29785,6 +30129,7 @@
     "dof_while_zoomed": null,
     "id": 1575167590,
     "image": "images/upgrades/mods_armor/health_regen_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29864,6 +30209,7 @@
     "dof_while_zoomed": null,
     "id": 499683006,
     "image": "images/upgrades/mods_armor/health_stealing_bullets_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -29944,6 +30290,7 @@
     "dof_while_zoomed": null,
     "id": 790496977,
     "image": "images/upgrades/mods_armor/double_jump_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30025,6 +30372,7 @@
     "dof_while_zoomed": null,
     "id": 3321728133,
     "image": "images/upgrades/mods_armor/health_regen_aura_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30106,6 +30454,7 @@
     "dof_while_zoomed": null,
     "id": 4066757307,
     "image": "images/upgrades/mods_armor/tech_purge_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30188,6 +30537,7 @@
     "dof_while_zoomed": null,
     "id": 1047818222,
     "image": "images/upgrades/mods_armor/debuff_reducer_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30271,6 +30621,7 @@
     "dof_while_zoomed": null,
     "id": 3731635960,
     "image": "images/upgrades/mods_armor/debuff_remover_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30354,6 +30705,7 @@
     "dof_while_zoomed": null,
     "id": 1825391146,
     "image": "images/upgrades/mods_armor/bullet_armor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30434,6 +30786,7 @@
     "dof_while_zoomed": null,
     "id": 1711193274,
     "image": "images/upgrades/mods_utility/sprint_booster_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30512,6 +30865,7 @@
     "dof_while_zoomed": null,
     "id": 2887128033,
     "image": "images/upgrades/mods_armor/bullet_armor_plus_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30591,6 +30945,7 @@
     "dof_while_zoomed": null,
     "id": 471704443,
     "image": "images/upgrades/mods_armor/overdrive_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30672,6 +31027,7 @@
     "dof_while_zoomed": null,
     "id": 1319649491,
     "image": "images/upgrades/mods_armor/bullet_shield_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30754,6 +31110,7 @@
     "dof_while_zoomed": null,
     "id": 4168302000,
     "image": "images/upgrades/mods_armor/bullet_shield_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30839,6 +31196,7 @@
     "dof_while_zoomed": null,
     "id": 2163598980,
     "image": "images/upgrades/mods_armor/tech_purge_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -30920,6 +31278,7 @@
     "dof_while_zoomed": null,
     "id": 3140772621,
     "image": "images/upgrades/mods_armor/improved_bullet_armor_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31000,6 +31359,7 @@
     "dof_while_zoomed": null,
     "id": 1378931225,
     "image": "images/upgrades/mods_armor/metal_skin_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31080,6 +31440,7 @@
     "dof_while_zoomed": null,
     "id": 2566692615,
     "image": "images/upgrades/mods_armor/healing_booster_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31163,6 +31524,7 @@
     "dof_while_zoomed": null,
     "id": 3585132399,
     "image": "images/upgrades/mods_armor/revitalizer_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31247,6 +31609,7 @@
     "dof_while_zoomed": null,
     "id": 865846625,
     "image": "images/upgrades/mods_armor/leech_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31329,6 +31692,7 @@
     "dof_while_zoomed": null,
     "id": 1298427343,
     "image": "images/upgrades/mods_armor/weapon_jammer_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31409,6 +31773,7 @@
     "dof_while_zoomed": null,
     "id": 3399065363,
     "image": "images/upgrades/mods_utility/sprint_booster_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31492,6 +31857,7 @@
     "dof_while_zoomed": null,
     "id": 2447176615,
     "image": "images/upgrades/mods_utility/sprint_booster_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31577,6 +31943,7 @@
     "dof_while_zoomed": null,
     "id": 334300056,
     "image": "images/upgrades/mods_armor/superior_stamina_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31659,6 +32026,7 @@
     "dof_while_zoomed": null,
     "id": 668299740,
     "image": "images/upgrades/mods_weapon/rapid_rounds_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31739,6 +32107,7 @@
     "dof_while_zoomed": null,
     "id": 4139877411,
     "image": "images/upgrades/mods_armor/improved_stamina_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31820,6 +32189,7 @@
     "dof_while_zoomed": null,
     "id": 2481177645,
     "image": "images/upgrades/mods_armor/bullet_armor_reduction_aura_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31903,6 +32273,7 @@
     "dof_while_zoomed": null,
     "id": 1962740586,
     "image": "images/upgrades/mods_armor/camouflage_suit_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -31990,6 +32361,7 @@
     "dof_while_zoomed": null,
     "id": 3038950099,
     "image": "images/upgrades/mods_armor/last_stand_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32069,6 +32441,7 @@
     "dof_while_zoomed": null,
     "id": 1235347618,
     "image": "images/upgrades/mods_armor/bullet_shield_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32150,6 +32523,7 @@
     "dof_while_zoomed": null,
     "id": 3970837787,
     "image": "images/upgrades/mods_tech/tech_shield_pulse_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32231,6 +32605,7 @@
     "dof_while_zoomed": null,
     "id": 968099481,
     "image": "images/upgrades/mods_tech/tech_damage_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32313,6 +32688,7 @@
     "dof_while_zoomed": null,
     "id": 7409189,
     "image": "images/upgrades/mods_tech/soaring_spirit_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32394,6 +32770,7 @@
     "dof_while_zoomed": null,
     "id": 2226497419,
     "image": "images/upgrades/mods_weapon/magic_overflow_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32479,6 +32856,7 @@
     "dof_while_zoomed": null,
     "id": 3361075077,
     "image": "images/upgrades/mods_tech/return_fire_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32579,6 +32957,7 @@
     "dof_while_zoomed": null,
     "id": 1193964439,
     "image": "images/upgrades/mods_tech/spiritual_dominion_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32662,6 +33041,7 @@
     "dof_while_zoomed": null,
     "id": 754480263,
     "image": "images/upgrades/mods_tech/tech_range_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32743,6 +33123,7 @@
     "dof_while_zoomed": null,
     "id": 3776945997,
     "image": "images/upgrades/mods_tech/extra_charge_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32825,6 +33206,7 @@
     "dof_while_zoomed": null,
     "id": 876563814,
     "image": "images/upgrades/mods_tech/health_stealing_tech_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32906,6 +33288,7 @@
     "dof_while_zoomed": null,
     "id": 2645639421,
     "image": "images/upgrades/mods_tech/disarm_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -32988,6 +33371,7 @@
     "dof_while_zoomed": null,
     "id": 2971868509,
     "image": "images/upgrades/mods_tech/bullet_resist_shredder_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33069,6 +33453,7 @@
     "dof_while_zoomed": null,
     "id": 869090587,
     "image": "images/upgrades/mods_tech/magic_reverb_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33156,6 +33541,7 @@
     "dof_while_zoomed": null,
     "id": 1998374645,
     "image": "images/upgrades/mods_tech/magic_burst_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33240,6 +33626,7 @@
     "dof_while_zoomed": null,
     "id": 2121044373,
     "image": "images/upgrades/mods_tech/magic_shock_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33323,6 +33710,7 @@
     "dof_while_zoomed": null,
     "id": 1052584266,
     "image": "images/upgrades/mods_tech/arcane_medallion_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33402,6 +33790,7 @@
     "dof_while_zoomed": null,
     "id": 2081037738,
     "image": "images/upgrades/mods_tech/tech_vulnerability_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33482,6 +33871,7 @@
     "dof_while_zoomed": null,
     "id": 2603935618,
     "image": "images/upgrades/mods_tech/healbane_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33566,6 +33956,7 @@
     "dof_while_zoomed": null,
     "id": 1102081447,
     "image": "images/upgrades/mods_tech/slowing_tech_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33650,6 +34041,7 @@
     "dof_while_zoomed": null,
     "id": 3005970438,
     "image": "images/upgrades/mods_tech/escalating_exposure_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33735,6 +34127,7 @@
     "dof_while_zoomed": null,
     "id": 787198704,
     "image": "images/upgrades/mods_tech/rapid_recharge_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33817,6 +34210,7 @@
     "dof_while_zoomed": null,
     "id": 380806748,
     "image": "images/upgrades/mods_utility/advanced_recharge_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33899,6 +34293,7 @@
     "dof_while_zoomed": null,
     "id": 3261353684,
     "image": "images/upgrades/mods_tech/spiritual_flow_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -33980,6 +34375,7 @@
     "dof_while_zoomed": null,
     "id": 3789823638,
     "image": "images/upgrades/mods_tech/tech_duration_extender_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34059,6 +34455,7 @@
     "dof_while_zoomed": null,
     "id": 3013879715,
     "image": "images/upgrades/mods_tech/slowing_tech_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34139,6 +34536,7 @@
     "dof_while_zoomed": null,
     "id": 1813726886,
     "image": "images/upgrades/mods_tech/immobilize_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34221,6 +34619,7 @@
     "dof_while_zoomed": null,
     "id": 2922054143,
     "image": "images/upgrades/mods_tech/disarm_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34304,6 +34703,7 @@
     "dof_while_zoomed": null,
     "id": 1804594021,
     "image": "images/upgrades/mods_tech/medic_beam_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34388,6 +34788,7 @@
     "dof_while_zoomed": null,
     "id": 2329546537,
     "image": "images/upgrades/mods_tech/rebirth_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34468,6 +34869,7 @@
     "dof_while_zoomed": null,
     "id": 4003032160,
     "image": "images/upgrades/mods_tech/rebirth_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34550,6 +34952,7 @@
     "dof_while_zoomed": null,
     "id": 1993213427,
     "image": "images/upgrades/mods_tech/tech_range_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34632,6 +35035,7 @@
     "dof_while_zoomed": null,
     "id": 3064545951,
     "image": "images/upgrades/mods_tech/tech_range_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34715,6 +35119,7 @@
     "dof_while_zoomed": null,
     "id": 4249800570,
     "image": "images/upgrades/mods_tech/quantum_chimaera_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34796,6 +35201,7 @@
     "dof_while_zoomed": null,
     "id": 1288322878,
     "image": "images/upgrades/mods_tech/extra_charge_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34875,6 +35281,7 @@
     "dof_while_zoomed": null,
     "id": 4245766497,
     "image": "images/upgrades/mods_tech/extra_charge_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -34957,6 +35364,7 @@
     "dof_while_zoomed": null,
     "id": 3144988365,
     "image": "images/upgrades/mods_tech/rupture_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35039,6 +35447,7 @@
     "dof_while_zoomed": null,
     "id": 2417568017,
     "image": "images/upgrades/mods_tech/rupture_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35122,6 +35531,7 @@
     "dof_while_zoomed": null,
     "id": 776145721,
     "image": "images/upgrades/mods_tech/tech_shield_pulse_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35202,6 +35612,7 @@
     "dof_while_zoomed": null,
     "id": 1254091416,
     "image": "images/upgrades/mods_tech/knockdown_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35286,6 +35697,7 @@
     "dof_while_zoomed": null,
     "id": 1371725689,
     "image": "images/upgrades/mods_armor/phantom_strike_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35369,6 +35781,7 @@
     "dof_while_zoomed": null,
     "id": 3270001687,
     "image": "images/upgrades/mods_weapon/warp_stone_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35450,6 +35863,7 @@
     "dof_while_zoomed": null,
     "id": 1152158042,
     "image": "images/upgrades/mods_tech/area_immobilize_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35533,6 +35947,7 @@
     "dof_while_zoomed": null,
     "id": 677738769,
     "image": "images/upgrades/mods_tech/refresher_module_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35613,6 +36028,7 @@
     "dof_while_zoomed": null,
     "id": 630839635,
     "image": "images/upgrades/mods_tech/echo_shard_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35693,6 +36109,7 @@
     "dof_while_zoomed": null,
     "id": 395944548,
     "image": "images/upgrades/mods_tech/torment_aura_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35774,6 +36191,7 @@
     "dof_while_zoomed": null,
     "id": 3361811174,
     "image": "images/upgrades/mods_tech/torment_aura_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35859,6 +36277,7 @@
     "dof_while_zoomed": null,
     "id": 3276909180,
     "image": "images/upgrades/mods_utility/fast_reload_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -35938,6 +36357,7 @@
     "dof_while_zoomed": null,
     "id": 2560018361,
     "image": "images/upgrades/mods_utility/cloaking_device_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36024,6 +36444,7 @@
     "dof_while_zoomed": null,
     "id": 1798666702,
     "image": "images/upgrades/mods_utility/cloaking_device_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36116,6 +36537,7 @@
     "dof_while_zoomed": null,
     "id": 3662153307,
     "image": "images/upgrades/mods_utility/fire_rate_aura_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36197,6 +36619,7 @@
     "dof_while_zoomed": null,
     "id": 607292868,
     "image": "images/upgrades/mods_armor/overdrive_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36279,6 +36702,7 @@
     "dof_while_zoomed": null,
     "id": 3830846077,
     "image": "images/upgrades/mods_utility/springy_boots_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36361,6 +36785,7 @@
     "dof_while_zoomed": null,
     "id": 600033864,
     "image": "images/abilities/lash/lash_death_slam_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36452,6 +36877,7 @@
     "dof_while_zoomed": null,
     "id": 271801138,
     "image": "images/upgrades/mods_utility/springy_boots_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36540,6 +36966,7 @@
     "dof_while_zoomed": null,
     "id": 2956256701,
     "image": "images/upgrades/mods_utility/health_nova_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36624,6 +37051,7 @@
     "dof_while_zoomed": null,
     "id": 2059712766,
     "image": "images/upgrades/mods_armor/restorative_locket_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36706,6 +37134,7 @@
     "dof_while_zoomed": null,
     "id": 1710079648,
     "image": "images/upgrades/mods_armor/stimpak_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36788,6 +37217,7 @@
     "dof_while_zoomed": null,
     "id": 1797283378,
     "image": "images/upgrades/mods_tech/infuser_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36870,6 +37300,7 @@
     "dof_while_zoomed": null,
     "id": 3147316197,
     "image": "images/upgrades/mods_armor/savior_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -36956,6 +37387,7 @@
     "dof_while_zoomed": null,
     "id": 937242723,
     "image": "images/upgrades/mods_utility/smoke_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37043,6 +37475,7 @@
     "dof_while_zoomed": null,
     "id": 1932939246,
     "image": "images/upgrades/mods_weapon/thermal_detonator_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37131,6 +37564,7 @@
     "dof_while_zoomed": null,
     "id": 3403085434,
     "image": "images/upgrades/mods_weapon/fleetfoot_boots_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37216,6 +37650,7 @@
     "dof_while_zoomed": null,
     "id": 3977876567,
     "image": "images/upgrades/mods_weapon/kinetic_sash_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37298,6 +37733,7 @@
     "dof_while_zoomed": null,
     "id": 389243496,
     "image": "images/upgrades/mods_weapon/advanced_weaponry_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37381,6 +37817,7 @@
     "dof_while_zoomed": null,
     "id": 315518818,
     "image": "images/upgrades/mods_utility/fast_reload_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37460,6 +37897,7 @@
     "dof_while_zoomed": null,
     "id": 1947620709,
     "image": "images/upgrades/mods_armor/tech_defender_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37540,6 +37978,7 @@
     "dof_while_zoomed": null,
     "id": 3357231760,
     "image": "images/upgrades/mods_armor/unstoppable_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37622,6 +38061,7 @@
     "dof_while_zoomed": null,
     "id": 2407781327,
     "image": "images/upgrades/mods_armor/colossus_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37709,6 +38149,7 @@
     "dof_while_zoomed": null,
     "id": 1976391348,
     "image": "images/upgrades/mods_utility/ice_blast_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37793,6 +38234,7 @@
     "dof_while_zoomed": null,
     "id": 486220748,
     "image": "images/upgrades/mods_utility/emp_wave_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37876,6 +38318,7 @@
     "dof_while_zoomed": null,
     "id": 2533252781,
     "image": "images/upgrades/mods_tech/shifting_shroud_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -37959,6 +38402,7 @@
     "dof_while_zoomed": null,
     "id": 385745034,
     "image": "images/upgrades/mods_utility/stasis_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38051,6 +38495,7 @@
     "dof_while_zoomed": null,
     "id": 1641353616,
     "image": "images/upgrades/mods_utility/stasis_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38129,6 +38574,7 @@
     "dof_while_zoomed": null,
     "id": 2617435668,
     "image": "images/upgrades/mods_tech/glitch_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38210,6 +38656,7 @@
     "dof_while_zoomed": null,
     "id": 1959600032,
     "image": "images/upgrades/mods_tech/tech_damage_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38293,6 +38740,7 @@
     "dof_while_zoomed": null,
     "id": 2951612397,
     "image": "images/upgrades/mods_tech/duration_extender_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38376,6 +38824,7 @@
     "dof_while_zoomed": null,
     "id": 2717651715,
     "image": "images/upgrades/mods_tech/arcane_persistance_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38459,6 +38908,7 @@
     "dof_while_zoomed": null,
     "id": 365620721,
     "image": "images/upgrades/mods_weapon/glass_cannon_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38545,6 +38995,7 @@
     "dof_while_zoomed": null,
     "id": 1055679805,
     "image": "images/upgrades/mods_weapon/vampiric_burst_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38629,6 +39080,7 @@
     "dof_while_zoomed": null,
     "id": 481022061,
     "image": "images/upgrades/mods_weapon/thermal_detonator_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38713,6 +39165,7 @@
     "dof_while_zoomed": null,
     "id": 2039312305,
     "image": "images/upgrades/mods_armor/health_stealing_bullets_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38798,6 +39251,7 @@
     "dof_while_zoomed": null,
     "id": 253917113,
     "image": "images/upgrades/mods_utility/fast_reload_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38887,6 +39341,7 @@
     "dof_while_zoomed": null,
     "id": 1252627263,
     "image": "images/upgrades/mods_armor/boxing_glove_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -38973,6 +39428,7 @@
     "dof_while_zoomed": null,
     "id": 465043967,
     "image": "images/upgrades/mods_tech/acolytes_glove_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39055,6 +39511,7 @@
     "dof_while_zoomed": null,
     "id": 26002154,
     "image": "images/upgrades/mods_weapon/melee_charge_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39138,6 +39595,7 @@
     "dof_while_zoomed": null,
     "id": 3572021243,
     "image": "images/upgrades/mods_tech/charmed_wraps_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39218,6 +39676,7 @@
     "dof_while_zoomed": null,
     "id": 1326137213,
     "image": "images/upgrades/mods_weapon/auto_reloader_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39302,6 +39761,7 @@
     "dof_while_zoomed": null,
     "id": 2820116164,
     "image": "images/upgrades/mods_armor/bullet_shield_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39385,6 +39845,7 @@
     "dof_while_zoomed": null,
     "id": 2672389724,
     "image": "images/upgrades/mods_utility/base_utility_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39477,6 +39938,7 @@
     "dof_while_zoomed": null,
     "id": 3612042342,
     "image": "images/upgrades/mods_tech/boundless_spirit_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39559,6 +40021,7 @@
     "dof_while_zoomed": null,
     "id": 2739107182,
     "image": "images/upgrades/mods_weapon/fire_rate_plus_plus_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39642,6 +40105,7 @@
     "dof_while_zoomed": null,
     "id": 558396679,
     "image": "images/upgrades/mods_armor/resilience_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39722,6 +40186,7 @@
     "dof_while_zoomed": null,
     "id": 2829638276,
     "image": "images/upgrades/mods_armor/endurance_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39803,6 +40268,7 @@
     "dof_while_zoomed": null,
     "id": 2985482185,
     "image": "images/upgrades/mods_tech/clarity_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39886,6 +40352,7 @@
     "dof_while_zoomed": null,
     "id": 1292979587,
     "image": "images/upgrades/mods_tech/magic_storm_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -39969,6 +40436,7 @@
     "dof_while_zoomed": null,
     "id": 1925087134,
     "image": "images/upgrades/mods_armor/weapon_jammer_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40050,6 +40518,7 @@
     "dof_while_zoomed": null,
     "id": 84321454,
     "image": "images/upgrades/mods_weapon/fire_rate_plus_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40132,6 +40601,7 @@
     "dof_while_zoomed": null,
     "id": 2717142638,
     "image": "images/upgrades/mods_weapon/arcane_eater_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40216,6 +40686,7 @@
     "dof_while_zoomed": null,
     "id": 2574520834,
     "image": "images/upgrades/mods_weapon/close_range_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40297,6 +40768,7 @@
     "dof_while_zoomed": null,
     "id": 2407033488,
     "image": "images/upgrades/mods_weapon/auto_reloader_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40379,6 +40851,7 @@
     "dof_while_zoomed": null,
     "id": 2463960640,
     "image": "images/upgrades/mods_armor/bullet_armor_plus_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40462,6 +40935,7 @@
     "dof_while_zoomed": null,
     "id": 4104549924,
     "image": "images/upgrades/mods_weapon/fire_rate_plus_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40543,6 +41017,7 @@
     "dof_while_zoomed": null,
     "id": 865958998,
     "image": "images/upgrades/mods_utility/veil_walker_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40635,6 +41110,7 @@
     "dof_while_zoomed": null,
     "id": 1644605047,
     "image": "images/upgrades/mods_armor/last_stand_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40719,6 +41195,7 @@
     "dof_while_zoomed": null,
     "id": 3862866912,
     "image": "images/upgrades/mods_weapon/medic_bullets_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40805,6 +41282,7 @@
     "dof_while_zoomed": null,
     "id": 2356412290,
     "image": "images/upgrades/mods_weapon/titanic_magazine_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40886,6 +41364,7 @@
     "dof_while_zoomed": null,
     "id": 381961617,
     "image": "images/upgrades/mods_utility/deployable_bullet_shield_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -40968,6 +41447,7 @@
     "dof_while_zoomed": null,
     "id": 2800629741,
     "image": "images/abilities/kelvin/ice_path_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -41053,6 +41533,7 @@
     "dof_while_zoomed": null,
     "id": 1200177229,
     "image": "images/upgrades/mods_armor/restorative_locket_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -41137,6 +41618,7 @@
     "dof_while_zoomed": null,
     "id": 2331566268,
     "image": "images/upgrades/mods_tech/acolytes_glove_psd.png",
+    "item_slot_type": "spirit",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -41219,6 +41701,7 @@
     "dof_while_zoomed": null,
     "id": 194116661,
     "image": "images/upgrades/mods_weapon/glass_cannon_psd.png",
+    "item_slot_type": "weapon",
     "max_level": null,
     "points_cost": null,
     "properties": {
@@ -41305,6 +41788,7 @@
     "dof_while_zoomed": null,
     "id": 138320648,
     "image": "images/upgrades/mods_armor/last_stand_psd.png",
+    "item_slot_type": "vitality",
     "max_level": null,
     "points_cost": null,
     "properties": {

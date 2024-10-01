@@ -6,7 +6,7 @@ from starlette.requests import Request
 from deadlock_assets_api.models import colors
 from deadlock_assets_api.models.colors import Color
 from deadlock_assets_api.models.hero import Hero, load_heroes
-from deadlock_assets_api.models.item import Item, ItemType, load_items
+from deadlock_assets_api.models.item import Item, ItemSlotType, ItemType, load_items
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.map import Map
 
@@ -84,6 +84,15 @@ def get_items_by_type(
     items = get_items(request, language)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
+
+
+@router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
+def get_items_by_type(
+    request: Request, slot_type: ItemSlotType, language: Language = Language.English
+) -> list[Item]:
+    items = get_items(request, language)
+    slot_type = ItemSlotType(slot_type.capitalize())
+    return [c for c in items if c.item_slot_type == slot_type]
 
 
 @router.get("/map", response_model_exclude_none=True)

@@ -11,6 +11,7 @@ from pydantic import (
     Field,
     TypeAdapter,
     computed_field,
+    field_serializer,
     field_validator,
 )
 
@@ -183,6 +184,21 @@ class ItemDofWhileZoomed(BaseModel):
     dof_far_blurry: float = Field(..., validation_alias="m_flDofFarBlurry")
 
 
+class ItemSlotType(StrEnum):
+    EItemSlotType_WeaponMod = "weapon"
+    EItemSlotType_Tech = "spirit"
+    EItemSlotType_Armor = "vitality"
+
+    @classmethod
+    def _missing_(cls, new_value: str):
+        new_value = new_value.lower()
+        for member in cls:
+            if member.name.lower() == new_value or member.value.lower() == new_value:
+                return member
+        warning(f"Unknown ItemSlotType: {new_value}")
+        return None
+
+
 class ItemType(StrEnum):
     WEAPON = "weapon"
     ABILITY = "ability"
@@ -239,7 +255,7 @@ class ItemType(StrEnum):
 
 
 class Item(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
     name: str | None = Field(None)
     class_name: str = Field()
@@ -260,9 +276,18 @@ class Item(BaseModel):
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
     tier: str | int | None = Field(None, validation_alias="m_iItemTier")
+    item_slot_type: ItemSlotType | None = Field(
+        None, validation_alias="m_eItemSlotType"
+    )
     child_items: list[str] | list[int] | None = Field(
         None, validation_alias="m_vecComponentItems"
     )
+
+    @field_serializer("item_slot_type")
+    def serialize_group(self, group: ItemSlotType | str, _info):
+        if group is None or isinstance(group, str):
+            return group
+        return group.name
 
     @computed_field
     @property
