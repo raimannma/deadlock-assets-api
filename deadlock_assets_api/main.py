@@ -6,7 +6,7 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
 
-from deadlock_assets_api.routes import base, v1
+from deadlock_assets_api.routes import base, raw, v1
 
 logging.basicConfig(level=logging.INFO)
 
@@ -19,6 +19,7 @@ Instrumentator().instrument(app).expose(app, include_in_schema=False)
 
 app.include_router(base.router, include_in_schema=False)
 app.include_router(v1.router)
+app.include_router(raw.router)
 
 
 @app.middleware("http")
