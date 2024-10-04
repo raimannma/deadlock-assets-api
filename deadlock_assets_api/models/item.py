@@ -1,4 +1,3 @@
-import json
 import os
 from enum import StrEnum
 from functools import lru_cache
@@ -16,8 +15,8 @@ from pydantic import (
 )
 
 import deadlock_assets_api.models.generic_data
+from deadlock_assets_api import utils
 from deadlock_assets_api.glob import IMAGE_BASE_URL, VIDEO_BASE_URL
-from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.languages import Language
 
 
@@ -259,6 +258,7 @@ class Item(BaseModel):
     model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
     name: str | None = Field(None)
+    description: str | None = Field(None)
     class_name: str = Field()
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
@@ -356,25 +356,13 @@ class Item(BaseModel):
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
+        self.description = self.get_description(language)
 
     def get_name(self, language: Language) -> str:
-        file = f"res/localization/citadel_gc_{language.value}.json"
-        if not os.path.exists(file):
-            file = f"res/localization/citadel_gc_english.json"
-            if not os.path.exists(file):
-                return self.class_name
+        return utils.get_translation(self.class_name, language)
 
-        with open(file) as f:
-            language_data = json.load(f)["lang"]["Tokens"]
-        name = language_data.get(self.class_name, None)
-        if name is not None:
-            return name
-        if language == Language.English:
-            return self.class_name
-        file = f"res/localization/citadel_gc_english.json"
-        with open(file) as f:
-            language_data = json.load(f)["lang"]["Tokens"]
-        return language_data.get(self.class_name, None)
+    def get_description(self, language: Language) -> str:
+        return utils.get_translation(f"{self.class_name}_desc", language, True)
 
     def postfix(self, items: list["Item"]):
         if self.child_items is None:

@@ -1,4 +1,3 @@
-import json
 import os
 import os.path
 from enum import StrEnum
@@ -14,8 +13,8 @@ from pydantic import (
 )
 
 import deadlock_assets_api.models.item
+from deadlock_assets_api import utils
 from deadlock_assets_api.glob import IMAGE_BASE_URL
-from deadlock_assets_api.models import utils
 from deadlock_assets_api.models.item import Item
 from deadlock_assets_api.models.languages import Language
 
@@ -253,23 +252,7 @@ class Hero(BaseModel):
         self.name = self.get_name(Language.English)
 
     def get_name(self, language: Language) -> str:
-        file = f"res/localization/citadel_gc_{language.value}.json"
-        if not os.path.exists(file):
-            file = f"res/localization/citadel_gc_english.json"
-            if not os.path.exists(file):
-                return self.class_name
-
-        with open(file) as f:
-            language_data = json.load(f)["lang"]["Tokens"]
-        name = language_data.get(f"hero_{self.class_name}", None)
-        if name is not None:
-            return name
-        if language == Language.English:
-            return self.class_name
-        file = f"res/localization/citadel_gc_english.json"
-        with open(file) as f:
-            language_data = json.load(f)["lang"]["Tokens"]
-        return language_data.get(f"hero_{self.class_name}", self.class_name)
+        return utils.get_translation(f"hero_{self.class_name}", language)
 
     @computed_field
     @property
