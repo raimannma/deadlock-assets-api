@@ -32,6 +32,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": 1.0,
       "bullet_damage": 17.5,
@@ -131,6 +132,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": 2.0,
       "bullet_damage": 106.0,
@@ -230,6 +232,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 3.24,
@@ -329,6 +332,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 12.98,
@@ -428,6 +432,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 11.6,
@@ -527,6 +532,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.4,
@@ -626,6 +632,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.6,
@@ -726,6 +733,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 34.2,
@@ -826,6 +834,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -907,6 +916,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -994,6 +1004,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1080,6 +1091,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1167,6 +1179,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1254,6 +1267,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1338,6 +1352,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1417,6 +1432,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1515,6 +1531,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1580,7 +1597,7 @@
       "ability_cast_range": 0.0,
       "ability_channel_time": 0.0,
       "ability_charges": 0.0,
-      "ability_cooldown": 340.0,
+      "ability_cooldown": 280.0,
       "ability_cooldown_between_charge": 0.0,
       "ability_duration": 32.0,
       "ability_post_cast_duration": 0.0,
@@ -1594,6 +1611,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1692,6 +1710,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1771,6 +1790,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1850,6 +1870,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -1934,6 +1955,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2013,6 +2035,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2098,6 +2121,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2177,6 +2201,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2259,6 +2284,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2341,6 +2367,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2423,6 +2450,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2505,6 +2533,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2587,6 +2616,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2669,6 +2699,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2751,6 +2782,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2833,6 +2865,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -2922,6 +2955,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3007,6 +3041,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3090,6 +3125,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3171,6 +3207,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3250,6 +3287,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3344,6 +3382,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3449,6 +3488,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3547,6 +3587,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3633,6 +3674,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3743,6 +3785,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3838,6 +3881,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -3922,6 +3966,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4014,6 +4059,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4101,6 +4147,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4187,6 +4234,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4268,6 +4316,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4352,6 +4401,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4438,6 +4488,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4525,6 +4576,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4604,6 +4656,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4693,6 +4746,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4772,6 +4826,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4851,6 +4906,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -4931,6 +4987,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5010,6 +5067,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5091,6 +5149,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5174,6 +5233,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5261,6 +5321,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5353,6 +5414,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5435,6 +5497,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5523,6 +5586,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5602,6 +5666,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5684,6 +5749,7 @@
     "type": null,
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5766,6 +5832,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5845,6 +5912,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -5940,6 +6008,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6039,6 +6108,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 32.2,
@@ -6120,6 +6190,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.8,
@@ -6217,6 +6288,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.8,
@@ -6326,6 +6398,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.8,
@@ -6424,6 +6497,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6518,6 +6592,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/astro_explosive_barrel.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/astro_explosive_barrel_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6613,6 +6688,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/astro_bounce_pad.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/astro_bounce_pad_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6700,6 +6776,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/astro_target_practice.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/astro_target_practice_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6783,6 +6860,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6876,6 +6954,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/astro_gravity_lasso.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/astro_gravity_lasso_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -6963,6 +7042,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7048,6 +7128,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7131,6 +7212,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "",
+    "video_mp4_h264": "",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7214,6 +7296,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 4.675,
@@ -7309,6 +7392,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7402,6 +7486,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_shoulder_charge.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_shoulder_charge_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7487,6 +7572,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_beefiness.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_beefiness_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7575,6 +7661,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_leap.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_leap_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7659,6 +7746,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_siphon_life.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/atlas_siphon_life_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7744,6 +7832,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.3,
@@ -7842,6 +7931,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -7936,6 +8026,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_uppercut.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_uppercut_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8021,6 +8112,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_sticky_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_sticky_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8119,6 +8211,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_ult.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_ult_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8213,6 +8306,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_hook.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/bebop_hook_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8296,6 +8390,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.5,
@@ -8394,6 +8489,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8479,6 +8575,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8558,6 +8655,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8637,6 +8735,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8716,6 +8815,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8795,6 +8895,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -8882,6 +8983,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 4.9,
@@ -8980,6 +9082,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9063,6 +9166,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9147,6 +9251,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9232,6 +9337,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9319,6 +9425,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9402,6 +9509,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9485,6 +9593,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 7.2,
@@ -9583,6 +9692,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9671,6 +9781,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_time_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_time_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9764,6 +9875,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_chrono_sphere.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_chrono_sphere_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9859,6 +9971,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_time_bank.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_time_bank_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -9947,6 +10060,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_chrono_swap.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/chrono_chrono_swap_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10030,6 +10144,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 13.0,
@@ -10128,6 +10243,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10221,6 +10337,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_sumo_stomp.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_sumo_stomp_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10306,6 +10423,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_charged_tackle.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_charged_tackle_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10399,6 +10517,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_charged_tackle.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_charged_tackle_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10484,6 +10603,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_nikuman.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_nikuman_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10571,6 +10691,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_singularity.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/dynamo_singularity_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10654,6 +10775,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 7.15,
@@ -10752,6 +10874,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10837,6 +10960,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_mobile_resupply.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_mobile_resupply_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -10937,6 +11061,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_turret.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_turret_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 25.0,
@@ -11046,6 +11171,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_fissure_wall.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_fissure_wall_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11125,6 +11251,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11204,6 +11331,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11302,6 +11430,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_rocket_barrage.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_forge_rocket_barrage_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11385,6 +11514,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 11.6,
@@ -11484,6 +11614,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 25.0,
@@ -11582,6 +11713,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11671,6 +11803,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_blood_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_blood_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11759,6 +11892,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_malice.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_malice_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11844,6 +11978,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_life_drain.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_life_drain_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -11928,6 +12063,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12017,6 +12153,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_blood_exchange.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ghost_blood_exchange_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12100,6 +12237,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 11.5,
@@ -12198,6 +12336,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12285,6 +12424,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_lightning_ball.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_lightning_ball_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12369,6 +12509,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_static_charge.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_static_charge_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12452,6 +12593,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12539,6 +12681,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_voltage_drain.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_voltage_drain_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12628,6 +12771,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_storm_cloud.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/gigawatt_storm_cloud_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12711,6 +12855,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.6,
@@ -12809,6 +12954,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12905,6 +13051,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_sleep_dagger.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_sleep_dagger_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -12988,6 +13135,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13079,6 +13227,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_smoke_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_smoke_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13165,6 +13314,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_fixation.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_fixation_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13250,6 +13400,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_bullet_flurry.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_haze_bullet_flurry_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13333,6 +13484,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 15.0,
@@ -13431,6 +13583,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13515,6 +13668,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13601,6 +13755,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_chain.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_chain_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13690,6 +13845,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_flight.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_flight_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13779,6 +13935,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_sting.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_sting_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13872,6 +14029,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_assassinate.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/hornet_assassinate_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -13952,6 +14110,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14035,6 +14194,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 6.6,
@@ -14133,6 +14293,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14219,6 +14380,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_stun_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_stun_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14314,6 +14476,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_flame_dash.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_flame_dash_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14393,6 +14556,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14485,6 +14649,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_incendiary.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_inferno_incendiary_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14571,6 +14736,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/abilty_inferno_afterburn.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/abilty_inferno_afterburn_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14655,6 +14821,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 20.9,
@@ -14753,6 +14920,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14846,6 +15014,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_ice_beam.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_ice_beam_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -14943,6 +15112,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_ice_path.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_ice_path_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15027,6 +15197,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_freezing_grenade.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_freezing_grenade_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15114,6 +15285,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_frozen_shelter.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/kelvin_frozen_shelter_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15197,6 +15369,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 10.0,
@@ -15295,6 +15468,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15383,6 +15557,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/lash_grapple.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/lash_grapple_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15473,6 +15648,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/lash_ground_strike.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/lash_ground_strike_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15571,6 +15747,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/lash_death_slam.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/lash_death_slam_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15657,6 +15834,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/lash_flog.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/lash_flog_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15740,13 +15918,14 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 18.0,
       "bullet_gravity_scale": 0.8,
       "bullet_inherit_shooter_velocity_scale": 0.0,
       "bullet_lifetime": 2.0,
-      "bullet_radius": 8.0,
+      "bullet_radius": 6.0,
       "bullet_reflect_amount": 1.0,
       "bullet_reflect_scale": 0.0,
       "bullet_whiz_distance": 150.0,
@@ -15834,9 +16013,9 @@
       "damping_factor": 0.3,
       "distance_above_ground": "2m",
       "drop_down_rate": 10.0,
-      "enemy_lift_duration": 0.3,
+      "enemy_lift_duration": 0.2,
       "forward_offset": 125.0,
-      "hold_in_place_duration": 1.2,
+      "hold_in_place_duration": 1.1,
       "lift_height": "3m",
       "max_delta_movement_control": "2m",
       "open_height": "8m",
@@ -15856,6 +16035,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_tornado.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_tornado_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -15945,6 +16125,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_sand_phantom.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_sand_phantom_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16039,6 +16220,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_fire_beetles.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_fire_beetles_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16123,6 +16305,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_teleport.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mirage_teleport_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16206,6 +16389,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 3.6,
@@ -16304,6 +16488,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16390,6 +16575,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_scorn.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_scorn_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16481,6 +16667,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_burrow.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_burrow_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16565,6 +16752,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_sand_blast.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_sand_blast_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16647,6 +16835,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_combo.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/mo_and_krill_combo_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -16730,6 +16919,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 3.0,
@@ -16832,6 +17022,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 6.0,
@@ -16933,6 +17124,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17024,6 +17216,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/nano_roller_bomb.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/nano_roller_bomb_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17103,6 +17296,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17197,6 +17391,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/nano_warp.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/nano_warp_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17294,6 +17489,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17373,6 +17569,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17467,6 +17664,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17550,6 +17748,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 24.75,
@@ -17648,6 +17847,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17734,6 +17934,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_charged_shot.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_charged_shot_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17843,6 +18044,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_power_jump.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_power_jump_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -17938,6 +18140,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_immobilizing_trap.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_immobilizing_trap_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18022,6 +18225,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_guided_arrow.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/ability_orion_guided_arrow_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18105,6 +18309,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.7,
@@ -18204,6 +18409,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.7,
@@ -18302,6 +18508,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18388,6 +18595,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_throw_shiv.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_throw_shiv_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18481,6 +18689,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_dash.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_dash_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18564,6 +18773,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_trophy_kill.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_trophy_kill_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18663,6 +18873,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_killing_blow.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/shiv_killing_blow_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18756,6 +18967,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 11.0,
@@ -18858,6 +19070,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -18947,6 +19160,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19027,6 +19241,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19109,6 +19324,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19199,6 +19415,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19293,6 +19510,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19384,6 +19602,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19463,6 +19682,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 11.0,
@@ -19562,6 +19782,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.0,
@@ -19660,6 +19881,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_flying_cloak.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_flying_cloak_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19739,6 +19961,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19823,6 +20046,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_enchanters_satchel.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_enchanters_satchel_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19910,6 +20134,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "",
+    "video_mp4_h264": "",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -19989,6 +20214,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20081,6 +20307,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_barrage.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_barrage_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20182,6 +20409,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "",
+    "video_mp4_h264": "",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20268,6 +20496,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_affliction.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/pocket_affliction_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20351,6 +20580,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 4.5,
@@ -20452,6 +20682,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20538,6 +20769,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_tangotether.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_tangotether_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20617,6 +20849,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20691,7 +20924,7 @@
       "boss_damage_percent": 50.0,
       "channel_move_speed": 50.0,
       "d_p_s": 60.0,
-      "height": "3m",
+      "height": "2m",
       "radius": "6m",
       "slow_percent": 35.0,
       "tech_power": 0.0,
@@ -20702,6 +20935,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_urn.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_urn_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20792,6 +21026,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_stone_form.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_stone_form_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20886,6 +21121,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_airlift.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/tengu_airlift_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -20969,6 +21205,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 8.2,
@@ -21067,6 +21304,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21153,6 +21391,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21248,6 +21487,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21334,6 +21574,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21423,6 +21664,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21507,6 +21749,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21590,6 +21833,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21676,6 +21920,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -21765,6 +22010,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 3.1,
@@ -21864,6 +22110,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 12.0,
@@ -21959,6 +22206,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 70.0,
@@ -22057,6 +22305,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22147,6 +22396,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_goo_grenade.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_goo_grenade_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22242,6 +22492,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_restorative_goo.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_restorative_goo_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22326,6 +22577,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "",
+    "video_mp4_h264": "",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22424,6 +22676,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_goo_bowling_ball.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_goo_bowling_ball_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22514,6 +22767,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_telepunch.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/viscous_telepunch_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22597,6 +22851,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 19.8,
@@ -22695,6 +22950,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22780,6 +23036,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/warden_lock_down.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/warden_lock_down_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22861,6 +23118,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/warden_high_alert.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/warden_high_alert_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -22949,6 +23207,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/warden_crowd_control.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/warden_crowd_control_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23036,6 +23295,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/warden_riot_protocol.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/warden_riot_protocol_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23119,6 +23379,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.5,
@@ -23217,6 +23478,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23299,6 +23561,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_lift.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_lift_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23382,6 +23645,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_project_mind.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_project_mind_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23473,6 +23737,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_daggers.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_daggers_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23557,6 +23822,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_supercharge.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_supercharge_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23648,6 +23914,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_card_trick.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_card_trick_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23728,6 +23995,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_pulse.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/wraith_psychic_pulse_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23811,6 +24079,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 25.0,
@@ -23909,6 +24178,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -23994,6 +24264,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24073,6 +24344,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24158,6 +24430,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24241,6 +24514,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24334,6 +24608,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24417,6 +24692,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "",
+    "video_mp4_h264": "",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24504,6 +24780,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 5.65,
@@ -24596,6 +24873,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": 70.4,
@@ -24691,6 +24969,7 @@
     "type": "ability",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24782,6 +25061,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_power_slash.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_power_slash_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24866,6 +25146,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_flying_strike.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_flying_strike_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -24951,6 +25232,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_healing_slash.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_healing_slash_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25034,6 +25316,7 @@
     "type": "ability",
     "unlocks_cost": 1,
     "video": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_infinity_slash.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/yamato_infinity_slash_h264.mp4",
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25113,6 +25396,7 @@
     "type": "armor",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25192,6 +25476,7 @@
     "type": "armor",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25271,6 +25556,7 @@
     "type": "armor",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25350,6 +25636,7 @@
     "type": "armor",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25429,6 +25716,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25508,6 +25796,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25587,6 +25876,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25666,6 +25956,7 @@
     "type": "weapon",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25745,6 +26036,7 @@
     "type": "tech",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25824,6 +26116,7 @@
     "type": "tech",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25903,6 +26196,7 @@
     "type": "tech",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -25982,6 +26276,7 @@
     "type": "tech",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26063,6 +26358,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26146,6 +26442,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26230,6 +26527,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26310,6 +26608,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26390,6 +26689,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26477,6 +26777,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26569,6 +26870,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26651,6 +26953,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26737,6 +27040,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26819,6 +27123,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26901,6 +27206,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -26985,6 +27291,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27067,6 +27374,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27150,6 +27458,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27232,6 +27541,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27316,6 +27626,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27396,6 +27707,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27479,6 +27791,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27559,6 +27872,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27645,6 +27959,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27732,6 +28047,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27814,6 +28130,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27900,6 +28217,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -27980,6 +28298,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28062,6 +28381,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28146,6 +28466,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28231,6 +28552,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28313,6 +28635,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28398,6 +28721,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28485,6 +28809,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28572,6 +28897,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28654,6 +28980,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28741,6 +29068,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28829,6 +29157,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28914,6 +29243,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -28998,6 +29328,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29083,6 +29414,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29168,6 +29500,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29255,6 +29588,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29335,6 +29669,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29415,6 +29750,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29503,6 +29839,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29583,6 +29920,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29664,6 +30002,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29749,6 +30088,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29830,6 +30170,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29911,6 +30252,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -29992,6 +30334,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30072,6 +30415,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30152,6 +30496,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30233,6 +30578,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30315,6 +30661,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30397,6 +30744,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30480,6 +30828,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30562,6 +30911,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30648,6 +30998,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30729,6 +31080,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30808,6 +31160,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30888,6 +31241,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -30970,6 +31324,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31053,6 +31408,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31137,6 +31493,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31219,6 +31576,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31302,6 +31660,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31383,6 +31742,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31467,6 +31827,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31552,6 +31913,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31635,6 +31997,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31716,6 +32079,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31798,6 +32162,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31884,6 +32249,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -31969,6 +32335,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32050,6 +32417,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32132,6 +32500,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32216,6 +32585,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32304,6 +32674,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32384,6 +32755,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32466,6 +32838,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32548,6 +32921,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32629,6 +33003,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32713,6 +33088,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32799,6 +33175,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32882,6 +33259,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -32984,6 +33362,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33066,6 +33445,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33149,6 +33529,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33231,6 +33612,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33314,6 +33696,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33396,6 +33779,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33484,6 +33868,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33567,6 +33952,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33653,6 +34039,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33733,6 +34120,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33814,6 +34202,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33897,6 +34286,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -33982,6 +34372,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34068,6 +34459,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34153,6 +34545,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34234,6 +34627,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34318,6 +34712,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34398,6 +34793,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34479,6 +34875,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34562,6 +34959,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34646,6 +35044,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34731,6 +35130,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34812,6 +35212,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34895,6 +35296,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -34978,6 +35380,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35062,6 +35465,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35144,6 +35548,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35224,6 +35629,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35307,6 +35713,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35390,6 +35797,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35474,6 +35882,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35555,6 +35964,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35640,6 +36050,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35724,6 +36135,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35806,6 +36218,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35890,6 +36303,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -35971,6 +36385,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36052,6 +36467,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36134,6 +36550,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36220,6 +36637,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36300,6 +36718,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36387,6 +36806,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36480,6 +36900,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36562,6 +36983,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36645,6 +37067,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36728,6 +37151,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36820,6 +37244,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36907,6 +37332,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -36994,6 +37420,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37077,6 +37504,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37160,6 +37588,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37243,6 +37672,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37330,6 +37760,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37418,6 +37849,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37507,6 +37939,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37593,6 +38026,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37676,6 +38110,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37760,6 +38195,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37840,6 +38276,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -37921,6 +38358,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38004,6 +38442,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38092,6 +38531,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38177,6 +38617,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38261,6 +38702,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38345,6 +38787,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38438,6 +38881,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38517,6 +38961,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38599,6 +39044,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38683,6 +39129,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38765,6 +39212,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38851,6 +39299,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -38938,6 +39387,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39023,6 +39473,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39108,6 +39559,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39194,6 +39646,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39282,6 +39735,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39371,6 +39825,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39454,6 +39909,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39538,6 +39994,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39619,6 +40076,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39704,6 +40162,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39788,6 +40247,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39879,6 +40339,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -39964,6 +40425,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40048,6 +40510,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40129,6 +40592,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40211,6 +40675,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40295,6 +40760,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40379,6 +40845,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40461,6 +40928,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40544,6 +41012,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40629,6 +41098,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40711,6 +41181,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40794,6 +41265,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40878,6 +41350,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -40960,6 +41433,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41053,6 +41527,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41138,6 +41613,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41223,6 +41699,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41307,6 +41784,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41390,6 +41868,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41476,6 +41955,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41559,6 +42039,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41644,6 +42125,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41731,6 +42213,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
@@ -41814,6 +42297,7 @@
     "type": "upgrade",
     "unlocks_cost": null,
     "video": null,
+    "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
       "bullet_damage": null,
