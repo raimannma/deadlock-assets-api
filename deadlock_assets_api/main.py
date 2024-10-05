@@ -1,11 +1,11 @@
 import logging
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.requests import Request
 from starlette.responses import RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
-from fastapi.middleware.cors import CORSMiddleware
 
 from deadlock_assets_api.routes import base, raw, v1
 
