@@ -5,6 +5,7 @@ from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.requests import Request
 from starlette.responses import RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 
 from deadlock_assets_api.routes import base, raw, v1
 
@@ -13,6 +14,13 @@ logging.basicConfig(level=logging.INFO)
 app = FastAPI(
     title="Deadlock Assets API",
     description="API for Deadlock assets, including hero stats and images, and item stats and images.",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 Instrumentator().instrument(app).expose(app, include_in_schema=False)
