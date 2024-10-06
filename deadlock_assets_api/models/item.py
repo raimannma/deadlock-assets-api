@@ -271,6 +271,9 @@ class Item(BaseModel):
     weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
+    ability_upgrades: list[dict[str, str | float]] | None = Field(
+        None, validation_alias="m_vecAbilityUpgrades"
+    )
     dof_while_zoomed: ItemDofWhileZoomed | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
@@ -358,6 +361,28 @@ class Item(BaseModel):
             else:
                 properties[k] = v
         return properties
+
+    @field_validator("ability_upgrades")
+    @classmethod
+    def validate_ability_upgrades(
+        cls, value: list[dict[str, list[dict[str, str | float]]]], _
+    ) -> list[dict[str, str | float]] | None:
+        if value is None or len(value) == 0:
+            return None
+        ability_upgrades = []
+        for tier_upgrades in value:
+            upgrades = [i for n in tier_upgrades.values() for i in n]
+            ability_upgrades.extend(
+                {
+                    u["m_strPropertyName"]: (
+                        float(u["m_strBonus"])
+                        if utils.is_float(u["m_strBonus"])
+                        else u["m_strBonus"]
+                    )
+                }
+                for u in upgrades
+            )
+        return ability_upgrades
 
     def model_post_init(self, __context):
         self.name = self.get_name(Language.English)
