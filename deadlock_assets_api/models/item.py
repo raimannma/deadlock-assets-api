@@ -324,6 +324,19 @@ class Item(BaseModel):
             return value
         return int(value[-1])
 
+    @field_validator("disabled")
+    @classmethod
+    def validate_disabled(cls, value: str | int | None, _) -> bool | None:
+        if value is None:
+            return None
+        if isinstance(value, int):
+            return bool(value)
+        if value.lower() in ["true", "1"]:
+            return True
+        if value.lower() in ["false", "0"]:
+            return False
+        return None
+
     @computed_field
     @property
     def cost(self) -> int | None:
