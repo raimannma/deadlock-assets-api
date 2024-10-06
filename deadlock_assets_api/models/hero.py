@@ -173,6 +173,9 @@ class Hero(BaseModel):
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str = Field()
     name: str | None = Field(None)
+    lore: str | None = Field(None)
+    role: str | None = Field(None)
+    playstyle: str | None = Field(None)
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")
     in_development: bool = Field(..., validation_alias="m_bInDevelopment")
@@ -247,12 +250,26 @@ class Hero(BaseModel):
 
     def set_language(self, language: Language):
         self.name = self.get_name(language)
+        self.lore = self.get_lore(language)
+        self.role = self.get_role(language)
+        self.playstyle = self.get_playstyle(language)
 
     def model_post_init(self, _):
-        self.name = self.get_name(Language.English)
+        self.set_language(Language.English)
 
     def get_name(self, language: Language) -> str:
         return utils.get_translation(f"hero_{self.class_name}", language)
+
+    def get_lore(self, language: Language) -> str:
+        return utils.get_translation(f"hero_{self.class_name}_lore", language, True)
+
+    def get_role(self, language: Language) -> str:
+        return utils.get_translation(f"hero_{self.class_name}_role", language, True)
+
+    def get_playstyle(self, language: Language) -> str:
+        return utils.get_translation(
+            f"hero_{self.class_name}_playstyle", language, True
+        )
 
     @computed_field
     @property
