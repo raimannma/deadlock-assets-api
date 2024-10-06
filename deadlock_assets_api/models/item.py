@@ -260,6 +260,9 @@ class Item(BaseModel):
     name: str | None = Field(None)
     description: str | None = Field(None)
     class_name: str = Field()
+    disabled: bool | None = Field(None, validation_alias="m_bDisabled")
+    in_development: bool | None = Field(None, validation_alias="m_bInDevelopment")
+    start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
     properties: dict[str, ItemInfoProperty | str | float | None] | None = Field(
