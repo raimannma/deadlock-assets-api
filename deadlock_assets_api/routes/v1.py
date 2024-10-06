@@ -64,6 +64,26 @@ def get_item_by_name(name: str, language: Language = Language.English) -> Item:
     raise HTTPException(status_code=404, detail="Item not found")
 
 
+@router.get("/items/by-hero-id/{id}", response_model_exclude_none=True)
+def get_items_by_hero_id(
+    id: int, language: Language = Language.English
+) -> dict[str, Item]:
+    hero = get_hero(id, language)
+    hero_item_ids = set(hero.items.values())
+    hero_items = (i for i in get_items(language) if i.id in hero_item_ids)
+    return dict(zip(hero.items.keys(), hero_items))
+
+
+@router.get("/items/by-hero-name/{name}", response_model_exclude_none=True)
+def get_items_by_hero_name(
+    name: str, language: Language = Language.English
+) -> dict[str, Item]:
+    hero = get_hero_by_name(name, language)
+    hero_item_ids = set(hero.items.values())
+    hero_items = (i for i in get_items(language) if i.id in hero_item_ids)
+    return dict(zip(hero.items.keys(), hero_items))
+
+
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
     type: ItemType, language: Language = Language.English
