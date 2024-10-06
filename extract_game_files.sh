@@ -72,6 +72,11 @@ cp -r "$citadel_folder"/resource/localization/citadel_heroes/* localization/
 # Extract video files
 mkdir -p videos
 cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
+for video_file in $(find videos -type f -name "*.webm"); do
+    video_mp4_file=$(echo "$video_file" | sed 's/.webm/_h264.mp4/')
+    echo "Converting $video_file to $video_mp4_file"
+    ffmpeg -i "$video_file" -c:v libx264 -crf 23 -y "$video_mp4_file"
+done
 
 # Extract css files
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
