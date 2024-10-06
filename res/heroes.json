@@ -319,9 +319,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Like most teenagers; Infernus was wild, rebellious, and impetuous.  Unlike most teenagers, Infernus was a creature from another plane and had a supernatural mastery over fire.  Needless to say:  his youth was filled with no small amount of arson, murder, and evidence disposal.  But that was then.  Now an adult, Infernus has mellowed out considerably.  He\u2019s happy working at a bar with good live music, and talking to interesting people.  That being said when someone at the bar gets belligerent or violent, he\u2019s not afraid to dust off the skills he once honed.",
     "minimap_image": "panorama:\"file://{images}/heroes/inferno_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus' blazing speed, his enemies won't be able to escape the flames.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -379,6 +381,7 @@
       ]
     },
     "readability": 6,
+    "role": "Lights up enemies and watches them burn",
     "selection_image": "panorama:\"file://{images}/heroes/inferno.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.282857,
@@ -734,9 +737,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "When mystic energy awoke on Earth, the world changed... anything was possible.  But just because anything WAS possible, didn\u2019t mean that anything SHOULD be possible.  And so the government made rules.   Laws.  A means for US citizens to enjoy the benefits of the supernatural world in safety.  But rules and laws are for lesser men.  Men with limitations.  Men who were not Seven.  \n\nThere are many rumors about what Seven did to land himself in Lost Whisper, an oubliette for the most dangerous of occultists.  But there is no doubt about what happened on the night of his execution. \n\nWards placed by the most powerful ritualists of 7 different nations\u2026 wards designed to not just prevent mystical interference with the execution, but to simultaneously obliterate Seven's soul so that it could never be contacted, resurrected, or otherwise be used by someone looking to follow in his footsteps... failed.\n\nOnlookers viewed in horror as the strongest mentalist employed by the US Army\u2019s head popped like a grape.  They screamed as Scotland Yard\u2019s premiere occult investigator, the one who allegedly captured Seven, crumbled to ash.  Seven's body buckled and writhed against his restraints; his skin burning from eldritch electricity... and yet he would not die.  He laughed.\n\nHe laughed as he tore himself free from his bondage.\n\nHe laughed as his captors cowered in fear.\n\nHe laughed as he massacred his tormentors.\n\nHe laughed as he tasted the fresh air that was denied to him for years.\n\nAnd he laughed when he thought about what he was going to do once he reached New York City.",
     "minimap_image": "panorama:\"file://{images}/heroes/gigawatt_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Seven thrives in a skirmish waiting for the time to strike. Then he rolls into the fight like a storm and batters his enemies with a cascade of lightning.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -794,6 +799,7 @@
       ]
     },
     "readability": 4,
+    "role": "Electrocutes crowds of enemies",
     "selection_image": "panorama:\"file://{images}/heroes/gigawatt.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.597143,
@@ -1149,9 +1155,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "A victim of John Hathorne during the Salem Witch Trials, Vindicta got a second chance of life when her spirit was brought back to the mortal plane during the first Maelstrom (the event that introduced the supernatural to the public at large).\n\nWaging a one ghost war against \"The Friends of Humanity\", a neo inquisition formed by Hathorne's descendants; Vindicta looks to keep the supernatural safe from Hathorne's ilk, and she isn't afraid to stack as many bodies as needed to do it.",
     "minimap_image": "panorama:\"file://{images}/heroes/hornet_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Vindicta has the mobility to engage at her leisure, picking at her prey and bleeding them out slowly. Injured enemies at any distance should fear being picked off when she is on the map.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -1209,6 +1217,7 @@
       ]
     },
     "readability": 3,
+    "role": "Snipes the unsuspecting",
     "selection_image": "panorama:\"file://{images}/heroes/hornet.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.785714,
@@ -1564,9 +1573,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Once, Lady Jeanne Geist was the toast of the town.  But as time passed and her beauty faded she found herself further and further from her glory days in High Society until finally she was nothing more than a frail woman in a nursing home, telling stories of a glorious past.  And that\u2019s when Oathkeeper revealed himself.  A powerful spirit from another plane, Oathkeeper offered her a path to reclaim her past glories\u2026 he could restore her youth; all she had to do was drain the essence of the living to sustain herself. \n\nGeist was torn.  Obviously murder was ghoulish business, and undoubtedly Oathkeeper was not an entity that could be trusted\u2026 but still, the thought of having a second chance of reliving her youth was too good to pass up.  And so she concocted a plan: after making a pact with Oathkeeper she would bind and ward him, limiting his influence and pull over her.  Oathkeeper would still get fed; but on her terms, not his.\n\nHowever, as years have turned to decades; the strength of the Ward has weakened, and Oathkeeper hungers more than he ever has in the past\u2026 ",
     "minimap_image": "panorama:\"file://{images}/heroes/spectre_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Expending health to achieve devastating effects is the source of Lady Geist's power. When running low, she can drain the life out of her rivals.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -1624,6 +1635,7 @@
       ]
     },
     "readability": 1,
+    "role": "Sacrifices health then drains it back",
     "selection_image": "panorama:\"file://{images}/heroes/spectre.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.65,
@@ -1979,9 +1991,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\n\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\n\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \"Don't let them have it\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
     "minimap_image": "panorama:\"file://{images}/heroes/bull_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -2039,6 +2053,7 @@
       ]
     },
     "readability": 4,
+    "role": "Charges into close combat",
     "selection_image": "panorama:\"file://{images}/heroes/bull.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.251429,
@@ -2394,9 +2409,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "The cornerstone of the New York gambling scene, Wraith's organization is about as open a secret as it comes.  However, thanks to a non-trivial amount of bribes, shakedowns, and blackmail, Wraith knows that she's above the law.",
     "minimap_image": "panorama:\"file://{images}/heroes/wraith_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. Then teleporting away before anyone can retaliate.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -2454,6 +2471,7 @@
       ]
     },
     "readability": 3,
+    "role": "Melts isolated targets",
     "selection_image": "panorama:\"file://{images}/heroes/wraith.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.377143,
@@ -2809,9 +2827,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Maggie McGinnis always had a knack for building things.  At 4 she was using Lincoln Logs to recreate architectural marvels.  At 10 she built and rewired a custom light fixture for her parent's anniversary.  At 15 she designed a machine that refined the souls of the dead...that last one got a little more attention than the Lincoln Logs.\n\nNow the head of Fairfax Industries Military R&D department, McGinnis spends her time in the machine shop, not in a lab.  She's not interested in theory, to her science is magic you can touch.",
     "minimap_image": "panorama:\"file://{images}/heroes/engineer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Precise placement is everything for McGinnis, whether she's creating a killzone or splitting the enemy team. She can help keep her team running making them hard to dislodge when entrenched.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -2869,6 +2889,7 @@
       ]
     },
     "readability": 5,
+    "role": "Controls the battle with combat turrets",
     "selection_image": "panorama:\"file://{images}/heroes/engineer.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.345714,
@@ -3224,9 +3245,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Paradox.  An artifact of time, and the name of a notorious thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions.  What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen?  Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox\u2019s reach.\n\nShrouded in mystery, each member of Paradox dons a mask and takes on the organization's name.  They are everywhere.  They are nowhere.  And if they want something, they are inevitable.",
     "minimap_image": "panorama:\"file://{images}/heroes/chrono_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Manipulating time lets Paradox outpace an enemy in one on one combat. She thrives by subjecting her enemies to timely swaps into a waiting pulse grenade, her wall, or into the middle of her teammates.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -3284,6 +3307,7 @@
       ]
     },
     "readability": 1,
+    "role": "Manipulates Space and Time",
     "selection_image": "panorama:\"file://{images}/heroes/chrono.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
@@ -3639,9 +3663,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "As a Scientist, Professor Dynamo always had an inquisitive mind.  So when a rift in space and time opened up in central park he was first on the scene to investigate \u2013 and while he expected such a majestic sight to be life changing, he was thinking more in a metaphorical way as opposed to having his body atomized and reduced to a tiny dying star.\n\nBut while his body is gone, his spirit and lust for knowledge lives on.  A tenured professor at Columbia College, Dynamo looks to learn more about his condition while maintaining his class load, after all: he has future minds to inspire.",
     "minimap_image": "panorama:\"file://{images}/heroes/sumo_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Dynamo keeps himself and his allies healthy while waiting for his moment. Few things can warp a team fight more than a well-coordinated use of Singularity.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -3699,6 +3725,7 @@
       ]
     },
     "readability": 4,
+    "role": "Locks down the enemy team",
     "selection_image": "panorama:\"file://{images}/heroes/sumo.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.707143,
@@ -4054,9 +4081,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable.  So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough.  Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.\n\nThey never returned.\n\nA year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes.  The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes.  They checked his vitals... there was no pulse.  They sought to bandage his open wounds... there was no blood.  And yet, impossibly, Kelvin was \"alive\".\n\nHaving no memory of what happened on the expedition, Kelvin is looking for answers.",
     "minimap_image": "panorama:\"file://{images}/heroes/kelvin_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Timely heals and splitting a teamfight properly is the difference between an easy victory or a ruinous defeat. Gliding around slowing enemies gives Kelvin's team the maneuvering advantage to make this happen.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -4114,6 +4143,7 @@
       ]
     },
     "readability": 3,
+    "role": "Freezes enemies in their tracks",
     "selection_image": "panorama:\"file://{images}/heroes/kelvin.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.707,
@@ -4469,9 +4499,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "The Occult Security and Investigation Commission is a black box government organization that makes the CIA look transparent.  It falls on the men, women, and entities of the OSIC to keep the country safe from sinister forces that are beyond the capabilities of local law enforcement.\n\nAs a member of the notorious Sandman Division, Haze is routinely tasked with infiltrating the dreams of persons of interest, to assess their threat level, and if needed... to put them to sleep.",
     "minimap_image": "panorama:\"file://{images}/heroes/haze_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "When Haze fixates on a target she can hold her own in a firefight. She prefers to create one sided exchanges, avoiding damage then picking off unsuspecting targets up close.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -4529,6 +4561,7 @@
       ]
     },
     "readability": 5,
+    "role": "Sneaks in and sprays bullets",
     "selection_image": "panorama:\"file://{images}/heroes/haze.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.223929,
@@ -4884,9 +4917,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.\n\nGrisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \"The Troubadour\", but when she confronted him he exploded into a murder of crows and flew away.\n\nThat was 6 months ago, and while the murders in central illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch.",
     "minimap_image": "panorama:\"file://{images}/heroes/astro_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Astro depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -4944,6 +4979,7 @@
       ]
     },
     "readability": 2,
+    "role": "Bounces about dispensing trick shots",
     "selection_image": "panorama:\"file://{images}/heroes/astro.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.492857,
@@ -5299,9 +5335,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Forged by the hands of a widowed junk yard attendant; Bebop was more than just some scrap golem laborer... he was the son she couldn't have.  Together they would work in the iron yard during the day, and listen to jazz at night. It was a predictable, if not comforting routine.  But now, Bebop's creator has fallen ill and while Miss Shelly wouldn't approve of the activities that Bebop does at night to pay for her medicine, what she doesn't know can't hurt her.",
     "minimap_image": "panorama:\"file://{images}/heroes/bebop_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Bebop can string together his abilities in many different ways. Disrupting enemy positions, saving an ally or dealing bursts of damage. When the situation doesn't require subtlety his giant laser still solves many problems.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -5359,6 +5397,7 @@
       ]
     },
     "readability": 2,
+    "role": "Hooks an enemy for a knockout combo",
     "selection_image": "panorama:\"file://{images}/heroes/bebop.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.293071,
@@ -5716,9 +5755,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Granted the dubious honor of being named Time Magazine's most dangerous woman on the planet, Calico is an enigmatic occult arms dealer that is willing to fund any and all sides of a conflict if the price is right.\n\nWhile her critics (and friends) would correctly identify her as being amoral, she is not without her principles... however cold and calculated those principles may be.",
     "minimap_image": "panorama:\"file://{images}/heroes/nano_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -5776,6 +5817,7 @@
       ]
     },
     "readability": 4,
+    "role": "Wreaks havoc from the sidelines",
     "selection_image": "panorama:\"file://{images}/heroes/nano.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.124929,
@@ -6131,9 +6173,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "A founding member of \"The Baxter Society\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\n\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\n\nThen he got the call.\n\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was an Ixian who could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\n\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
     "minimap_image": "panorama:\"file://{images}/heroes/archer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -6191,6 +6235,7 @@
       ]
     },
     "readability": 5,
+    "role": "Delivers long range skill-shots",
     "selection_image": "panorama:\"file://{images}/heroes/archer.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.414286,
@@ -6546,9 +6591,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Mo and Krill are members of The Tunnel Rats, a group that help facilitate illicit trade and commerce between the boroughs thanks to a network of underground tunnels.  But while most denizens of the New York underworld respect the work The Rats do, every once in a while a gang tries to exploit the tunnel system for personal vendettas...that's when Mo and Krill step in and remind the city what happens to those who disrespect their hospitality.",
     "minimap_image": "panorama:\"file://{images}/heroes/digger_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "By burrowing through the ground, Mo and Krill can get the drop on almost anyone; and once they get in close the results can be devastating.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -6606,6 +6653,7 @@
       ]
     },
     "readability": 3,
+    "role": "Burrows underneath his enemies",
     "selection_image": "panorama:\"file://{images}/heroes/digger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.196429,
@@ -6962,9 +7010,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "A loyal member of \"The Baxter Society\", an international order of monster hunters, Shiv travels across North America looking to put down creatures that prey on the living.\n\nWhile his less polished nature and criminal past make some of the more traditional members of the Society wary, no one can deny his effectiveness.",
     "minimap_image": "panorama:\"file://{images}/heroes/shiv_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Shiv has zero interest in playing fair, which is why he relies on hit and run tactics to weaken enemies before he dives in for the kill.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -7022,6 +7072,7 @@
       ]
     },
     "readability": 1,
+    "role": "Bleeds out foes, then goes in for a kill",
     "selection_image": "panorama:\"file://{images}/heroes/shiv.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.314286,
@@ -7377,9 +7428,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "The gargoyle didn't know what was happening when it sprang to life...  just that a big human and a small human were being hurt.  And so the gargoyle leapt to action, sending the attackers fleeing in horror.  The small human said thank you and asked the gargoyle's name.  The gargoyle didn't have one.  And so the small human said, \"I'm going to call you Ivy.\"  The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small human's sake.\n\nThe humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them.  That night she learned much.  The family were called The Arroyo's.  The little one, Sophia.  Mofongo is what they called a plate of deliciousness.  But most importantly, she learned that the people attacking them were called \"The Mendoza Syndicate\", and they were hurting people...nice people like The Arroyo's.\n\n18 years have passed since the day the Arroyo's took Ivy home... and during that time she made it her mission to dismantle the Mendoza Syndicate and free Spanish Harlem from its grasp.  However the thing about dedicating your life to a single pursuit for nearly 2 decades is that you don't really know what to do once you achieve it.  For the first time in her life, Ivy is prepared to venture outside of Spanish Harlem and see what the world has to offer beyond vigilante justice.",
     "minimap_image": "panorama:\"file://{images}/heroes/tengu_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Ivy has disruptive combat tricks that slow and stun enemies. She's most effective when linking up with an ally, empowering her and her ally's guns as well as sharing heals.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -7437,6 +7490,7 @@
       ]
     },
     "readability": 0,
+    "role": "Sets up a power duo with a lucky ally",
     "selection_image": "panorama:\"file://{images}/heroes/tengu.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.392857,
@@ -7792,9 +7846,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/kali_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -7852,6 +7908,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/kali.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -8207,9 +8264,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Most people think the supernatural came into the world 50 years ago.  They\u2019re wrong.  Its presence shaped folklore for generations\u2026 and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them.\n\nComing from a lineage of militant alchemists, Warden\u2019s family always trained for the day they would have to stave off a mystic apocalypse\u2026 but as time passed the importance of the lessons seemed less and less important.  What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents.\n\nWhen the portal opened in Central Park, Warden\u2019s parents realized not only was everything they were told was true, they were unprepared.  Refusing to let the next generation fall asleep on the job, Warden was trained since birth to be a supernatural killing machine with one purpose: stopping the Patrons from ever entering our world.",
     "minimap_image": "panorama:\"file://{images}/heroes/warden_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Warden leads from the front, jumping into the fray and hindering his opponents' ability to fight effectively. But what Warden considers brave, others consider reckless, and if he's not careful he can easily find himself in over his head.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -8267,6 +8326,7 @@
       ]
     },
     "readability": 1,
+    "role": "Weakens his enemies and chases them down",
     "selection_image": "panorama:\"file://{images}/heroes/warden.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.942857,
@@ -8623,9 +8683,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "\u72af\u7f6a\u7d44\u7e54\u306e\u30dc\u30b9\u306e\u5bb6\u306b\u751f\u307e\u308c\u305f\u82b1\u685c\u68a8\u3068\u305d\u306e\u5144\u306e\n\u5927\u548c\u306b\u3068\u3063\u3066\u3001\u7236\u306e\u6b7b\u5f8c\u306b\u300c\u30bb\u30d6\u30f3\u30b9\u30e0\u30fc\u30f3\u300d\u306e\u8de1\u76ee\u3092\n\u7d99\u3050\u306e\u306f\u81ea\u660e\u306e\u3053\u3068\u3067\u3082\u3042\u3063\u305f\u3002 \u305d\u3057\u3066\u4f55\u5e74\u3082\u306e\u9593\u3001\n\u304b\u308c\u3089\u306f\u5bfe\u7b49\u306e\u7acb\u5834\u3067\u7d44\u7e54\u3092\u7387\u3044\u3066\u5229\u76ca\u3068\u6210\u529f\u3092\n\u3082\u305f\u3089\u3057\u3001\u3084\u304c\u3066\u306f\u30a2\u30e1\u30ea\u30ab\u3078\u306e\u9032\u51fa\u3092\u3082\u76ee\u8ad6\u3080\u3088\u3046\u306b\n\u306a\u3063\u305f\u3002\n\n\u601d\u3044\u63cf\u3044\u3066\u3044\u305f\u8a08\u753b\u306f\u5358\u7d14\u3067\u3001 \u5927\u548c\u304c\u30a2\u30e1\u30ea\u30ab\u306b\u6e21\u3063\u3066\n\u82b1\u685c\u68a8\u306e\u56fd\u969b\u7684\u306a\u5b58\u5728\u611f\u3092\u9ad8\u3081\u3001\u305d\u306e\u9593\u82b1\u685c\u68a8\u306f\u65e5\u672c\u306b\n\u6b8b\u3063\u3066\u56fd\u5185\u3092\u7d71\u5236\u3059\u308b\u3001\u3068\u3044\u3063\u305f\u3082\u306e\u3060\u3063\u305f\u3002 \u5144\u59b9\u306b\n\u3068\u3063\u3066\u4e0d\u904b\u3060\u3063\u305f\u306e\u306f\u3001\u82b1\u685c\u68a8\u304c\u65e5\u672c\u3067\u6307\u63ee\u3092\u3068\u308b\u3068\n\u3044\u3046\u8a08\u753b\u3092\u5feb\u304f\u601d\u308f\u306a\u3044\u90e8\u4e0b\u305f\u3061\u304c\u3044\u305f\u3053\u3068\u3060\u3063\u305f\u3002\n\n\u305d\u3057\u3066\u8fc5\u901f\u304b\u3064\u66b4\u529b\u7684\u306a\u5f62\u3067\u3001\u53cd\u4e71\u306f\u767a\u751f\u3057\u305f\u3002\n\u5927\u548c\u306f\u82b1\u685c\u68a8\u3092\u5b88\u308b\u305f\u3081\u306b\u547d\u3092\u843d\u3068\u3057\u3001\u82b1\u685c\u68a8\u3068\u6570\u4eba\u306e\n\u5fe0\u5b9f\u306a\u90e8\u4e0b\u305f\u3061\u306f\u3001\u305d\u306e\u5927\u548c\u306e\u72a0\u7272\u306e\u304a\u304b\u3052\u3082\u3042\u3063\u3066\u3001\n\u65e5\u672c\u304b\u3089\u30a2\u30e1\u30ea\u30ab\u3078\u3068\u9003\u3052\u5ef6\u3073\u308b\u3053\u3068\u306b\u6210\u529f\u3057\u305f\u3002\n\n\u30a2\u30e1\u30ea\u30ab\u306b\u7740\u3044\u305f\u82b1\u685c\u68a8\u305f\u3061\u3092\u51fa\u8fce\u3048\u305f\u306e\u306f\u3001\n\u672c\u6765\u3067\u3042\u308c\u3070\u5927\u548c\u304c\u4f1a\u3046\u4e88\u5b9a\u3068\u306a\u3063\u3066\u3044\u305f\u7537\u3067\u3042\u3063\u305f\u3002\n\u5f7c\u306f\u65e5\u672c\u4eba\u306e\u540d\u524d\u306b\u306a\u3058\u307f\u304c\u306a\u304b\u3063\u305f\u305f\u3081\u6027\u5225\u306e\n\u533a\u5225\u304c\u3064\u3044\u3066\u304a\u3089\u305a\u3001\u82b1\u685c\u68a8\u306e\u3053\u3068\u3092\u300c\u30e4\u30de\u30c8\u300d\u3068\n\u547c\u3093\u3060\u3002\u82b1\u685c\u68a8\u306f\u7537\u306e\u9593\u9055\u3044\u3092\u6b63\u305d\u3046\u3068\u601d\u3063\u305f\u304c\u3001\n\u7d50\u5c40\u305d\u306e\u307e\u307e\u306b\u3057\u305f\u3002\u5144\u306e\u8a18\u61b6\u3092\u6b8b\u3057\u7d9a\u3051\u308b\u305f\u3081\u306b\u3082\u3001\n\u305d\u306e\u540d\u3092\u540d\u4e57\u308a\u3001\u305d\u306e\u5922\u3092\u53d7\u3051\u7d99\u3050\u3053\u3068\u304c\u6700\u5584\u306e\n\u9053\u3067\u3042\u308d\u3046\u3068\u8003\u3048\u305f\u304b\u3089\u3060\u3002",
     "minimap_image": "panorama:\"file://{images}/heroes/yamato_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -8683,6 +8745,7 @@
       ]
     },
     "readability": 0,
+    "role": "Delivers charged attacks with finesse",
     "selection_image": "panorama:\"file://{images}/heroes/yamato.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.353,
@@ -9038,9 +9101,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Jacob Lash is an asshole.",
     "minimap_image": "panorama:\"file://{images}/heroes/lash_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Lash gives his enemies little room to breathe, either by flying in from long distances to initiate combat with unsuspecting enemies, or pursuing said enemies when they try to run.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -9098,6 +9163,7 @@
       ]
     },
     "readability": 2,
+    "role": "Dives down to stomp his foes",
     "selection_image": null,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.707143,
@@ -9454,9 +9520,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\n\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon The Patrons in order to keep The Deep safe from the horror that lurks below.",
     "minimap_image": "panorama:\"file://{images}/heroes/viscous_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -9514,6 +9582,7 @@
       ]
     },
     "readability": 3,
+    "role": "Rolls around deflecting bullets",
     "selection_image": "panorama:\"file://{images}/heroes/viscous.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.864286,
@@ -9869,9 +9938,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/gunslinger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -9929,6 +10000,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/gunslinger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -10284,9 +10356,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/yakuza_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -10344,6 +10418,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/yakuza.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -10699,9 +10774,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/tokamak_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -10759,6 +10836,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/tokamak.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.666836,
@@ -11114,9 +11192,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "When the Maelstrom  first hit New York, it didn\u2019t just usher in a new age of mysticism to the world\u2026 it changed geopolitics.  From CIA employed seers identifying threats decades before they rise to power to occult pacts made in smoky backrooms;  countless wars and atrocities have been prevented that would otherwise have shaped history.  But that doesn\u2019t mean there is no war\u2026 just that war has changed.\n\nParanormal Military Companies have risen to prominence.  These groups, using a combination of extra-planar creatures and various blood magics; have found ways to circumvent the guardrails established by the nation\u2019s watchdog oracles, allowing them to function as proxies for nations seeking to wage war.\n\nWrecker is one such soldier.\n\nEmployed by Eldritch Tactical Solutions (a subsidiary of Fairfax Industries), Wrecker is an elite soldier of fortune with a reputation for doing dirty work that other PMC\u2019s don\u2019t have the stomach for.",
     "minimap_image": "panorama:\"file://{images}/heroes/wrecker_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Salvaging and scrapping for parts, Wrecker can disassemble troopers, crush foes with his Wrecking Ball, and capture all enemies in his Stasis Trap.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -11174,6 +11254,7 @@
       ]
     },
     "readability": 0,
+    "role": "Salvages scrap to create weapons",
     "selection_image": "panorama:\"file://{images}/heroes/wrecker.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.241429,
@@ -11529,9 +11610,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/rutger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -11589,6 +11672,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/rutger.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -11944,9 +12028,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "Arin Fairfax, the eldest heir to Fairfax Industries, has been living in hiding for the past 5 years after being shot and left for dead on their 18th birthday.  Arin doesn't know who is trying to keep them from taking control of their parent's company... but in the avarice fueled viper's nest that is Fairfax Industries it could be anyone.\n\nTaking on the name \"Pocket\", Arin desperately wants to keep their true identity a secret\u2026 not only for their own protection; but because they want to forge their own identity separate from their parents.",
     "minimap_image": "panorama:\"file://{images}/heroes/synth_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "With a powerful shotgun and a thin frame, Pocket relies on their ability to briefly escape into a mystic suitcase and teleport via a flying cloak in order to survive close encounters.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -12004,6 +12090,7 @@
       ]
     },
     "readability": 1,
+    "role": "Infiltrates and disrupts the backline",
     "selection_image": "panorama:\"file://{images}/heroes/synth.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.314286,
@@ -12359,9 +12446,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/thumper_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -12419,6 +12508,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/thumper.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -12774,9 +12864,11 @@
       }
     },
     "limited_testing": false,
+    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\n\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
     "minimap_image": "panorama:\"file://{images}/heroes/mirage_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": "Mirage can envelop himself in a violent tornado to catch up to enemies and lift them up. His scarabs help him sustain against multiple enemies, and he's always ready to help an ally or punish an enemy anywhere.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -12834,6 +12926,7 @@
       ]
     },
     "readability": 1,
+    "role": "Times his shots and catches fleeing targets",
     "selection_image": "panorama:\"file://{images}/heroes/mirage.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
@@ -13190,9 +13283,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/slork_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -13250,6 +13345,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/slork.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.573571,
@@ -13605,9 +13701,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": "panorama:\"file://{images}/heroes/cadence_mm.psd\"",
     "needs_testing": true,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -13665,6 +13763,7 @@
       ]
     },
     "readability": 1,
+    "role": null,
     "selection_image": "panorama:\"file://{images}/heroes/cadence.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
@@ -14020,9 +14119,11 @@
       }
     },
     "limited_testing": false,
+    "lore": null,
     "minimap_image": null,
     "needs_testing": false,
     "player_selectable": true,
+    "playstyle": null,
     "purchase_bonuses": {
       "armor": [
         {
@@ -14080,6 +14181,7 @@
       ]
     },
     "readability": 4,
+    "role": null,
     "selection_image": null,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.124929,

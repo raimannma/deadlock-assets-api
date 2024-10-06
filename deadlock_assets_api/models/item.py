@@ -271,7 +271,7 @@ class Item(BaseModel):
     weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
-    ability_upgrades: list[dict[str, str | float]] | None = Field(
+    ability_upgrades: list[dict[str, str | float | list]] | None = Field(
         None, validation_alias="m_vecAbilityUpgrades"
     )
     dof_while_zoomed: ItemDofWhileZoomed | None = Field(
@@ -365,12 +365,18 @@ class Item(BaseModel):
     @field_validator("ability_upgrades")
     @classmethod
     def validate_ability_upgrades(
-        cls, value: list[dict[str, list[dict[str, str | float]]]], _
+        cls,
+        value: (
+            list[dict[str, str | float]] | list[dict[str, list[dict[str, str | float]]]]
+        ),
+        _,
     ) -> list[dict[str, str | float]] | None:
         if value is None or len(value) == 0:
             return None
         ability_upgrades = []
         for tier_upgrades in value:
+            if any(isinstance(i, (str, float)) for i in tier_upgrades.values()):
+                return value
             upgrades = [i for n in tier_upgrades.values() for i in n]
             ability_upgrades.extend(
                 {
