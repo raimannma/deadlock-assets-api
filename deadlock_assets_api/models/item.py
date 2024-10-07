@@ -399,7 +399,7 @@ class Item(BaseModel):
             if split_index == -1:
                 split_index = self.image.find("hud/")
             self.image = f"{IMAGE_BASE_URL}/{self.image[split_index:]}"
-            if self.image.endswith(".png"):
+            if self.image.endswith(".png") and not self.image.endswith("_psd.png"):
                 self.image = self.image.replace(".png", "_psd.png")
             else:
                 self.image = self.image.replace(".psd", "_psd.png")
