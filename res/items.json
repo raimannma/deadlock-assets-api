@@ -40907,7 +40907,7 @@
       "ability_post_cast_duration": 0.0,
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
-      "ambush_bonus_fire_rate": 40.0,
+      "ambush_bonus_fire_rate": 30.0,
       "ambush_bonus_tech_power": 55.0,
       "ambush_duration": 8.0,
       "bonus_clip_size_percent": 30.0,
