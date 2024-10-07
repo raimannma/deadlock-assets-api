@@ -396,6 +396,8 @@ class Item(BaseModel):
             split_index = self.image.find("abilities/")
             if split_index == -1:
                 split_index = self.image.find("upgrades/")
+            if split_index == -1:
+                split_index = self.image.find("hud/")
             self.image = f"{IMAGE_BASE_URL}/{self.image[split_index:]}"
             self.image = self.image.replace('"', "").replace(".psd", "_psd.png")
         if self.video and "videos/" in self.video:

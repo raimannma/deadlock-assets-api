@@ -84,7 +84,9 @@ cp "$citadel_folder"/panorama/styles/citadel_shared_colors.css res/
 
 # Extract image files
 mkdir -p images
+mkdir -p images/hud
 cp -r "$citadel_folder"/panorama/images/heroes images/
+cp -r "$citadel_folder"/panorama/images/hud/*.png images/hud/
 cp "$citadel_folder"/panorama/images/hud/hero_portraits/* images/heroes/
 
 mkdir -p images/abilities
