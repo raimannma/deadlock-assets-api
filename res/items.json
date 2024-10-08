@@ -32,6 +32,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -137,6 +138,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -242,6 +244,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -347,6 +350,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -452,6 +456,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -557,6 +562,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -662,6 +668,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -768,6 +775,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -874,6 +882,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -961,6 +970,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -1054,6 +1064,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -1146,6 +1157,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -1239,6 +1251,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -1332,6 +1345,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -1422,6 +1436,7 @@
       "trailing_team_bonus_sprint_speed": "5m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1507,6 +1522,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1611,6 +1627,7 @@
       "zipline_protection_damage_amp": null,
       "zipline_protection_slow_duration_on_hit": 2.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1696,6 +1713,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1800,6 +1818,7 @@
       "zipline_protection_damage_amp": null,
       "zipline_protection_slow_duration_on_hit": 2.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1885,6 +1904,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -1970,6 +1990,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2060,6 +2081,7 @@
       "weapon_power": 0.0,
       "weapon_spread_penalty": 3.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2145,6 +2167,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2236,6 +2259,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2321,6 +2345,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2409,6 +2434,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2497,6 +2523,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2585,6 +2612,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2673,6 +2701,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2761,6 +2790,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2849,6 +2879,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -2937,6 +2968,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3025,6 +3057,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3120,6 +3153,7 @@
       "volley_interval": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3211,6 +3245,7 @@
       "tracking_speed": 30.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3300,6 +3335,7 @@
       "toss_velocity": 500.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3387,6 +3423,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3472,6 +3509,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -3582,6 +3620,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -3703,6 +3742,7 @@
       "victim_push_time": 0.4,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -3817,6 +3857,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -3919,6 +3960,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4051,6 +4093,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4165,6 +4208,7 @@
       "tracking_distance": "15m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4265,6 +4309,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4376,6 +4421,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4469,6 +4515,7 @@
       "weapon_damage_scale": -75.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4561,6 +4608,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4648,6 +4696,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4738,6 +4787,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4840,6 +4890,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -4943,6 +4994,7 @@
       "weapon_power": 0.0,
       "weapon_power_debuff": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5028,6 +5080,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -5133,6 +5186,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5218,6 +5272,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5303,6 +5358,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -5389,6 +5445,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -5474,6 +5531,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -5561,6 +5619,7 @@
       "think_interval": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5663,6 +5722,7 @@
       "weapon_power": 0.0,
       "weapon_recoil_reduction": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5769,6 +5829,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5877,6 +5938,7 @@
       "weapon_power": 0.0,
       "weapon_power_buff_duration": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -5975,6 +6037,7 @@
       "visibility_time": 0.2,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -6079,6 +6142,7 @@
       "tornado_speed": 350.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -6164,6 +6228,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": null,
     "tier": null,
     "type": null,
@@ -6252,6 +6317,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": null,
@@ -6340,6 +6406,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -6425,6 +6492,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -6526,6 +6594,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -6631,6 +6700,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -6718,6 +6788,7 @@
     "max_level": null,
     "points_cost": null,
     "properties": null,
+    "shopable": null,
     "start_trained": null,
     "tier": null,
     "type": "weapon",
@@ -6821,6 +6892,7 @@
       "up_push_force": 220.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -6936,6 +7008,7 @@
       "up_push_force": 220.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -7040,6 +7113,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -7156,6 +7230,7 @@
       "toss_speed": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7273,6 +7348,7 @@
       "vertical_difference_tolerance": 60.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7379,6 +7455,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7478,6 +7555,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7590,6 +7668,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7696,6 +7775,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7803,6 +7883,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7902,6 +7983,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -7991,6 +8073,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -8092,6 +8175,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -8204,6 +8288,7 @@
       "weapon_power": 0.0,
       "weapon_power_increase_duration": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -8305,6 +8390,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -8415,6 +8501,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -8515,6 +8602,7 @@
       "tick_rate": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -8606,6 +8694,7 @@
       "weapon_power": 0.0,
       "wind_up_time": 0.5
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -8710,6 +8799,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -8826,6 +8916,7 @@
       "uppercut_damage": 0.01,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -8927,6 +9018,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9044,6 +9136,7 @@
       "zoom_bias": 0.5,
       "zoom_time": 0.1
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9157,6 +9250,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9246,6 +9340,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -9350,6 +9445,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -9451,6 +9547,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9536,6 +9633,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -9631,6 +9729,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9726,6 +9825,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9821,6 +9921,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -9914,6 +10015,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -10018,6 +10120,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -10117,6 +10220,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10217,6 +10321,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10318,6 +10423,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10421,6 +10527,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10520,6 +10627,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10609,6 +10717,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -10713,6 +10822,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -10820,6 +10930,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -10932,6 +11043,7 @@
       "time_wall_width": "7m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11046,6 +11158,7 @@
       "time_warp_radius": "5m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11150,6 +11263,7 @@
       "tick_rate": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11239,6 +11353,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -11343,6 +11458,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -11461,6 +11577,7 @@
       "toss_speed": 450.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11562,6 +11679,7 @@
       "void_time": 1.4,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11680,6 +11798,7 @@
       "weapon_power": 0.0,
       "weapon_power_buff_duration": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11787,6 +11906,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11890,6 +12010,7 @@
       "vacuum_radius": "7m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -11979,6 +12100,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -12083,6 +12205,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -12184,6 +12307,7 @@
       "turret_heal_mult": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -12309,6 +12433,7 @@
       "turret_lifetime": 30.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -12440,6 +12565,7 @@
       "wall_stun_duration": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -12525,6 +12651,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -12610,6 +12737,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -12727,6 +12855,7 @@
       "tracking_variance": "0m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -12816,6 +12945,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -12921,6 +13051,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -13025,6 +13156,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -13133,6 +13265,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13240,6 +13373,7 @@
       "vulnerability_per_stack": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13341,6 +13475,7 @@
       "tick_rate": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13447,6 +13582,7 @@
       "tech_power_amp_bonus_max_stacks": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13558,6 +13694,7 @@
       "tech_resist": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13647,6 +13784,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -13751,6 +13889,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -13857,6 +13996,7 @@
       "tick_rate": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -13957,6 +14097,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14056,6 +14197,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14174,6 +14316,7 @@
       "tech_resist_debuff": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14282,6 +14425,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14371,6 +14515,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -14475,6 +14620,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -14590,6 +14736,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14679,6 +14826,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14789,6 +14937,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -14906,6 +15055,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15007,6 +15157,7 @@
       "weapon_damage_bonus": 2.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15096,6 +15247,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -15200,6 +15352,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -15300,6 +15453,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15402,6 +15556,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15507,6 +15662,7 @@
       "weapon_power": 0.0,
       "weapon_recoil_reduction": 40.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15621,6 +15777,7 @@
       "visual_splash_radius": "1m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15730,6 +15887,7 @@
       "weapon_damage_bonus": 13.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15826,6 +15984,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -15915,6 +16074,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -16019,6 +16179,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -16127,6 +16288,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -16241,6 +16403,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -16326,6 +16489,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -16440,6 +16604,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -16542,6 +16707,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -16632,6 +16798,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -16736,6 +16903,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -16851,6 +17019,7 @@
       "tick_rate": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -16970,6 +17139,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17073,6 +17243,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17179,6 +17350,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17268,6 +17440,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -17372,6 +17545,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -17482,6 +17656,7 @@
       "weapon_fire_rate_bonus": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17603,6 +17778,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17717,6 +17893,7 @@
       "up_boost_speed": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17825,6 +18002,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -17914,6 +18092,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -18046,6 +18225,7 @@
       "whirlwind_duration": 3.5,
       "whirlwind_evasion_chance": 25.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18160,6 +18340,7 @@
       "whirlwind_duration": 0.0,
       "whirlwind_evasion_chance": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18270,6 +18451,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18370,6 +18552,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18459,6 +18642,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -18563,6 +18747,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -18668,6 +18853,7 @@
       "tick_rate": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18781,6 +18967,7 @@
       "up_force": 250.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18881,6 +19068,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -18982,6 +19170,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -19071,6 +19260,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -19179,6 +19369,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -19286,6 +19477,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -19393,6 +19585,7 @@
       "toss_speed": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -19478,6 +19671,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -19594,6 +19788,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -19713,6 +19908,7 @@
       "tick_interval": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -19798,6 +19994,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -19908,6 +20105,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -19997,6 +20195,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -20101,6 +20300,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -20206,6 +20406,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -20340,6 +20541,7 @@
       "weapon_damage_bonus": 4.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -20454,6 +20656,7 @@
       "trip_up_speed": 250.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -20554,6 +20757,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -20643,6 +20847,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -20748,6 +20953,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -20852,6 +21058,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -20957,6 +21164,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21072,6 +21280,7 @@
       "turn_rate_max": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21171,6 +21380,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21289,6 +21499,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21388,6 +21599,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -21512,6 +21724,7 @@
       "tick_rate": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21617,6 +21830,7 @@
       "torrent_radius": "3m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21703,6 +21917,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -21801,6 +22016,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -21907,6 +22123,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22017,6 +22234,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22127,6 +22345,7 @@
       "toss_speed": 650.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22212,6 +22431,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -22317,6 +22537,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -22434,6 +22655,7 @@
       "weapon_damage_bonus_duration": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22519,6 +22741,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -22622,6 +22845,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22731,6 +22955,7 @@
       "tether_length": "7m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -22816,6 +23041,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -22924,6 +23150,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23047,6 +23274,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23152,6 +23380,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23241,6 +23470,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -23348,6 +23578,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -23450,6 +23681,7 @@
       "total_tether_targets": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23535,6 +23767,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -23639,6 +23872,7 @@
       "tick_rate": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23748,6 +23982,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23864,6 +24099,7 @@
       "toss_speed": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -23953,6 +24189,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -24057,6 +24294,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -24168,6 +24406,7 @@
       "tracking_speed": 180.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24279,6 +24518,7 @@
       "tech_resist": 20.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24384,6 +24624,7 @@
       "tick_rate": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24492,6 +24733,7 @@
       "weapon_damage_per_heat": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24582,6 +24824,7 @@
       "vent_efficiency": 3.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -24684,6 +24927,7 @@
       "toss_speed": 350.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24789,6 +25033,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -24884,6 +25129,7 @@
       "time_between_bullet_consume": 0.08,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -24989,6 +25235,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -25090,6 +25337,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -25194,6 +25442,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -25303,6 +25552,7 @@
       "third_hit_damage_percentage": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -25423,6 +25673,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -25523,6 +25774,7 @@
       "think_interval": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -25637,6 +25889,7 @@
       "tick_rate": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -25746,6 +25999,7 @@
       "toss_speed_wall": 750.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -25835,6 +26089,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -25939,6 +26194,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -26043,6 +26299,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26143,6 +26400,7 @@
       "tech_shield_points": 150.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26250,6 +26508,7 @@
       "weapon_power": 0.0,
       "weapon_power_debuff": -30.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26353,6 +26612,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26442,6 +26702,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -26546,6 +26807,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -26644,6 +26906,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26749,6 +27012,7 @@
       "trail_interval": 0.1,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26856,6 +27120,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -26956,6 +27221,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27063,6 +27329,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27159,6 +27426,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27248,6 +27516,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -27352,6 +27621,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -27453,6 +27723,7 @@
       "wrecking_ball_damage": 80.0,
       "wrecking_ball_push_force": 280.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27538,6 +27809,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -27639,6 +27911,7 @@
       "tick_interval": 0.25,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27738,6 +28011,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27847,6 +28121,7 @@
       "tracking_speed": 70.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -27946,6 +28221,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -28039,6 +28315,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -28137,6 +28414,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "weapon",
@@ -28238,6 +28516,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": null,
     "type": "ability",
@@ -28348,6 +28627,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -28451,6 +28731,7 @@
       "weapon_power": 0.0,
       "weapon_power_increase_duration": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -28552,6 +28833,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -28651,6 +28933,7 @@
       "tech_resist": 40.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": false,
     "tier": null,
     "type": "ability",
@@ -28736,6 +29019,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "armor",
@@ -28821,6 +29105,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "armor",
@@ -28906,6 +29191,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "armor",
@@ -28991,6 +29277,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "armor",
@@ -29076,6 +29363,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "weapon",
@@ -29161,6 +29449,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "weapon",
@@ -29246,6 +29535,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "weapon",
@@ -29331,6 +29621,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "weapon",
@@ -29416,6 +29707,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "tech",
@@ -29501,6 +29793,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "tech",
@@ -29586,6 +29879,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "tech",
@@ -29671,6 +29965,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "tech",
@@ -29758,6 +30053,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -29847,6 +30143,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -29937,6 +30234,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30023,6 +30321,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -30109,6 +30408,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -30202,6 +30502,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -30300,6 +30601,7 @@
       "tech_shield_max_health": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -30388,6 +30690,7 @@
       "tech_shield_max_health": 95.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30480,6 +30783,7 @@
       "tech_resist": 12.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -30568,6 +30872,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30656,6 +30961,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30746,6 +31052,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30834,6 +31141,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -30923,6 +31231,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -31011,6 +31320,7 @@
       "tech_power": 5.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -31101,6 +31411,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -31187,6 +31498,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -31276,6 +31588,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -31362,6 +31675,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -31454,6 +31768,7 @@
       "tick_rate": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -31547,6 +31862,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -31635,6 +31951,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -31727,6 +32044,7 @@
       "tether_radius": "7m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -31813,6 +32131,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -31901,6 +32220,7 @@
       "tech_shield_max_health": 150.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -31991,6 +32311,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -32082,6 +32403,7 @@
       "tech_power": 12.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -32170,6 +32492,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -32261,6 +32584,7 @@
       "weapon_power": 0.0,
       "weapon_power_per_stack": 5.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -32354,6 +32678,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -32447,6 +32772,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -32535,6 +32861,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -32628,6 +32955,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -32722,6 +33050,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -32813,6 +33142,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -32903,6 +33233,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -32994,6 +33325,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -33085,6 +33417,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -33178,6 +33511,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -33264,6 +33598,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -33350,6 +33685,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -33444,6 +33780,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -33530,6 +33867,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -33617,6 +33955,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -33708,6 +34047,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -33795,6 +34135,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -33882,6 +34223,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -33969,6 +34311,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34055,6 +34398,7 @@
       "tech_resist": 20.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34141,6 +34485,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -34228,6 +34573,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34316,6 +34662,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -34404,6 +34751,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -34493,6 +34841,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -34581,6 +34930,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34673,6 +35023,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -34760,6 +35111,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34845,6 +35197,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -34931,6 +35284,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -35019,6 +35373,7 @@
       "weapon_power": 0.0,
       "weapon_power_while_activated": 135.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -35108,6 +35463,7 @@
       "temp_bullet_shield_health": 800.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -35198,6 +35554,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -35286,6 +35643,7 @@
       "tech_resist": 45.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -35375,6 +35733,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -35462,6 +35821,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -35552,6 +35912,7 @@
       "tech_resist": 6.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -35643,6 +36004,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -35732,6 +36094,7 @@
       "tech_power": 12.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -35819,6 +36182,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -35907,6 +36271,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -35999,6 +36364,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -36090,6 +36456,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -36177,6 +36544,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -36265,6 +36633,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -36355,6 +36724,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -36449,6 +36819,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -36535,6 +36906,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -36623,6 +36995,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -36711,6 +37084,7 @@
       "tech_shield_max_health": 300.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -36798,6 +37172,7 @@
       "tech_power": 9.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -36888,6 +37263,7 @@
       "tech_power": 23.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -36980,6 +37356,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -37069,6 +37446,7 @@
       "tech_power": 9.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -37177,6 +37555,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -37265,6 +37644,7 @@
       "tech_range_multiplier": 18.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -37354,6 +37734,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -37442,6 +37823,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -37531,6 +37913,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -37619,6 +38002,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -37713,6 +38097,7 @@
       "tech_resist": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -37802,6 +38187,7 @@
       "tech_shield_max_health": 40.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -37894,6 +38280,7 @@
       "tech_shield_max_health": 100.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -37980,6 +38367,7 @@
       "tech_power": 35.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -38067,6 +38455,7 @@
       "tech_resist": 6.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -38156,6 +38545,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -38247,6 +38637,7 @@
       "tech_power": 6.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -38339,6 +38730,7 @@
       "tech_resist": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -38430,6 +38822,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -38517,6 +38910,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -38607,6 +39001,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -38693,6 +39088,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -38780,6 +39176,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -38869,6 +39266,7 @@
       "tech_power": 5.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -38959,6 +39357,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -39050,6 +39449,7 @@
       "tech_power": 9.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -39137,6 +39537,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -39226,6 +39627,7 @@
       "tech_power": 12.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -39315,6 +39717,7 @@
       "tech_range_multiplier": 30.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -39405,6 +39808,7 @@
       "tech_range_multiplier": 60.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -39493,6 +39897,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -39579,6 +39984,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -39668,6 +40074,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -39757,6 +40164,7 @@
       "tick_rate": 1.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -39847,6 +40255,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -39934,6 +40343,7 @@
       "temp_tech_shield_health": 400.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -40025,6 +40435,7 @@
       "visual_contract_radius": "3m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -40115,6 +40526,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -40203,6 +40615,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -40293,6 +40706,7 @@
       "tether_radius": "3m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -40380,6 +40794,7 @@
       "tech_resist": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -40467,6 +40882,7 @@
       "tech_power": 12.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -40555,6 +40971,7 @@
       "tech_power": 6.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -40647,6 +41064,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -40733,6 +41151,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -40826,6 +41245,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -40925,6 +41345,7 @@
       "tech_shield_max_health": 300.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -41013,6 +41434,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -41102,6 +41524,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -41191,6 +41614,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -41289,6 +41713,7 @@
       "vertical_difference_tolerance": "2m",
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -41382,6 +41807,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -41475,6 +41901,7 @@
       "total_health_regen": 260.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -41564,6 +41991,7 @@
       "tech_resist": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -41653,6 +42081,7 @@
       "total_health_regen": 370.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -41742,6 +42171,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -41835,6 +42265,7 @@
       "tech_range_multiplier": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -41929,6 +42360,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -42024,6 +42456,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -42116,6 +42549,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -42205,6 +42639,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -42295,6 +42730,7 @@
       "weapon_power_per_death": 6.0,
       "weapon_power_per_kill": 3.5
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -42381,6 +42817,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -42468,6 +42905,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -42557,6 +42995,7 @@
       "tech_resist": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -42651,6 +43090,7 @@
       "tech_resist": 40.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -42742,6 +43182,7 @@
       "tech_resist": 10.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -42832,6 +43273,7 @@
       "tech_shield_max_health": 225.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -42922,6 +43364,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -43021,6 +43464,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43106,6 +43550,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -43194,6 +43639,7 @@
       "tech_power": 8.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43284,6 +43730,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43372,6 +43819,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -43464,6 +43912,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -43557,6 +44006,7 @@
       "weapon_power": 0.0,
       "weapon_power_per_kill": 10.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43648,6 +44098,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43739,6 +44190,7 @@
       "tick_rate": 0.5,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43831,6 +44283,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -43925,6 +44378,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -44020,6 +44474,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -44109,6 +44564,7 @@
       "tech_shield_max_health": 80.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -44199,6 +44655,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -44286,6 +44743,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -44377,6 +44835,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -44467,6 +44926,7 @@
       "tech_shield_on_cast": 700.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -44564,6 +45024,7 @@
       "turret_lifetime": 20.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -44655,6 +45116,7 @@
       "tech_power": 60.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -44745,6 +45207,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -44832,6 +45295,7 @@
       "tech_power": 4.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -44920,6 +45384,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -45010,6 +45475,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45100,6 +45566,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -45188,6 +45655,7 @@
       "tech_power": 4.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45277,6 +45745,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45368,6 +45837,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45456,6 +45926,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45545,6 +46016,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -45635,6 +46107,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -45723,6 +46196,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -45822,6 +46296,7 @@
       "tech_shield_max_health": 200.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -45913,6 +46388,7 @@
       "vex_barrier_tech_max_health": 200.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -46004,6 +46480,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",
@@ -46094,6 +46571,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -46183,6 +46661,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 2,
     "type": "upgrade",
@@ -46275,6 +46754,7 @@
       "tech_power": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -46364,6 +46844,7 @@
       "tech_resist": 15.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -46455,6 +46936,7 @@
       "tech_shield_max_health": 100.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 3,
     "type": "upgrade",
@@ -46548,6 +47030,7 @@
       "weapon_power": 0.0,
       "weapon_power_per_kill": 10.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 4,
     "type": "upgrade",
@@ -46637,6 +47120,7 @@
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
+    "shopable": null,
     "start_trained": true,
     "tier": 1,
     "type": "upgrade",

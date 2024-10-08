@@ -41,9 +41,14 @@ def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
 def get_items(language: Language = Language.English) -> list[Item]:
     items = load_items()
     heroes = load_heroes()
+    hero_weapons = {i for h in heroes for i in h.items.values()}
     for item in items:
         item.set_language(language)
-        item.set_shopable(heroes)
+        item.set_shopable()
+        if item.shopable and (
+            item.id in hero_weapons or item.class_name in hero_weapons
+        ):
+            item.shopable = False
         item.postfix(items)
     return items
 
