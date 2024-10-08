@@ -260,6 +260,7 @@ class Item(BaseModel):
     name: str | None = Field(None)
     description: str | None = Field(None)
     class_name: str = Field()
+    shopable: bool | None = Field(None)
     disabled: bool | None = Field(None, validation_alias="m_bDisabled")
     in_development: bool | None = Field(None, validation_alias="m_bInDevelopment")
     start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
@@ -411,6 +412,9 @@ class Item(BaseModel):
         self.name = self.get_name(language)
         self.description = self.get_description(language)
 
+    def set_shopable(self, heroes: list):
+        self.shopable = self.id in shopable_item_ids(heroes)
+
     def get_name(self, language: Language) -> str:
         return utils.get_translation(self.class_name, language)
 
@@ -439,3 +443,20 @@ def load_items() -> list[Item] | None:
         content = f.read()
     ta = TypeAdapter(list[Item])
     return ta.validate_json(content)
+
+
+@lru_cache
+def shopable_item_ids(heroes: list) -> set[int]:
+    hero_weapons = set()
+    for h in heroes:
+        hero_weapons.add(h.items["weapon_melee"])
+        hero_weapons.add(h.items["weapon_primary"])
+    return {
+        i.id
+        for i in load_items()
+        if (i.disabled is None or i.disabled is False)
+        and i.id not in hero_weapons
+        and i.type != "ability"
+        and i.item_slot_type in ["spirit", "vitality", "weapon"]
+        and i.image is not None
+    }

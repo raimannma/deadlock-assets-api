@@ -40,8 +40,10 @@ def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
 @router.get("/items", response_model_exclude_none=True)
 def get_items(language: Language = Language.English) -> list[Item]:
     items = load_items()
+    heroes = load_heroes()
     for item in items:
         item.set_language(language)
+        item.set_shopable(heroes)
         item.postfix(items)
     return items
 

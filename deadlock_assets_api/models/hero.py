@@ -1,5 +1,4 @@
 import os
-import os.path
 from enum import StrEnum
 from functools import lru_cache
 
@@ -12,7 +11,7 @@ from pydantic import (
     field_validator,
 )
 
-import deadlock_assets_api.models.item
+import deadlock_assets_api
 from deadlock_assets_api import utils
 from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.item import Item
@@ -239,11 +238,13 @@ class Hero(BaseModel):
                 return HeroItemType(k).name
             return k
 
-        def convert_val(v: str | Item) -> Item | None:
-            if not isinstance(v, str):
-                return v
+        def convert_val(v: int | str | Item) -> int | None:
             if items is None:
                 return None
+            if isinstance(v, int):
+                return v
+            if isinstance(v, Item):
+                return v.id
             return next((i.id for i in items if i.class_name == v), None)
 
         return {convert_key(k): convert_val(v) for k, v in value.items()}
