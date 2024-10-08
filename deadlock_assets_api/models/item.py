@@ -445,13 +445,12 @@ def load_items() -> list[Item] | None:
     return ta.validate_json(content)
 
 
-@lru_cache
-def shopable_item_ids(heroes: list) -> set[int]:
+def shopable_item_ids(heroes: list) -> list[int]:
     hero_weapons = set()
     for h in heroes:
         hero_weapons.add(h.items["weapon_melee"])
         hero_weapons.add(h.items["weapon_primary"])
-    return {
+    return [
         i.id
         for i in load_items()
         if (i.disabled is None or i.disabled is False)
@@ -459,4 +458,4 @@ def shopable_item_ids(heroes: list) -> set[int]:
         and i.type != "ability"
         and i.item_slot_type in ["spirit", "vitality", "weapon"]
         and i.image is not None
-    }
+    ]
