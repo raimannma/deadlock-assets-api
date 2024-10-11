@@ -48,7 +48,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -527,12 +528,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 625,
-      "EMaxMoveSpeed": 8,
+      "EMaxMoveSpeed": 8.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -677,7 +679,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -1150,7 +1153,7 @@
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.251429,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 32.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 34.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0
@@ -1159,12 +1162,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 1.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
-      "EMaxHealth": 600,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxHealth": 570,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -1274,7 +1278,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -1746,12 +1751,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -1885,7 +1891,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -2368,12 +2375,13 @@
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 3.0,
       "EBulletArmorDamageReduction": 10.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 650.0,
-      "EMaxMoveSpeed": 6.25,
+      "EMaxMoveSpeed": 6.55,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -2483,7 +2491,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -2959,12 +2968,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -3061,7 +3071,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -3538,12 +3549,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 650,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -3661,7 +3673,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -4129,7 +4142,7 @@
     },
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.45,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -4139,12 +4152,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -4268,7 +4282,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -4749,12 +4764,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 650,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -4891,7 +4907,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -5371,19 +5388,20 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2,
+      "EBulletArmorDamageReduction": 15.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
       "ESprintSpeed": 0,
       "EStamina": 2,
       "EStaminaRegenPerSecond": 0.2,
-      "ETechArmorDamageReduction": 25.0,
       "ETechDuration": 1,
       "ETechRange": 1,
       "EWeaponPower": 0,
@@ -5487,7 +5505,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -5964,12 +5983,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -6089,7 +6109,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -6568,12 +6589,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 1.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 650,
-      "EMaxMoveSpeed": 6,
+      "EMaxMoveSpeed": 6.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -6703,7 +6725,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -7174,7 +7197,7 @@
     "m_mapScalingStats": {
       "EMaxMoveSpeed": {
         "eScalingStat": "ETechPower",
-        "flScale": 0.028
+        "flScale": 0.023
       }
     },
     "m_mapStandardLevelUpUpgrades": {
@@ -7187,13 +7210,14 @@
     "m_mapStartingStats": {
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
-      "EBaseHealthRegen": 1.5,
+      "EBaseHealthRegen": 3.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 0.65,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -7303,7 +7327,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -7780,12 +7805,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -7905,7 +7931,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -8391,12 +8418,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 500.0,
-      "EMaxMoveSpeed": 8.0,
+      "EMaxMoveSpeed": 8.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -8527,7 +8555,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -8997,7 +9026,7 @@
     },
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.785714,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.55,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 20.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -9007,13 +9036,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
-      "EBulletArmorDamageReduction": -10.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 8,
+      "EMaxMoveSpeed": 8.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -9142,7 +9171,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -9623,12 +9653,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 600,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -9738,7 +9769,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -10215,12 +10247,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -10346,7 +10379,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -10826,12 +10860,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 0.8,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 600.0,
-      "EMaxMoveSpeed": 6.5,
+      "EMaxMoveSpeed": 6.8,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -10847,6 +10882,7 @@
     "m_nComplexity": 2,
     "m_nModelSkin": 0,
     "m_nReadability": 3,
+    "m_sAG2VariationName": "resource_name:\"models/animgraph2/shared/hero----kelvin.vnmvar\"",
     "m_strDeathSound": "soundevent:\"Kelvin.Death\"",
     "m_strFootstepSoundEventDefault": "soundevent:\"Kelvin.Footstep\"",
     "m_strIconHeroCard": "panorama:\"file://{images}/heroes/kelvin_card.psd\"",
@@ -10960,7 +10996,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -11440,12 +11477,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 3,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 700,
-      "EMaxMoveSpeed": 7.8,
+      "EMaxMoveSpeed": 8.1,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -11572,7 +11610,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -12050,12 +12089,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -12185,7 +12225,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -12663,12 +12704,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -12799,7 +12841,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -12963,8 +13006,8 @@
       "ESlot_Ability_ZipLineBoost": "citadel_ability_zipline_boost",
       "ESlot_Signature_1": "ability_perched_predator",
       "ESlot_Signature_2": "ability_nano_pounce",
-      "ESlot_Signature_3": "ability_nano_proximity_ritual",
-      "ESlot_Signature_4": "ability_nano_ult_shadow",
+      "ESlot_Signature_3": "ability_nano_shadow_step",
+      "ESlot_Signature_4": "ability_nano_proximity_ritual",
       "ESlot_Weapon_Melee": "ability_melee_nano",
       "ESlot_Weapon_Primary": "citadel_weapon_nano_set",
       "ESlot_Weapon_Secondary": "citadel_weapon_nano_alt"
@@ -13278,12 +13321,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -13413,7 +13457,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -13883,17 +13928,9 @@
       ]
     },
     "m_mapScalingStats": {
-      "EFireRate": {
+      "EBulletDamage": {
         "eScalingStat": "ETechPower",
-        "flScale": 0.25
-      },
-      "EMaxMoveSpeed": {
-        "eScalingStat": "ETechPower",
-        "flScale": 0.04
-      },
-      "ERoundsPerSecond": {
-        "eScalingStat": "ETechPower",
-        "flScale": 0.00625
+        "flScale": 0.1
       }
     },
     "m_mapStandardLevelUpUpgrades": {
@@ -13907,17 +13944,18 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 6,
+      "EMaxMoveSpeed": 6.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
       "ESprintSpeed": 0,
-      "EStamina": 3,
+      "EStamina": 4,
       "EStaminaRegenPerSecond": 0.2,
       "ETechDuration": 1,
       "ETechRange": 1,
@@ -14021,7 +14059,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -14498,12 +14537,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -14529,6 +14569,586 @@
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/rutger.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/rutger_hud.psd\"",
     "m_strUIAnimGraph": "resource_name:\"models/heroes_staging/rutger/ui_rutger.vanmgrph\"",
+    "m_vecAmbientParticleSettings": [
+      {
+        "m_eAttachmentType": "PATTACH_ABSORIGIN_FOLLOW",
+        "m_nCP": 0
+      },
+      {
+        "m_eAttachmentType": "PATTACH_POINT_FOLLOW",
+        "m_nCP": 1,
+        "m_strAttachmentName": "ability_apply"
+      }
+    ],
+    "m_vecAnimGraphDefaultValueOverrides": [
+      {
+        "m_strParamName": "e_SWITCH_4wayRoll_ON/OFF",
+        "m_strParamValue": "0"
+      },
+      {
+        "m_strParamName": "e_SWITCH_Recoil_ON/OFF",
+        "m_strParamValue": "0"
+      },
+      {
+        "m_strParamName": "e_SWITCH_ZiplinePhysicsSway_ON/OFF",
+        "m_strParamValue": "0"
+      },
+      {
+        "m_strParamName": "e_SWITCH_ShootStyle",
+        "m_strParamValue": "0"
+      }
+    ]
+  },
+  "hero_shieldguy": {
+    "_base": "hero_base",
+    "_class": "CitadelHeroData_t",
+    "m_HeroID": 57,
+    "m_ShopStatDisplay": {
+      "m_eSpiritStatsDisplay": {
+        "m_vecDisplayStats": [
+          "ETechCooldown",
+          "ETechDuration",
+          "ETechRange",
+          "ETechLifesteal",
+          "EMaxChargesIncrease",
+          "ETechCooldownBetweenChargeUses"
+        ]
+      },
+      "m_eVitalityStatsDisplay": {
+        "m_vecDisplayStats": [
+          "EMaxHealth",
+          "EBaseHealthRegen",
+          "EBulletArmorDamageReduction",
+          "ETechArmorDamageReduction",
+          "EBulletShieldHealth",
+          "ETechShieldHealth",
+          "EHealingOutput",
+          "EDebuffResist",
+          "ECritDamageReceivedScale"
+        ],
+        "m_vecOtherDisplayStats": [
+          "EMaxMoveSpeed",
+          "ESprintSpeed",
+          "EStaminaCooldown",
+          "EStaminaRegenIncrease",
+          "EStamina"
+        ]
+      },
+      "m_eWeaponStatsDisplay": {
+        "m_vecDisplayStats": [
+          "EBulletDamage",
+          "EBaseWeaponDamageIncrease",
+          "ERoundsPerSecond",
+          "EFireRate",
+          "EClipSize",
+          "EClipSizeIncrease",
+          "EReloadTime",
+          "EReloadSpeed",
+          "EBulletSpeed",
+          "EBulletSpeedIncrease",
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
+        ],
+        "m_vecOtherDisplayStats": [
+          "ELightMeleeDamage",
+          "EHeavyMeleeDamage"
+        ]
+      }
+    },
+    "m_bAssignedPlayersOnly": false,
+    "m_bBotSelectable": false,
+    "m_bDisabled": true,
+    "m_bInDevelopment": true,
+    "m_bLimitedTesting": false,
+    "m_bNeedsTesting": false,
+    "m_bPlayerSelectable": true,
+    "m_colorGlowEnemy": [
+      255,
+      0,
+      0
+    ],
+    "m_colorGlowFriendly": [
+      255,
+      239,
+      215
+    ],
+    "m_colorGlowTeam1": [
+      231,
+      182,
+      89
+    ],
+    "m_colorGlowTeam2": [
+      91,
+      121,
+      230
+    ],
+    "m_colorUI": [
+      98,
+      15,
+      214
+    ],
+    "m_eAbilityResourceType": "EResourceType_None",
+    "m_flCollisionHeight": 80,
+    "m_flCollisionRadius": 20,
+    "m_flFootstepSoundTravelDistanceMeters": 20,
+    "m_flStealthSpeedMetersPerSecond": 4,
+    "m_flStepHeight": 32,
+    "m_flStepSoundTime": 0.325,
+    "m_hDamageTakenParticle": "resource_name:\"particles/generic/player_damage_screen.vpcf\"",
+    "m_hDeathParticle": "resource_name:\"particles/generic/player_death_screen.vpcf\"",
+    "m_hFootstepSounds": "sweetener_default",
+    "m_hGroundDamageTakenParticle": "resource_name:\"particles/generic/player_ground_damage_screen.vpcf\"",
+    "m_hLowHealthParticle": "resource_name:\"particles/generic/player_low_health_screen.vpcf\"",
+    "m_hRespawnParticle": "resource_name:\"particles/generic/player_respawn_deploy.vpcf\"",
+    "m_heroStatsDisplay": {
+      "m_vecHealthHeaderStats": [
+        "EMaxHealth",
+        "EBaseHealthRegen"
+      ],
+      "m_vecHealthStats": [
+        "EBulletArmorDamageReduction",
+        "ETechArmorDamageReduction",
+        "EBulletShieldHealth",
+        "ETechShieldHealth",
+        "EBulletLifesteal",
+        "ETechLifesteal",
+        "EMaxMoveSpeed",
+        "ESprintSpeed",
+        "EStamina",
+        "EHealingOutput"
+      ],
+      "m_vecMagicHeaderStats": [
+        "ETechPower"
+      ],
+      "m_vecMagicStats": [
+        "ETechCooldown",
+        "ETechRange",
+        "ETechDuration"
+      ],
+      "m_vecWeaponHeaderStats": [
+        "EWeaponDPS",
+        "EBulletDamage"
+      ],
+      "m_vecWeaponStats": [
+        "ELightMeleeDamage",
+        "EHeavyMeleeDamage",
+        "EFireRate",
+        "EClipSize"
+      ]
+    },
+    "m_heroStatsUI": {
+      "m_eWeaponStatDisplay": "EMeleeDamage_DEPRECATED",
+      "m_vecDisplayStats": [
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "EMaxHealth"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "EBaseHealthRegen"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "EBulletArmorDamageReduction"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "ETechArmorDamageReduction"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Spirit",
+          "m_eStatType": "ETechPower"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "EWeaponDPS"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "EBulletDamage"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "EClipSize"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "ERoundsPerSecond"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "ELightMeleeDamage"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Weapon",
+          "m_eStatType": "EHeavyMeleeDamage"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "EMaxMoveSpeed"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "ESprintSpeed"
+        },
+        {
+          "m_eStatCategory": "ECitadelStat_Vitality",
+          "m_eStatType": "EStamina"
+        }
+      ]
+    },
+    "m_mapBoundAbilities": {
+      "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
+      "ESlot_Ability_Innate_1": "citadel_ability_dash",
+      "ESlot_Ability_Innate_2": "citadel_ability_sprint",
+      "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
+      "ESlot_Ability_Jump": "citadel_ability_jump",
+      "ESlot_Ability_Mantle": "citadel_ability_mantle",
+      "ESlot_Ability_Slide": "citadel_ability_slide",
+      "ESlot_Ability_ZipLine": "citadel_ability_zip_line",
+      "ESlot_Ability_ZipLineBoost": "citadel_ability_zipline_boost",
+      "ESlot_Signature_1": "ability_shieldguy_ability01",
+      "ESlot_Signature_2": "ability_shieldguy_ability02",
+      "ESlot_Signature_3": "ability_shieldguy_ability03",
+      "ESlot_Signature_4": "ability_shieldguy_ult",
+      "ESlot_Weapon_Melee": "ability_melee_shieldguy",
+      "ESlot_Weapon_Primary": "citadel_weapon_shieldguy_set"
+    },
+    "m_mapItemSlotInfo": {
+      "EItemSlotType_Armor": {
+        "m_arMaxPurchasesForTier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "EItemSlotType_Tech": {
+        "m_arMaxPurchasesForTier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "EItemSlotType_WeaponMod": {
+        "m_arMaxPurchasesForTier": [
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    "m_mapLevelInfo": {
+      "1": {
+        "m_mapBonusCurrencies": {
+          "EAbilityUnlocks": 1
+        },
+        "m_unRequiredGold": 0
+      },
+      "10": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 5200
+      },
+      "11": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 6000
+      },
+      "12": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 7500
+      },
+      "13": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 8000
+      },
+      "14": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 9000
+      },
+      "15": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 9700
+      },
+      "16": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 10500
+      },
+      "17": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 12000
+      },
+      "18": {
+        "m_bUseStandardUpgrade": true,
+        "m_unRequiredGold": 13000
+      },
+      "19": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 14000
+      },
+      "2": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1,
+          "EAbilityUnlocks": 1
+        },
+        "m_unRequiredGold": 400
+      },
+      "20": {
+        "m_bUseStandardUpgrade": true,
+        "m_unRequiredGold": 15000
+      },
+      "21": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 16000
+      },
+      "22": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 18000
+      },
+      "23": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 20000
+      },
+      "24": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 22000
+      },
+      "25": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 24000
+      },
+      "26": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 27000
+      },
+      "27": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 30000
+      },
+      "28": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 33000
+      },
+      "29": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 36000
+      },
+      "3": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 800
+      },
+      "30": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 39000
+      },
+      "31": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 42000
+      },
+      "32": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 45000
+      },
+      "33": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 48000
+      },
+      "4": {
+        "m_bUseStandardUpgrade": true,
+        "m_unRequiredGold": 1200
+      },
+      "5": {
+        "m_mapBonusCurrencies": {
+          "EAbilityUnlocks": 1
+        },
+        "m_unRequiredGold": 1500
+      },
+      "6": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 2200
+      },
+      "7": {
+        "m_mapBonusCurrencies": {
+          "EAbilityUnlocks": 1
+        },
+        "m_unRequiredGold": 3000
+      },
+      "8": {
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 3500
+      },
+      "9": {
+        "m_bUseStandardUpgrade": true,
+        "m_mapBonusCurrencies": {
+          "EAbilityPoints": 1
+        },
+        "m_unRequiredGold": 4500
+      }
+    },
+    "m_mapPurchaseBonuses": {
+      "EItemSlotType_Armor": [
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT",
+          "m_nTier": 1,
+          "m_strValue": "11"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT",
+          "m_nTier": 2,
+          "m_strValue": "14"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT",
+          "m_nTier": 3,
+          "m_strValue": "17"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASE_HEALTH_PERCENT",
+          "m_nTier": 4,
+          "m_strValue": "20"
+        }
+      ],
+      "EItemSlotType_Tech": [
+        {
+          "m_ValueType": "MODIFIER_VALUE_TECH_POWER",
+          "m_nTier": 1,
+          "m_strValue": "4"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_TECH_POWER",
+          "m_nTier": 2,
+          "m_strValue": "8"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_TECH_POWER",
+          "m_nTier": 3,
+          "m_strValue": "12"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_TECH_POWER",
+          "m_nTier": 4,
+          "m_strValue": "16"
+        }
+      ],
+      "EItemSlotType_WeaponMod": [
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+          "m_nTier": 1,
+          "m_strValue": "6"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+          "m_nTier": 2,
+          "m_strValue": "10"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+          "m_nTier": 3,
+          "m_strValue": "14"
+        },
+        {
+          "m_ValueType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+          "m_nTier": 4,
+          "m_strValue": "18"
+        }
+      ]
+    },
+    "m_mapScalingStats": {},
+    "m_mapStandardLevelUpUpgrades": {
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.124929,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
+      "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
+      "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0
+    },
+    "m_mapStartingStats": {
+      "EAbilityResourceMax": 0,
+      "EAbilityResourceRegenPerSecond": 0,
+      "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
+      "ECritDamageReceivedScale": 1.0,
+      "ECrouchSpeed": 4.75,
+      "EHeavyMeleeDamage": 116,
+      "ELightMeleeDamage": 63,
+      "EMaxHealth": 550,
+      "EMaxMoveSpeed": 7.3,
+      "EMoveAcceleration": 4,
+      "EProcBuildUpRateScale": 1,
+      "EReloadSpeed": 1,
+      "ESprintSpeed": 0,
+      "EStamina": 3,
+      "EStaminaRegenPerSecond": 0.2,
+      "ETechDuration": 1,
+      "ETechRange": 1,
+      "EWeaponPower": 0,
+      "EWeaponPowerScale": 1
+    },
+    "m_nComplexity": 1,
+    "m_nModelSkin": 0,
+    "m_nReadability": 4,
+    "m_strDeathSound": "soundevent:\"Nano.Death\"",
+    "m_strFootstepSoundEventDefault": "soundevent:\"Hero.Default.Footstep\"",
+    "m_strLastHitSound": "soundevent:\"LastHit.Default\"",
+    "m_strLowHealthSound": "soundevent:\"PlayerAlert.LowHealth\"",
+    "m_strModelName": "resource_name:\"models/heroes_staging/gen_man/gen_man.vmdl\"",
     "m_vecAmbientParticleSettings": [
       {
         "m_eAttachmentType": "PATTACH_ABSORIGIN_FOLLOW",
@@ -14635,7 +15255,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -15114,12 +15735,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 600.0,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -15228,7 +15850,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -15706,12 +16329,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -15839,7 +16463,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -16317,12 +16942,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -16432,7 +17058,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -16909,12 +17536,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 3000,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -17033,7 +17661,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -17512,12 +18141,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -17628,7 +18258,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -18105,12 +18736,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -18214,7 +18846,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -18691,12 +19324,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -18819,7 +19453,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -19298,12 +19933,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -19434,7 +20070,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -19921,12 +20558,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 6.0,
+      "EMaxMoveSpeed": 6.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -20054,7 +20692,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -20539,12 +21178,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -20680,7 +21320,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -21158,12 +21799,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -21272,7 +21914,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -21749,12 +22392,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
       "EMaxHealth": 550,
-      "EMaxMoveSpeed": 7,
+      "EMaxMoveSpeed": 7.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,
@@ -21881,7 +22525,8 @@
           "EReloadSpeed",
           "EBulletSpeed",
           "EBulletSpeedIncrease",
-          "EBulletLifesteal"
+          "EBulletLifesteal",
+          "ECritDamageBonusScale"
         ],
         "m_vecOtherDisplayStats": [
           "ELightMeleeDamage",
@@ -22365,12 +23010,13 @@
       "EAbilityResourceMax": 0,
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 2.0,
+      "ECritDamageBonusScale": 1.0,
       "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 128,
       "ELightMeleeDamage": 69,
       "EMaxHealth": 500.0,
-      "EMaxMoveSpeed": 8.0,
+      "EMaxMoveSpeed": 8.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
       "EReloadSpeed": 1,

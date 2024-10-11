@@ -11,23 +11,11 @@ if [ ! -f Decompiler ]; then
 fi
 
 # Download Deadlock Game files
-./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD"
+#./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD"
 
 mkdir -p depots/game
 rsync -av --remove-source-files depots/*/*/game/* depots/game/
 find depots/ -type d -empty -delete
-
-# Extract chunked VPK files
-for chunked_vpk_file in $(find depots -type f -name "*_dir.vpk"); do
-    parent_dir=$(dirname "$chunked_vpk_file")
-
-    echo "Extracting $(basename chunked_vpk_file)"
-    # TODO: Decompile only required files
-    ./Decompiler -i "$chunked_vpk_file" -d --threads 8 -o "$parent_dir"
-
-    echo "Removing chunk files"
-    rm "$parent_dir/$(basename "$chunked_vpk_file" | cut -c1-5)"*
-done
 
 # Extract Map-VPKs
 maps_folder="depots/game/citadel/maps"
@@ -95,3 +83,16 @@ cp -r "$citadel_folder"/panorama/images/upgrades images/
 
 mkdir -p images/maps
 cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
+
+
+# Extract chunked VPK files
+for chunked_vpk_file in $(find depots -type f -name "*_dir.vpk"); do
+    parent_dir=$(dirname "$chunked_vpk_file")
+
+    echo "Extracting $(basename chunked_vpk_file)"
+    # TODO: Decompile only required files
+    ./Decompiler -i "$chunked_vpk_file" -d --threads 8 -o "$parent_dir"
+
+    echo "Removing chunk files"
+    rm "$parent_dir/$(basename "$chunked_vpk_file" | cut -c1-5)"*
+done

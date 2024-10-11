@@ -400,7 +400,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 600,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -811,14 +811,14 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 1.5,
+      "base_health_regen": 3.0,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 0.65,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -1220,7 +1220,7 @@
     "role": "Snipes the unsuspecting",
     "selection_image": "panorama:\"file://{images}/heroes/hornet.psd\"",
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.785714,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.55,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 20.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -1230,13 +1230,13 @@
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
       "base_health_regen": 2.0,
-      "bullet_armor_damage_reduction": -10.0,
+      "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 8.0,
+      "max_move_speed": 8.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -1654,7 +1654,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 650,
-      "max_move_speed": 6.0,
+      "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -2057,7 +2057,7 @@
     "selection_image": "panorama:\"file://{images}/heroes/bull.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.251429,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 32.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 34.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0
@@ -2071,8 +2071,8 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
-      "max_health": 600,
-      "max_move_speed": 6.5,
+      "max_health": 570,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -2490,7 +2490,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -2902,13 +2902,13 @@
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
       "base_health_regen": 2.0,
-      "bullet_armor_damage_reduction": null,
+      "bullet_armor_damage_reduction": 15.0,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -3310,7 +3310,7 @@
     "role": "Manipulates Space and Time",
     "selection_image": "panorama:\"file://{images}/heroes/chrono.psd\"",
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.45,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -3326,7 +3326,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -3744,7 +3744,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 650,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -4162,7 +4162,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 600,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -4580,7 +4580,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 500,
-      "max_move_speed": 8.0,
+      "max_move_speed": 8.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -4998,7 +4998,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 625,
-      "max_move_speed": 8.0,
+      "max_move_speed": 8.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -5417,7 +5417,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 650,
-      "max_move_speed": 6.25,
+      "max_move_speed": 6.55,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -5520,8 +5520,8 @@
       "ability_zip_line_boost": 875395762,
       "signature1": 3377867107,
       "signature2": 3467292895,
-      "signature3": 755723302,
-      "signature4": 686480410,
+      "signature3": 4081368554,
+      "signature4": 755723302,
       "weapon_melee": 3861289372,
       "weapon_primary": 3108987282,
       "weapon_secondary": 3386449071
@@ -5836,7 +5836,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -6254,12 +6254,12 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 6.0,
+      "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
       "sprint_speed": 0.0,
-      "stamina": 3,
+      "stamina": 4,
       "stamina_regen_per_second": 0.2,
       "tech_duration": 1,
       "tech_range": 1,
@@ -6672,7 +6672,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 700,
-      "max_move_speed": 7.8,
+      "max_move_speed": 8.1,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -7091,7 +7091,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 600,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -7509,7 +7509,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -7927,7 +7927,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -8345,7 +8345,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 6.0,
+      "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -8764,7 +8764,7 @@
       "heavy_melee_damage": 128,
       "light_melee_damage": 69,
       "max_health": 500,
-      "max_move_speed": 8.0,
+      "max_move_speed": 8.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -9182,7 +9182,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -9601,7 +9601,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -10019,7 +10019,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -10437,7 +10437,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -10855,7 +10855,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -11273,7 +11273,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -11691,7 +11691,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -12109,7 +12109,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -12527,7 +12527,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -12864,7 +12864,7 @@
       }
     },
     "limited_testing": false,
-    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\n\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
+    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\n\nMirage is one such bodyguard.  Employed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
     "minimap_image": "panorama:\"file://{images}/heroes/mirage_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
@@ -12945,7 +12945,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -13364,7 +13364,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -13782,7 +13782,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 650,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -14200,7 +14200,425 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 550,
-      "max_move_speed": 7.0,
+      "max_move_speed": 7.3,
+      "move_acceleration": 4.0,
+      "proc_build_up_rate_scale": 1,
+      "reload_speed": 1,
+      "sprint_speed": 0.0,
+      "stamina": 3,
+      "stamina_regen_per_second": 0.2,
+      "tech_duration": 1,
+      "tech_range": 1,
+      "weapon_power": 0,
+      "weapon_power_scale": 1
+    },
+    "stealth_speed_meters_per_second": 4.0,
+    "step_height": 32.0,
+    "step_sound_time": 0.325,
+    "top_bar_image": null
+  },
+  {
+    "assigned_players_only": false,
+    "bot_selectable": false,
+    "class_name": "shieldguy",
+    "collision_height": 80.0,
+    "collision_radius": 20.0,
+    "color_glow_enemy": [
+      255,
+      0,
+      0
+    ],
+    "color_glow_friendly": [
+      255,
+      239,
+      215
+    ],
+    "color_glow_team1": [
+      231,
+      182,
+      89
+    ],
+    "color_glow_team2": [
+      91,
+      121,
+      230
+    ],
+    "color_ui": [
+      98,
+      15,
+      214
+    ],
+    "complexity": 1,
+    "disabled": true,
+    "footstep_sound_travel_distance_meters": 20.0,
+    "hero_shop_stat_display": {
+      "weapon_stats_display": {
+        "weapon_image": null
+      }
+    },
+    "icon_hero_card": null,
+    "icon_image_small": null,
+    "id": 57,
+    "images": {
+      "card": null,
+      "minimap": null,
+      "portrait": null,
+      "small": null,
+      "top_bar": null,
+      "weapon": null
+    },
+    "in_development": true,
+    "item_slot_info": {
+      "armor": {
+        "max_purchase_for_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "tech": {
+        "max_purchase_for_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "weapon_mod": {
+        "max_purchase_for_tier": [
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    "items": {
+      "ability_climb_rope": 4261702459,
+      "ability_innate1": 2207638101,
+      "ability_innate2": 1443159618,
+      "ability_innate3": 664285540,
+      "ability_jump": 1466127517,
+      "ability_mantle": 4109126631,
+      "ability_slide": 2335418656,
+      "ability_zip_line": 2573821048,
+      "ability_zip_line_boost": 875395762,
+      "signature1": 2935955509,
+      "signature2": 2322200384,
+      "signature3": 1105433407,
+      "signature4": 2824729668,
+      "weapon_melee": 17949280,
+      "weapon_primary": 215719738
+    },
+    "level_info": {
+      "1": {
+        "bonus_currencies": [
+          "EAbilityUnlocks"
+        ],
+        "required_gold": 0,
+        "use_standard_upgrade": false
+      },
+      "10": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 5200,
+        "use_standard_upgrade": false
+      },
+      "11": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 6000,
+        "use_standard_upgrade": true
+      },
+      "12": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 7500,
+        "use_standard_upgrade": true
+      },
+      "13": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 8000,
+        "use_standard_upgrade": false
+      },
+      "14": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 9000,
+        "use_standard_upgrade": true
+      },
+      "15": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 9700,
+        "use_standard_upgrade": false
+      },
+      "16": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 10500,
+        "use_standard_upgrade": true
+      },
+      "17": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 12000,
+        "use_standard_upgrade": true
+      },
+      "18": {
+        "bonus_currencies": null,
+        "required_gold": 13000,
+        "use_standard_upgrade": true
+      },
+      "19": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 14000,
+        "use_standard_upgrade": true
+      },
+      "2": {
+        "bonus_currencies": [
+          "EAbilityUnlocks",
+          "EAbilityPoints"
+        ],
+        "required_gold": 400,
+        "use_standard_upgrade": false
+      },
+      "20": {
+        "bonus_currencies": null,
+        "required_gold": 15000,
+        "use_standard_upgrade": true
+      },
+      "21": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 16000,
+        "use_standard_upgrade": true
+      },
+      "22": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 18000,
+        "use_standard_upgrade": true
+      },
+      "23": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 20000,
+        "use_standard_upgrade": true
+      },
+      "24": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 22000,
+        "use_standard_upgrade": false
+      },
+      "25": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 24000,
+        "use_standard_upgrade": false
+      },
+      "26": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 27000,
+        "use_standard_upgrade": false
+      },
+      "27": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 30000,
+        "use_standard_upgrade": false
+      },
+      "28": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 33000,
+        "use_standard_upgrade": false
+      },
+      "29": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 36000,
+        "use_standard_upgrade": false
+      },
+      "3": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 800,
+        "use_standard_upgrade": false
+      },
+      "30": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 39000,
+        "use_standard_upgrade": false
+      },
+      "31": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 42000,
+        "use_standard_upgrade": false
+      },
+      "32": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 45000,
+        "use_standard_upgrade": false
+      },
+      "33": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 48000,
+        "use_standard_upgrade": false
+      },
+      "4": {
+        "bonus_currencies": null,
+        "required_gold": 1200,
+        "use_standard_upgrade": true
+      },
+      "5": {
+        "bonus_currencies": [
+          "EAbilityUnlocks"
+        ],
+        "required_gold": 1500,
+        "use_standard_upgrade": false
+      },
+      "6": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 2200,
+        "use_standard_upgrade": true
+      },
+      "7": {
+        "bonus_currencies": [
+          "EAbilityUnlocks"
+        ],
+        "required_gold": 3000,
+        "use_standard_upgrade": false
+      },
+      "8": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 3500,
+        "use_standard_upgrade": false
+      },
+      "9": {
+        "bonus_currencies": [
+          "EAbilityPoints"
+        ],
+        "required_gold": 4500,
+        "use_standard_upgrade": true
+      }
+    },
+    "limited_testing": false,
+    "lore": null,
+    "minimap_image": null,
+    "needs_testing": false,
+    "player_selectable": true,
+    "playstyle": null,
+    "purchase_bonuses": {
+      "armor": [
+        {
+          "tier": 1,
+          "value": "11"
+        },
+        {
+          "tier": 2,
+          "value": "14"
+        },
+        {
+          "tier": 3,
+          "value": "17"
+        },
+        {
+          "tier": 4,
+          "value": "20"
+        }
+      ],
+      "tech": [
+        {
+          "tier": 1,
+          "value": "4"
+        },
+        {
+          "tier": 2,
+          "value": "8"
+        },
+        {
+          "tier": 3,
+          "value": "12"
+        },
+        {
+          "tier": 4,
+          "value": "16"
+        }
+      ],
+      "weapon_mod": [
+        {
+          "tier": 1,
+          "value": "6"
+        },
+        {
+          "tier": 2,
+          "value": "10"
+        },
+        {
+          "tier": 3,
+          "value": "14"
+        },
+        {
+          "tier": 4,
+          "value": "18"
+        }
+      ]
+    },
+    "readability": 4,
+    "role": null,
+    "selection_image": null,
+    "standard_level_up_upgrades": {
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.124929,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
+      "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
+      "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0
+    },
+    "starting_stats": {
+      "ability_resource_max": 0,
+      "ability_resource_regen_per_second": 0,
+      "base_health_regen": 2.0,
+      "bullet_armor_damage_reduction": null,
+      "crit_damage_received_scale": 1.0,
+      "crouch_speed": 4.75,
+      "heavy_melee_damage": 116,
+      "light_melee_damage": 63,
+      "max_health": 550,
+      "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
