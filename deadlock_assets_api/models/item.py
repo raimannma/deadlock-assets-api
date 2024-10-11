@@ -254,6 +254,25 @@ class ItemType(StrEnum):
         return None
 
 
+class PropertyUpgrade(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    property_name: str = Field(..., validation_alias="m_strPropertyName")
+    upgrade_value: str | float | int = Field(..., validation_alias="m_strBonus")
+    upgrade_type: str | None = Field(None, validation_alias="m_eUpgradeType")
+    scale_stat_filter: str | None = Field(None, validation_alias="m_eScaleStatFilter")
+    css_class: str | None = Field(None, validation_alias="m_strCSSClass")
+    display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
+
+
+class PropertyUpgrades(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    property_upgrades: list[PropertyUpgrade] = Field(
+        ..., validation_alias="m_vecPropertyUpgrades"
+    )
+
+
 class Item(BaseModel):
     model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
@@ -272,7 +291,7 @@ class Item(BaseModel):
     weapon_info: ItemInfoWeaponInfo | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
-    ability_upgrades: list[dict[str, str | float | list]] | None = Field(
+    ability_upgrades: list[PropertyUpgrades] | None = Field(
         None, validation_alias="m_vecAbilityUpgrades"
     )
     dof_while_zoomed: ItemDofWhileZoomed | None = Field(
@@ -362,34 +381,6 @@ class Item(BaseModel):
             else:
                 properties[k] = v
         return properties
-
-    @field_validator("ability_upgrades")
-    @classmethod
-    def validate_ability_upgrades(
-        cls,
-        value: (
-            list[dict[str, str | float]] | list[dict[str, list[dict[str, str | float]]]]
-        ),
-        _,
-    ) -> list[dict[str, str | float]] | None:
-        if value is None or len(value) == 0:
-            return None
-        ability_upgrades = []
-        for tier_upgrades in value:
-            if any(isinstance(i, (str, float)) for i in tier_upgrades.values()):
-                return value
-            upgrades = [i for n in tier_upgrades.values() for i in n]
-            ability_upgrades.extend(
-                {
-                    u["m_strPropertyName"]: (
-                        float(u["m_strBonus"])
-                        if utils.is_float(u["m_strBonus"])
-                        else u["m_strBonus"]
-                    )
-                }
-                for u in upgrades
-            )
-        return ability_upgrades
 
     def model_post_init(self, __context):
         self.name = self.get_name(Language.English)
