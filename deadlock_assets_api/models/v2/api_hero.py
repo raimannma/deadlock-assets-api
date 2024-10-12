@@ -160,6 +160,22 @@ class HeroShopStatDisplay(RawHeroShopStatDisplay):
         return cls(**raw_model)
 
 
+class HeroLevelInfo(RawHeroLevelInfo):
+    model_config = ConfigDict(populate_by_name=True)
+
+    bonus_currencies: list[str] | None
+
+    @classmethod
+    def from_raw_level_info(cls, raw_level_info: RawHeroLevelInfo) -> "HeroLevelInfo":
+        raw_model = raw_level_info.model_dump()
+        raw_model["bonus_currencies"] = (
+            list(raw_level_info.bonus_currencies.keys())
+            if raw_level_info.bonus_currencies
+            else None
+        )
+        return cls(**raw_model)
+
+
 class Hero(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -186,7 +202,7 @@ class Hero(BaseModel):
     shop_stat_display: HeroShopStatDisplay
     stats_display: RawHeroStatsDisplay
     hero_stats_ui: RawHeroStatsUI
-    level_info: dict[str, RawHeroLevelInfo]
+    level_info: dict[str, HeroLevelInfo]
     scaling_stats: dict[str, RawHeroScalingStat]
     purchase_bonuses: dict[ItemSlotType, list[RawHeroPurchaseBonus]]
     standard_level_up_upgrades: dict[str, float]
@@ -199,6 +215,10 @@ class Hero(BaseModel):
         raw_model["images"] = HeroImages.from_raw_hero(raw_hero)
         raw_model["physics"] = HeroPhysics.from_raw_hero(raw_hero)
         raw_model["colors"] = HeroColors.from_raw_hero(raw_hero)
+        raw_model["level_info"] = {
+            k: HeroLevelInfo.from_raw_level_info(v)
+            for k, v in raw_hero.level_info.items()
+        }
         raw_model["shop_stat_display"] = HeroShopStatDisplay.from_raw_hero(raw_hero)
         return cls(**raw_model)
 
