@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from starlette.responses import FileResponse
 
-router = APIRouter(prefix="/raw")
+router = APIRouter(prefix="/raw", tags=["RAW"])
 
 
 @router.get("/heroes")

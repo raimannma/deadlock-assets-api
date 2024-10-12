@@ -1,7 +1,7 @@
-from enum import StrEnum
+from enum import Enum
 
 
-class Language(StrEnum):
+class Language(str, Enum):
     Brazilian = "brazilian"
     Bulgarian = "bulgarian"
     Czech = "czech"
@@ -34,3 +34,6 @@ class Language(StrEnum):
 
     def __missing__(self, _):
         return Language.English
+
+    def __str__(self):
+        return self.value

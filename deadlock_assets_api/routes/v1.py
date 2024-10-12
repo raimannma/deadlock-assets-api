@@ -8,10 +8,15 @@ from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.map import Map
 from deadlock_assets_api.models.steam_info import SteamInfo
 
-router = APIRouter(prefix="/v1")
+router = APIRouter(prefix="/v1", tags=["V1"])
 
 
-@router.get("/heroes", response_model_exclude_none=True)
+@router.get(
+    "/heroes",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/heroes` instead.",
+)
 def get_heroes(language: Language = Language.English) -> list[Hero]:
     heroes = load_heroes()
     for hero in heroes:
@@ -19,7 +24,12 @@ def get_heroes(language: Language = Language.English) -> list[Hero]:
     return sorted(heroes, key=lambda x: x.id)
 
 
-@router.get("/heroes/{id}", response_model_exclude_none=True)
+@router.get(
+    "/heroes/{id}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/heroes/{id}` instead.",
+)
 def get_hero(id: int, language: Language = Language.English) -> Hero:
     heroes = get_heroes(language)
     for hero in heroes:
@@ -28,7 +38,12 @@ def get_hero(id: int, language: Language = Language.English) -> Hero:
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@router.get("/heroes/by-name/{name}", response_model_exclude_none=True)
+@router.get(
+    "/heroes/by-name/{name}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/heroes/by-name/{name}` instead.",
+)
 def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
     heroes = get_heroes(language)
     for hero in heroes:
@@ -37,7 +52,12 @@ def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@router.get("/items", response_model_exclude_none=True)
+@router.get(
+    "/items",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items` instead.",
+)
 def get_items(language: Language = Language.English) -> list[Item]:
     items = load_items()
     heroes = load_heroes()
@@ -53,7 +73,12 @@ def get_items(language: Language = Language.English) -> list[Item]:
     return items
 
 
-@router.get("/items/{id}", response_model_exclude_none=True)
+@router.get(
+    "/items/{id}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/{id}` instead.",
+)
 def get_item(id: int, language: Language = Language.English) -> Item:
     items = get_items(language)
     for item in items:
@@ -62,7 +87,12 @@ def get_item(id: int, language: Language = Language.English) -> Item:
     raise HTTPException(status_code=404, detail="Item not found")
 
 
-@router.get("/items/by-name/{name}", response_model_exclude_none=True)
+@router.get(
+    "/items/by-name/{name}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/by-name/{name}` instead.",
+)
 def get_item_by_name(name: str, language: Language = Language.English) -> Item:
     items = get_items(language)
     for item in items:
@@ -71,7 +101,12 @@ def get_item_by_name(name: str, language: Language = Language.English) -> Item:
     raise HTTPException(status_code=404, detail="Item not found")
 
 
-@router.get("/items/by-hero-id/{id}", response_model_exclude_none=True)
+@router.get(
+    "/items/by-hero-id/{id}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/by-hero-id/{id}` instead.",
+)
 def get_items_by_hero_id(
     id: int, language: Language = Language.English
 ) -> dict[str, Item]:
@@ -81,7 +116,12 @@ def get_items_by_hero_id(
     return dict(zip(hero.items.keys(), hero_items))
 
 
-@router.get("/items/by-hero-name/{name}", response_model_exclude_none=True)
+@router.get(
+    "/items/by-hero-name/{name}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/by-hero-name/{name}` instead.",
+)
 def get_items_by_hero_name(
     name: str, language: Language = Language.English
 ) -> dict[str, Item]:
@@ -91,7 +131,12 @@ def get_items_by_hero_name(
     return dict(zip(hero.items.keys(), hero_items))
 
 
-@router.get("/items/by-type/{type}", response_model_exclude_none=True)
+@router.get(
+    "/items/by-type/{type}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/by-type/{type}` instead.",
+)
 def get_items_by_type(
     type: ItemType, language: Language = Language.English
 ) -> list[Item]:
@@ -100,7 +145,12 @@ def get_items_by_type(
     return [c for c in items if c.type == type]
 
 
-@router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
+@router.get(
+    "/items/by-slot-type/{slot_type}",
+    response_model_exclude_none=True,
+    # deprecated=True,
+    # description="This endpoint is deprecated. Use `/v2/items/by-slot-type/{slot_type}` instead.",
+)
 def get_items_by_slot_type(
     slot_type: ItemSlotType, language: Language = Language.English
 ) -> list[Item]:

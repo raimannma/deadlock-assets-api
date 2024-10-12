@@ -6,24 +6,47 @@ from kv3parser import KV3Parser
 from pydantic import BaseModel
 
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
-from deadlock_assets_api.parsers.heroes import parse_heroes
-from deadlock_assets_api.parsers.items import parse_items
+from deadlock_assets_api.parsers.heroes import parse_heroes, parse_heroes_v2
+from deadlock_assets_api.parsers.items import parse_items, parse_items_v2
+
+
+def get_version_id():
+    with open("res/steam.inf") as f:
+        data = [line.split("=") for line in f.read().splitlines()]
+    return dict(data)["ClientVersion"]
+
 
 VDATA_FILES = [
-    (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json"),
-    (parse_heroes, "vdata/heroes.vdata", "res/heroes.json"),
-    (parse_items, "vdata/abilities.vdata", "res/items.json"),
+    (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json", True),
+    (parse_heroes, "vdata/heroes.vdata", "res/heroes.json", True),
+    (
+        parse_heroes_v2,
+        "vdata/heroes.vdata",
+        f"res/builds/{get_version_id()}/v2/raw_heroes.json",
+        False,
+    ),
+    (parse_items, "vdata/abilities.vdata", "res/items.json", True),
+    (
+        parse_items_v2,
+        "vdata/abilities.vdata",
+        f"res/builds/{get_version_id()}/v2/raw_items.json",
+        False,
+    ),
 ]
 
 
 def parse_vdata():
-    for parse_func, file_path, out_path in VDATA_FILES:
+    for parse_func, file_path, out_path, create_raw in VDATA_FILES:
         with open(file_path) as f:
             data = KV3Parser(f.read()).parse()
-        with open(
-            f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w"
-        ) as f:
-            json.dump(data, f, indent=4)
+
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        if create_raw:
+            with open(
+                f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w"
+            ) as f:
+                json.dump(data, f, indent=4)
+
         data = parse_func(data)
         if isinstance(data, list):
             data = [
@@ -46,28 +69,21 @@ def parse_localization():
             if not file.endswith(".txt"):
                 continue
             file = os.path.join(root, file)
-            # print(f"Reading {file}")
             with open(file, encoding="utf8", errors="ignore") as f:
                 data = vdf.loads(f.read().replace("\ufeff", ""))
-            out_file = os.path.join("res", file.replace(".txt", ".json"))
-            os.makedirs(os.path.dirname(out_file), exist_ok=True)
-            with open(out_file, "w") as f:
-                json.dump(data, f, indent=4)
-
-
-def parse_vtex():
-    for root, _, files in os.walk("localization"):
-        for file in files:
-            if not file.endswith(".txt"):
-                continue
-            file = os.path.join(root, file)
-            # print(f"Reading {file}")
-            with open(file, encoding="utf8", errors="ignore") as f:
-                data = vdf.loads(f.read().replace("\ufeff", ""))
-            out_file = os.path.join("res", file.replace(".txt", ".json"))
-            os.makedirs(os.path.dirname(out_file), exist_ok=True)
-            with open(out_file, "w") as f:
-                json.dump(data, f, indent=4)
+            for out_file in [
+                os.path.join("res", file.replace(".txt", ".json")),
+                os.path.join(
+                    "res",
+                    "builds",
+                    get_version_id(),
+                    "v2",
+                    file.replace(".txt", ".json"),
+                ),
+            ]:
+                os.makedirs(os.path.dirname(out_file), exist_ok=True)
+                with open(out_file, "w") as f:
+                    json.dump(data, f, indent=4)
 
 
 if __name__ == "__main__":

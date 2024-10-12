@@ -193,7 +193,7 @@ class ItemSlotType(StrEnum):
     def _missing_(cls, new_value: str):
         new_value = new_value.lower()
         for member in cls:
-            if member.name.lower() == new_value or member.value.lower() == new_value:
+            if new_value in [member.value.lower(), member.name.lower()]:
                 return member
         warning(f"Unknown ItemSlotType: {new_value}")
         return None
@@ -210,7 +210,7 @@ class ItemType(StrEnum):
     def _missing_(cls, value: str):
         value = value.lower()
         for member in cls:
-            if member.lower() == value:
+            if value in [member.value.lower(), member.name.lower()]:
                 return member
         hero_list = [
             "astro",
