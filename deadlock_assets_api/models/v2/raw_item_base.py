@@ -42,6 +42,9 @@ class RawItemProperty(BaseModel):
     )
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
+    loc_token_override: str | None = Field(
+        None, validation_alias="m_strLocTokenOverride"
+    )
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
 

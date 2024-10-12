@@ -33,6 +33,15 @@ class AbilityDescription(BaseModel):
                 variable = match.group(1)
 
                 replaced = raw_ability.properties.get(variable)
+                if replaced is None:
+                    replaced = next(
+                        (
+                            v
+                            for k, v in raw_ability.properties.items()
+                            if v.loc_token_override and v.loc_token_override == variable
+                        ),
+                        None,
+                    )
                 if replaced is not None:
                     replaced = replaced.value
                 if tier is not None and len(raw_ability.upgrades) >= tier:
