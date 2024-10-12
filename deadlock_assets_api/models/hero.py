@@ -175,6 +175,14 @@ class HeroItemType(str, Enum):
         warning(f"Unknown HeroItemType: {new_value}")
         return None
 
+    def ability_index(self) -> int | None:
+        return {
+            HeroItemType.ESlot_Signature_1: 1,
+            HeroItemType.ESlot_Signature_2: 2,
+            HeroItemType.ESlot_Signature_3: 3,
+            HeroItemType.ESlot_Signature_4: 4,
+        }.get(self)
+
 
 class Hero(BaseModel):
     model_config = ConfigDict(populate_by_name=True, use_enum_values=True)

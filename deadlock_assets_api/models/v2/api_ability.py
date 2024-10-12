@@ -33,6 +33,8 @@ class AbilityDescription(BaseModel):
                 variable = match.group(1)
 
                 replaced = raw_ability.properties.get(variable)
+                if replaced is not None:
+                    replaced = replaced.value
                 if tier is not None and len(raw_ability.upgrades) >= tier:
                     replaced = next(
                         (
@@ -40,15 +42,29 @@ class AbilityDescription(BaseModel):
                             for i in raw_ability.upgrades[tier - 1].property_upgrades
                             if i.name.lower() == variable.lower()
                         ),
-                        replaced.value if replaced else None,
+                        replaced,
                     )
-                elif replaced:
-                    replaced = replaced.value
-                else:
+                if replaced is None:
                     if variable == "iv_attack":
                         replaced = "LMC"
                     elif variable == "iv_attack2":
                         replaced = "RMC"
+                    elif variable == "ability_key":
+                        hero_items = next(
+                            h.items
+                            for h in raw_heroes
+                            if raw_ability.class_name in h.items.values()
+                        )
+                        if hero_items is not None:
+                            ability_key = next(
+                                (
+                                    k.ability_index()
+                                    for k, v in hero_items.items()
+                                    if v == raw_ability.class_name
+                                ),
+                                None,
+                            )
+                            replaced = ability_key
                     elif variable.startswith("in_ability"):
                         index = int(variable[-1])
                         replaced = localization.get(f"citadel_keybind_ability{index}")
@@ -61,6 +77,10 @@ class AbilityDescription(BaseModel):
                             ),
                             None,
                         )
+                        if replaced is None:
+                            print(
+                                f"Failed to find hero name for {raw_ability.class_name}"
+                            )
                     else:
                         var_to_loc = {
                             "key_duck": "citadel_keybind_crouch",
