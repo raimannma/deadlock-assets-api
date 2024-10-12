@@ -1,10 +1,12 @@
 import json
 import os
+from enum import Enum
 from functools import lru_cache
 
 from fastapi import APIRouter, HTTPException
 from pydantic import TypeAdapter
 
+from deadlock_assets_api import utils
 from deadlock_assets_api.models.item import ItemSlotType, ItemType
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v2.api_ability import Ability
@@ -67,6 +69,7 @@ def load_raw_items(build_id: int) -> list[RawAbility | RawWeapon | RawUpgrade] |
 
 
 ALL_BUILDS = [int(b) for b in os.listdir("res/builds")]
+VALID_BUILDS = Enum("ValidBuilds", {str(b): int(b) for b in ALL_BUILDS}, type=int)
 LOCALIZATIONS: dict[int, dict[Language, dict[str, str]]] = load_localizations()
 RAW_HEROES: dict[int, list[RawHero]] = {b: load_raw_heroes(b) for b in ALL_BUILDS}
 RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
@@ -76,21 +79,27 @@ RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
 
 @router.get("/heroes", response_model_exclude_none=True)
 def get_heroes(
-    language: Language = Language.English, build_id: int = max(ALL_BUILDS)
+    language: Language = Language.English, build_id: VALID_BUILDS = max(ALL_BUILDS)
 ) -> list[Hero]:
+    if build_id not in ALL_BUILDS:
+        raise HTTPException(status_code=404, detail="Build not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[build_id][Language.English])
-    localization.update(LOCALIZATIONS[build_id][language])
+        localization.update(LOCALIZATIONS[build_id.value][Language.English])
+    localization.update(LOCALIZATIONS[build_id.value][language])
 
-    raw_heroes = RAW_HEROES[build_id]
+    raw_heroes = RAW_HEROES[build_id.value]
     heroes = [Hero.from_raw_hero(r, localization) for r in raw_heroes]
     return sorted(heroes, key=lambda x: x.id)
 
 
 @router.get("/heroes/{id}", response_model_exclude_none=True)
-def get_hero(id: int, language: Language = Language.English) -> Hero:
-    heroes = get_heroes(language)
+def get_hero(
+    id: int,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
+) -> Hero:
+    heroes = get_heroes(language, build_id)
     for hero in heroes:
         if hero.id == id:
             return hero
@@ -98,8 +107,12 @@ def get_hero(id: int, language: Language = Language.English) -> Hero:
 
 
 @router.get("/heroes/by-name/{name}", response_model_exclude_none=True)
-def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
-    heroes = get_heroes(language)
+def get_hero_by_name(
+    name: str,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
+) -> Hero:
+    heroes = get_heroes(language, build_id)
     for hero in heroes:
         if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
             return hero
@@ -108,15 +121,17 @@ def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
 
 @router.get("/items", response_model_exclude_none=True)
 def get_items(
-    language: Language = Language.English, build_id: int = max(ALL_BUILDS)
+    language: Language = Language.English, build_id: VALID_BUILDS = max(ALL_BUILDS)
 ) -> list[Item]:
+    if build_id not in ALL_BUILDS:
+        raise HTTPException(status_code=404, detail="Build not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[build_id][Language.English])
-    localization.update(LOCALIZATIONS[build_id][language])
+        localization.update(LOCALIZATIONS[build_id.value][Language.English])
+    localization.update(LOCALIZATIONS[build_id.value][language])
 
-    raw_items = RAW_ITEMS[build_id]
-    raw_heroes = RAW_HEROES[build_id]
+    raw_items = RAW_ITEMS[build_id.value]
+    raw_heroes = RAW_HEROES[build_id.value]
 
     def item_from_raw_item(raw_item: RawUpgrade | RawAbility | RawWeapon) -> Item:
         if raw_item.type == "ability":
@@ -132,44 +147,48 @@ def get_items(
     return sorted(items, key=lambda x: x.id)
 
 
-@router.get("/items/{id}", response_model_exclude_none=True)
-def get_item(id: int, language: Language = Language.English) -> Item:
-    items = get_items(language)
+@router.get("/items/{id_or_class_name}", response_model_exclude_none=True)
+def get_item(
+    id_or_class_name: int | str,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
+) -> Item:
+    items = get_items(language, build_id=build_id)
+    id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
     for item in items:
-        if item.id == id:
-            return item
-    raise HTTPException(status_code=404, detail="Item not found")
-
-
-@router.get("/items/by-name/{name}", response_model_exclude_none=True)
-def get_item_by_name(name: str, language: Language = Language.English) -> Item:
-    items = get_items(language)
-    for item in items:
-        if name.lower() in [item.name.lower(), item.class_name.lower()]:
+        if item.id == id or item.class_name == id:
             return item
     raise HTTPException(status_code=404, detail="Item not found")
 
 
 @router.get("/items/by-hero-id/{id}", response_model_exclude_none=True)
-def get_items_by_hero_id(id: int, language: Language = Language.English) -> list[Item]:
-    items = get_items(language)
+def get_items_by_hero_id(
+    id: int,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
+) -> list[Item]:
+    items = get_items(language, build_id)
     return [i for i in items if i.hero == id]
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
-    type: ItemType, language: Language = Language.English
+    type: ItemType,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
 ) -> list[Item]:
-    items = get_items(language)
+    items = get_items(language, build_id)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
 
 
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
 def get_items_by_slot_type(
-    slot_type: ItemSlotType, language: Language = Language.English
+    slot_type: ItemSlotType,
+    language: Language = Language.English,
+    build_id: VALID_BUILDS = max(ALL_BUILDS),
 ) -> list[Item]:
-    items = get_items(language)
+    items = get_items(language, build_id)
     slot_type = ItemSlotType(slot_type.capitalize())
     return [
         c for c in items if isinstance(c, Upgrade) and c.item_slot_type == slot_type

@@ -3,6 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
+from deadlock_assets_api.models.hero import HeroItemType
 from deadlock_assets_api.models.item import ItemSlotType
 from deadlock_assets_api.models.v2.raw_hero import (
     RawHero,
@@ -194,7 +195,7 @@ class Hero(BaseModel):
     skin: int
     readability: int
     images: HeroImages
-    abilities: dict[str, str]
+    items: dict[HeroItemType, str]
     starting_stats: RawHeroStartingStats
     item_slot_info: dict[ItemSlotType, RawHeroItemSlotInfoValue]
     physics: HeroPhysics

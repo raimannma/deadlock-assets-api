@@ -2,6 +2,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 
+from deadlock_assets_api.models.hero import HeroItemType
 from deadlock_assets_api.models.item import ItemSlotType
 
 
@@ -198,7 +199,7 @@ class RawHero(BaseModel):
         ..., validation_alias="m_heroStatsDisplay"
     )
     hero_stats_ui: RawHeroStatsUI = Field(..., validation_alias="m_heroStatsUI")
-    abilities: dict[str, str] = Field(..., validation_alias="m_mapBoundAbilities")
+    items: dict[HeroItemType, str] = Field(..., validation_alias="m_mapBoundAbilities")
     item_slot_info: dict[ItemSlotType, RawHeroItemSlotInfoValue] = Field(
         ..., validation_alias="m_mapItemSlotInfo"
     )

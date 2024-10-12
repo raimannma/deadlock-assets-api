@@ -1,6 +1,7 @@
 import os
-from enum import StrEnum
+from enum import Enum, StrEnum
 from functools import lru_cache
+from logging import warning
 
 from pydantic import (
     BaseModel,
@@ -147,23 +148,32 @@ class HeroShopStatDisplay(BaseModel):
     )
 
 
-class HeroItemType(StrEnum):
-    weapon_primary = "ESlot_Weapon_Primary"
-    weapon_secondary = "ESlot_Weapon_Secondary"
-    weapon_melee = "ESlot_Weapon_Melee"
-    ability_mantle = "ESlot_Ability_Mantle"
-    ability_jump = "ESlot_Ability_Jump"
-    ability_slide = "ESlot_Ability_Slide"
-    ability_zip_line = "ESlot_Ability_ZipLine"
-    ability_zip_line_boost = "ESlot_Ability_ZipLineBoost"
-    ability_climb_rope = "ESlot_Ability_ClimbRope"
-    ability_innate1 = "ESlot_Ability_Innate_1"
-    ability_innate2 = "ESlot_Ability_Innate_2"
-    ability_innate3 = "ESlot_Ability_Innate_3"
-    signature1 = "ESlot_Signature_1"
-    signature2 = "ESlot_Signature_2"
-    signature3 = "ESlot_Signature_3"
-    signature4 = "ESlot_Signature_4"
+class HeroItemType(str, Enum):
+    ESlot_Weapon_Primary = "weapon_primary"
+    ESlot_Weapon_Secondary = "weapon_secondary"
+    ESlot_Weapon_Melee = "weapon_melee"
+    ESlot_Ability_Mantle = "ability_mantle"
+    ESlot_Ability_Jump = "ability_jump"
+    ESlot_Ability_Slide = "ability_slide"
+    ESlot_Ability_ZipLine = "ability_zip_line"
+    ESlot_Ability_ZipLineBoost = "ability_zip_line_boost"
+    ESlot_Ability_ClimbRope = "ability_climb_rope"
+    ESlot_Ability_Innate_1 = "ability_innate1"
+    ESlot_Ability_Innate_2 = "ability_innate2"
+    ESlot_Ability_Innate_3 = "ability_innate3"
+    ESlot_Signature_1 = "signature1"
+    ESlot_Signature_2 = "signature2"
+    ESlot_Signature_3 = "signature3"
+    ESlot_Signature_4 = "signature4"
+
+    @classmethod
+    def _missing_(cls, new_value: str):
+        new_value = new_value.lower()
+        for member in cls:
+            if new_value in [member.value.lower(), member.name.lower()]:
+                return member
+        warning(f"Unknown HeroItemType: {new_value}")
+        return None
 
 
 class Hero(BaseModel):
@@ -235,7 +245,7 @@ class Hero(BaseModel):
 
         def convert_key(k):
             if k.startswith("E"):
-                return HeroItemType(k).name
+                return HeroItemType(k).value
             return k
 
         def convert_val(v: int | str | Item) -> int | None:

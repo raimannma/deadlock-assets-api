@@ -52,11 +52,7 @@ class ItemBase(BaseModel):
             raw_model["class_name"], raw_model["class_name"]
         )
         raw_model["hero"] = next(
-            (
-                h.id
-                for h in raw_heroes
-                if raw_model["class_name"] in h.abilities.values()
-            ),
+            (h.id for h in raw_heroes if raw_model["class_name"] in h.items.values()),
             None,
         )
         raw_model["image"] = parse_img_path(raw_model["image"])

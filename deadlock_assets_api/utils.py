@@ -40,6 +40,16 @@ def is_float(element: any) -> bool:
         return False
 
 
+def is_int(element: any) -> bool:
+    if element is None:
+        return False
+    try:
+        int(element)
+        return True
+    except ValueError:
+        return False
+
+
 def camel_to_snake(s):
     return "".join(["_" + c.lower() if c.isupper() else c for c in s]).lstrip("_")
 

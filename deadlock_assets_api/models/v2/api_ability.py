@@ -48,7 +48,7 @@ class AbilityDescription(BaseModel):
                             (
                                 localization.get(h.class_name, h.class_name)
                                 for h in raw_heroes
-                                if raw_ability.class_name in h.abilities.values()
+                                if raw_ability.class_name in h.items.values()
                             ),
                             None,
                         )
