@@ -35,3 +35,4 @@ class RawAbility(RawItemBase):
     dependant_abilities: list[str] | None = Field(
         None, validation_alias="m_vecDependentAbilities"
     )
+    video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")

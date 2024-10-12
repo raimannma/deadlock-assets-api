@@ -3,10 +3,17 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict
 
+from deadlock_assets_api.glob import VIDEO_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import ItemBase
 from deadlock_assets_api.models.v2.enums import AbilityType
 from deadlock_assets_api.models.v2.raw_ability import RawAbility, RawAbilityUpgrade
 from deadlock_assets_api.models.v2.raw_hero import RawHero
+
+
+def extract_video_url(v: str) -> str | None:
+    if not v:
+        return None
+    return f"{VIDEO_BASE_URL}/{v.split('videos/')[-1]}"
 
 
 class AbilityDescription(BaseModel):
@@ -124,6 +131,21 @@ class AbilityDescription(BaseModel):
         )
 
 
+class AbilityVideos(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    webm: str | None
+    mp4: str | None
+
+    @classmethod
+    def from_raw_video(cls, raw_video: str) -> "AbilityVideos":
+        webm = extract_video_url(raw_video)
+        return cls(
+            webm=webm,
+            mp4=webm.replace(".webm", "_h264.mp4") if webm else None,
+        )
+
+
 class Ability(ItemBase):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -134,6 +156,7 @@ class Ability(ItemBase):
     upgrades: list[RawAbilityUpgrade] | None
     ability_type: AbilityType | None
     dependant_abilities: list[str] | None
+    videos: AbilityVideos | None
 
     @classmethod
     def from_raw_item(
@@ -151,4 +174,10 @@ class Ability(ItemBase):
         raw_model["description"] = AbilityDescription.from_raw_ability(
             raw_ability, raw_heroes, localization
         )
+        raw_model["videos"] = (
+            AbilityVideos.from_raw_video(raw_ability.video)
+            if raw_ability.video
+            else None
+        )
+        del raw_model["video"]
         return cls(**raw_model)
