@@ -19,7 +19,7 @@ from deadlock_assets_api.models.v2.raw_hero import RawHero
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgrade
 from deadlock_assets_api.models.v2.raw_weapon import RawWeapon
 
-router = APIRouter(prefix="/v2", tags=["V2 - Preview (Please report all bugs)"])
+router = APIRouter(prefix="/v2", tags=["V2 - BETA (Please report all bugs)"])
 
 
 @lru_cache
