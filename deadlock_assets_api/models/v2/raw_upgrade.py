@@ -14,3 +14,4 @@ class RawUpgrade(RawItemBase):
 
     item_slot_type: ItemSlotType = Field(..., validation_alias="m_eItemSlotType")
     item_tier: ItemTier = Field(..., validation_alias="m_iItemTier")
+    disabled: bool | None = Field(None, validation_alias="m_bDisabled")

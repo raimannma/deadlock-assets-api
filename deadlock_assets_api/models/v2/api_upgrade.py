@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import ConfigDict
+from pydantic import ConfigDict, computed_field
 
 from deadlock_assets_api.models.item import ItemSlotType
 from deadlock_assets_api.models.v2.api_item_base import ItemBase
@@ -16,6 +16,21 @@ class Upgrade(ItemBase):
 
     item_slot_type: ItemSlotType
     item_tier: ItemTier
+    disabled: bool | None
+
+    @computed_field
+    @property
+    def shopable(self) -> bool:
+        return (
+            (self.disabled is None or self.disabled is False)
+            and self.item_slot_type
+            in [
+                ItemSlotType.EItemSlotType_Armor,
+                ItemSlotType.EItemSlotType_WeaponMod,
+                ItemSlotType.EItemSlotType_Tech,
+            ]
+            and self.image is not None
+        )
 
     @classmethod
     def from_raw_item(
