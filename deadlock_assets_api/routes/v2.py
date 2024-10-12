@@ -185,4 +185,6 @@ def get_items_by_slot_type(
 ) -> list[Item]:
     items = get_items(language)
     slot_type = ItemSlotType(slot_type.capitalize())
-    return [c for c in items if c.item_slot_type == slot_type]
+    return [
+        c for c in items if isinstance(c, Upgrade) and c.item_slot_type == slot_type
+    ]
