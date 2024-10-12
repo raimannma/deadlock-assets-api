@@ -25,70 +25,79 @@ router = APIRouter(prefix="/v2", tags=["V2 - Preview (Please report all bugs)"])
 @lru_cache
 def load_localizations() -> dict[int, dict[Language, dict[str, str]]]:
     localizations = {}
-    for build in ALL_BUILDS:
-        localizations[build] = {}
+    for client_version in ALL_CLIENT_VERSIONS:
+        localizations[client_version] = {}
         for language in Language:
-            localizations[build][language] = {}
-            print(f"Loading localization for build {build} and language {language}")
+            localizations[client_version][language] = {}
+            print(
+                f"Loading localization for client version {client_version} and language {language}"
+            )
             paths = [
-                f"res/builds/{build}/v2/localization/citadel_gc_{language}.json",
-                f"res/builds/{build}/v2/localization/citadel_heroes_{language}.json",
-                f"res/builds/{build}/v2/localization/citadel_main_{language}.json",
+                f"res/builds/{client_version}/v2/localization/citadel_gc_{language}.json",
+                f"res/builds/{client_version}/v2/localization/citadel_heroes_{language}.json",
+                f"res/builds/{client_version}/v2/localization/citadel_main_{language}.json",
             ]
             for path in paths:
                 if not os.path.exists(path):
                     print(f"Path {path} does not exist")
                     continue
                 with open(path) as f:
-                    localizations[build][language].update(
+                    localizations[client_version][language].update(
                         json.load(f)["lang"]["Tokens"]
                     )
     return localizations
 
 
 @lru_cache
-def load_raw_heroes(build_id: int) -> list[RawHero] | None:
-    path = f"res/builds/{build_id}/v2/raw_heroes.json"
+def load_raw_heroes(client_version: int) -> list[RawHero] | None:
+    path = f"res/builds/{client_version}/v2/raw_heroes.json"
     if not os.path.exists(path):
         return None
     with open(path) as f:
         content = f.read()
-    print(f"Loading raw heroes for build {build_id}")
+    print(f"Loading raw heroes for client version {client_version}")
     return TypeAdapter(list[RawHero]).validate_json(content)
 
 
 @lru_cache
-def load_raw_items(build_id: int) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
-    path = f"res/builds/{build_id}/v2/raw_items.json"
+def load_raw_items(
+    client_version: int,
+) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
+    path = f"res/builds/{client_version}/v2/raw_items.json"
     if not os.path.exists(path):
         return None
     with open(path) as f:
         content = f.read()
-    print(f"Loading raw items for build {build_id}")
+    print(f"Loading raw items for client version {client_version}")
     return TypeAdapter(list[RawAbility | RawWeapon | RawUpgrade]).validate_json(content)
 
 
-ALL_BUILDS = [int(b) for b in os.listdir("res/builds")]
-VALID_BUILDS = Enum("ValidBuilds", {str(b): int(b) for b in ALL_BUILDS}, type=int)
+ALL_CLIENT_VERSIONS = [int(b) for b in os.listdir("res/builds")]
+VALID_CLIENT_VERSIONS = Enum(
+    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
+)
 LOCALIZATIONS: dict[int, dict[Language, dict[str, str]]] = load_localizations()
-RAW_HEROES: dict[int, list[RawHero]] = {b: load_raw_heroes(b) for b in ALL_BUILDS}
+RAW_HEROES: dict[int, list[RawHero]] = {
+    b: load_raw_heroes(b) for b in ALL_CLIENT_VERSIONS
+}
 RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
-    b: load_raw_items(b) for b in ALL_BUILDS
+    b: load_raw_items(b) for b in ALL_CLIENT_VERSIONS
 }
 
 
 @router.get("/heroes", response_model_exclude_none=True)
 def get_heroes(
-    language: Language = Language.English, build_id: VALID_BUILDS = max(ALL_BUILDS)
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Hero]:
-    if build_id not in ALL_BUILDS:
-        raise HTTPException(status_code=404, detail="Build not found")
+    if client_version not in ALL_CLIENT_VERSIONS:
+        raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[build_id.value][Language.English])
-    localization.update(LOCALIZATIONS[build_id.value][language])
+        localization.update(LOCALIZATIONS[client_version.value][Language.English])
+    localization.update(LOCALIZATIONS[client_version.value][language])
 
-    raw_heroes = RAW_HEROES[build_id.value]
+    raw_heroes = RAW_HEROES[client_version.value]
     heroes = [Hero.from_raw_hero(r, localization) for r in raw_heroes]
     return sorted(heroes, key=lambda x: x.id)
 
@@ -97,9 +106,9 @@ def get_heroes(
 def get_hero(
     id: int,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Hero:
-    heroes = get_heroes(language, build_id)
+    heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.id == id:
             return hero
@@ -110,9 +119,9 @@ def get_hero(
 def get_hero_by_name(
     name: str,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Hero:
-    heroes = get_heroes(language, build_id)
+    heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
             return hero
@@ -121,17 +130,18 @@ def get_hero_by_name(
 
 @router.get("/items", response_model_exclude_none=True)
 def get_items(
-    language: Language = Language.English, build_id: VALID_BUILDS = max(ALL_BUILDS)
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    if build_id not in ALL_BUILDS:
-        raise HTTPException(status_code=404, detail="Build not found")
+    if client_version not in ALL_CLIENT_VERSIONS:
+        raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[build_id.value][Language.English])
-    localization.update(LOCALIZATIONS[build_id.value][language])
+        localization.update(LOCALIZATIONS[client_version.value][Language.English])
+    localization.update(LOCALIZATIONS[client_version.value][language])
 
-    raw_items = RAW_ITEMS[build_id.value]
-    raw_heroes = RAW_HEROES[build_id.value]
+    raw_items = RAW_ITEMS[client_version.value]
+    raw_heroes = RAW_HEROES[client_version.value]
 
     def item_from_raw_item(raw_item: RawUpgrade | RawAbility | RawWeapon) -> Item:
         if raw_item.type == "ability":
@@ -151,9 +161,9 @@ def get_items(
 def get_item(
     id_or_class_name: int | str,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Item:
-    items = get_items(language, build_id=build_id)
+    items = get_items(language, client_version=client_version)
     id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
     for item in items:
         if item.id == id or item.class_name == id:
@@ -165,9 +175,9 @@ def get_item(
 def get_items_by_hero_id(
     id: int,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    items = get_items(language, build_id)
+    items = get_items(language, client_version)
     return [i for i in items if i.hero == id]
 
 
@@ -175,9 +185,9 @@ def get_items_by_hero_id(
 def get_items_by_type(
     type: ItemType,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    items = get_items(language, build_id)
+    items = get_items(language, client_version)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
 
@@ -186,10 +196,15 @@ def get_items_by_type(
 def get_items_by_slot_type(
     slot_type: ItemSlotType,
     language: Language = Language.English,
-    build_id: VALID_BUILDS = max(ALL_BUILDS),
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    items = get_items(language, build_id)
+    items = get_items(language, client_version)
     slot_type = ItemSlotType(slot_type.capitalize())
     return [
         c for c in items if isinstance(c, Upgrade) and c.item_slot_type == slot_type
     ]
+
+
+@router.get("/client-versions")
+def get_client_versions() -> list[int]:
+    return ALL_CLIENT_VERSIONS
