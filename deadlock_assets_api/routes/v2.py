@@ -101,7 +101,7 @@ def get_hero(id: int, language: Language = Language.English) -> Hero:
 def get_hero_by_name(name: str, language: Language = Language.English) -> Hero:
     heroes = get_heroes(language)
     for hero in heroes:
-        if hero.class_name.lower() == name.lower():
+        if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
             return hero
     raise HTTPException(status_code=404, detail="Hero not found")
 
