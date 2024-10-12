@@ -13,8 +13,14 @@ from deadlock_assets_api.routes import base, raw, v1, v2
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(
-    title="Deadlock Assets API",
-    description="API for Deadlock assets, including hero stats and images, and item stats and images.",
+    title="Assets - Deadlock API",
+    description="""
+Part of the [https://deadlock-api.com](https://deadlock-api.com) project.
+
+API for Deadlock assets, including hero stats and images, and item stats and images.
+
+_deadlock-api.com is not endorsed by Valve and does not reflect the views or opinions of Valve or anyone officially involved in producing or managing Valve properties. Valve and all associated properties are trademarks or registered trademarks of Valve Corporation_
+""",
 )
 
 app.add_middleware(
