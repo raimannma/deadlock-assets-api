@@ -49,6 +49,8 @@ class AbilityDescription(BaseModel):
                         replaced = "LMC"
                     elif variable == "iv_attack2":
                         replaced = "RMC"
+                    elif variable == "key_alt_cast":
+                        replaced = "M3"
                     elif variable == "ability_key":
                         hero_items = next(
                             h.items
