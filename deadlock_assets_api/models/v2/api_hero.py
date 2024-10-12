@@ -18,13 +18,22 @@ from deadlock_assets_api.models.v2.raw_hero import (
 )
 
 
-def extract_image_url(image: str) -> str | None:
-    if not image:
+def extract_image_url(v: str) -> str | None:
+    if not v:
         return None
-    relative_url = (
-        image[image.find("/heroes/") :].replace(".psd", "_psd.png").replace('"', "")
-    )
-    return IMAGE_BASE_URL + relative_url
+    split_index = v.find("abilities/")
+    if split_index == -1:
+        split_index = v.find("upgrades/")
+    if split_index == -1:
+        split_index = v.find("hud/")
+    if split_index == -1:
+        split_index = v.find("heroes/")
+    v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
+    if v.endswith(".png") and not v.endswith("_psd.png"):
+        v = v.replace(".png", "_psd.png")
+    else:
+        v = v.replace(".psd", "_psd.png")
+    return v.replace('"', "")
 
 
 class HeroImages(BaseModel):
