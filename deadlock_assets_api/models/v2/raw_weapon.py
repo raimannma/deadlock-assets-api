@@ -124,9 +124,9 @@ class RawWeaponInfo(BaseModel):
     zoom_move_speed_percent: float | None = Field(
         None, validation_alias="m_flZoomMoveSpeedPercent"
     )
-    bullets: float | None = Field(None, validation_alias="m_flBullets")
-    burst_shot_count: float | None = Field(None, validation_alias="m_flBurstShotCount")
-    clip_size: float | None = Field(None, validation_alias="m_flClipSize")
+    bullets: int | None = Field(None, validation_alias="m_iBullets")
+    burst_shot_count: int | None = Field(None, validation_alias="m_iBurstShotCount")
+    clip_size: int | None = Field(None, validation_alias="m_iClipSize")
     spread: float | None = Field(None, validation_alias="m_flSpread")
     standing_spread: float | None = Field(None, validation_alias="m_flStandingSpread")
     low_ammo_indicator_threshold: float | None = Field(
