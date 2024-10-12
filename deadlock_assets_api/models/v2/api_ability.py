@@ -25,7 +25,7 @@ class AbilityDescription(BaseModel):
         raw_heroes: list[RawHero],
         localization: dict[str, str],
     ) -> "AbilityDescription":
-        def replace_templates(input_str: str | None) -> str | None:
+        def replace_templates(input_str: str | None, tier: int | None) -> str | None:
             if not input_str:
                 return None
 
@@ -33,7 +33,16 @@ class AbilityDescription(BaseModel):
                 variable = match.group(1)
 
                 replaced = raw_ability.properties.get(variable)
-                if replaced:
+                if tier is not None and len(raw_ability.upgrades) >= tier:
+                    replaced = next(
+                        (
+                            i.bonus.rstrip("m") if isinstance(i.bonus, str) else i.bonus
+                            for i in raw_ability.upgrades[tier - 1].property_upgrades
+                            if i.name.lower() == variable.lower()
+                        ),
+                        replaced.value if replaced else None,
+                    )
+                elif replaced:
                     replaced = replaced.value
                 else:
                     if variable == "iv_attack":
@@ -66,16 +75,20 @@ class AbilityDescription(BaseModel):
             return re.sub(r"\{s:([^}]+)}", replacer, input_str)
 
         return cls(
-            desc=replace_templates(localization.get(f"{raw_ability.class_name}_desc")),
-            quip=replace_templates(localization.get(f"{raw_ability.class_name}_quip")),
+            desc=replace_templates(
+                localization.get(f"{raw_ability.class_name}_desc"), None
+            ),
+            quip=replace_templates(
+                localization.get(f"{raw_ability.class_name}_quip"), None
+            ),
             t1_desc=replace_templates(
-                localization.get(f"{raw_ability.class_name}_t1_desc")
+                localization.get(f"{raw_ability.class_name}_t1_desc"), 1
             ),
             t2_desc=replace_templates(
-                localization.get(f"{raw_ability.class_name}_t2_desc")
+                localization.get(f"{raw_ability.class_name}_t2_desc"), 2
             ),
             t3_desc=replace_templates(
-                localization.get(f"{raw_ability.class_name}_t3_desc")
+                localization.get(f"{raw_ability.class_name}_t3_desc"), 3
             ),
         )
 
