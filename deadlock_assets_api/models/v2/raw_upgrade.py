@@ -36,3 +36,6 @@ class RawUpgrade(RawItemBase):
     activation: RawAbilityActivation = Field(
         None, validation_alias="m_eAbilityActivation"
     )
+    component_items: list[str] | None = Field(
+        None, validation_alias="m_vecComponentItems"
+    )

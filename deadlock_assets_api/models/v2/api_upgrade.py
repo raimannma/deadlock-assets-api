@@ -18,6 +18,7 @@ class Upgrade(ItemBase):
     item_tier: ItemTier
     disabled: bool | None
     activation: RawAbilityActivation
+    component_items: list[str] | None
 
     @computed_field
     @property

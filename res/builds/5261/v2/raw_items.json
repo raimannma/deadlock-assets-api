@@ -68548,6 +68548,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_clip_size",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
     "item_slot_type": "weapon",
@@ -68722,6 +68723,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_non_player_bonus",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/reaper_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -68914,6 +68916,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_ammo_scavenger",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ammo_scavenger.psd\"",
     "item_slot_type": "spirit",
@@ -69115,6 +69118,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_clip_size_fixed",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
     "item_slot_type": "weapon",
@@ -69280,6 +69284,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_clip_size_fixed_t3",
+    "component_items": null,
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -69445,6 +69450,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_chain_lightning",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -69673,6 +69679,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_galvanic_storm",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -69946,6 +69953,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_hollow_point_rounds",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/hollow_point.psd\"",
     "item_slot_type": "weapon",
@@ -70129,6 +70137,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_pristine_emblem",
+    "component_items": [
+      "upgrade_high_velocity_mag"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/pristine_emblem.psd\"",
     "item_slot_type": "weapon",
@@ -70330,6 +70341,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_stabilizer",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/stabilizer.psd\"",
     "item_slot_type": "weapon",
@@ -70513,6 +70525,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_high_velocity_mag",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/high_velocity_mag.psd\"",
     "item_slot_type": "weapon",
@@ -70696,6 +70709,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_lifestrike_gauntlets",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/lifestrike_gauntlets.psd\"",
     "item_slot_type": "vitality",
@@ -70897,6 +70911,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_close_range",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
     "item_slot_type": "weapon",
@@ -71080,6 +71095,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_long_range",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/long_range.psd\"",
     "item_slot_type": "weapon",
@@ -71272,6 +71288,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_slowing_bullets",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/slowing_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -71455,6 +71472,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_inhibitor",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/inhibitor.psd\"",
     "item_slot_type": "vitality",
@@ -71656,6 +71674,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_small_attack_speed",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate.psd\"",
     "item_slot_type": "weapon",
@@ -71821,6 +71840,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_defense_shredders",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/tech_resist_shredder.psd\"",
     "item_slot_type": "weapon",
@@ -72013,6 +72033,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_attack_speed_1",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "weapon",
@@ -72178,6 +72199,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_nearby_enemy_boost",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/adrenaline_rush.psd\"",
     "item_slot_type": "weapon",
@@ -72397,6 +72419,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_dps_aura",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/bullet_damage_aura.psd\"",
     "item_slot_type": "weapon",
@@ -72625,6 +72648,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_armor_reduction_debuff",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/armor_breaking_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -72808,6 +72832,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_weapon_detention_ammo",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -73027,6 +73052,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_height_advantage",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/height_advantage.psd\"",
     "item_slot_type": "weapon",
@@ -73192,6 +73218,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_targeted_silence",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/targeted_silence.psd\"",
     "item_slot_type": "spirit",
@@ -73375,6 +73402,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_proc_silence",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -73576,6 +73604,9 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_silencer",
+    "component_items": [
+      "upgrade_slowing_bullets"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -73768,6 +73799,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_proc_disarm",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
     "item_slot_type": "weapon",
@@ -73951,6 +73983,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_berserker",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/berserker.psd\"",
     "item_slot_type": "weapon",
@@ -74161,6 +74194,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_fervor",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fervor.psd\"",
     "item_slot_type": "weapon",
@@ -74389,6 +74423,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_siphon_bullets",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/siphon_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -74617,6 +74652,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_headshot_booster",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headshot_booster.psd\"",
     "item_slot_type": "weapon",
@@ -74800,6 +74836,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_sharpshooter",
+    "component_items": [
+      "upgrade_long_range"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/longshot.psd\"",
     "item_slot_type": "weapon",
@@ -75010,6 +75049,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_headhunter",
+    "component_items": [
+      "upgrade_headshot_booster"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headhunter.psd\"",
     "item_slot_type": "weapon",
@@ -75229,6 +75271,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_banshee_slugs",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/banshee_slugs.psd\"",
     "item_slot_type": "weapon",
@@ -75439,6 +75482,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_proc_tech_damage",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_imbued_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -75640,6 +75684,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_crackshot",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/explosive_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -75850,6 +75895,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_critshot",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/crit_damage.psd\"",
     "item_slot_type": "weapon",
@@ -76060,6 +76106,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_close_quarter_combat",
+    "component_items": [
+      "upgrade_close_range"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/point_blank.psd\"",
     "item_slot_type": "weapon",
@@ -76270,6 +76319,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_clip_size_2",
+    "component_items": null,
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -76435,6 +76485,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_clip_size_3",
+    "component_items": null,
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -76600,6 +76651,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_toxic_bullets",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/serrated_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -76837,6 +76889,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_attack_speed_2",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
     "item_slot_type": "weapon",
@@ -77002,6 +77055,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_drum_magazine",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -77176,6 +77230,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_ricochet",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ricochet.psd\"",
     "item_slot_type": "weapon",
@@ -77386,6 +77441,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_health",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health.psd\"",
     "item_slot_type": "vitality",
@@ -77560,6 +77616,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_toughness_3",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/base_armor.psd\"",
     "item_slot_type": "vitality",
@@ -77734,6 +77791,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bullet_armor",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -77908,6 +77966,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_armor",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_armor.psd\"",
     "item_slot_type": "vitality",
@@ -78073,6 +78132,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_health_regen_1",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen.psd\"",
     "item_slot_type": "vitality",
@@ -78238,6 +78298,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_vampire",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -78412,6 +78473,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_double_jump",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/double_jump.psd\"",
     "item_slot_type": "vitality",
@@ -78595,6 +78657,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_health_regen_aura",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen_aura.psd\"",
     "item_slot_type": "vitality",
@@ -78778,6 +78841,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_combo_breaker",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
     "item_slot_type": "vitality",
@@ -78970,6 +79034,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_debuff_reducer",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_reducer.psd\"",
     "item_slot_type": "vitality",
@@ -79153,6 +79218,9 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_reduce_debuff_duration",
+    "component_items": [
+      "upgrade_debuff_reducer"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_remover.psd\"",
     "item_slot_type": "vitality",
@@ -79354,6 +79422,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_high_impact_armor",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -79528,6 +79597,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_slow_immunity",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
     "item_slot_type": "vitality",
@@ -79684,6 +79754,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bullet_armor_2",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
     "item_slot_type": "vitality",
@@ -79849,6 +79920,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_weapon_power_and_health_drain",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
     "item_slot_type": "vitality",
@@ -80032,6 +80104,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_active_bullet_shield",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -80224,6 +80297,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_ablative_coat",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -80425,6 +80499,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_purge",
+    "component_items": [
+      "upgrade_tech_armor"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
     "item_slot_type": "vitality",
@@ -80590,6 +80667,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_improved_bullet_armor",
+    "component_items": [
+      "upgrade_bullet_armor"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -80764,6 +80844,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_metal_skin",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/metal_skin.psd\"",
     "item_slot_type": "vitality",
@@ -80938,6 +81019,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_healing_booster",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/healing_booster.psd\"",
     "item_slot_type": "vitality",
@@ -81139,6 +81221,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_chonky",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/revitalizer.psd\"",
     "item_slot_type": "vitality",
@@ -81349,6 +81432,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_damage_recycler",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/leech.psd\"",
     "item_slot_type": "vitality",
@@ -81541,6 +81625,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bullet_damage_reduction_aura",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
     "item_slot_type": "vitality",
@@ -81715,6 +81800,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_sprint_booster",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
     "item_slot_type": "vitality",
@@ -81898,6 +81984,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_cardio_calibrator",
+    "component_items": [
+      "upgrade_sprint_booster"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
     "item_slot_type": "vitality",
@@ -82099,6 +82188,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_superior_stamina",
+    "component_items": [
+      "upgrade_improved_stamina"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/superior_stamina.psd\"",
     "item_slot_type": "vitality",
@@ -82291,6 +82383,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_rapid_rounds",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/rapid_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -82465,6 +82558,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_improved_stamina",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_stamina.psd\"",
     "item_slot_type": "vitality",
@@ -82657,6 +82751,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bullet_armor_reduction_aura",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_reduction_aura.psd\"",
     "item_slot_type": "weapon",
@@ -82858,6 +82953,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_camouflage",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/camouflage_suit.psd\"",
     "item_slot_type": "vitality",
@@ -83095,6 +83191,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_regenerative_armor",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",
@@ -83260,6 +83357,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_regenerating_bullet_shield",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -83443,6 +83541,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_shield",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
     "item_slot_type": "vitality",
@@ -83626,6 +83725,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_improved_spirit",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
     "item_slot_type": "spirit",
@@ -83800,6 +83900,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_soaring_spirit",
+    "component_items": [
+      "upgrade_improved_spirit"
+    ],
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/soaring_spirit.psd\"",
     "item_slot_type": "spirit",
@@ -83983,6 +84086,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_overflow",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/magic_overflow.psd\"",
     "item_slot_type": "weapon",
@@ -84202,6 +84306,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_return_fire",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/return_fire.psd\"",
     "item_slot_type": "vitality",
@@ -84394,6 +84499,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_range",
+    "component_items": [
+      "upgrade_magic_reach"
+    ],
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_dominion.psd\"",
     "item_slot_type": "spirit",
@@ -84595,6 +84703,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_reach",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -84778,6 +84887,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_extra_charge",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -84970,6 +85080,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_health_stealing_magic",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/health_stealing_tech.psd\"",
     "item_slot_type": "vitality",
@@ -85153,6 +85264,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_disarm",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
     "item_slot_type": "spirit",
@@ -85345,6 +85457,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bullet_resist_shredder",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/bullet_resist_shredder.psd\"",
     "item_slot_type": "spirit",
@@ -85528,6 +85641,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_bleed",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_reverb.psd\"",
     "item_slot_type": "spirit",
@@ -85765,6 +85879,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_burst",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_burst.psd\"",
     "item_slot_type": "spirit",
@@ -85957,6 +86072,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_shock",
+    "component_items": [
+      "upgrade_magic_burst"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_shock.psd\"",
     "item_slot_type": "spirit",
@@ -86158,6 +86276,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_arcane_medallion",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_medallion.psd\"",
     "item_slot_type": "spirit",
@@ -86323,6 +86442,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_vulnerability",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_vulnerability.psd\"",
     "item_slot_type": "spirit",
@@ -86497,6 +86617,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_healbane",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/healbane.psd\"",
     "item_slot_type": "vitality",
@@ -86689,6 +86810,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_slow",
+    "component_items": [
+      "upgrade_suppressor"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
     "item_slot_type": "spirit",
@@ -86881,6 +87005,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_escalating_exposure",
+    "component_items": [
+      "upgrade_magic_vulnerability"
+    ],
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/escalating_exposure.psd\"",
     "item_slot_type": "spirit",
@@ -87091,6 +87218,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_rapid_recharge",
+    "component_items": [
+      "upgrade_extra_charge"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rapid_recharge.psd\"",
     "item_slot_type": "spirit",
@@ -87283,6 +87413,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_tempo",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/advanced_recharge.psd\"",
     "item_slot_type": "spirit",
@@ -87457,6 +87588,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_cooldown_reduction",
+    "component_items": [
+      "upgrade_magic_tempo"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_flow.psd\"",
     "item_slot_type": "spirit",
@@ -87649,6 +87783,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_duration_extender",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_duration_extender.psd\"",
     "item_slot_type": "spirit",
@@ -87814,6 +87949,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_slowing_tech",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
     "item_slot_type": "spirit",
@@ -87988,6 +88124,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_containment",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/immobilize.psd\"",
     "item_slot_type": "spirit",
@@ -88180,6 +88317,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_withering_whip",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
     "item_slot_type": "spirit",
@@ -88381,6 +88519,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_rescue_beam",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/medic_beam.psd\"",
     "item_slot_type": "vitality",
@@ -88591,6 +88730,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_personal_rejuvenator",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
     "item_slot_type": "spirit",
@@ -88765,6 +88905,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_rebirth",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
     "item_slot_type": "vitality",
@@ -88957,6 +89098,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_long_range_slowing_tech",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -89149,6 +89291,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_full_spectrum",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -89350,6 +89493,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_cleave",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/quantum_chimaera.psd\"",
     "item_slot_type": "spirit",
@@ -89533,6 +89677,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_bonus_ability_charge_3",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -89698,6 +89843,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_charge_mastery",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -89890,6 +90036,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_rupture",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
     "item_slot_type": "spirit",
@@ -90082,6 +90229,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_discord",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
     "item_slot_type": "spirit",
@@ -90283,6 +90431,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_aoe_tech_shield",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
     "item_slot_type": "spirit",
@@ -90457,6 +90606,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_target_stun",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/knockdown.psd\"",
     "item_slot_type": "spirit",
@@ -90667,6 +90817,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_phantom_strike",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/phantom_strike.psd\"",
     "item_slot_type": "vitality",
@@ -90868,6 +91019,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_warp_stone",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/warp_stone.psd\"",
     "item_slot_type": "weapon",
@@ -91051,6 +91203,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_aoe_root",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/area_immobilize.psd\"",
     "item_slot_type": "spirit",
@@ -91252,6 +91405,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_ability_refresher",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/refresher_module.psd\"",
     "item_slot_type": "spirit",
@@ -91426,6 +91580,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_ability_power_shard",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/echo_shard.psd\"",
     "item_slot_type": "spirit",
@@ -91600,6 +91755,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_tech_damage_pulse",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
     "item_slot_type": "spirit",
@@ -91792,6 +91948,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_cheat_death",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
     "item_slot_type": "vitality",
@@ -92011,6 +92168,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_reload_speed",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -92176,6 +92334,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_cloaking_device",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
     "item_slot_type": "vitality",
@@ -92404,6 +92563,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_cloaking_device_active",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
     "item_slot_type": "weapon",
@@ -92686,6 +92846,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_fire_rate_aura",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fire_rate_aura.psd\"",
     "item_slot_type": "weapon",
@@ -92869,6 +93030,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_weapon_overdrive_clip",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
     "item_slot_type": "weapon",
@@ -93061,6 +93223,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_rocket_boots",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
     "item_slot_type": "vitality",
@@ -93253,6 +93416,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_rocket_booster",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_death_slam.psd\"",
     "item_slot_type": "vitality",
@@ -93526,6 +93690,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_aerial_assault",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
     "item_slot_type": "vitality",
@@ -93754,6 +93919,9 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_health_nova",
+    "component_items": [
+      "upgrade_health_stimpak"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/health_nova.psd\"",
     "item_slot_type": "vitality",
@@ -93964,6 +94132,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_restorative_locket",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/restorative_locket.psd\"",
     "item_slot_type": "vitality",
@@ -94165,6 +94334,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_health_stimpak",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/stimpak.psd\"",
     "item_slot_type": "vitality",
@@ -94357,6 +94527,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_infuser",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/infuser.psd\"",
     "item_slot_type": "spirit",
@@ -94549,6 +94720,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_savior",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/savior.psd\"",
     "item_slot_type": "vitality",
@@ -94777,6 +94949,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_aoe_smoke_bomb",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/smoke.psd\"",
     "item_slot_type": "spirit",
@@ -95014,6 +95187,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_thermal_detonator",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
     "item_slot_type": "weapon",
@@ -95260,6 +95434,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_fleetfoot_boots",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fleetfoot_boots.psd\"",
     "item_slot_type": "weapon",
@@ -95479,6 +95654,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_kinetic_sash",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/kinetic_sash.psd\"",
     "item_slot_type": "weapon",
@@ -95671,6 +95847,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_weapon_eater",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/advanced_weaponry.psd\"",
     "item_slot_type": "weapon",
@@ -95872,6 +96049,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_weapon_instant_reload",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -96037,6 +96215,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_tech_defender",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_defender.psd\"",
     "item_slot_type": "vitality",
@@ -96211,6 +96390,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_unstoppable",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/unstoppable.psd\"",
     "item_slot_type": "vitality",
@@ -96403,6 +96583,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_colossus",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/colossus.psd\"",
     "item_slot_type": "vitality",
@@ -96640,6 +96821,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_cold_front",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/ice_blast.psd\"",
     "item_slot_type": "spirit",
@@ -96850,6 +97032,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_aoe_silence",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/emp_wave.psd\"",
     "item_slot_type": "spirit",
@@ -97051,6 +97234,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_self_bubble",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/shifting_shroud.psd\"",
     "item_slot_type": "spirit",
@@ -97252,6 +97436,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_stasis_bomb",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "item_slot_type": "vitality",
@@ -97534,6 +97719,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_quarantine",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "item_slot_type": "spirit",
@@ -97690,6 +97876,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_glitch",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/glitch.psd\"",
     "item_slot_type": "spirit",
@@ -97873,6 +98060,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_imbued_ability",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
     "item_slot_type": "spirit",
@@ -98074,6 +98262,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_arcane_extension",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/duration_extender.psd\"",
     "item_slot_type": "spirit",
@@ -98257,6 +98446,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_imbued_duration_extender",
+    "component_items": [
+      "upgrade_arcane_extension"
+    ],
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_persistance.psd\"",
     "item_slot_type": "spirit",
@@ -98458,6 +98650,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_glass_cannon",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
     "item_slot_type": "weapon",
@@ -98686,6 +98879,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_surging_power",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/vampiric_burst.psd\"",
     "item_slot_type": "weapon",
@@ -98896,6 +99090,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_mod_disruptor",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
     "item_slot_type": "spirit",
@@ -99106,6 +99301,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_frenzy",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -99325,6 +99521,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_burst_fire_actuator",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -99562,6 +99759,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_boxing_glove",
+    "component_items": [
+      "upgrade_lifestrike_gauntlets"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/boxing_glove.psd\"",
     "item_slot_type": "vitality",
@@ -99790,6 +99990,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_acolytes_glove",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
     "item_slot_type": "spirit",
@@ -99982,6 +100183,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_melee_charge",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/melee_charge.psd\"",
     "item_slot_type": "weapon",
@@ -100183,6 +100385,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_charmed_wraps",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/charmed_wraps.psd\"",
     "item_slot_type": "spirit",
@@ -100357,6 +100560,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_belt_fed_magazine",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -100567,6 +100771,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_diviners_kevlar",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "spirit",
@@ -100768,6 +100973,7 @@
   {
     "activation": "press",
     "class_name": "upgrade_stabilizing_tripod",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/base_utility.psd\"",
     "item_slot_type": "weapon",
@@ -101032,6 +101238,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_mega_spirit",
+    "component_items": [
+      "upgrade_soaring_spirit"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/boundless_spirit.psd\"",
     "item_slot_type": "spirit",
@@ -101224,6 +101433,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_burst_fire",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
     "item_slot_type": "weapon",
@@ -101425,6 +101635,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_resilience",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/resilience.psd\"",
     "item_slot_type": "vitality",
@@ -101599,6 +101810,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_endurance",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/endurance.psd\"",
     "item_slot_type": "vitality",
@@ -101782,6 +101994,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_clarity",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/clarity.psd\"",
     "item_slot_type": "spirit",
@@ -101983,6 +102196,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_storm",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_storm.psd\"",
     "item_slot_type": "spirit",
@@ -102184,6 +102398,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_suppressor",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
     "item_slot_type": "spirit",
@@ -102367,6 +102582,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_quick_silver",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "spirit",
@@ -102559,6 +102775,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_arcane_eater",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/arcane_eater.psd\"",
     "item_slot_type": "weapon",
@@ -102769,6 +102986,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_predator_precision",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
     "item_slot_type": "weapon",
@@ -102952,6 +103170,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_intensifying_clip",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -103144,6 +103363,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_reinforcing_casings",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
     "item_slot_type": "weapon",
@@ -103345,6 +103565,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_blitz_bullets",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "weapon",
@@ -103528,6 +103749,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_veil_walker",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/veil_walker.psd\"",
     "item_slot_type": "vitality",
@@ -103810,6 +104032,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_vex_barrier",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",
@@ -104020,6 +104243,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_medic_bullets",
+    "component_items": null,
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/medic_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -104230,6 +104454,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_titan_round",
+    "component_items": [
+      "upgrade_clip_size"
+    ],
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/titanic_magazine.psd\"",
     "item_slot_type": "weapon",
@@ -104413,6 +104640,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_active_reload",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/deployable_bullet_shield.psd\"",
     "item_slot_type": "weapon",
@@ -104605,6 +104833,7 @@
   {
     "activation": "instant_cast",
     "class_name": "upgrade_magic_carpet",
+    "component_items": null,
     "disabled": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/ice_path.psd\"",
     "item_slot_type": "spirit",
@@ -104824,6 +105053,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_spellshield",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/restorative_locket.psd\"",
     "item_slot_type": "vitality",
@@ -105016,6 +105246,9 @@
   {
     "activation": "passive",
     "class_name": "upgrade_superacolytes_glove",
+    "component_items": [
+      "upgrade_acolytes_glove"
+    ],
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
     "item_slot_type": "spirit",
@@ -105208,6 +105441,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_magic_missile",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
     "item_slot_type": "weapon",
@@ -105436,6 +105670,7 @@
   {
     "activation": "passive",
     "class_name": "upgrade_heal_on_level",
+    "component_items": null,
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",
