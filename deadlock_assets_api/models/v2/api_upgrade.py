@@ -6,7 +6,7 @@ from deadlock_assets_api.models.item import ItemSlotType
 from deadlock_assets_api.models.v2.api_item_base import ItemBase
 from deadlock_assets_api.models.v2.enums import ItemTier
 from deadlock_assets_api.models.v2.raw_hero import RawHero
-from deadlock_assets_api.models.v2.raw_upgrade import RawUpgrade
+from deadlock_assets_api.models.v2.raw_upgrade import RawAbilityActivation, RawUpgrade
 
 
 class Upgrade(ItemBase):
@@ -17,6 +17,15 @@ class Upgrade(ItemBase):
     item_slot_type: ItemSlotType
     item_tier: ItemTier
     disabled: bool | None
+    activation: RawAbilityActivation
+
+    @computed_field
+    @property
+    def is_active_item(self) -> bool:
+        return (
+            self.activation
+            is not RawAbilityActivation.CITADEL_ABILITY_ACTIVATION_PASSIVE
+        )
 
     @computed_field
     @property
