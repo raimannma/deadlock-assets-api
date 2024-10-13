@@ -177,6 +177,58 @@ class HeroLevelInfo(RawHeroLevelInfo):
         return cls(**raw_model)
 
 
+class HeroStartingStat(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    value: int | float
+    display_stat_name: str
+
+
+class HeroStartingStats(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    max_move_speed: HeroStartingStat
+    sprint_speed: HeroStartingStat
+    crouch_speed: HeroStartingStat
+    move_acceleration: HeroStartingStat
+    light_melee_damage: HeroStartingStat
+    heavy_melee_damage: HeroStartingStat
+    max_health: HeroStartingStat
+    weapon_power: HeroStartingStat
+    reload_speed: HeroStartingStat
+    weapon_power_scale: HeroStartingStat
+    proc_build_up_rate_scale: HeroStartingStat
+    stamina: HeroStartingStat
+    base_health_regen: HeroStartingStat
+    stamina_regen_per_second: HeroStartingStat
+    ability_resource_max: HeroStartingStat
+    ability_resource_regen_per_second: HeroStartingStat
+    crit_damage_received_scale: HeroStartingStat
+    tech_duration: HeroStartingStat
+    tech_range: HeroStartingStat
+    bullet_armor_damage_reduction: HeroStartingStat | None
+
+    @classmethod
+    def from_raw_starting_stats(
+        cls, raw_hero_starting_stats: RawHeroStartingStats
+    ) -> "HeroStartingStats":
+        return cls(
+            **{
+                k: (
+                    HeroStartingStat(
+                        value=v,
+                        display_stat_name=raw_hero_starting_stats.model_fields[
+                            k
+                        ].validation_alias,
+                    )
+                    if v is not None
+                    else None
+                )
+                for k, v in raw_hero_starting_stats.model_dump().items()
+            }
+        )
+
+
 class Hero(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -196,7 +248,7 @@ class Hero(BaseModel):
     readability: int
     images: HeroImages
     items: dict[HeroItemType, str]
-    starting_stats: RawHeroStartingStats
+    starting_stats: HeroStartingStats
     item_slot_info: dict[ItemSlotType, RawHeroItemSlotInfoValue]
     physics: HeroPhysics
     colors: HeroColors
@@ -213,6 +265,9 @@ class Hero(BaseModel):
         raw_model = raw_hero.model_dump()
         raw_model["name"] = localization.get(raw_hero.class_name, raw_hero.class_name)
         raw_model["description"] = HeroDescription.from_raw_hero(raw_hero, localization)
+        raw_model["starting_stats"] = HeroStartingStats.from_raw_starting_stats(
+            raw_hero.starting_stats
+        )
         raw_model["images"] = HeroImages.from_raw_hero(raw_hero)
         raw_model["physics"] = HeroPhysics.from_raw_hero(raw_hero)
         raw_model["colors"] = HeroColors.from_raw_hero(raw_hero)
