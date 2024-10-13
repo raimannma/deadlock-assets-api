@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f DepotDownloader ]; then
-    wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.1/DepotDownloader-linux-x64.zip -O DepotDownloader-linux-x64.zip
+    wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.3/DepotDownloader-linux-x64.zip -O DepotDownloader-linux-x64.zip
     unzip -o DepotDownloader-linux-x64.zip DepotDownloader && rm DepotDownloader-linux-x64.zip
 fi
 
@@ -11,7 +11,7 @@ if [ ! -f Decompiler ]; then
 fi
 
 # Download Deadlock Game files
-#./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD"
+./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" || exit 1
 
 mkdir -p depots/game
 rsync -av --remove-source-files depots/*/*/game/* depots/game/
