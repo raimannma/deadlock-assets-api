@@ -46,6 +46,7 @@ class HeroImages(BaseModel):
     selection_image: str | None
     top_bar_image: str | None
     top_bar_vertical: str | None
+    weapon_image: str | None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHero) -> "HeroImages":
@@ -56,6 +57,9 @@ class HeroImages(BaseModel):
             selection_image=extract_image_url(raw_hero.selection_image),
             top_bar_image=extract_image_url(raw_hero.top_bar_image),
             top_bar_vertical=extract_image_url(raw_hero.top_bar_vertical_image),
+            weapon_image=extract_image_url(
+                raw_hero.shop_stat_display.weapon_stats_display.weapon_image
+            ),
         )
 
 
