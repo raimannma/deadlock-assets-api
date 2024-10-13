@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 
 import vdf
 from kv3parser import KV3Parser
@@ -16,27 +17,54 @@ def get_version_id():
     return dict(data)["ClientVersion"]
 
 
-VDATA_FILES = [
-    (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json", True),
-    (parse_heroes, "vdata/heroes.vdata", "res/heroes.json", True),
-    (
-        parse_heroes_v2,
-        "vdata/heroes.vdata",
-        f"res/builds/{get_version_id()}/v2/raw_heroes.json",
-        False,
-    ),
-    (parse_items, "vdata/abilities.vdata", "res/items.json", True),
-    (
-        parse_items_v2,
-        "vdata/abilities.vdata",
-        f"res/builds/{get_version_id()}/v2/raw_items.json",
-        False,
-    ),
-]
+VDATA_FILES = (
+    [
+        (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json", True),
+        (parse_heroes, "vdata/heroes.vdata", "res/heroes.json", True),
+        (
+            parse_heroes_v2,
+            "vdata/heroes.vdata",
+            f"res/builds/{get_version_id()}/v2/raw_heroes.json",
+            False,
+        ),
+        (parse_items, "vdata/abilities.vdata", "res/items.json", True),
+        (
+            parse_items_v2,
+            "vdata/abilities.vdata",
+            f"res/builds/{get_version_id()}/v2/raw_items.json",
+            False,
+        ),
+    ]
+    + [
+        (
+            parse_heroes_v2,
+            "vdata/heroes.vdata",
+            f"res/builds/{build_id}/v2/raw_heroes.json",
+            False,
+        )
+        for build_id in os.listdir("res/builds")
+        if build_id != get_version_id()
+    ]
+    + [
+        (
+            parse_items_v2,
+            "vdata/abilities.vdata",
+            f"res/builds/{build_id}/v2/raw_items.json",
+            False,
+        )
+        for build_id in os.listdir("res/builds")
+        if build_id != get_version_id()
+    ]
+)
 
 
 def parse_vdata():
     for parse_func, file_path, out_path, create_raw in VDATA_FILES:
+        vdata_out_path = f"{os.path.dirname(out_path)}/{os.path.basename(file_path)}"
+        if not os.path.exists(vdata_out_path):
+            shutil.copy(file_path, vdata_out_path)
+        file_path = vdata_out_path
+
         with open(file_path) as f:
             data = KV3Parser(f.read()).parse()
 
