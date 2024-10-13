@@ -145,6 +145,9 @@ class RawHero(BaseModel):
 
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str
+    recommended_upgrades: list[str] | None = Field(
+        None, validation_alias="m_RecommendedUpgrades"
+    )
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     bot_selectable: bool = Field(..., validation_alias="m_bBotSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")

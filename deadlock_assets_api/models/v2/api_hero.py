@@ -240,6 +240,7 @@ class Hero(BaseModel):
     class_name: str
     name: str
     description: HeroDescription
+    recommended_upgrades: list[str]
     player_selectable: bool
     bot_selectable: bool
     disabled: bool
