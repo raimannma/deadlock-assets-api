@@ -125,6 +125,8 @@ def get_hero_by_name(
     for hero in heroes:
         if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
             return hero
+        if hero.name.lower() in [name.lower(), f"hero_{name.lower()}"]:
+            return hero
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
