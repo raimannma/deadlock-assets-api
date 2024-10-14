@@ -58,6 +58,10 @@ cp -r "$citadel_folder"/resource/localization/citadel_gc/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_heroes/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_main/* localization/
 
+# Extract icon files
+mkdir -p svgs
+find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
+
 # Extract video files
 mkdir -p videos
 cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
@@ -85,7 +89,6 @@ cp -r "$citadel_folder"/panorama/images/upgrades images/
 
 mkdir -p images/maps
 cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
-
 
 # Extract chunked VPK files
 for chunked_vpk_file in $(find depots -type f -name "*_dir.vpk"); do

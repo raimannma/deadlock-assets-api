@@ -1,5 +1,9 @@
+import os
+from functools import lru_cache
+
 from fastapi import APIRouter, HTTPException
 
+from deadlock_assets_api.glob import SVGS_BASE_URL
 from deadlock_assets_api.models import colors
 from deadlock_assets_api.models.colors import Color
 from deadlock_assets_api.models.hero import Hero, load_heroes
@@ -172,3 +176,13 @@ def get_colors() -> dict[str, Color]:
 @router.get("/steam-info")
 def get_steam_info() -> SteamInfo:
     return SteamInfo.load()
+
+
+@router.get("/icons", response_model_exclude_none=True)
+def get_icons() -> dict[str, str]:
+    return {i.rstrip(".svg"): f"{SVGS_BASE_URL}/{i}" for i in get_all_icons()}
+
+
+@lru_cache
+def get_all_icons() -> list[str]:
+    return [i for i in os.listdir("svgs") if i.endswith(".svg")]
