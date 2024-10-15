@@ -61,6 +61,7 @@ VDATA_FILES = (
 def parse_vdata():
     for parse_func, file_path, out_path, create_raw in VDATA_FILES:
         vdata_out_path = f"{os.path.dirname(out_path)}/{os.path.basename(file_path)}"
+        os.makedirs(os.path.dirname(vdata_out_path), exist_ok=True)
         if not os.path.exists(vdata_out_path):
             shutil.copy(file_path, vdata_out_path)
         file_path = vdata_out_path
