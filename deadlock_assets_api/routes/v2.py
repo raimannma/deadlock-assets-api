@@ -89,6 +89,7 @@ RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
 def get_heroes(
     language: Language = Language.English,
     client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
+    only_active: bool = False,
 ) -> list[Hero]:
     if client_version not in ALL_CLIENT_VERSIONS:
         raise HTTPException(status_code=404, detail="Client Version not found")
@@ -98,7 +99,11 @@ def get_heroes(
     localization.update(LOCALIZATIONS[client_version.value][language])
 
     raw_heroes = RAW_HEROES[client_version.value]
-    heroes = [Hero.from_raw_hero(r, localization) for r in raw_heroes]
+    heroes = [
+        Hero.from_raw_hero(r, localization)
+        for r in raw_heroes
+        if not only_active or r.active
+    ]
     return sorted(heroes, key=lambda x: x.id)
 
 
