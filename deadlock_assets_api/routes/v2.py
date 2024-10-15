@@ -87,16 +87,10 @@ RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
 
 @router.get("/heroes", response_model_exclude_none=True)
 def get_heroes(
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
-    only_active: bool | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
+    only_active: bool = False,
 ) -> list[Hero]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
-    if only_active is None:
-        only_active = False
     if client_version not in ALL_CLIENT_VERSIONS:
         raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
@@ -116,13 +110,9 @@ def get_heroes(
 @router.get("/heroes/{id}", response_model_exclude_none=True)
 def get_hero(
     id: int,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Hero:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.id == id:
@@ -133,13 +123,9 @@ def get_hero(
 @router.get("/heroes/by-name/{name}", response_model_exclude_none=True)
 def get_hero_by_name(
     name: str,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Hero:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
@@ -151,13 +137,9 @@ def get_hero_by_name(
 
 @router.get("/items", response_model_exclude_none=True)
 def get_items(
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     if client_version not in ALL_CLIENT_VERSIONS:
         raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
@@ -185,13 +167,9 @@ def get_items(
 @router.get("/items/{id_or_class_name}", response_model_exclude_none=True)
 def get_item(
     id_or_class_name: int | str,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> Item:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     items = get_items(language, client_version=client_version)
     id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
     for item in items:
@@ -203,13 +181,9 @@ def get_item(
 @router.get("/items/by-hero-id/{id}", response_model_exclude_none=True)
 def get_items_by_hero_id(
     id: int,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     items = get_items(language, client_version)
     return [i for i in items if i.hero == id]
 
@@ -217,13 +191,9 @@ def get_items_by_hero_id(
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
     type: ItemType,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     items = get_items(language, client_version)
     type = ItemType(type.capitalize())
     return [c for c in items if c.type == type]
@@ -232,13 +202,9 @@ def get_items_by_type(
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
 def get_items_by_slot_type(
     slot_type: ItemSlotType,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
+    language: Language = Language.English,
+    client_version: VALID_CLIENT_VERSIONS = max(ALL_CLIENT_VERSIONS),
 ) -> list[Item]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = max(ALL_CLIENT_VERSIONS)
     items = get_items(language, client_version)
     slot_type = ItemSlotType(slot_type.capitalize())
     return [
