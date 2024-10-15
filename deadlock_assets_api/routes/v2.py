@@ -102,7 +102,7 @@ def get_heroes(
     heroes = [
         Hero.from_raw_hero(r, localization)
         for r in raw_heroes
-        if not only_active or r.active
+        if not only_active or not r.disabled
     ]
     return sorted(heroes, key=lambda x: x.id)
 
