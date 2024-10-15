@@ -14,6 +14,7 @@ from deadlock_assets_api.models.v2.api_hero import Hero
 from deadlock_assets_api.models.v2.api_item import Item
 from deadlock_assets_api.models.v2.api_upgrade import Upgrade
 from deadlock_assets_api.models.v2.api_weapon import Weapon
+from deadlock_assets_api.models.v2.rank import Rank
 from deadlock_assets_api.models.v2.raw_ability import RawAbility
 from deadlock_assets_api.models.v2.raw_hero import RawHero
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgrade
@@ -225,3 +226,14 @@ def get_items_by_slot_type(
 @router.get("/client-versions")
 def get_client_versions() -> list[int]:
     return ALL_CLIENT_VERSIONS
+
+
+@router.get("/ranks", response_model_exclude_none=True)
+def get_ranks(language: Language | None = None) -> list[Rank]:
+    if language is None:
+        language = Language.English
+    localization = {}
+    if language != Language.English:
+        localization.update(LOCALIZATIONS[max(ALL_CLIENT_VERSIONS)][Language.English])
+    localization.update(LOCALIZATIONS[max(ALL_CLIENT_VERSIONS)][language])
+    return [Rank.from_tier(i, localization) for i in range(12)]
