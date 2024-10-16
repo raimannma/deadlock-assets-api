@@ -1,7 +1,6 @@
 import json
 import os
 from enum import Enum
-from functools import lru_cache
 
 from fastapi import APIRouter, HTTPException
 from pydantic import TypeAdapter
@@ -23,33 +22,27 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeapon
 router = APIRouter(prefix="/v2", tags=["V2"])
 
 
-@lru_cache
-def load_localizations() -> dict[int, dict[Language, dict[str, str]]]:
+def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
     localizations = {}
-    for client_version in ALL_CLIENT_VERSIONS:
-        localizations[client_version] = {}
-        for language in Language:
-            localizations[client_version][language] = {}
-            print(
-                f"Loading localization for client version {client_version} and language {language}"
-            )
-            paths = [
-                f"res/builds/{client_version}/v2/localization/citadel_gc_{language}.json",
-                f"res/builds/{client_version}/v2/localization/citadel_heroes_{language}.json",
-                f"res/builds/{client_version}/v2/localization/citadel_main_{language}.json",
-            ]
-            for path in paths:
-                if not os.path.exists(path):
-                    print(f"Path {path} does not exist")
-                    continue
-                with open(path) as f:
-                    localizations[client_version][language].update(
-                        json.load(f)["lang"]["Tokens"]
-                    )
+    for language in Language:
+        localizations[language] = {}
+        print(
+            f"Loading localization for client version {client_version} and language {language}"
+        )
+        paths = [
+            f"res/builds/{client_version}/v2/localization/citadel_gc_{language}.json",
+            f"res/builds/{client_version}/v2/localization/citadel_heroes_{language}.json",
+            f"res/builds/{client_version}/v2/localization/citadel_main_{language}.json",
+        ]
+        for path in paths:
+            if not os.path.exists(path):
+                print(f"Path {path} does not exist")
+                continue
+            with open(path) as f:
+                localizations[language].update(json.load(f)["lang"]["Tokens"])
     return localizations
 
 
-@lru_cache
 def load_raw_heroes(client_version: int) -> list[RawHero] | None:
     path = f"res/builds/{client_version}/v2/raw_heroes.json"
     if not os.path.exists(path):
@@ -60,7 +53,6 @@ def load_raw_heroes(client_version: int) -> list[RawHero] | None:
     return TypeAdapter(list[RawHero]).validate_json(content)
 
 
-@lru_cache
 def load_raw_items(
     client_version: int,
 ) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
@@ -77,13 +69,36 @@ ALL_CLIENT_VERSIONS = [int(b) for b in os.listdir("res/builds")]
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )
-LOCALIZATIONS: dict[int, dict[Language, dict[str, str]]] = load_localizations()
-RAW_HEROES: dict[int, list[RawHero]] = {
-    b: load_raw_heroes(b) for b in ALL_CLIENT_VERSIONS
-}
-RAW_ITEMS: dict[int, list[RawAbility | RawWeapon | RawUpgrade]] = {
-    b: load_raw_items(b) for b in ALL_CLIENT_VERSIONS
-}
+LOCALIZATIONS: dict[Language, dict[str, str]] = load_localizations(
+    max(ALL_CLIENT_VERSIONS)
+)
+RAW_HEROES: list[RawHero] = load_raw_heroes(max(ALL_CLIENT_VERSIONS))
+RAW_ITEMS: list[RawAbility | RawWeapon | RawUpgrade] = load_raw_items(
+    max(ALL_CLIENT_VERSIONS)
+)
+
+
+def get_localization(client_version: int, language: Language) -> dict[str, str]:
+    if client_version == max(ALL_CLIENT_VERSIONS):
+        return LOCALIZATIONS[language]
+    else:
+        return load_localizations(client_version)[language]
+
+
+def get_raw_heroes(client_version: int) -> list[RawHero] | None:
+    if client_version == max(ALL_CLIENT_VERSIONS):
+        return RAW_HEROES
+    else:
+        return load_raw_heroes(client_version)
+
+
+def get_raw_items(
+    client_version: int,
+) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
+    if client_version == max(ALL_CLIENT_VERSIONS):
+        return RAW_ITEMS
+    else:
+        return load_raw_items(client_version)
 
 
 @router.get("/heroes", response_model_exclude_none=True)
@@ -102,10 +117,10 @@ def get_heroes(
         raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[client_version.value][Language.English])
-    localization.update(LOCALIZATIONS[client_version.value][language])
+        localization.update(get_localization(client_version.value, Language.English))
+    localization.update(get_localization(client_version.value, language))
 
-    raw_heroes = RAW_HEROES[client_version.value]
+    raw_heroes = get_raw_heroes(client_version.value)
     heroes = [
         Hero.from_raw_hero(r, localization)
         for r in raw_heroes
@@ -155,11 +170,11 @@ def get_items(
         raise HTTPException(status_code=404, detail="Client Version not found")
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[client_version.value][Language.English])
-    localization.update(LOCALIZATIONS[client_version.value][language])
+        localization.update(get_localization(client_version.value, Language.English))
+    localization.update(get_localization(client_version.value, language))
 
-    raw_items = RAW_ITEMS[client_version.value]
-    raw_heroes = RAW_HEROES[client_version.value]
+    raw_items = get_raw_items(client_version.value)
+    raw_heroes = get_raw_heroes(client_version.value)
 
     def item_from_raw_item(raw_item: RawUpgrade | RawAbility | RawWeapon) -> Item:
         if raw_item.type == "ability":
@@ -234,6 +249,8 @@ def get_ranks(language: Language | None = None) -> list[Rank]:
         language = Language.English
     localization = {}
     if language != Language.English:
-        localization.update(LOCALIZATIONS[max(ALL_CLIENT_VERSIONS)][Language.English])
-    localization.update(LOCALIZATIONS[max(ALL_CLIENT_VERSIONS)][language])
+        localization.update(
+            get_localization(max(ALL_CLIENT_VERSIONS), Language.English)
+        )
+    localization.update(get_localization(max(ALL_CLIENT_VERSIONS), language))
     return [Rank.from_tier(i, localization) for i in range(12)]
