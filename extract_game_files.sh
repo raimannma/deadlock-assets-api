@@ -14,7 +14,7 @@ fi
 ./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" || exit 1
 
 mkdir -p depots/game
-rsync -av --remove-source-files depots/*/*/game/* depots/game/
+rsync -av depots/*/*/game/* depots/game/
 find depots/ -type d -empty -delete
 
 # Extract Map-VPKs
