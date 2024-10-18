@@ -90,6 +90,21 @@ cp -r "$citadel_folder"/panorama/images/upgrades images/
 mkdir -p images/maps
 cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
 
+# Generate smaller images
+for file in images/heroes/*.png; do
+    base_name=$(basename "$file")
+    if [[ ! "$base_name" =~ ^[^_]+_[^_]+\.png$ ]]; then
+        continue
+    fi
+    file_name="${base_name%.png}"
+    new_file_name="${file_name}_128.png"
+    convert "$file" -resize 128x128 images/heroes/"$new_file_name"
+    echo "Resized and saved: $new_file_name"
+done
+
+# Optimize images
+optipng -o5 images/**/*.png
+
 # Extract chunked VPK files
 for chunked_vpk_file in $(find depots -type f -name "*_dir.vpk"); do
     parent_dir=$(dirname "$chunked_vpk_file")

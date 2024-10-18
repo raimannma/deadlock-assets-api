@@ -44,6 +44,7 @@ class HeroImages(BaseModel):
     icon_image_small: str | None
     minimap_image: str | None
     selection_image: str | None
+    selection_image_small: str | None
     top_bar_image: str | None
     top_bar_vertical: str | None
     weapon_image: str | None
@@ -55,6 +56,9 @@ class HeroImages(BaseModel):
             icon_image_small=extract_image_url(raw_hero.icon_image_small),
             minimap_image=extract_image_url(raw_hero.minimap_image),
             selection_image=extract_image_url(raw_hero.selection_image),
+            selection_image_small=extract_image_url(raw_hero.selection_image).replace(
+                ".png", "_128.png"
+            ),
             top_bar_image=extract_image_url(raw_hero.top_bar_image),
             top_bar_vertical=extract_image_url(raw_hero.top_bar_vertical_image),
             weapon_image=extract_image_url(
