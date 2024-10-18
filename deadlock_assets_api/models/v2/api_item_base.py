@@ -34,6 +34,7 @@ class ItemBase(BaseModel):
     name: str
     start_trained: bool | None
     image: str | None
+    image_webp: str | None = None
     hero: int | None
     update_time: int | None
     properties: dict[str, RawItemProperty] | None
@@ -56,4 +57,6 @@ class ItemBase(BaseModel):
             None,
         )
         raw_model["image"] = parse_img_path(raw_model["image"])
+        if raw_model["image"] is not None:
+            raw_model["image_webp"] = raw_model["image"].replace(".png", ".webp")
         return raw_model

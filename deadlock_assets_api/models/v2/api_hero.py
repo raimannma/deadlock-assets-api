@@ -40,30 +40,43 @@ def extract_image_url(v: str) -> str | None:
 class HeroImages(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    icon_hero_card: str | None
-    icon_image_small: str | None
-    minimap_image: str | None
-    selection_image: str | None
-    selection_image_small: str | None
-    top_bar_image: str | None
-    top_bar_vertical: str | None
-    weapon_image: str | None
+    icon_hero_card: str | None = None
+    icon_hero_card_webp: str | None = None
+    icon_image_small: str | None = None
+    icon_image_small_webp: str | None = None
+    minimap_image: str | None = None
+    minimap_image_webp: str | None = None
+    selection_image: str | None = None
+    selection_image_webp: str | None = None
+    top_bar_image: str | None = None
+    top_bar_image_webp: str | None = None
+    top_bar_vertical: str | None = None
+    top_bar_vertical_webp: str | None = None
+    weapon_image: str | None = None
+    weapon_image_webp: str | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHero) -> "HeroImages":
+        keys = [
+            "icon_hero_card",
+            "icon_image_small",
+            "minimap_image",
+            "selection_image",
+            "top_bar_image",
+            "top_bar_vertical",
+            "weapon_image",
+        ]
+        images = {
+            k: extract_image_url(v)
+            for k, v in raw_hero.model_dump().items()
+            if k in keys
+        }
         return cls(
-            icon_hero_card=extract_image_url(raw_hero.icon_hero_card),
-            icon_image_small=extract_image_url(raw_hero.icon_image_small),
-            minimap_image=extract_image_url(raw_hero.minimap_image),
-            selection_image=extract_image_url(raw_hero.selection_image),
-            selection_image_small=extract_image_url(raw_hero.selection_image).replace(
-                ".png", "_128.png"
-            ),
-            top_bar_image=extract_image_url(raw_hero.top_bar_image),
-            top_bar_vertical=extract_image_url(raw_hero.top_bar_vertical_image),
-            weapon_image=extract_image_url(
-                raw_hero.shop_stat_display.weapon_stats_display.weapon_image
-            ),
+            **images,
+            **{
+                f"{k}_webp": v.replace(".png", ".webp") if v is not None else None
+                for k, v in images.items()
+            },
         )
 
 
@@ -133,6 +146,7 @@ class HeroShopWeaponStatsDisplay(RawHeroShopWeaponStatsDisplay):
     model_config = ConfigDict(populate_by_name=True)
 
     weapon_attributes: list[str] | None
+    weapon_image_webp: str | None = None
 
     @classmethod
     def from_raw_hero_shop_weapon_stats_display(
@@ -150,6 +164,10 @@ class HeroShopWeaponStatsDisplay(RawHeroShopWeaponStatsDisplay):
         raw_model["weapon_image"] = extract_image_url(
             raw_hero_shop_weapon_stats_display.weapon_image
         )
+        if raw_model["weapon_image"] is not None:
+            raw_model["weapon_image_webp"] = raw_model["weapon_image"].replace(
+                ".png", ".webp"
+            )
         return cls(**raw_model)
 
 

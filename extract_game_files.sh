@@ -91,15 +91,14 @@ mkdir -p images/maps
 cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
 
 # Generate smaller images
-for file in images/heroes/*.png; do
+for file in $(find images -type f -name "*.png"); do
     base_name=$(basename "$file")
-    if [[ ! "$base_name" =~ ^[^_]+_[^_]+\.png$ ]]; then
-        continue
-    fi
+    dir_name=$(dirname "$file")
     file_name="${base_name%.png}"
-    new_file_name="${file_name}_128.png"
-    convert "$file" -resize 128x128 images/heroes/"$new_file_name"
-    echo "Resized and saved: $new_file_name"
+    new_file_name="${file_name}.webp"
+    new_file_path="$dir_name/$new_file_name"
+    convert -quality 50 -define webp:lossless=true "$file" "$new_file_path"
+    echo "Converted to webp: $new_file_path"
 done
 
 # Optimize images
