@@ -5,12 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
-from starlette.responses import (
-    FileResponse,
-    PlainTextResponse,
-    RedirectResponse,
-    Response,
-)
+from starlette.responses import FileResponse, RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
 
 from deadlock_assets_api.routes import base, raw, v1, v2
@@ -80,11 +75,6 @@ def redirect_to_docs():
 @app.get("/health", include_in_schema=False)
 def get_health():
     return {"status": "ok"}
-
-
-@app.get("/robots.txt", include_in_schema=False, response_class=PlainTextResponse)
-def get_robots() -> str:
-    return "User-Agent: *\nDisallow: /\nAllow: /docs\nAllow: /\n"
 
 
 @app.get("/favicon.ico", include_in_schema=False)
