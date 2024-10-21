@@ -33,6 +33,9 @@ class RawHeroStartingStatsV2(BaseModel):
         ..., validation_alias="ECritDamageReceivedScale"
     )
     tech_duration: int = Field(..., validation_alias="ETechDuration")
+    tech_armor_damage_reduction: float | None = Field(
+        None, validation_alias="ETechArmorDamageReduction"
+    )
     tech_range: int = Field(..., validation_alias="ETechRange")
     bullet_armor_damage_reduction: float | None = Field(
         None, validation_alias="EBulletArmorDamageReduction"

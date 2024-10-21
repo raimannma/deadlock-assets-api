@@ -233,6 +233,7 @@ class HeroStartingStatsV2(BaseModel):
     ability_resource_regen_per_second: HeroStartingStatV2
     crit_damage_received_scale: HeroStartingStatV2
     tech_duration: HeroStartingStatV2
+    tech_armor_damage_reduction: HeroStartingStatV2 | None
     tech_range: HeroStartingStatV2
     bullet_armor_damage_reduction: HeroStartingStatV2 | None
 
