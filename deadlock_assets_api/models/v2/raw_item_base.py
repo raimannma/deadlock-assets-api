@@ -1,7 +1,7 @@
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field
 
 
-class RawItemWeaponInfoBulletSpeedCurveSpline(BaseModel):
+class RawItemWeaponInfoBulletSpeedCurveSplineV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     slope_incoming: float = Field(..., validation_alias="m_flSlopeIncoming")
@@ -10,25 +10,25 @@ class RawItemWeaponInfoBulletSpeedCurveSpline(BaseModel):
     y: float = Field(..., validation_alias="y")
 
 
-class RawItemWeaponInfoBulletSpeedCurve(BaseModel):
+class RawItemWeaponInfoBulletSpeedCurveV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    spline: list[RawItemWeaponInfoBulletSpeedCurveSpline] = Field(
+    spline: list[RawItemWeaponInfoBulletSpeedCurveSplineV2] = Field(
         None, validation_alias="m_spline"
     )
     domain_maxs: list[float] = Field(..., validation_alias="m_vDomainMaxs")
     domain_mins: list[float] = Field(..., validation_alias="m_vDomainMins")
 
 
-class RawItemWeaponInfo(BaseModel):
+class RawItemWeaponInfoV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurve = Field(
+    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 = Field(
         None, validation_alias="m_BulletSpeedCurve"
     )
 
 
-class RawItemProperty(BaseModel):
+class RawItemPropertyV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     value: str | float | None = Field(
@@ -48,14 +48,14 @@ class RawItemProperty(BaseModel):
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
 
-class RawItemBase(BaseModel):
+class RawItemBaseV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
     start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
     update_time: int | None = Field(None, validation_alias="m_iUpdateTime")
-    properties: dict[str, RawItemProperty] | None = Field(
+    properties: dict[str, RawItemPropertyV2] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
-    weapon_info: RawItemWeaponInfo = Field(..., validation_alias="m_WeaponInfo")
+    weapon_info: RawItemWeaponInfoV2 = Field(..., validation_alias="m_WeaponInfo")

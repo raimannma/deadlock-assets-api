@@ -3,26 +3,26 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field
 
 from deadlock_assets_api.models.v2.raw_item_base import (
-    RawItemBase,
-    RawItemWeaponInfoBulletSpeedCurve,
+    RawItemBaseV2,
+    RawItemWeaponInfoBulletSpeedCurveV2,
 )
 
 
-class RawWeaponInfoHorizontalRecoil(BaseModel):
+class RawWeaponInfoHorizontalRecoilV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     range: list[float] | float | None = Field(None, validation_alias="m_Range")
     burst_exponent: float | None = Field(None, validation_alias="m_flBurstExponent")
 
 
-class RawWeaponInfoVerticalRecoil(RawWeaponInfoHorizontalRecoil):
+class RawWeaponInfoVerticalRecoilV2(RawWeaponInfoHorizontalRecoilV2):
     model_config = ConfigDict(populate_by_name=True)
 
     burst_constant: float | None = Field(None, validation_alias="m_flBurstConstant")
     burst_slope: float | None = Field(None, validation_alias="m_flBurstSlope")
 
 
-class RawWeaponInfo(BaseModel):
+class RawWeaponInfoV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     can_zoom: bool | None = Field(None, validation_alias="m_bCanZoom")
@@ -134,20 +134,20 @@ class RawWeaponInfo(BaseModel):
     )
     recoil_seed: float | None = Field(None, validation_alias="m_flRecoilSeed")
     reload_duration: float | None = Field(None, validation_alias="m_flReloadDuration")
-    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurve = Field(
+    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 = Field(
         ..., validation_alias="m_BulletSpeedCurve"
     )
-    horizontal_recoil: RawWeaponInfoHorizontalRecoil | None = Field(
+    horizontal_recoil: RawWeaponInfoHorizontalRecoilV2 | None = Field(
         None, validation_alias="m_HorizontalRecoil"
     )
-    vertical_recoil: RawWeaponInfoVerticalRecoil | None = Field(
+    vertical_recoil: RawWeaponInfoVerticalRecoilV2 | None = Field(
         None, validation_alias="m_VerticalRecoil"
     )
 
 
-class RawWeapon(RawItemBase):
+class RawWeaponV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
     type: Literal["weapon"] = "weapon"
 
-    weapon_info: RawWeaponInfo = Field(..., validation_alias="m_WeaponInfo")
+    weapon_info: RawWeaponInfoV2 = Field(..., validation_alias="m_WeaponInfo")

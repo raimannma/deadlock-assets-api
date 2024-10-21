@@ -2,11 +2,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from deadlock_assets_api.models.hero import HeroItemType
-from deadlock_assets_api.models.item import ItemSlotType
+from deadlock_assets_api.models.v1.hero import HeroItemTypeV1
+from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
 
 
-class RawHeroStartingStats(BaseModel):
+class RawHeroStartingStatsV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     max_move_speed: float = Field(..., validation_alias="EMaxMoveSpeed")
@@ -39,13 +39,13 @@ class RawHeroStartingStats(BaseModel):
     )
 
 
-class RawHeroShopSpiritStatsDisplay(BaseModel):
+class RawHeroShopSpiritStatsDisplayV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     display_stats: list[str] = Field(..., validation_alias="m_vecDisplayStats")
 
 
-class RawHeroShopVitalityStatsDisplay(RawHeroShopSpiritStatsDisplay):
+class RawHeroShopVitalityStatsDisplayV2(RawHeroShopSpiritStatsDisplayV2):
     model_config = ConfigDict(populate_by_name=True)
 
     other_display_stats: list[str] = Field(
@@ -53,28 +53,28 @@ class RawHeroShopVitalityStatsDisplay(RawHeroShopSpiritStatsDisplay):
     )
 
 
-class RawHeroShopWeaponStatsDisplay(RawHeroShopVitalityStatsDisplay):
+class RawHeroShopWeaponStatsDisplayV2(RawHeroShopVitalityStatsDisplayV2):
     model_config = ConfigDict(populate_by_name=True)
 
     weapon_attributes: str | None = Field(None, validation_alias="m_eWeaponAttributes")
     weapon_image: str | None = Field(None, validation_alias="m_strWeaponImage")
 
 
-class RawHeroShopStatDisplay(BaseModel):
+class RawHeroShopStatDisplayV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    spirit_stats_display: RawHeroShopSpiritStatsDisplay = Field(
+    spirit_stats_display: RawHeroShopSpiritStatsDisplayV2 = Field(
         ..., validation_alias="m_eSpiritStatsDisplay"
     )
-    vitality_stats_display: RawHeroShopVitalityStatsDisplay = Field(
+    vitality_stats_display: RawHeroShopVitalityStatsDisplayV2 = Field(
         ..., validation_alias="m_eVitalityStatsDisplay"
     )
-    weapon_stats_display: RawHeroShopWeaponStatsDisplay = Field(
+    weapon_stats_display: RawHeroShopWeaponStatsDisplayV2 = Field(
         ..., validation_alias="m_eWeaponStatsDisplay"
     )
 
 
-class RawHeroStatsDisplay(BaseModel):
+class RawHeroStatsDisplayV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     health_header_stats: list[str] = Field(
@@ -89,23 +89,23 @@ class RawHeroStatsDisplay(BaseModel):
     weapon_stats: list[str] = Field(..., validation_alias="m_vecWeaponStats")
 
 
-class RawHeroStatsUIDisplay(BaseModel):
+class RawHeroStatsUIDisplayV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     category: str = Field(..., validation_alias="m_eStatCategory")
     stat_type: str = Field(..., validation_alias="m_eStatType")
 
 
-class RawHeroStatsUI(BaseModel):
+class RawHeroStatsUIV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     weapon_stat_display: str = Field(..., validation_alias="m_eWeaponStatDisplay")
-    display_stats: list[RawHeroStatsUIDisplay] = Field(
+    display_stats: list[RawHeroStatsUIDisplayV2] = Field(
         ..., validation_alias="m_vecDisplayStats"
     )
 
 
-class RawHeroItemSlotInfoValue(BaseModel):
+class RawHeroItemSlotInfoValueV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     max_purchases_for_tier: list[int] = Field(
@@ -113,7 +113,7 @@ class RawHeroItemSlotInfoValue(BaseModel):
     )
 
 
-class RawHeroLevelInfo(BaseModel):
+class RawHeroLevelInfoV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     use_standard_upgrade: bool | None = Field(
@@ -125,7 +125,7 @@ class RawHeroLevelInfo(BaseModel):
     required_gold: int = Field(..., validation_alias="m_unRequiredGold")
 
 
-class RawHeroPurchaseBonus(BaseModel):
+class RawHeroPurchaseBonusV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     value_type: str = Field(..., validation_alias="m_ValueType")
@@ -133,14 +133,14 @@ class RawHeroPurchaseBonus(BaseModel):
     value: str = Field(..., validation_alias="m_strValue")
 
 
-class RawHeroScalingStat(BaseModel):
+class RawHeroScalingStatV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     scaling_stat: str = Field(..., validation_alias="eScalingStat")
     scale: float = Field(..., validation_alias="flScale")
 
 
-class RawHero(BaseModel):
+class RawHeroV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: int = Field(..., validation_alias="m_HeroID")
@@ -158,7 +158,7 @@ class RawHero(BaseModel):
     complexity: int = Field(..., validation_alias="m_nComplexity")
     skin: int = Field(..., validation_alias="m_nModelSkin")
     readability: int = Field(..., validation_alias="m_nReadability")
-    starting_stats: RawHeroStartingStats = Field(
+    starting_stats: RawHeroStartingStatsV2 = Field(
         ..., validation_alias="m_mapStartingStats"
     )
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
@@ -169,7 +169,7 @@ class RawHero(BaseModel):
     top_bar_vertical_image: str | None = Field(
         None, validation_alias="m_strTopBarVertical"
     )
-    shop_stat_display: RawHeroShopStatDisplay = Field(
+    shop_stat_display: RawHeroShopStatDisplayV2 = Field(
         ..., validation_alias="m_ShopStatDisplay"
     )
     color_glow_enemy: tuple[int, int, int] = Field(
@@ -198,21 +198,23 @@ class RawHero(BaseModel):
     step_sound_time_sprinting: float | None = Field(
         None, validation_alias="m_flStepSoundTimeSprinting"
     )
-    stats_display: RawHeroStatsDisplay = Field(
+    stats_display: RawHeroStatsDisplayV2 = Field(
         ..., validation_alias="m_heroStatsDisplay"
     )
-    hero_stats_ui: RawHeroStatsUI = Field(..., validation_alias="m_heroStatsUI")
-    items: dict[HeroItemType, str] = Field(..., validation_alias="m_mapBoundAbilities")
-    item_slot_info: dict[ItemSlotType, RawHeroItemSlotInfoValue] = Field(
+    hero_stats_ui: RawHeroStatsUIV2 = Field(..., validation_alias="m_heroStatsUI")
+    items: dict[HeroItemTypeV1, str] = Field(
+        ..., validation_alias="m_mapBoundAbilities"
+    )
+    item_slot_info: dict[ItemSlotTypeV1, RawHeroItemSlotInfoValueV2] = Field(
         ..., validation_alias="m_mapItemSlotInfo"
     )
-    level_info: dict[str, RawHeroLevelInfo] = Field(
+    level_info: dict[str, RawHeroLevelInfoV2] = Field(
         ..., validation_alias="m_mapLevelInfo"
     )
-    purchase_bonuses: dict[ItemSlotType, list[RawHeroPurchaseBonus]] = Field(
+    purchase_bonuses: dict[ItemSlotTypeV1, list[RawHeroPurchaseBonusV2]] = Field(
         ..., validation_alias="m_mapPurchaseBonuses"
     )
-    scaling_stats: dict[str, RawHeroScalingStat] = Field(
+    scaling_stats: dict[str, RawHeroScalingStatV2] = Field(
         ..., validation_alias="m_mapScalingStats"
     )
     standard_level_up_upgrades: dict[str, float] = Field(
@@ -224,7 +226,7 @@ def test_parse():
     with open("res/raw_heroes.json") as f:
         raw_heroes = json.load(f)
     raw_heroes = [
-        RawHero(class_name=k, **v)
+        RawHeroV2(class_name=k, **v)
         for k, v in raw_heroes.items()
         if k.startswith("hero_")
         and "base" not in k

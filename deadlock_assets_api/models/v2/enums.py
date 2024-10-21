@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class ItemTier(int, Enum):
+class ItemTierV2(int, Enum):
     EModTier_1 = 1
     EModTier_2 = 2
     EModTier_3 = 3
@@ -17,7 +17,7 @@ class ItemTier(int, Enum):
         return None
 
 
-class AbilityType(str, Enum):
+class AbilityTypeV2(str, Enum):
     EAbilityType_Innate = "innate"
     EAbilityType_Item = "item"
     EAbilityType_Signature = "signature"

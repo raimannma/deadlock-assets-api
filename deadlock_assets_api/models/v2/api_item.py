@@ -4,15 +4,15 @@ from typing import Annotated, Union
 from pydantic import Field
 
 from deadlock_assets_api import utils
-from deadlock_assets_api.models.v2.api_ability import Ability
-from deadlock_assets_api.models.v2.api_upgrade import Upgrade
-from deadlock_assets_api.models.v2.api_weapon import Weapon
-from deadlock_assets_api.models.v2.raw_ability import RawAbility
-from deadlock_assets_api.models.v2.raw_hero import RawHero
-from deadlock_assets_api.models.v2.raw_upgrade import RawUpgrade
-from deadlock_assets_api.models.v2.raw_weapon import RawWeapon
+from deadlock_assets_api.models.v2.api_ability import AbilityV2
+from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
+from deadlock_assets_api.models.v2.api_weapon import WeaponV2
+from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
+from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
+from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
+from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
-Item = Annotated[Union[Ability, Weapon, Upgrade], Field(discriminator="type")]
+ItemV2 = Annotated[Union[AbilityV2, WeaponV2, UpgradeV2], Field(discriminator="type")]
 
 
 def test_parse():
@@ -20,7 +20,7 @@ def test_parse():
         with open("res/raw_heroes.json") as f:
             raw_heroes = json.load(f)
         return [
-            RawHero(class_name=k, **v)
+            RawHeroV2(class_name=k, **v)
             for k, v in raw_heroes.items()
             if k.startswith("hero_")
             and "base" not in k
@@ -29,15 +29,15 @@ def test_parse():
         ]
 
     def get_raw_items():
-        def parse(class_name, data) -> RawWeapon | RawUpgrade | RawAbility:
+        def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2:
             name = utils.strip_prefix(class_name, "citadel_").lower()
             first_word = name.split("_")[0]
             if first_word == "ability":
-                return RawAbility(class_name=class_name, **data)
+                return RawAbilityV2(class_name=class_name, **data)
             elif first_word == "upgrade":
-                return RawUpgrade(class_name=class_name, **data)
+                return RawUpgradeV2(class_name=class_name, **data)
             elif first_word == "weapon":
-                return RawWeapon(class_name=class_name, **data)
+                return RawWeaponV2(class_name=class_name, **data)
 
             hero_list = [
                 "astro",
@@ -76,7 +76,7 @@ def test_parse():
                 "yamato",
             ]
             if first_word in hero_list:
-                return RawAbility(class_name=class_name, **data)
+                return RawAbilityV2(class_name=class_name, **data)
             print(f"Unknown class name: {class_name}")
             return None
 
@@ -110,16 +110,16 @@ def test_parse():
         localization.update(json.load(f)["lang"]["Tokens"])
 
     def item_from_raw_item(
-        raw_item: RawUpgrade | RawAbility | RawWeapon,
-        raw_hero: list[RawHero],
+        raw_item: RawUpgradeV2 | RawAbilityV2 | RawWeaponV2,
+        raw_hero: list[RawHeroV2],
         localization,
-    ) -> Item:
+    ) -> ItemV2:
         if raw_item.type == "ability":
-            return Ability.from_raw_item(raw_item, raw_hero, localization)
+            return AbilityV2.from_raw_item(raw_item, raw_hero, localization)
         elif raw_item.type == "upgrade":
-            return Upgrade.from_raw_item(raw_item, raw_hero, localization)
+            return UpgradeV2.from_raw_item(raw_item, raw_hero, localization)
         elif raw_item.type == "weapon":
-            return Weapon.from_raw_item(raw_item, raw_hero, localization)
+            return WeaponV2.from_raw_item(raw_item, raw_hero, localization)
         else:
             raise ValueError(f"Unknown item type: {raw_item.type}")
 

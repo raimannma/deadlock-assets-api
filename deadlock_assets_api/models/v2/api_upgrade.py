@@ -2,22 +2,25 @@ from typing import Literal
 
 from pydantic import ConfigDict, computed_field
 
-from deadlock_assets_api.models.item import ItemSlotType
-from deadlock_assets_api.models.v2.api_item_base import ItemBase
-from deadlock_assets_api.models.v2.enums import ItemTier
-from deadlock_assets_api.models.v2.raw_hero import RawHero
-from deadlock_assets_api.models.v2.raw_upgrade import RawAbilityActivation, RawUpgrade
+from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
+from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
+from deadlock_assets_api.models.v2.enums import ItemTierV2
+from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
+from deadlock_assets_api.models.v2.raw_upgrade import (
+    RawAbilityActivationV2,
+    RawUpgradeV2,
+)
 
 
-class Upgrade(ItemBase):
+class UpgradeV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
     type: Literal["upgrade"] = "upgrade"
 
-    item_slot_type: ItemSlotType
-    item_tier: ItemTier
+    item_slot_type: ItemSlotTypeV1
+    item_tier: ItemTierV2
     disabled: bool | None
-    activation: RawAbilityActivation
+    activation: RawAbilityActivationV2
     component_items: list[str] | None
 
     @computed_field
@@ -25,7 +28,7 @@ class Upgrade(ItemBase):
     def is_active_item(self) -> bool:
         return (
             self.activation
-            is not RawAbilityActivation.CITADEL_ABILITY_ACTIVATION_PASSIVE
+            is not RawAbilityActivationV2.CITADEL_ABILITY_ACTIVATION_PASSIVE
         )
 
     @computed_field
@@ -35,9 +38,9 @@ class Upgrade(ItemBase):
             (self.disabled is None or self.disabled is False)
             and self.item_slot_type
             in [
-                ItemSlotType.EItemSlotType_Armor,
-                ItemSlotType.EItemSlotType_WeaponMod,
-                ItemSlotType.EItemSlotType_Tech,
+                ItemSlotTypeV1.EItemSlotType_Armor,
+                ItemSlotTypeV1.EItemSlotType_WeaponMod,
+                ItemSlotTypeV1.EItemSlotType_Tech,
             ]
             and self.image is not None
         )
@@ -45,9 +48,9 @@ class Upgrade(ItemBase):
     @classmethod
     def from_raw_item(
         cls,
-        raw_upgrade: RawUpgrade,
-        raw_heroes: list[RawHero],
+        raw_upgrade: RawUpgradeV2,
+        raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "Upgrade":
+    ) -> "UpgradeV2":
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
         return cls(**raw_model)

@@ -6,7 +6,7 @@ from css_parser.css import ColorValue, CSSUnknownRule
 from pydantic import BaseModel, ConfigDict, Field
 
 
-class Color(BaseModel):
+class ColorV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     red: int = Field(..., description="The red value of the color.")
@@ -15,9 +15,9 @@ class Color(BaseModel):
     alpha: int = Field(..., description="The alpha value of the color.")
 
 
-def get_colors() -> dict[str, Color]:
+def get_colors() -> dict[str, ColorV1]:
     return {
-        k: Color(red=v.red, green=v.green, blue=v.blue, alpha=v.alpha)
+        k: ColorV1(red=v.red, green=v.green, blue=v.blue, alpha=v.alpha)
         for k, v in load_colors().items()
     }
 

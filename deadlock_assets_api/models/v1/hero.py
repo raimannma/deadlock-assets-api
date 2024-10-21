@@ -15,11 +15,11 @@ from pydantic import (
 import deadlock_assets_api
 from deadlock_assets_api import utils
 from deadlock_assets_api.glob import IMAGE_BASE_URL
-from deadlock_assets_api.models.item import Item
 from deadlock_assets_api.models.languages import Language
+from deadlock_assets_api.models.v1.item import ItemV1
 
 
-class HeroStartingStats(BaseModel):
+class HeroStartingStatsV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     max_move_speed: float = Field(..., validation_alias="EMaxMoveSpeed")
@@ -52,7 +52,7 @@ class HeroStartingStats(BaseModel):
     )
 
 
-class HeroItemSlotInfoForTier(BaseModel):
+class HeroItemSlotInfoForTierV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     max_purchase_for_tier: list[int] = Field(
@@ -60,49 +60,51 @@ class HeroItemSlotInfoForTier(BaseModel):
     )
 
 
-class HeroItemSlotInfo(BaseModel):
+class HeroItemSlotInfoV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    weapon_mod: HeroItemSlotInfoForTier = Field(
+    weapon_mod: HeroItemSlotInfoForTierV1 = Field(
         ..., validation_alias="EItemSlotType_WeaponMod"
     )
-    armor: HeroItemSlotInfoForTier = Field(..., validation_alias="EItemSlotType_Armor")
-    tech: HeroItemSlotInfoForTier = Field(..., validation_alias="EItemSlotType_Tech")
+    armor: HeroItemSlotInfoForTierV1 = Field(
+        ..., validation_alias="EItemSlotType_Armor"
+    )
+    tech: HeroItemSlotInfoForTierV1 = Field(..., validation_alias="EItemSlotType_Tech")
 
 
-class HeroPurchaseBonusesModifier(BaseModel):
+class HeroPurchaseBonusesModifierV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     tier: int = Field(..., validation_alias="m_nTier")
     value: str = Field(..., validation_alias="m_strValue")
 
 
-class HeroPurchaseBonuses(BaseModel):
+class HeroPurchaseBonusesV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    weapon_mod: list[HeroPurchaseBonusesModifier] = Field(
+    weapon_mod: list[HeroPurchaseBonusesModifierV1] = Field(
         ..., validation_alias="EItemSlotType_WeaponMod"
     )
-    armor: list[HeroPurchaseBonusesModifier] = Field(
+    armor: list[HeroPurchaseBonusesModifierV1] = Field(
         ..., validation_alias="EItemSlotType_Armor"
     )
-    tech: list[HeroPurchaseBonusesModifier] = Field(
+    tech: list[HeroPurchaseBonusesModifierV1] = Field(
         ..., validation_alias="EItemSlotType_Tech"
     )
 
 
-class HeroLevelInfoBonusCurrencies(StrEnum):
+class HeroLevelInfoBonusCurrenciesV1(StrEnum):
     AbilityUnlocks = "EAbilityUnlocks"
     EAbilityPoints = "EAbilityPoints"
 
 
-class HeroLevelInfo(BaseModel):
+class HeroLevelInfoV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     required_gold: int | None = Field(None, validation_alias="m_unRequiredGold")
     bonus_currencies: (
-        dict[HeroLevelInfoBonusCurrencies, int]
-        | list[HeroLevelInfoBonusCurrencies]
+        dict[HeroLevelInfoBonusCurrenciesV1, int]
+        | list[HeroLevelInfoBonusCurrenciesV1]
         | None
     ) = Field(None, validation_alias="m_mapBonusCurrencies")
     use_standard_upgrade: bool = Field(False, validation_alias="m_bUseStandardUpgrade")
@@ -112,8 +114,8 @@ class HeroLevelInfo(BaseModel):
     def validate_bonus_currencies(
         cls,
         value: (
-            dict[HeroLevelInfoBonusCurrencies, int]
-            | list[HeroLevelInfoBonusCurrencies]
+            dict[HeroLevelInfoBonusCurrenciesV1, int]
+            | list[HeroLevelInfoBonusCurrenciesV1]
             | None
         ),
         _,
@@ -125,7 +127,7 @@ class HeroLevelInfo(BaseModel):
         return list(value.keys())
 
 
-class HeroImages(BaseModel):
+class HeroImagesV1(BaseModel):
     portrait: str | None = Field(None)
     card: str | None = Field(None)
     top_bar: str | None = Field(None)
@@ -134,21 +136,21 @@ class HeroImages(BaseModel):
     weapon: str | None = Field(None)
 
 
-class WeaponStatsDisplay(BaseModel):
+class WeaponStatsDisplayV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     weapon_image: str | None = Field(None, validation_alias="m_strWeaponImage")
 
 
-class HeroShopStatDisplay(BaseModel):
+class HeroShopStatDisplayV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    weapon_stats_display: WeaponStatsDisplay | None = Field(
+    weapon_stats_display: WeaponStatsDisplayV1 | None = Field(
         None, validation_alias="m_eWeaponStatsDisplay"
     )
 
 
-class HeroItemType(str, Enum):
+class HeroItemTypeV1(str, Enum):
     ESlot_Weapon_Primary = "weapon_primary"
     ESlot_Weapon_Secondary = "weapon_secondary"
     ESlot_Weapon_Melee = "weapon_melee"
@@ -177,14 +179,14 @@ class HeroItemType(str, Enum):
 
     def ability_index(self) -> int | None:
         return {
-            HeroItemType.ESlot_Signature_1: 1,
-            HeroItemType.ESlot_Signature_2: 2,
-            HeroItemType.ESlot_Signature_3: 3,
-            HeroItemType.ESlot_Signature_4: 4,
+            HeroItemTypeV1.ESlot_Signature_1: 1,
+            HeroItemTypeV1.ESlot_Signature_2: 2,
+            HeroItemTypeV1.ESlot_Signature_3: 3,
+            HeroItemTypeV1.ESlot_Signature_4: 4,
         }.get(self)
 
 
-class Hero(BaseModel):
+class HeroV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
     id: int = Field(..., validation_alias="m_HeroID")
@@ -202,18 +204,22 @@ class Hero(BaseModel):
     limited_testing: bool = Field(..., validation_alias="m_bLimitedTesting")
     complexity: int = Field(..., validation_alias="m_nComplexity")
     readability: int = Field(..., validation_alias="m_nReadability")
-    starting_stats: HeroStartingStats = Field(
+    starting_stats: HeroStartingStatsV1 = Field(
         ..., validation_alias="m_mapStartingStats"
     )
     collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
     collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
     step_height: float = Field(..., validation_alias="m_flStepHeight")
     items: dict[str, int | None] = Field(..., validation_alias="m_mapBoundAbilities")
-    item_slot_info: HeroItemSlotInfo = Field(..., validation_alias="m_mapItemSlotInfo")
-    purchase_bonuses: HeroPurchaseBonuses = Field(
+    item_slot_info: HeroItemSlotInfoV1 = Field(
+        ..., validation_alias="m_mapItemSlotInfo"
+    )
+    purchase_bonuses: HeroPurchaseBonusesV1 = Field(
         ..., validation_alias="m_mapPurchaseBonuses"
     )
-    level_info: dict[int, HeroLevelInfo] = Field(..., validation_alias="m_mapLevelInfo")
+    level_info: dict[int, HeroLevelInfoV1] = Field(
+        ..., validation_alias="m_mapLevelInfo"
+    )
     stealth_speed_meters_per_second: float = Field(
         ..., validation_alias="m_flStealthSpeedMetersPerSecond"
     )
@@ -237,7 +243,7 @@ class Hero(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
-    hero_shop_stat_display: HeroShopStatDisplay | None = Field(
+    hero_shop_stat_display: HeroShopStatDisplayV1 | None = Field(
         None, validation_alias="m_ShopStatDisplay"
     )
     selection_image: str | None = Field(None, validation_alias="m_strSelectionImage")
@@ -248,20 +254,20 @@ class Hero(BaseModel):
 
     @field_validator("items", mode="before")
     @classmethod
-    def validate_items(cls, value: dict[str, str | Item]) -> dict[str, int]:
-        items = deadlock_assets_api.models.item.load_items()
+    def validate_items(cls, value: dict[str, str | ItemV1]) -> dict[str, int]:
+        items = deadlock_assets_api.models.v1.item.load_items()
 
         def convert_key(k):
             if k.startswith("E"):
-                return HeroItemType(k).value
+                return HeroItemTypeV1(k).value
             return k
 
-        def convert_val(v: int | str | Item) -> int | None:
+        def convert_val(v: int | str | ItemV1) -> int | None:
             if items is None:
                 return None
             if isinstance(v, int):
                 return v
-            if isinstance(v, Item):
+            if isinstance(v, ItemV1):
                 return v.id
             return next((i.id for i in items if i.class_name == v), None)
 
@@ -292,7 +298,7 @@ class Hero(BaseModel):
 
     @computed_field
     @property
-    def images(self) -> HeroImages:
+    def images(self) -> HeroImagesV1:
         img_dict = {
             "portrait": self.selection_image,
             "small": self.icon_image_small,
@@ -311,14 +317,14 @@ class Hero(BaseModel):
             v = v.replace('.psd"', "_psd.png")
             return f"{IMAGE_BASE_URL}/heroes/{v}"
 
-        return HeroImages(**{k: parse_img_path(v) for k, v in img_dict.items()})
+        return HeroImagesV1(**{k: parse_img_path(v) for k, v in img_dict.items()})
 
 
 @lru_cache
-def load_heroes() -> list[Hero] | None:
+def load_heroes() -> list[HeroV1] | None:
     if not os.path.exists("res/heroes.json"):
         return None
     with open("res/heroes.json") as f:
         content = f.read()
-    ta = TypeAdapter(list[Hero])
+    ta = TypeAdapter(list[HeroV1])
     return ta.validate_json(content)

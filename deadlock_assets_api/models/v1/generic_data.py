@@ -4,7 +4,7 @@ from functools import lru_cache
 from pydantic import BaseModel, ConfigDict, Field
 
 
-class FlashData(BaseModel):
+class FlashDataV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     duration: float = Field(..., validation_alias="m_flDuration")
@@ -17,17 +17,17 @@ class FlashData(BaseModel):
     )
 
 
-class DamageFlash(BaseModel):
+class DamageFlashV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    bullet_damage: FlashData = Field(..., validation_alias="EFlashType_BulletDamage")
-    tech_damage: FlashData = Field(..., validation_alias="EFlashType_TechDamage")
-    healing_damage: FlashData = Field(..., validation_alias="EFlashType_Healing")
-    crit_damage: FlashData = Field(..., validation_alias="EFlashType_CritDamage")
-    melee_damage: FlashData = Field(..., validation_alias="EFlashType_MeleeActivate")
+    bullet_damage: FlashDataV1 = Field(..., validation_alias="EFlashType_BulletDamage")
+    tech_damage: FlashDataV1 = Field(..., validation_alias="EFlashType_TechDamage")
+    healing_damage: FlashDataV1 = Field(..., validation_alias="EFlashType_Healing")
+    crit_damage: FlashDataV1 = Field(..., validation_alias="EFlashType_CritDamage")
+    melee_damage: FlashDataV1 = Field(..., validation_alias="EFlashType_MeleeActivate")
 
 
-class GlitchSettings(BaseModel):
+class GlitchSettingsV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     strength: float = Field(..., validation_alias="m_flStrength")
@@ -43,7 +43,7 @@ class GlitchSettings(BaseModel):
     breakup_strength: float = Field(..., validation_alias="m_flBreakupStrength")
 
 
-class NewPlayerMetrics(BaseModel):
+class NewPlayerMetricsV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     skill_tier_name: str = Field(..., validation_alias="m_strSkillTierName")
@@ -58,20 +58,20 @@ class NewPlayerMetrics(BaseModel):
     mods_purchased: int = Field(..., validation_alias="m_ModsPurchased")
 
 
-class GenericData(BaseModel):
+class GenericDataV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    damage_flash: DamageFlash = Field(..., validation_alias="m_mapDamageFlash")
-    glitch_settings: GlitchSettings = Field(..., validation_alias="m_GlitchSettings")
-    new_player_metrics: list[NewPlayerMetrics] = Field(
+    damage_flash: DamageFlashV1 = Field(..., validation_alias="m_mapDamageFlash")
+    glitch_settings: GlitchSettingsV1 = Field(..., validation_alias="m_GlitchSettings")
+    new_player_metrics: list[NewPlayerMetricsV1] = Field(
         ..., validation_alias="m_NewPlayerMetrics"
     )
     item_price_per_tier: list[int] = Field(..., validation_alias="m_nItemPricePerTier")
 
 
 @lru_cache
-def load_generic_data() -> GenericData | None:
+def load_generic_data() -> GenericDataV1 | None:
     if not os.path.exists("res/generic_data.json"):
         return None
     with open("res/generic_data.json") as f:
-        return GenericData.model_validate_json(f.read())
+        return GenericDataV1.model_validate_json(f.read())

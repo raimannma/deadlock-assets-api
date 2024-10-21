@@ -16,7 +16,7 @@ RANK_COLORS = [
 ]
 
 
-class Rank(BaseModel):
+class RankV2(BaseModel):
     tier: int
     name: str
     # image: str
@@ -27,7 +27,7 @@ class Rank(BaseModel):
         return RANK_COLORS[self.tier]
 
     @classmethod
-    def from_tier(cls, tier: int, localization: dict[str, str]) -> "Rank":
+    def from_tier(cls, tier: int, localization: dict[str, str]) -> "RankV2":
         return cls(
             tier=tier,
             name=localization[f"Citadel_ranks_rank{tier}"],

@@ -24,7 +24,7 @@ TOWER_IDS = {
 }
 
 
-class ObjectivePosition(BaseModel):
+class ObjectivePositionV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     left_relative: float = Field(
@@ -37,32 +37,32 @@ class ObjectivePosition(BaseModel):
     )
 
 
-class ObjectivePositions(BaseModel):
+class ObjectivePositionsV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    team0_core: ObjectivePosition
-    team1_core: ObjectivePosition
-    team0_titan: ObjectivePosition
-    team1_titan: ObjectivePosition
-    team0_tier2_1: ObjectivePosition
-    team0_tier2_2: ObjectivePosition
-    team0_tier2_3: ObjectivePosition
-    team0_tier2_4: ObjectivePosition
-    team1_tier2_1: ObjectivePosition
-    team1_tier2_2: ObjectivePosition
-    team1_tier2_3: ObjectivePosition
-    team1_tier2_4: ObjectivePosition
-    team0_tier1_1: ObjectivePosition
-    team0_tier1_2: ObjectivePosition
-    team0_tier1_3: ObjectivePosition
-    team0_tier1_4: ObjectivePosition
-    team1_tier1_1: ObjectivePosition
-    team1_tier1_2: ObjectivePosition
-    team1_tier1_3: ObjectivePosition
-    team1_tier1_4: ObjectivePosition
+    team0_core: ObjectivePositionV1
+    team1_core: ObjectivePositionV1
+    team0_titan: ObjectivePositionV1
+    team1_titan: ObjectivePositionV1
+    team0_tier2_1: ObjectivePositionV1
+    team0_tier2_2: ObjectivePositionV1
+    team0_tier2_3: ObjectivePositionV1
+    team0_tier2_4: ObjectivePositionV1
+    team1_tier2_1: ObjectivePositionV1
+    team1_tier2_2: ObjectivePositionV1
+    team1_tier2_3: ObjectivePositionV1
+    team1_tier2_4: ObjectivePositionV1
+    team0_tier1_1: ObjectivePositionV1
+    team0_tier1_2: ObjectivePositionV1
+    team0_tier1_3: ObjectivePositionV1
+    team0_tier1_4: ObjectivePositionV1
+    team1_tier1_1: ObjectivePositionV1
+    team1_tier1_2: ObjectivePositionV1
+    team1_tier1_3: ObjectivePositionV1
+    team1_tier1_4: ObjectivePositionV1
 
 
-class MapImages(BaseModel):
+class MapImagesV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     minimap: str = Field(
@@ -87,7 +87,7 @@ class MapImages(BaseModel):
     )
 
 
-class ZiplanePath(BaseModel):
+class ZiplanePathV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     origin: tuple[float, float, float] = Field(
@@ -110,7 +110,7 @@ class ZiplanePath(BaseModel):
     )
 
     @classmethod
-    def from_pathnodes(cls, pathnodes: list[list[float]], **kwargs) -> "ZiplanePath":
+    def from_pathnodes(cls, pathnodes: list[list[float]], **kwargs) -> "ZiplanePathV1":
         return cls(
             P0_points=[(n[0], n[1], n[2]) for n in pathnodes],
             P1_points=[(n[3], n[4], n[5]) for n in pathnodes],
@@ -119,7 +119,7 @@ class ZiplanePath(BaseModel):
         )
 
 
-class Map(BaseModel):
+class MapV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     radius: int = Field(
@@ -127,14 +127,14 @@ class Map(BaseModel):
         description="The radius of the map.",
     )
 
-    images: MapImages = Field(
+    images: MapImagesV1 = Field(
         ...,
         description="The images of the map.",
     )
 
     @computed_field
     @property
-    def objective_positions(self) -> ObjectivePositions:
+    def objective_positions(self) -> ObjectivePositionsV1:
         objectives = load_objectives()
 
         def parse_percentage(value: str) -> float:
@@ -142,9 +142,9 @@ class Map(BaseModel):
                 return float(value[:-1]) / 100
             return float(value)
 
-        return ObjectivePositions.model_validate(
+        return ObjectivePositionsV1.model_validate(
             {
-                TOWER_IDS[rule.selectorText]: ObjectivePosition(
+                TOWER_IDS[rule.selectorText]: ObjectivePositionV1(
                     left_relative=parse_percentage(rule.style.marginLeft),
                     top_relative=parse_percentage(rule.style.marginTop),
                 )
@@ -157,16 +157,16 @@ class Map(BaseModel):
         description="The ziplane paths of the map. Each path is a list of P0, P1, and P2 points, describing the cubic spline."
     )
     @property
-    def zipline_paths(self) -> list[ZiplanePath]:
+    def zipline_paths(self) -> list[ZiplanePathV1]:
         return [
-            ZiplanePath.from_pathnodes(lane, color=color, origin=origin)
+            ZiplanePathV1.from_pathnodes(lane, color=color, origin=origin)
             for lane, color, origin in zip(LANES, LANE_COLORS, LANE_ORIGINS)
         ]
 
     @classmethod
-    def get_default(cls) -> "Map":
+    def get_default(cls) -> "MapV1":
         return cls(
-            images=MapImages(
+            images=MapImagesV1(
                 minimap=f"{IMAGE_BASE_URL}/maps/minimap.png",
                 plain=f"{IMAGE_BASE_URL}/maps/minimap_plain.png",
                 background=f"{IMAGE_BASE_URL}/maps/minimap_bg_psd.png",

@@ -2,11 +2,11 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from deadlock_assets_api.models.v2.enums import AbilityType
-from deadlock_assets_api.models.v2.raw_item_base import RawItemBase
+from deadlock_assets_api.models.v2.enums import AbilityTypeV2
+from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
 
 
-class RawAbilityUpgradePropertyUpgrade(BaseModel):
+class RawAbilityUpgradePropertyUpgradeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     name: str = Field(..., validation_alias="m_strPropertyName")
@@ -15,23 +15,23 @@ class RawAbilityUpgradePropertyUpgrade(BaseModel):
     upgrade_type: str | None = Field(None, validation_alias="m_eUpgradeType")
 
 
-class RawAbilityUpgrade(BaseModel):
+class RawAbilityUpgradeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    property_upgrades: list[RawAbilityUpgradePropertyUpgrade] = Field(
+    property_upgrades: list[RawAbilityUpgradePropertyUpgradeV2] = Field(
         ..., validation_alias="m_vecPropertyUpgrades"
     )
 
 
-class RawAbility(RawItemBase):
+class RawAbilityV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
     type: Literal["ability"] = "ability"
     behaviour_bits: str | None = Field(None, validation_alias="m_AbilityBehaviorsBits")
-    upgrades: list[RawAbilityUpgrade] | None = Field(
+    upgrades: list[RawAbilityUpgradeV2] | None = Field(
         None, validation_alias="m_vecAbilityUpgrades"
     )
-    ability_type: AbilityType | None = Field(None, validation_alias="m_eAbilityType")
+    ability_type: AbilityTypeV2 | None = Field(None, validation_alias="m_eAbilityType")
     dependant_abilities: list[str] | None = Field(
         None, validation_alias="m_vecDependentAbilities"
     )

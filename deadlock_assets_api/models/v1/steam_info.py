@@ -4,7 +4,7 @@ from functools import lru_cache
 from pydantic import BaseModel, Field, computed_field
 
 
-class SteamInfo(BaseModel):
+class SteamInfoV1(BaseModel):
     client_version: int = Field(..., validation_alias="ClientVersion")
     server_version: int = Field(..., validation_alias="ServerVersion")
     product_name: str = Field(..., validation_alias="ProductName")
@@ -23,7 +23,7 @@ class SteamInfo(BaseModel):
         return datetime.combine(date, time)
 
     @classmethod
-    def load(cls) -> "SteamInfo":
+    def load(cls) -> "SteamInfoV1":
         return cls.model_validate(
             {
                 k.strip(): v.strip()

@@ -14,13 +14,13 @@ from pydantic import (
     field_validator,
 )
 
-import deadlock_assets_api.models.generic_data
+import deadlock_assets_api.models.v1.generic_data
 from deadlock_assets_api import utils
 from deadlock_assets_api.glob import IMAGE_BASE_URL, VIDEO_BASE_URL
 from deadlock_assets_api.models.languages import Language
 
 
-class ItemInfoProperty(BaseModel):
+class ItemInfoPropertyV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     value: str | int | float | None = Field(None, validation_alias="m_strValue")
@@ -30,7 +30,7 @@ class ItemInfoProperty(BaseModel):
     )
 
 
-class ItemInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurveSplineV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     x: float
@@ -39,27 +39,27 @@ class ItemInfoWeaponInfoBulletSpeedCurveSpline(BaseModel):
     slope_outgoing: float = Field(..., validation_alias="m_flSlopeOutgoing")
 
 
-class ItemInfoWeaponInfoBulletSpeedCurveTangents(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurveTangentsV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     incoming_tangent: str = Field(..., validation_alias="m_nIncomingTangent")
     outgoing_tangent: str = Field(..., validation_alias="m_nOutgoingTangent")
 
 
-class ItemInfoWeaponInfoBulletSpeedCurve(BaseModel):
+class ItemInfoWeaponInfoBulletSpeedCurveV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    spline: list[ItemInfoWeaponInfoBulletSpeedCurveSpline] = Field(
+    spline: list[ItemInfoWeaponInfoBulletSpeedCurveSplineV1] = Field(
         ..., validation_alias="m_spline"
     )
-    tangents: list[ItemInfoWeaponInfoBulletSpeedCurveTangents] = Field(
+    tangents: list[ItemInfoWeaponInfoBulletSpeedCurveTangentsV1] = Field(
         ..., validation_alias="m_tangents"
     )
     domain_mins: list[float] = Field(..., validation_alias="m_vDomainMins")
     domain_maxs: list[float] = Field(..., validation_alias="m_vDomainMaxs")
 
 
-class ItemInfoWeaponInfoRecoil(BaseModel):
+class ItemInfoWeaponInfoRecoilV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     range: list[float] | float = Field(..., validation_alias="m_Range")
@@ -68,7 +68,7 @@ class ItemInfoWeaponInfoRecoil(BaseModel):
     burst_constant: float | None = Field(None, validation_alias="m_flBurstConstant")
 
 
-class ItemInfoWeaponInfo(BaseModel):
+class ItemInfoWeaponInfoV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     spread: float | None = Field(None, validation_alias="m_Spread")
@@ -90,10 +90,10 @@ class ItemInfoWeaponInfo(BaseModel):
     recoil_recovery_speed: float | None = Field(
         None, validation_alias="m_flRecoilRecoverySpeed"
     )
-    vertical_recoil: ItemInfoWeaponInfoRecoil | None = Field(
+    vertical_recoil: ItemInfoWeaponInfoRecoilV1 | None = Field(
         None, validation_alias="m_VerticallRecoil"
     )
-    horizontal_recoil: ItemInfoWeaponInfoRecoil | None = Field(
+    horizontal_recoil: ItemInfoWeaponInfoRecoilV1 | None = Field(
         None, validation_alias="m_HorizontalRecoil"
     )
     recoil_speed: float | None = Field(None, validation_alias="m_flRecoilSpeed")
@@ -176,7 +176,7 @@ class ItemInfoWeaponInfo(BaseModel):
     bullet_damage: float | None = Field(None, validation_alias="m_flBulletDamage")
 
 
-class ItemDofWhileZoomed(BaseModel):
+class ItemDofWhileZoomedV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     dof_near_crisp: float = Field(..., validation_alias="m_flDofNearCrisp")
@@ -184,7 +184,7 @@ class ItemDofWhileZoomed(BaseModel):
     dof_far_blurry: float = Field(..., validation_alias="m_flDofFarBlurry")
 
 
-class ItemSlotType(StrEnum):
+class ItemSlotTypeV1(StrEnum):
     EItemSlotType_WeaponMod = "weapon"
     EItemSlotType_Tech = "spirit"
     EItemSlotType_Armor = "vitality"
@@ -199,7 +199,7 @@ class ItemSlotType(StrEnum):
         return None
 
 
-class ItemType(StrEnum):
+class ItemTypeV1(StrEnum):
     WEAPON = "weapon"
     ABILITY = "ability"
     UPGRADE = "upgrade"
@@ -254,7 +254,7 @@ class ItemType(StrEnum):
         return None
 
 
-class PropertyUpgrade(BaseModel):
+class PropertyUpgradeV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     property_name: str = Field(..., validation_alias="m_strPropertyName")
@@ -265,15 +265,15 @@ class PropertyUpgrade(BaseModel):
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
 
-class PropertyUpgrades(BaseModel):
+class PropertyUpgradesV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    property_upgrades: list[PropertyUpgrade] = Field(
+    property_upgrades: list[PropertyUpgradeV1] = Field(
         ..., validation_alias="m_vecPropertyUpgrades"
     )
 
 
-class Item(BaseModel):
+class ItemV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True, use_enum_values=True)
 
     name: str | None = Field(None)
@@ -285,16 +285,16 @@ class Item(BaseModel):
     start_trained: bool | None = Field(None, validation_alias="m_bStartTrained")
     image: str | None = Field(None, validation_alias="m_strAbilityImage")
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
-    properties: dict[str, ItemInfoProperty | str | float | None] | None = Field(
+    properties: dict[str, ItemInfoPropertyV1 | str | float | None] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
-    weapon_info: ItemInfoWeaponInfo | None = Field(
+    weapon_info: ItemInfoWeaponInfoV1 | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
-    ability_upgrades: list[PropertyUpgrades] | None = Field(
+    ability_upgrades: list[PropertyUpgradesV1] | None = Field(
         None, validation_alias="m_vecAbilityUpgrades"
     )
-    dof_while_zoomed: ItemDofWhileZoomed | None = Field(
+    dof_while_zoomed: ItemDofWhileZoomedV1 | None = Field(
         None, validation_alias="m_DOFWhileZoomed"
     )
     points_cost: int | None = Field(None, validation_alias="m_nAbilityPointsCost")
@@ -303,7 +303,7 @@ class Item(BaseModel):
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
     tier: str | int | None = Field(None, validation_alias="m_iItemTier")
-    item_slot_type: ItemSlotType | None = Field(
+    item_slot_type: ItemSlotTypeV1 | None = Field(
         None, validation_alias="m_eItemSlotType"
     )
     child_items: list[str] | list[int] | None = Field(
@@ -311,7 +311,7 @@ class Item(BaseModel):
     )
 
     @field_serializer("item_slot_type")
-    def serialize_group(self, group: ItemSlotType | str, _info):
+    def serialize_group(self, group: ItemSlotTypeV1 | str, _info):
         if group is None or isinstance(group, str):
             return group
         return group.name
@@ -330,11 +330,11 @@ class Item(BaseModel):
 
     @computed_field
     @property
-    def type(self) -> ItemType | None:
+    def type(self) -> ItemTypeV1 | None:
         name = utils.strip_prefix(self.class_name, "citadel_")
         first_word = name.split("_")[0]
         try:
-            return ItemType(first_word.capitalize())
+            return ItemTypeV1(first_word.capitalize())
         except ValueError:
             return None
 
@@ -365,18 +365,18 @@ class Item(BaseModel):
     def cost(self) -> int | None:
         if self.tier is None:
             return None
-        generic_data = deadlock_assets_api.models.generic_data.load_generic_data()
+        generic_data = deadlock_assets_api.models.v1.generic_data.load_generic_data()
         return generic_data.item_price_per_tier[self.tier]
 
     @field_validator("properties")
     @classmethod
-    def validate_properties(cls, value: dict[str, ItemInfoProperty], _):
+    def validate_properties(cls, value: dict[str, ItemInfoPropertyV1], _):
         if value is None or len(value) == 0:
             return None
         properties = dict()
         for k, v in value.items():
             k = utils.camel_to_snake(k)
-            if isinstance(v, ItemInfoProperty):
+            if isinstance(v, ItemInfoPropertyV1):
                 properties[k] = float(v.value) if utils.is_float(v.value) else v.value
             else:
                 properties[k] = v
@@ -406,12 +406,12 @@ class Item(BaseModel):
     def set_shopable(self):
         self.shopable = (
             (self.disabled is None or self.disabled is False)
-            and self.type != ItemType.ABILITY
+            and self.type != ItemTypeV1.ABILITY
             and self.item_slot_type
             in [
-                ItemSlotType.EItemSlotType_Armor,
-                ItemSlotType.EItemSlotType_WeaponMod,
-                ItemSlotType.EItemSlotType_Tech,
+                ItemSlotTypeV1.EItemSlotType_Armor,
+                ItemSlotTypeV1.EItemSlotType_WeaponMod,
+                ItemSlotTypeV1.EItemSlotType_Tech,
             ]
             and self.image is not None
         )
@@ -422,7 +422,7 @@ class Item(BaseModel):
     def get_description(self, language: Language) -> str:
         return utils.get_translation(f"{self.class_name}_desc", language, True)
 
-    def postfix(self, items: list["Item"]):
+    def postfix(self, items: list["ItemV1"]):
         if self.child_items is None:
             return
         self.child_items = [
@@ -437,10 +437,10 @@ class Item(BaseModel):
 
 
 @lru_cache
-def load_items() -> list[Item] | None:
+def load_items() -> list[ItemV1] | None:
     if not os.path.exists("res/items.json"):
         return None
     with open("res/items.json") as f:
         content = f.read()
-    ta = TypeAdapter(list[Item])
+    ta = TypeAdapter(list[ItemV1])
     return ta.validate_json(content)

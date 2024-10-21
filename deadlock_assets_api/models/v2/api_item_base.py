@@ -2,11 +2,11 @@ from murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
-from deadlock_assets_api.models.v2.raw_hero import RawHero
+from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import (
-    RawItemBase,
-    RawItemProperty,
-    RawItemWeaponInfo,
+    RawItemBaseV2,
+    RawItemPropertyV2,
+    RawItemWeaponInfoV2,
 )
 
 
@@ -26,7 +26,7 @@ def parse_img_path(v):
     return v.replace('"', "")
 
 
-class ItemBase(BaseModel):
+class ItemBaseV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: int
@@ -37,14 +37,14 @@ class ItemBase(BaseModel):
     image_webp: str | None = None
     hero: int | None
     update_time: int | None
-    properties: dict[str, RawItemProperty] | None
-    weapon_info: RawItemWeaponInfo
+    properties: dict[str, RawItemPropertyV2] | None
+    weapon_info: RawItemWeaponInfoV2
 
     @classmethod
     def from_raw_item(
         cls,
-        raw_model: RawItemBase,
-        raw_heroes: list[RawHero],
+        raw_model: RawItemBaseV2,
+        raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
     ) -> dict:
         raw_model = raw_model.model_dump()

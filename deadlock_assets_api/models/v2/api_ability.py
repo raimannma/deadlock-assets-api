@@ -4,10 +4,10 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import VIDEO_BASE_URL
-from deadlock_assets_api.models.v2.api_item_base import ItemBase
-from deadlock_assets_api.models.v2.enums import AbilityType
-from deadlock_assets_api.models.v2.raw_ability import RawAbility, RawAbilityUpgrade
-from deadlock_assets_api.models.v2.raw_hero import RawHero
+from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
+from deadlock_assets_api.models.v2.enums import AbilityTypeV2
+from deadlock_assets_api.models.v2.raw_ability import RawAbilityUpgradeV2, RawAbilityV2
+from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 
 
 def extract_video_url(v: str) -> str | None:
@@ -16,7 +16,7 @@ def extract_video_url(v: str) -> str | None:
     return f"{VIDEO_BASE_URL}/{v.split('videos/')[-1]}"
 
 
-class AbilityDescription(BaseModel):
+class AbilityDescriptionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     desc: str | None
@@ -28,10 +28,10 @@ class AbilityDescription(BaseModel):
     @classmethod
     def from_raw_ability(
         cls,
-        raw_ability: RawAbility,
-        raw_heroes: list[RawHero],
+        raw_ability: RawAbilityV2,
+        raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "AbilityDescription":
+    ) -> "AbilityDescriptionV2":
         def replace_templates(input_str: str | None, tier: int | None) -> str | None:
             if not input_str:
                 return None
@@ -131,14 +131,14 @@ class AbilityDescription(BaseModel):
         )
 
 
-class AbilityVideos(BaseModel):
+class AbilityVideosV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     webm: str | None
     mp4: str | None
 
     @classmethod
-    def from_raw_video(cls, raw_video: str) -> "AbilityVideos":
+    def from_raw_video(cls, raw_video: str) -> "AbilityVideosV2":
         webm = extract_video_url(raw_video)
         return cls(
             webm=webm,
@@ -146,36 +146,36 @@ class AbilityVideos(BaseModel):
         )
 
 
-class Ability(ItemBase):
+class AbilityV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
     name: str
     type: Literal["ability"] = "ability"
     behaviours: list[str] | None
-    description: AbilityDescription
-    upgrades: list[RawAbilityUpgrade] | None
-    ability_type: AbilityType | None
+    description: AbilityDescriptionV2
+    upgrades: list[RawAbilityUpgradeV2] | None
+    ability_type: AbilityTypeV2 | None
     dependant_abilities: list[str] | None
-    videos: AbilityVideos | None
+    videos: AbilityVideosV2 | None
 
     @classmethod
     def from_raw_item(
         cls,
-        raw_ability: RawAbility,
-        raw_heroes: list[RawHero],
+        raw_ability: RawAbilityV2,
+        raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "Ability":
+    ) -> "AbilityV2":
         raw_model = super().from_raw_item(raw_ability, raw_heroes, localization)
         raw_model["behaviours"] = (
             [b.strip() for b in raw_ability.behaviour_bits.split("|")]
             if raw_ability.behaviour_bits
             else None
         )
-        raw_model["description"] = AbilityDescription.from_raw_ability(
+        raw_model["description"] = AbilityDescriptionV2.from_raw_ability(
             raw_ability, raw_heroes, localization
         )
         raw_model["videos"] = (
-            AbilityVideos.from_raw_video(raw_ability.video)
+            AbilityVideosV2.from_raw_video(raw_ability.video)
             if raw_ability.video
             else None
         )

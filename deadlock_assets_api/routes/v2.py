@@ -6,18 +6,18 @@ from fastapi import APIRouter, HTTPException
 from pydantic import TypeAdapter
 
 from deadlock_assets_api import utils
-from deadlock_assets_api.models.item import ItemSlotType, ItemType
 from deadlock_assets_api.models.languages import Language
-from deadlock_assets_api.models.v2.api_ability import Ability
-from deadlock_assets_api.models.v2.api_hero import Hero
-from deadlock_assets_api.models.v2.api_item import Item
-from deadlock_assets_api.models.v2.api_upgrade import Upgrade
-from deadlock_assets_api.models.v2.api_weapon import Weapon
-from deadlock_assets_api.models.v2.rank import Rank
-from deadlock_assets_api.models.v2.raw_ability import RawAbility
-from deadlock_assets_api.models.v2.raw_hero import RawHero
-from deadlock_assets_api.models.v2.raw_upgrade import RawUpgrade
-from deadlock_assets_api.models.v2.raw_weapon import RawWeapon
+from deadlock_assets_api.models.v1.item import ItemSlotTypeV1, ItemTypeV1
+from deadlock_assets_api.models.v2.api_ability import AbilityV2
+from deadlock_assets_api.models.v2.api_hero import HeroV2
+from deadlock_assets_api.models.v2.api_item import ItemV2
+from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
+from deadlock_assets_api.models.v2.api_weapon import WeaponV2
+from deadlock_assets_api.models.v2.rank import RankV2
+from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
+from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
+from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
+from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
 router = APIRouter(prefix="/v2", tags=["V2"])
 
@@ -43,26 +43,28 @@ def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
     return localizations
 
 
-def load_raw_heroes(client_version: int) -> list[RawHero] | None:
+def load_raw_heroes(client_version: int) -> list[RawHeroV2] | None:
     path = f"res/builds/{client_version}/v2/raw_heroes.json"
     if not os.path.exists(path):
         return None
     with open(path) as f:
         content = f.read()
     print(f"Loading raw heroes for client version {client_version}")
-    return TypeAdapter(list[RawHero]).validate_json(content)
+    return TypeAdapter(list[RawHeroV2]).validate_json(content)
 
 
 def load_raw_items(
     client_version: int,
-) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
+) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2] | None:
     path = f"res/builds/{client_version}/v2/raw_items.json"
     if not os.path.exists(path):
         return None
     with open(path) as f:
         content = f.read()
     print(f"Loading raw items for client version {client_version}")
-    return TypeAdapter(list[RawAbility | RawWeapon | RawUpgrade]).validate_json(content)
+    return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(
+        content
+    )
 
 
 ALL_CLIENT_VERSIONS = [int(b) for b in os.listdir("res/builds")]
@@ -72,8 +74,8 @@ VALID_CLIENT_VERSIONS = Enum(
 LOCALIZATIONS: dict[Language, dict[str, str]] = load_localizations(
     max(ALL_CLIENT_VERSIONS)
 )
-RAW_HEROES: list[RawHero] = load_raw_heroes(max(ALL_CLIENT_VERSIONS))
-RAW_ITEMS: list[RawAbility | RawWeapon | RawUpgrade] = load_raw_items(
+RAW_HEROES: list[RawHeroV2] = load_raw_heroes(max(ALL_CLIENT_VERSIONS))
+RAW_ITEMS: list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2] = load_raw_items(
     max(ALL_CLIENT_VERSIONS)
 )
 
@@ -85,7 +87,7 @@ def get_localization(client_version: int, language: Language) -> dict[str, str]:
         return load_localizations(client_version)[language]
 
 
-def get_raw_heroes(client_version: int) -> list[RawHero] | None:
+def get_raw_heroes(client_version: int) -> list[RawHeroV2] | None:
     if client_version == max(ALL_CLIENT_VERSIONS):
         return RAW_HEROES
     else:
@@ -94,7 +96,7 @@ def get_raw_heroes(client_version: int) -> list[RawHero] | None:
 
 def get_raw_items(
     client_version: int,
-) -> list[RawAbility | RawWeapon | RawUpgrade] | None:
+) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2] | None:
     if client_version == max(ALL_CLIENT_VERSIONS):
         return RAW_ITEMS
     else:
@@ -106,7 +108,7 @@ def get_heroes(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
     only_active: bool | None = None,
-) -> list[Hero]:
+) -> list[HeroV2]:
     if language is None:
         language = Language.English
     if client_version is None:
@@ -122,7 +124,7 @@ def get_heroes(
 
     raw_heroes = get_raw_heroes(client_version.value)
     heroes = [
-        Hero.from_raw_hero(r, localization)
+        HeroV2.from_raw_hero(r, localization)
         for r in raw_heroes
         if not only_active or not r.disabled
     ]
@@ -134,7 +136,7 @@ def get_hero(
     id: int,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> Hero:
+) -> HeroV2:
     heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.id == id:
@@ -147,7 +149,7 @@ def get_hero_by_name(
     name: str,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> Hero:
+) -> HeroV2:
     heroes = get_heroes(language, client_version)
     for hero in heroes:
         if hero.class_name.lower() in [name.lower(), f"hero_{name.lower()}"]:
@@ -161,7 +163,7 @@ def get_hero_by_name(
 def get_items(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> list[Item]:
+) -> list[ItemV2]:
     if language is None:
         language = Language.English
     if client_version is None:
@@ -176,13 +178,15 @@ def get_items(
     raw_items = get_raw_items(client_version.value)
     raw_heroes = get_raw_heroes(client_version.value)
 
-    def item_from_raw_item(raw_item: RawUpgrade | RawAbility | RawWeapon) -> Item:
+    def item_from_raw_item(
+        raw_item: RawUpgradeV2 | RawAbilityV2 | RawWeaponV2,
+    ) -> ItemV2:
         if raw_item.type == "ability":
-            return Ability.from_raw_item(raw_item, raw_heroes, localization)
+            return AbilityV2.from_raw_item(raw_item, raw_heroes, localization)
         elif raw_item.type == "upgrade":
-            return Upgrade.from_raw_item(raw_item, raw_heroes, localization)
+            return UpgradeV2.from_raw_item(raw_item, raw_heroes, localization)
         elif raw_item.type == "weapon":
-            return Weapon.from_raw_item(raw_item, raw_heroes, localization)
+            return WeaponV2.from_raw_item(raw_item, raw_heroes, localization)
         else:
             raise ValueError(f"Unknown item type: {raw_item.type}")
 
@@ -195,7 +199,7 @@ def get_item(
     id_or_class_name: int | str,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> Item:
+) -> ItemV2:
     items = get_items(language, client_version=client_version)
     id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
     for item in items:
@@ -209,32 +213,32 @@ def get_items_by_hero_id(
     id: int,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> list[Item]:
+) -> list[ItemV2]:
     items = get_items(language, client_version)
     return [i for i in items if i.hero == id]
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
-    type: ItemType,
+    type: ItemTypeV1,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> list[Item]:
+) -> list[ItemV2]:
     items = get_items(language, client_version)
-    type = ItemType(type.capitalize())
+    type = ItemTypeV1(type.capitalize())
     return [c for c in items if c.type == type]
 
 
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
 def get_items_by_slot_type(
-    slot_type: ItemSlotType,
+    slot_type: ItemSlotTypeV1,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> list[Item]:
+) -> list[ItemV2]:
     items = get_items(language, client_version)
-    slot_type = ItemSlotType(slot_type.capitalize())
+    slot_type = ItemSlotTypeV1(slot_type.capitalize())
     return [
-        c for c in items if isinstance(c, Upgrade) and c.item_slot_type == slot_type
+        c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type
     ]
 
 
@@ -244,7 +248,7 @@ def get_client_versions() -> list[int]:
 
 
 @router.get("/ranks", response_model_exclude_none=True)
-def get_ranks(language: Language | None = None) -> list[Rank]:
+def get_ranks(language: Language | None = None) -> list[RankV2]:
     if language is None:
         language = Language.English
     localization = {}
@@ -253,4 +257,4 @@ def get_ranks(language: Language | None = None) -> list[Rank]:
             get_localization(max(ALL_CLIENT_VERSIONS), Language.English)
         )
     localization.update(get_localization(max(ALL_CLIENT_VERSIONS), language))
-    return [Rank.from_tier(i, localization) for i in range(12)]
+    return [RankV2.from_tier(i, localization) for i in range(12)]
