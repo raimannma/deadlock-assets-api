@@ -96,6 +96,14 @@ class AbilityDescriptionV2(BaseModel):
                             None,
                         )
                         if replaced is None:
+                            try:
+                                _, hero_name, *_ = raw_ability.class_name.split("_")
+                                replaced = localization.get(
+                                    hero_name, localization.get(f"hero_{hero_name}")
+                                )
+                            except ValueError:
+                                pass
+                        if replaced is None:
                             print(
                                 f"Failed to find hero name for {raw_ability.class_name}"
                             )
