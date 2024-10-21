@@ -215,7 +215,18 @@ def get_items_by_hero_id(
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
     items = get_items(language, client_version)
-    return [i for i in items if i.hero == id]
+    filter_class_names = {
+        "citadel_ability_climb_rope",
+        "citadel_ability_dash",
+        "citadel_ability_sprint",
+        "citadel_ability_melee_parry",
+        "citadel_ability_jump",
+        "citadel_ability_mantle",
+        "citadel_ability_slide",
+        "citadel_ability_zip_line",
+        "citadel_ability_zipline_boost",
+    }
+    return [i for i in items if i.hero == id and i.class_name not in filter_class_names]
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
