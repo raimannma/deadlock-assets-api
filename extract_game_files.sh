@@ -108,7 +108,10 @@ cp -r "$citadel_folder"/panorama/images/upgrades images/
 mkdir -p images/maps
 cp -r "$citadel_folder"/panorama/images/minimap/base/* images/maps/
 
-# Generate smaller images
+mkdir -p images/ranks
+cp -r "$citadel_folder"/panorama/images/ranked/badges/* images/ranks/
+
+# Generate webp images
 for file in $(find images -type f -name "*.png"); do
     base_name=$(basename "$file")
     dir_name=$(dirname "$file")

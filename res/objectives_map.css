@@ -12,7 +12,7 @@
 	opacity: 1;
 }
 
-.GameStatePreGame #ObjectivesMap
+.GameStatePreGame #ObjectivesMap,.GameStatePreGameWait #ObjectivesMap
 {
 	opacity: 0;
 	transition-property: opacity, transform;
