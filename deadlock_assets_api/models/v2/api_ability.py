@@ -118,7 +118,9 @@ class AbilityDescriptionV2(BaseModel):
                     print(f"Failed to replace {variable}")
                 return str(replaced) if replaced else match.group(0)
 
-            return re.sub(r"\{s:([^}]+)}", replacer, input_str)
+            input_str = re.sub(r"\{s:([^}]+)}", replacer, input_str)
+            input_str = re.sub(r"\{i:([^}]+)}", replacer, input_str)
+            return input_str
 
         return cls(
             desc=replace_templates(
