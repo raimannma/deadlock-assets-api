@@ -2,6 +2,7 @@ from typing import Literal
 
 from pydantic import ConfigDict, computed_field
 
+from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
 from deadlock_assets_api.models.v2.enums import ItemTierV2
@@ -54,3 +55,9 @@ class UpgradeV2(ItemBaseV2):
     ) -> "UpgradeV2":
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
         return cls(**raw_model)
+
+    @computed_field
+    @property
+    def cost(self) -> int | None:
+        generic_data = load_generic_data()
+        return generic_data.item_price_per_tier[self.item_tier]
