@@ -58,4 +58,6 @@ class RawItemBaseV2(BaseModel):
     properties: dict[str, RawItemPropertyV2] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
-    weapon_info: RawItemWeaponInfoV2 = Field(..., validation_alias="m_WeaponInfo")
+    weapon_info: RawItemWeaponInfoV2 | None = Field(
+        None, validation_alias="m_WeaponInfo"
+    )

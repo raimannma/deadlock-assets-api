@@ -5759,7 +5759,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/nano_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
-    "playstyle": null,
+    "playstyle": "Calico uses the shadows to her advantage, weaving in and out of combat to hunt down her enemies one by one.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -13283,11 +13283,11 @@
       }
     },
     "limited_testing": false,
-    "lore": null,
+    "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkie's, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon The Patrons to endure that he will always be the apex predator of The Deep.",
     "minimap_image": "panorama:\"file://{images}/heroes/slork_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
-    "playstyle": null,
+    "playstyle": "A short-ranged assassin, Fathom can slip in and out of combat and win long engagements.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -13345,7 +13345,7 @@
       ]
     },
     "readability": 1,
-    "role": null,
+    "role": "Slips into combat and then hides to recover",
     "selection_image": "panorama:\"file://{images}/heroes/slork.psd\"",
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.573571,
