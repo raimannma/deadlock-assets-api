@@ -38,7 +38,7 @@ class ItemBaseV2(BaseModel):
     hero: int | None
     update_time: int | None
     properties: dict[str, RawItemPropertyV2] | None
-    weapon_info: RawItemWeaponInfoV2
+    weapon_info: RawItemWeaponInfoV2 | None
 
     @classmethod
     def from_raw_item(

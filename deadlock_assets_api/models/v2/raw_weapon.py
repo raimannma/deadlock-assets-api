@@ -150,4 +150,4 @@ class RawWeaponV2(RawItemBaseV2):
 
     type: Literal["weapon"] = "weapon"
 
-    weapon_info: RawWeaponInfoV2 = Field(..., validation_alias="m_WeaponInfo")
+    weapon_info: RawWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
