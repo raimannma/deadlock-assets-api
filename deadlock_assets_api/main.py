@@ -1,4 +1,5 @@
 import logging
+import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,6 +12,17 @@ from starlette.staticfiles import StaticFiles
 from deadlock_assets_api.routes import base, raw, v1, v2
 
 logging.basicConfig(level=logging.INFO)
+
+if "SENTRY_DSN" in os.environ:
+    import sentry_sdk
+
+    sentry_sdk.init(
+        dsn=os.environ["SENTRY_DSN"],
+        traces_sample_rate=1.0,
+        _experiments={
+            "continuous_profiling_auto_start": True,
+        },
+    )
 
 app = FastAPI(
     title="Assets - Deadlock API",

@@ -12,6 +12,7 @@ murmurhash2 = "^0.2.10"
 prometheus-fastapi-instrumentator = "^7.0.0"
 css-parser = "^1.0.10"
 stringcase = "^1.2.0"
+sentry-sdk = {version = "^2.17.0", extras = ["fastapi"]}
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"
