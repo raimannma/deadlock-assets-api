@@ -43,7 +43,9 @@ app.add_middleware(
 )
 app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
 
-Instrumentator().instrument(app).expose(app, include_in_schema=False)
+Instrumentator(should_group_status_codes=False).instrument(app).expose(
+    app, include_in_schema=False
+)
 
 app.include_router(base.router, include_in_schema=False)
 app.include_router(v2.router)
