@@ -6,7 +6,7 @@ authors = ["Manuel Raimann <raimannma@outlook.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.13"
 fastapi = { extras = ["standard"], version = "^0.114.2" }
 murmurhash2 = "^0.2.10"
 prometheus-fastapi-instrumentator = "^7.0.0"
@@ -19,7 +19,6 @@ kv3parser = "^1.1"
 vdf = "^3.4"
 shapely = "^2.0.6"
 matplotlib = "^3.9.2"
-shapelysmooth = "^0.2.1"
 opencv-python = "^4.10.0.84"
 
 [tool.poetry.group.dev.dependencies]
