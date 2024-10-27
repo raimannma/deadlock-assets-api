@@ -266,6 +266,7 @@ class HeroV2(BaseModel):
     name: str
     description: HeroDescriptionV2
     recommended_upgrades: list[str] | None
+    recommended_ability_order: list[str] | None
     player_selectable: bool
     bot_selectable: bool
     disabled: bool

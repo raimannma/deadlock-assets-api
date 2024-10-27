@@ -151,6 +151,9 @@ class RawHeroV2(BaseModel):
     recommended_upgrades: list[str] | None = Field(
         None, validation_alias="m_RecommendedUpgrades"
     )
+    recommended_ability_order: list[str] | None = Field(
+        None, validation_alias="m_RecommendedAbilityOrder"
+    )
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     bot_selectable: bool = Field(..., validation_alias="m_bBotSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")

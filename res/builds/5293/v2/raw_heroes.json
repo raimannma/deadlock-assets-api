@@ -439,6 +439,7 @@
       ]
     },
     "readability": 6,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_clip_size",
       "upgrade_endurance",
@@ -1018,6 +1019,7 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_non_player_bonus",
       "upgrade_resilience",
@@ -1604,6 +1606,7 @@
       ]
     },
     "readability": 3,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_hollow_point_rounds",
@@ -2185,6 +2188,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_medic_bullets",
       "upgrade_headshot_booster",
@@ -2764,6 +2768,24 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": [
+      "citadel_ability_passive_beefy",
+      "citadel_ability_bull_heal",
+      "citadel_ability_bull_charge",
+      "citadel_ability_bull_leap",
+      "citadel_ability_passive_beefy",
+      "citadel_ability_bull_heal",
+      "citadel_ability_bull_heal",
+      "citadel_ability_passive_beefy",
+      "citadel_ability_bull_leap",
+      "citadel_ability_bull_charge",
+      "citadel_ability_bull_heal",
+      "citadel_ability_bull_charge",
+      "citadel_ability_passive_beefy",
+      "citadel_ability_bull_charge",
+      "citadel_ability_bull_leap",
+      "citadel_ability_bull_leap"
+    ],
     "recommended_upgrades": [
       "upgrade_close_range",
       "upgrade_lifestrike_gauntlets",
@@ -3341,6 +3363,7 @@
       ]
     },
     "readability": 3,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_clip_size",
@@ -3923,6 +3946,7 @@
       ]
     },
     "readability": 5,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_extra_charge",
       "upgrade_rapid_rounds",
@@ -4505,6 +4529,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_hollow_point_rounds",
       "upgrade_medic_bullets",
@@ -5079,6 +5104,7 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_hollow_point_rounds",
       "upgrade_clip_size",
@@ -5654,6 +5680,7 @@
       ]
     },
     "readability": 3,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_medic_bullets",
       "upgrade_close_range",
@@ -6233,6 +6260,7 @@
       ]
     },
     "readability": 5,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_clip_size",
@@ -6816,6 +6844,7 @@
       ]
     },
     "readability": 2,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/astro.psd\"",
@@ -7379,6 +7408,24 @@
       ]
     },
     "readability": 2,
+    "recommended_ability_order": [
+      "citadel_ability_hook",
+      "citadel_ability_sticky_bomb",
+      "citadel_ability_uppercut",
+      "citadel_ability_bebop_laser_beam",
+      "citadel_ability_hook",
+      "citadel_ability_hook",
+      "citadel_ability_bebop_laser_beam",
+      "citadel_ability_bebop_laser_beam",
+      "citadel_ability_sticky_bomb",
+      "citadel_ability_sticky_bomb",
+      "citadel_ability_hook",
+      "citadel_ability_uppercut",
+      "citadel_ability_uppercut",
+      "citadel_ability_bebop_laser_beam",
+      "citadel_ability_sticky_bomb",
+      "citadel_ability_uppercut"
+    ],
     "recommended_upgrades": [
       "upgrade_clip_size",
       "upgrade_endurance",
@@ -7960,6 +8007,7 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_lifestrike_gauntlets",
       "upgrade_acolytes_glove",
@@ -8544,6 +8592,7 @@
       ]
     },
     "readability": 5,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_hollow_point_rounds",
       "upgrade_endurance",
@@ -9130,6 +9179,7 @@
       ]
     },
     "readability": 3,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_medic_bullets",
       "upgrade_magic_burst",
@@ -9710,6 +9760,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_health",
@@ -10299,6 +10350,7 @@
       ]
     },
     "readability": 0,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_health_stimpak",
       "upgrade_clip_size",
@@ -10876,6 +10928,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/kali.psd\"",
@@ -11439,6 +11492,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_close_range",
@@ -12029,6 +12083,7 @@
       ]
     },
     "readability": 0,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_endurance",
       "upgrade_close_range",
@@ -12617,6 +12672,7 @@
       ]
     },
     "readability": 2,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_magic_burst",
       "upgrade_non_player_bonus",
@@ -13196,6 +13252,7 @@
       ]
     },
     "readability": 3,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_non_player_bonus",
       "upgrade_magic_burst",
@@ -13776,6 +13833,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/gunslinger.psd\"",
@@ -14339,6 +14397,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/yakuza.psd\"",
@@ -14902,6 +14961,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/tokamak.psd\"",
@@ -15465,6 +15525,7 @@
       ]
     },
     "readability": 0,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_improved_spirit",
       "upgrade_clip_size",
@@ -16051,6 +16112,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/rutger.psd\"",
@@ -16614,6 +16676,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_health_stimpak",
       "upgrade_magic_burst",
@@ -17195,6 +17258,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/thumper.psd\"",
@@ -17758,6 +17822,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": [
       "upgrade_headshot_booster",
       "upgrade_hollow_point_rounds",
@@ -18341,6 +18406,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/slork.psd\"",
@@ -18904,6 +18970,7 @@
       ]
     },
     "readability": 1,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/cadence.psd\"",
@@ -19467,6 +19534,7 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": null,
@@ -20030,6 +20098,7 @@
       ]
     },
     "readability": 4,
+    "recommended_ability_order": null,
     "recommended_upgrades": null,
     "scaling_stats": {},
     "selection_image": null,
