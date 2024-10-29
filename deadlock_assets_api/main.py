@@ -18,7 +18,7 @@ if "SENTRY_DSN" in os.environ:
 
     sentry_sdk.init(
         dsn=os.environ["SENTRY_DSN"],
-        traces_sample_rate=1.0,
+        traces_sample_rate=0.2,
         _experiments={
             "continuous_profiling_auto_start": True,
         },
