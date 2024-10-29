@@ -64,17 +64,18 @@ def parse_vdata():
         os.makedirs(os.path.dirname(vdata_out_path), exist_ok=True)
         if not os.path.exists(vdata_out_path):
             shutil.copy(file_path, vdata_out_path)
-        file_path = vdata_out_path
 
-        with open(file_path) as f:
+        with open(vdata_out_path) as f:
             data = KV3Parser(f.read()).parse()
 
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         if create_raw:
+            with open(file_path) as f:
+                raw_data = KV3Parser(f.read()).parse()
             with open(
                 f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w"
             ) as f:
-                json.dump(data, f, indent=4)
+                json.dump(raw_data, f, indent=4)
 
         data = parse_func(data)
         if isinstance(data, list):
