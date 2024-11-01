@@ -99,6 +99,7 @@ mkdir -p images/hud
 cp -r "$citadel_folder"/panorama/images/heroes images/
 cp -r "$citadel_folder"/panorama/images/hud/*.png images/hud/
 cp "$citadel_folder"/panorama/images/hud/hero_portraits/* images/heroes/
+cp "$citadel_folder"/panorama/images/*.* images/
 cp -r "$citadel_folder"/panorama/images/hud/hero_portraits images/hud/
 
 mkdir -p images/abilities

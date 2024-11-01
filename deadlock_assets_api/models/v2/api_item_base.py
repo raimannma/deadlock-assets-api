@@ -18,6 +18,9 @@ def parse_img_path(v):
         split_index = v.find("upgrades/")
     if split_index == -1:
         split_index = v.find("hud/")
+    if split_index == -1:
+        _, v = v.split("{images}/")
+        split_index = 0
     v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
     if v.endswith(".png") and not v.endswith("_psd.png"):
         v = v.replace(".png", "_psd.png")
