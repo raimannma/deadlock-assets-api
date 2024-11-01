@@ -22,11 +22,12 @@ def parse_img_path(v):
         _, v = v.split("{images}/")
         split_index = 0
     v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
+    v = v.replace('"', "")
     if v.endswith(".png") and not v.endswith("_psd.png"):
         v = v.replace(".png", "_psd.png")
     else:
         v = v.replace(".psd", "_psd.png")
-    return v.replace('"', "")
+    return v
 
 
 class ItemBaseV2(BaseModel):
