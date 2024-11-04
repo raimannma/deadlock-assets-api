@@ -67,7 +67,7 @@ def load_raw_items(
     )
 
 
-ALL_CLIENT_VERSIONS = [int(b) for b in os.listdir("res/builds")]
+ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("res/builds")], reverse=True)
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )
