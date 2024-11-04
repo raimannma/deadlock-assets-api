@@ -13951,7 +13951,7 @@
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 37.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
@@ -15246,7 +15246,7 @@
       },
       "EMaxMoveSpeed": {
         "eScalingStat": "ETechPower",
-        "flScale": 0.032
+        "flScale": 0.025
       }
     },
     "m_mapStandardLevelUpUpgrades": {
@@ -17751,7 +17751,7 @@
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.573571,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 36.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
