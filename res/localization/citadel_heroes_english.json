@@ -1123,7 +1123,7 @@
       "citadel_ability_static_charge_desc": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
       "citadel_ability_static_charge_quip": "Apply a delayed area stun to an enemy hero",
       "citadel_ability_sticky_bomb": "Sticky Bomb",
-      "citadel_ability_sticky_bomb_desc": "Attach a Sticky Bomb to a nearby target that deals <span class=\"highlight\">explosive damage</span> after a short fuse time. <br><br>Gain <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% bomb damage</span> for every enemy hurt.<br>Gain <span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}% bomb damage</span> for every enemy hero killed within {s:KillCheckWindow}s of taking bomb damage.<br><br>Hold [{s:key_alt_cast}] to cast a Sticky Bomb on yourself.",
+      "citadel_ability_sticky_bomb_desc": "Attach a Sticky Bomb to a nearby target that deals <span class=\"highlight\">explosive damage</span> after a short fuse time. <br><br>Gain <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% bomb damage</span> for every enemy hero hurt.<br>Gain <span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}% bomb damage</span> for every enemy hero killed within {s:KillCheckWindow}s of taking bomb damage.<br><br>Hold [{s:key_alt_cast}] to cast a Sticky Bomb on yourself.",
       "citadel_ability_sticky_bomb_quip": "Plant a bomb on an enemy",
       "citadel_ability_sticky_bomb_t3_desc": "On Attach, <span class=\"highlight\">disarms</span> the target for <span class=\"highlight\">{s:DebuffDuration}s</span>",
       "citadel_ability_stomp": "Kinetic Pulse",
