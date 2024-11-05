@@ -6,13 +6,14 @@ authors = ["Manuel Raimann <raimannma@outlook.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
-fastapi = { extras = ["standard"], version = "^0.114.2" }
+python = "^3.12"
+fastapi = "^0.114.2"
 murmurhash2 = "^0.2.10"
 prometheus-fastapi-instrumentator = "^7.0.0"
 css-parser = "^1.0.10"
 stringcase = "^1.2.0"
-sentry-sdk = {version = "^2.17.0", extras = ["fastapi"]}
+sentry-sdk = {version = "^2.18.0", extras = ["fastapi"]}
+granian = "^1.6.3"
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"
