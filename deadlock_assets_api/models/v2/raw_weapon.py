@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
@@ -98,10 +98,10 @@ class RawWeaponInfoV2(BaseModel):
     scatter_yaw_scale: float | None = Field(
         None, validation_alias="m_flScatterYawScale"
     )
-    aiming_shot_spread_penalty: list[float] | None = Field(
+    aiming_shot_spread_penalty: list[float] | str | None = Field(
         None, validation_alias="m_AimingShootSpreadPenalty"
     )
-    standing_shot_spread_penalty: list[float] | None = Field(
+    standing_shot_spread_penalty: list[float] | str | None = Field(
         None, validation_alias="m_StandingShootSpreadPenalty"
     )
     shoot_move_speed_percent: float | None = Field(
@@ -143,6 +143,18 @@ class RawWeaponInfoV2(BaseModel):
     vertical_recoil: RawWeaponInfoVerticalRecoilV2 | None = Field(
         None, validation_alias="m_VerticalRecoil"
     )
+
+    @field_validator("aiming_shot_spread_penalty", "standing_shot_spread_penalty")
+    @classmethod
+    def validate_shot_spread_penalty(
+        cls, values: list[float] | str | None
+    ) -> list[float] | str | None:
+        if isinstance(values, str):
+            if len(values) == 0:
+                return None
+            if "," in values:
+                return list(map(float, values.split(",")))
+        return values
 
 
 class RawWeaponV2(RawItemBaseV2):

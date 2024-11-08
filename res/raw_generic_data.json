@@ -280,9 +280,9 @@
       0.4
     ],
     "m_TrooperHealthMult": [
-      1.5,
-      1.7,
-      1.9
+      1.95,
+      2.2,
+      2.5
     ],
     "m_flRejuvinatorBuffDuration": 180,
     "m_flRejuvinatorDropDuration": 9,
@@ -320,6 +320,7 @@
     "EMainMenuPartyPickHeroesConfirm": "soundevent:\"Menu.HeroSelection.Complete\"",
     "EMainMenuPartyPickHeroesEnter": "soundevent:\"Menu.HeroSelection.Enter\"",
     "EMainMenuPartyPickHeroesExit": "soundevent:\"UI.Matchmake.Find\"",
+    "EOtherPlayerPurchasesMod": "soundevent:\"UI.Notify.ItemPurchase\"",
     "EShopEnter": "soundevent:\"UI.Shop.Enter\"",
     "EShopExit": "soundevent:\"UI.Shop.Exit\"",
     "EShopExitAlarm": "soundevent:\"UI.Shop.ExitAlarm\"",
