@@ -58,6 +58,8 @@ class RankImagesV2(BaseModel):
         images = {
             f.replace("badge_", "")
             .replace("_psd.png", "")
+            .replace(".png", "")
+            .replace(".webp", "_webp")
             .replace("_psd.webp", "_webp")
             .replace("lg", "large")
             .replace("sm", "small"): f"{IMAGE_BASE_URL}/{image_folder}/{f}"

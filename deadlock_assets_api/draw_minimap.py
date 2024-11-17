@@ -59,12 +59,12 @@ def get_smoothed_lanes() -> list[LineString]:
 
 
 def add_background(ax: Axes):
-    background_img = plt.imread("images/maps/minimap_bg_psd.png")
-    ax.imshow(background_img, extent=[-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS])
-    mid_img = plt.imread("images/maps/minimap_mid_psd.png")
-    ax.imshow(mid_img, extent=[-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS])
-    frame_img = plt.imread("images/maps/minimap_frame_psd.png")
-    ax.imshow(frame_img, extent=[-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS])
+    background_img = plt.imread("images/maps/minimap_bg.png")
+    ax.imshow(background_img, extent=(-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS))
+    mid_img = plt.imread("images/maps/minimap_mid.png")
+    ax.imshow(mid_img, extent=(-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS))
+    frame_img = plt.imread("images/maps/minimap_frame.png")
+    ax.imshow(frame_img, extent=(-MAP_RADIUS, MAP_RADIUS, -MAP_RADIUS, MAP_RADIUS))
 
 
 def postprocess_minimap_img(img_path: str):

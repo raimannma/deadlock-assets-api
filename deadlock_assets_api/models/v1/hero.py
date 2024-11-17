@@ -314,7 +314,10 @@ class HeroV1(BaseModel):
             v = utils.strip_prefix(v, "heroes/")
             v = utils.strip_prefix(v, "hero_portraits/")
             v = utils.strip_prefix(v, "hud/")
-            v = v.replace('.psd"', "_psd.png")
+            v = v.replace('"', "")
+            v = v.replace("_psd.", ".")
+            v = v.replace("_png.", ".")
+            v = v.replace(".psd", ".png")
             return f"{IMAGE_BASE_URL}/heroes/{v}"
 
         return HeroImagesV1(**{k: parse_img_path(v) for k, v in img_dict.items()})

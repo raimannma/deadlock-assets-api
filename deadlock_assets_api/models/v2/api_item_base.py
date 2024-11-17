@@ -23,10 +23,9 @@ def parse_img_path(v):
         split_index = 0
     v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
     v = v.replace('"', "")
-    if v.endswith(".png") and not v.endswith("_psd.png"):
-        v = v.replace(".png", "_psd.png")
-    else:
-        v = v.replace(".psd", "_psd.png")
+    v = v.replace("_psd.", ".")
+    v = v.replace("_png.", ".")
+    v = v.replace(".psd", ".png")
     return v
 
 

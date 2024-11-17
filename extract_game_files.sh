@@ -123,5 +123,9 @@ for file in $(find images -type f -name "*.png"); do
     echo "Converted to webp: $new_file_path"
 done
 
+# Rename Images, replace "_psd." and "_png." with "."
+find images -type f -name "*_psd.*" -exec bash -c 'mv "$1" "${1/_psd./.}"' _ {} \;
+find images -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
+
 # Optimize images
 optipng -o2 images/**/*.png

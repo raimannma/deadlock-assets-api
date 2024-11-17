@@ -169,9 +169,9 @@ class MapV1(BaseModel):
             images=MapImagesV1(
                 minimap=f"{IMAGE_BASE_URL}/maps/minimap.png",
                 plain=f"{IMAGE_BASE_URL}/maps/minimap_plain.png",
-                background=f"{IMAGE_BASE_URL}/maps/minimap_bg_psd.png",
-                frame=f"{IMAGE_BASE_URL}/maps/minimap_frame_psd.png",
-                mid=f"{IMAGE_BASE_URL}/maps/minimap_mid_psd.png",
+                background=f"{IMAGE_BASE_URL}/maps/minimap_bg.png",
+                frame=f"{IMAGE_BASE_URL}/maps/minimap_frame.png",
+                mid=f"{IMAGE_BASE_URL}/maps/minimap_mid.png",
             ),
         )
 

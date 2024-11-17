@@ -392,11 +392,10 @@ class ItemV1(BaseModel):
             if split_index == -1:
                 split_index = self.image.find("hud/")
             self.image = f"{IMAGE_BASE_URL}/{self.image[split_index:]}"
-            if self.image.endswith(".png") and not self.image.endswith("_psd.png"):
-                self.image = self.image.replace(".png", "_psd.png")
-            else:
-                self.image = self.image.replace(".psd", "_psd.png")
             self.image = self.image.replace('"', "")
+            self.image = self.image.replace("_psd.", ".")
+            self.image = self.image.replace("_png.", ".")
+            self.image = self.image.replace(".psd", ".png")
         if self.video and "videos/" in self.video:
             self.video = f"{VIDEO_BASE_URL}/{self.video.split('videos/')[-1]}"
 

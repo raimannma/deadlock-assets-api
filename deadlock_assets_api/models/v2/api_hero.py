@@ -30,11 +30,11 @@ def extract_image_url(v: str) -> str | None:
     if split_index == -1:
         split_index = v.find("heroes/")
     v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
-    if v.endswith(".png") and not v.endswith("_psd.png"):
-        v = v.replace(".png", "_psd.png")
-    else:
-        v = v.replace(".psd", "_psd.png")
-    return v.replace('"', "")
+    v = v.replace('"', "")
+    v = v.replace("_psd.", ".")
+    v = v.replace("_png.", ".")
+    v = v.replace(".psd", ".png")
+    return v
 
 
 class HeroImagesV2(BaseModel):
