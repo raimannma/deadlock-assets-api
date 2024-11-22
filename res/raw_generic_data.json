@@ -280,7 +280,7 @@
       0.4
     ],
     "m_TrooperHealthMult": [
-      1.95,
+      1.7,
       2.2,
       2.5
     ],
@@ -343,11 +343,11 @@
   ],
   "m_flPostLanePhaseGoldShareFrac": [
     1.0,
-    0.7,
-    0.45,
-    0.33,
+    0.6,
+    0.35,
     0.25,
-    0.2
+    0.2,
+    0.16
   ],
   "m_mapDamageFlash": {
     "EFlashType_BulletDamage": {
