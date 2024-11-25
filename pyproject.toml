@@ -13,7 +13,7 @@ prometheus-fastapi-instrumentator = "^7.0.0"
 css-parser = "^1.0.10"
 stringcase = "^1.2.0"
 sentry-sdk = {version = "^2.19.0", extras = ["fastapi"]}
-granian = "^1.6.3"
+granian = "^1.6.4"
 
 [tool.poetry.group.parse.dependencies]
 kv3parser = "^1.1"
