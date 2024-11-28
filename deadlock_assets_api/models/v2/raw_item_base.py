@@ -1,4 +1,8 @@
-from pydantic import AliasChoices, BaseModel, ConfigDict, Field
+from functools import lru_cache
+
+import css_parser
+from css_parser.css import CSSRuleList, CSSStyleRule
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator
 
 
 class RawItemWeaponInfoBulletSpeedCurveSplineV2(BaseModel):
@@ -48,6 +52,36 @@ class RawItemPropertyV2(BaseModel):
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
 
+@lru_cache
+def parse_css_rules(filename: str) -> CSSRuleList:
+    return css_parser.parseFile(filename).cssRules
+
+
+def parse_css_ability_icon(class_name: str) -> str | None:
+    for rule in parse_css_rules("res/ability_icons.css"):
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        css_class = next(
+            (
+                s
+                for s in " ".join(rule.selectorText.split(".")).split(" ")
+                if s == class_name
+            ),
+            None,
+        )
+        if css_class is None:
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = background_image.replace("_psd.vtex", ".psd")
+        background_image = background_image.split("images/")[-1]
+        return 'panorama:"file://{images}/' + background_image + '"'
+    return None
+
+
 class RawItemBaseV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -61,3 +95,18 @@ class RawItemBaseV2(BaseModel):
     weapon_info: RawItemWeaponInfoV2 | None = Field(
         None, validation_alias="m_WeaponInfo"
     )
+    css_class: str | None = Field(None, validation_alias="m_strCSSClass")
+
+    @model_validator(mode="after")
+    def check_image_path(self):
+        if (
+            self.image is not None
+            and self.css_class is not None
+            and self.css_class != ""
+        ):
+            try:
+                css_image = parse_css_ability_icon(self.css_class)
+                self.image = css_image or self.image
+            except Exception as e:
+                print(f"Failed to parse css for {self.css_class}: {e}")
+        return self

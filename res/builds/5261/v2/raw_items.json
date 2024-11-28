@@ -1,6 +1,7 @@
 [
   {
     "class_name": "citadel_weapon_bosstier2_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -210,6 +211,7 @@
   },
   {
     "class_name": "citadel_weapon_bosstier3_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -419,6 +421,7 @@
   },
   {
     "class_name": "citadel_weapon_rutger_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -634,6 +637,7 @@
   },
   {
     "class_name": "citadel_weapon_kali_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -849,6 +853,7 @@
   },
   {
     "class_name": "citadel_weapon_gunslinger_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -1058,6 +1063,7 @@
   },
   {
     "class_name": "citadel_weapon_yakuza_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -1267,6 +1273,7 @@
   },
   {
     "class_name": "citadel_weapon_architect_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -1479,6 +1486,7 @@
   },
   {
     "class_name": "citadel_weapon_thumper_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -1699,6 +1707,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "ability_medic_trooper_heal",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -1901,6 +1910,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "ability_golden_idol",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_lift.psd\"",
     "properties": {
@@ -2103,6 +2113,7 @@
     "ability_type": "item",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
     "class_name": "ability_item_pickup_effects",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -2260,6 +2271,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_zip_line",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -2588,6 +2600,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_STARTS_ON_COOLDOWN",
     "class_name": "citadel_ability_zipline_boost",
+    "css_class": "ziplineMastery",
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/zipline_mastery.psd\"",
     "properties": {
@@ -2745,6 +2758,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_trooper_zip_line",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3073,6 +3087,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_mantle",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3230,6 +3245,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_climb_rope",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3387,6 +3403,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_jump",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3589,6 +3606,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_sprint",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3746,6 +3764,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_dash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -3957,6 +3976,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_slide",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -4114,6 +4134,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_butcher",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -4298,6 +4319,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_kali",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -4482,6 +4504,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_butcher",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -4666,6 +4689,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_gunslinger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -4850,6 +4874,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_yakuza",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -5034,6 +5059,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_thumper",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -5218,6 +5244,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_architect",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -5402,6 +5429,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_melee_parry",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -5586,6 +5614,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
     "class_name": "citadel_ability_tier2boss_rocket_barrage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_rockets.psd\"",
     "properties": {
@@ -5833,6 +5862,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_tier2boss_laser_beam",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_rockets.psd\"",
     "properties": {
@@ -6044,6 +6074,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_tier2boss_stomp",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -6237,6 +6268,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_tier3boss_laser_beam",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_rockets.psd\"",
     "properties": {
@@ -6412,6 +6444,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_tier3boss_damage_pulse",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -6569,6 +6602,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "rutger_rocket",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/rutger/rutger_rocket_launcher.psd\"",
     "properties": {
@@ -6892,6 +6926,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "rutger_force_field",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/rutger/rutger_force_field.psd\"",
     "properties": {
@@ -7170,6 +7205,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "rutger_cheat_death",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/rutger/rutger_cheat_death.psd\"",
     "properties": {
@@ -7385,8 +7421,9 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "rutger_pulse",
+    "css_class": "empWave",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/rutger/rutger_pulse.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_utility/emp_wave.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -7636,6 +7673,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
     "class_name": "citadel_ability_kali_spinning_blade",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kali/kali_oscilloblade.psd\"",
     "properties": {
@@ -7971,6 +8009,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_kali_dust_storm",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kali/kali_whirling_blade.psd\"",
     "properties": {
@@ -8309,6 +8348,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_kali_disruptive_charge",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kali/kali_speed_burst.psd\"",
     "properties": {
@@ -8542,6 +8582,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_kali_trappers_bolo",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bebop/bebop_sticky_bomb.psd\"",
     "properties": {
@@ -8853,6 +8894,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
     "class_name": "gunslinger_rapid_fire",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -9082,6 +9124,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE",
     "class_name": "gunslinger_rocket_launcher",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -9302,6 +9345,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "gunslinger_tenacity",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -9477,6 +9521,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": null,
     "class_name": "gunslinger_sleep_bomb",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -9679,6 +9724,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
     "class_name": "yakuza_kobun",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/theboss/the_boss_hired_muscle.psd\"",
     "properties": {
@@ -9930,6 +9976,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "yakuza_shakedown_target",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/theboss/the_boss_shakedown.psd\"",
     "properties": {
@@ -10190,6 +10237,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "yakuza_shakedown",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_rockets.psd\"",
     "properties": {
@@ -10347,6 +10395,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": null,
     "class_name": "yakuza_setting_sun",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/theboss/the_boss_setting_sun.psd\"",
     "properties": {
@@ -10625,6 +10674,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "yakuza_gang_activity",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -10782,6 +10832,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "yakuza_gang_activity_cancel",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/duo/duo_cancel.psd\"",
     "properties": {
@@ -10939,6 +10990,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "yakuza_summon_gangster",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -11105,6 +11157,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "yakuza_teleport_to_gangster",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -11262,6 +11315,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
     "class_name": "yakuza_fealty",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -11437,6 +11491,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD|CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY|CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
     "class_name": "yakuza_protection_racket",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/theboss/the_boss_protection_racket.psd\"",
     "properties": {
@@ -11667,6 +11722,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
     "class_name": "thumper_ability_1",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/thumper/thumper_ability_1.psd\"",
     "properties": {
@@ -11933,6 +11989,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "thumper_ability_2",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/thumper/thumper_ability_2.psd\"",
     "properties": {
@@ -12238,6 +12295,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
     "class_name": "thumper_ability_3",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/thumper/thumper_ability_3.psd\"",
     "properties": {
@@ -12453,6 +12511,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "thumper_ability_4",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/thumper/thumper_ability_4.psd\"",
     "properties": {
@@ -12722,6 +12781,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_genericperson",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -12904,6 +12964,7 @@
   },
   {
     "class_name": "weapon_alternative_rmb_activate",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -13113,6 +13174,7 @@
   },
   {
     "class_name": "weapon_alternative_rmb+lmb_activate",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -13322,6 +13384,7 @@
   },
   {
     "class_name": "citadel_weapon_astro_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -13537,6 +13600,7 @@
   },
   {
     "class_name": "citadel_weapon_astro_set_shotgun_shared_weapon_info",
+    "css_class": null,
     "image": null,
     "properties": null,
     "start_trained": null,
@@ -13628,6 +13692,7 @@
   },
   {
     "class_name": "citadel_weapon_astro_set_shotgun",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -13897,6 +13962,7 @@
   },
   {
     "class_name": "citadel_weapon_astro_set_shotgun_backwards",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -14204,6 +14270,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_astro",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -14388,6 +14455,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_explosive_barrel",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/inferno_bomb_v2.psd\"",
     "properties": {
@@ -14723,6 +14791,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "ability_bounce_pad",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/astro/bounce_pad.psd\"",
     "properties": {
@@ -15067,6 +15136,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
     "class_name": "ability_target_practice",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/longshot.psd\"",
     "properties": {
@@ -15333,6 +15403,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
     "class_name": "citadel_ability_running_decoy",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/astro/decoy.psd\"",
     "properties": {
@@ -15557,6 +15628,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
     "class_name": "ability_gravity_lasso",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/astro/gravity_lasso.psd\"",
     "properties": {
@@ -15877,6 +15949,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "ability_astro_shotgun_toggle",
+    "css_class": null,
     "dependant_abilities": [
       "citadel_weapon_astro_set_shotgun",
       "citadel_weapon_astro_set_shotgun_backwards"
@@ -16146,6 +16219,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
     "class_name": "ability_astro_rifle",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/hornet/hornet_assassinate.psd\"",
     "properties": {
@@ -16400,6 +16474,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_hat_trick",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/archer/archer_guided_arrow.psd\"",
     "properties": {
@@ -16622,6 +16697,7 @@
   },
   {
     "class_name": "citadel_weapon_bull_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -16839,6 +16915,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_bull",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -17023,6 +17100,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "citadel_ability_bull_charge",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bull_charge.psd\"",
     "properties": {
@@ -17343,6 +17421,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "citadel_ability_passive_beefy",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bull_beef.psd\"",
     "properties": {
@@ -17585,6 +17664,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "citadel_ability_bull_leap",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bull_jump.psd\"",
     "properties": {
@@ -17866,6 +17946,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_bull_heal",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bull_drain.psd\"",
     "properties": {
@@ -18097,6 +18178,7 @@
   },
   {
     "class_name": "citadel_weapon_bebop_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -18326,6 +18408,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_bebop",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -18510,6 +18593,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_uppercut",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bebop/bebop_uppercut.psd\"",
     "properties": {
@@ -18863,6 +18947,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_sticky_bomb",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bebop/bebop_sticky_bomb.psd\"",
     "properties": {
@@ -19123,6 +19208,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
     "class_name": "citadel_ability_bebop_laser_beam",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bebop/bebop_hyper_beam.psd\"",
     "properties": {
@@ -19488,6 +19574,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
     "class_name": "citadel_ability_hook",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/bebop/bebop_hook.psd\"",
     "properties": {
@@ -19815,6 +19902,7 @@
   },
   {
     "class_name": "citadel_weapon_bomber_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -20032,6 +20120,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_bomber",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -20216,6 +20305,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_charged_bomb",
+    "css_class": null,
     "dependant_abilities": [
       "ability_charged_bomb_throw"
     ],
@@ -20460,6 +20550,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
     "class_name": "ability_charged_bomb_throw",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_fissure_2_activate.psd\"",
     "properties": {
@@ -20617,6 +20708,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_bomber_ability02",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -20805,6 +20897,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_bomber_ability03",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -20993,8 +21086,9 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_bomber_ult",
+    "css_class": "detentionRounds",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/nano/nano_tunnel_vision.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -21179,6 +21273,7 @@
   },
   {
     "class_name": "citadel_weapon_cadence_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -21432,6 +21527,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_cadence",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -21616,6 +21712,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "cadence_ability_anthem",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/cadence/cadence_ability_1.psd\"",
     "properties": {
@@ -21840,6 +21937,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "cadence_ability_lullaby",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/cadence/cadence_ability_3.psd\"",
     "properties": {
@@ -22073,6 +22171,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "cadence_ability_silencecontraptions",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/cadence/cadence_ability_2.psd\"",
     "properties": {
@@ -22315,6 +22414,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "cadence_ability_grandfinale",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/cadence/cadence_ability_4.psd\"",
     "properties": {
@@ -22575,6 +22675,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "cadence_ability_crescendo",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/cadence/cadence_ability_4.psd\"",
     "properties": {
@@ -22797,6 +22898,7 @@
   },
   {
     "class_name": "citadel_weapon_chrono_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -23014,6 +23116,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_chrono",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -23198,6 +23301,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_chrono_pulse_grenade",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/chrono/chrono_time_bomb.psd\"",
     "properties": {
@@ -23482,6 +23586,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_chrono_time_wall",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/chrono/chrono_time_wall.psd\"",
     "properties": {
@@ -23802,6 +23907,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_chrono_kinetic_carbine",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/duo/duo_attack.psd\"",
     "properties": {
@@ -24140,6 +24246,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "citadel_ability_chrono_swap",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/chrono/chrono_swap.psd\"",
     "properties": {
@@ -24398,6 +24505,7 @@
   },
   {
     "class_name": "citadel_weapon_sumo_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -24615,6 +24723,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_sumo",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -24799,6 +24908,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
     "class_name": "citadel_ability_stomp",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_stomp.psd\"",
     "properties": {
@@ -25131,8 +25241,9 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_void_sphere",
+    "css_class": "stasis",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_quantum.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -25379,6 +25490,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "citadel_ability_charged_tackle",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_charge.psd\"",
     "properties": {
@@ -25711,6 +25823,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_nikuman",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_pork_bun.psd\"",
     "properties": {
@@ -25965,6 +26078,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_self_vacuum",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/sumo/sumo_vacuum.psd\"",
     "properties": {
@@ -26223,6 +26337,7 @@
   },
   {
     "class_name": "citadel_weapon_engineer_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -26440,6 +26555,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_engineer",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -26624,6 +26740,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_mobile_resupply",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_resupply.psd\"",
     "properties": {
@@ -26866,6 +26983,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_shieldedsentry",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_turret.psd\"",
     "properties": {
@@ -27255,6 +27373,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
     "class_name": "citadel_ability_fissure_wall",
+    "css_class": null,
     "dependant_abilities": [
       "citadel_ability_fissure_wall_trigger",
       "citadel_ability_fissure_wall_cancel"
@@ -27584,6 +27703,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
     "class_name": "citadel_ability_fissure_wall_trigger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_fissure_2_activate.psd\"",
     "properties": {
@@ -27741,6 +27861,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST",
     "class_name": "citadel_ability_fissure_wall_cancel",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -27898,6 +28019,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_rocket_barrage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_rockets.psd\"",
     "properties": {
@@ -28261,6 +28383,7 @@
   },
   {
     "class_name": "citadel_weapon_genericperson_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -28476,6 +28599,7 @@
   },
   {
     "class_name": "citadel_weapon_ghost_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -28693,6 +28817,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_ghost",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -28877,6 +29002,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_blood_bomb",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/spectre/blood_bomb.psd\"",
     "properties": {
@@ -29161,6 +29287,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_blood_shards",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/haze/haze_sleep_dagger.psd\"",
     "properties": {
@@ -29436,6 +29563,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST",
     "class_name": "ability_life_drain",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/spectre/life_drain.psd\"",
     "properties": {
@@ -29678,6 +29806,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "ability_death_tax",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/spectre/death_tax.psd\"",
     "properties": {
@@ -29923,6 +30052,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_health_swap",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/spectre/blood_exchange.psd\"",
     "properties": {
@@ -30211,6 +30341,7 @@
   },
   {
     "class_name": "citadel_weapon_gigawatt_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -30428,6 +30559,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_gigawatt",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -30612,6 +30744,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_lightning_ball",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/giga_ball.psd\"",
     "properties": {
@@ -30878,6 +31011,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
     "class_name": "citadel_ability_static_charge",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/giga_static.psd\"",
     "properties": {
@@ -31111,6 +31245,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "citadel_ability_chain_lightning",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/giga_chain.psd\"",
     "properties": {
@@ -31335,6 +31470,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "ability_power_surge",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/giga_chain.psd\"",
     "properties": {
@@ -31625,6 +31761,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_storm_cloud",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/giga_storm.psd\"",
     "properties": {
@@ -31907,6 +32044,7 @@
   },
   {
     "class_name": "citadel_weapon_haze_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -32124,6 +32262,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_haze",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -32308,6 +32447,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_sleep_dagger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/haze/haze_sleep_dagger.psd\"",
     "properties": {
@@ -32655,6 +32795,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP",
     "class_name": "citadel_ability_poison_bullets",
+    "css_class": null,
     "dependant_abilities": null,
     "image": null,
     "properties": {
@@ -32848,6 +32989,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
     "class_name": "ability_smoke_bomb",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/haze/haze_smoke_bomb.psd\"",
     "properties": {
@@ -33150,6 +33292,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "ability_stacking_damage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/haze/haze_fixation.psd\"",
     "properties": {
@@ -33431,6 +33574,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
     "class_name": "ability_bullet_flurry",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/haze/haze_bullet_flurry.psd\"",
     "properties": {
@@ -33668,6 +33812,7 @@
   },
   {
     "class_name": "citadel_weapon_hornet_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -33885,6 +34030,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_hornet",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -34069,6 +34215,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "citadel_ability_wing_blast",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wasp_sonic.psd\"",
     "properties": {
@@ -34302,6 +34449,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_hornet_chain",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/pestilence/pestilence_chain.psd\"",
     "properties": {
@@ -34553,6 +34701,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
     "class_name": "citadel_ability_hornet_leap",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wasp_flight.psd\"",
     "properties": {
@@ -34831,6 +34980,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_hornet_sting",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/hornet/hornet_crow.psd\"",
     "properties": {
@@ -35127,6 +35277,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_hornet_snipe",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/hornet/hornet_assassinate.psd\"",
     "properties": {
@@ -35441,6 +35592,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "citadel_ability_hornet_mark",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wasp_mark.psd\"",
     "properties": {
@@ -35636,6 +35788,7 @@
   },
   {
     "class_name": "citadel_weapon_inferno_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -35853,6 +36006,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_inferno",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -36037,6 +36191,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_fire_bomb",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/inferno_bomb.psd\"",
     "properties": {
@@ -36300,6 +36455,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "ability_flame_dash",
+    "css_class": null,
     "dependant_abilities": [
       "ability_flame_dash_cancel_trigger"
     ],
@@ -36640,6 +36796,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
     "class_name": "ability_flame_dash_cancel_trigger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -36797,6 +36954,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "ability_incendiary_projectile",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/inferno_molotov.psd\"",
     "properties": {
@@ -37114,6 +37272,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_afterburn",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/inferno_deflect.psd\"",
     "properties": {
@@ -37363,6 +37522,7 @@
   },
   {
     "class_name": "citadel_weapon_kelvin_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -37580,6 +37740,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_kelvin",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -37764,6 +37925,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DONT_AIM_FACING_ENEMY",
     "class_name": "ability_icebeam",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/ice_beam.psd\"",
     "properties": {
@@ -38090,6 +38252,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE |  CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "ability_icepath",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/ice_path.psd\"",
     "properties": {
@@ -38452,6 +38615,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_ice_grenade",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/freezing_grenade.psd\"",
     "properties": {
@@ -38691,6 +38855,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_ice_dome",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/frozen_shelter.psd\"",
     "properties": {
@@ -38955,6 +39120,7 @@
   },
   {
     "class_name": "citadel_weapon_lash_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -39172,6 +39338,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_lash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -39356,6 +39523,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "citadel_ability_lash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_lash.psd\"",
     "properties": {
@@ -39637,6 +39805,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_lash_down_strike",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_death_slam.psd\"",
     "properties": {
@@ -39954,6 +40123,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_lash_ultimate",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_counter_lash.psd\"",
     "properties": {
@@ -40313,6 +40483,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "ability_lash_flog",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_whip.psd\"",
     "properties": {
@@ -40574,6 +40745,7 @@
   },
   {
     "class_name": "citadel_weapon_mirage_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -40791,6 +40963,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "mirage_tornado",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/mirage/mirage_tornado.psd\"",
     "properties": {
@@ -41159,6 +41332,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "mirage_sand_phantom",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/mirage/mirage_sand_phantom.psd\"",
     "properties": {
@@ -41455,6 +41629,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
     "class_name": "mirage_fire_beetles",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/mirage/mirage_fire_beetles.psd\"",
     "properties": {
@@ -41769,6 +41944,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
     "class_name": "mirage_teleport",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/teleport_icon.png\"",
     "properties": {
@@ -42000,6 +42176,7 @@
   },
   {
     "class_name": "citadel_weapon_digger_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -42217,6 +42394,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_digger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -42401,6 +42579,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_intimidate",
+    "css_class": "mokrillScorn",
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/grappler/grappler_regen.psd\"",
     "properties": {
@@ -42658,6 +42837,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_ON_CHANNEL_END",
     "class_name": "ability_burrow",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/grappler/grappler_spin.psd\"",
     "properties": {
@@ -42966,6 +43146,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "ability_throw_sand",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/grappler/grappler_throw_sand.psd\"",
     "properties": {
@@ -43199,6 +43380,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_ult_combo",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/grappler/grappler_combo.psd\"",
     "properties": {
@@ -43427,6 +43609,7 @@
   },
   {
     "class_name": "citadel_weapon_nano_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -43642,6 +43825,7 @@
   },
   {
     "class_name": "citadel_weapon_nano_alt",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -43859,6 +44043,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_nano",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -44043,6 +44228,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
     "class_name": "ability_perched_predator",
+    "css_class": null,
     "dependant_abilities": [
       "ability_perched_predator_trigger"
     ],
@@ -44341,6 +44527,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
     "class_name": "ability_perched_predator_trigger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/engineer_fissure_2_activate.psd\"",
     "properties": {
@@ -44498,6 +44685,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_rolling_fireball",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/high_velocity_mag.psd\"",
     "properties": {
@@ -44704,6 +44892,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "ability_nano_pounce",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_warp.psd\"",
     "properties": {
@@ -45021,6 +45210,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
     "class_name": "ability_nano_proximity_ritual",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -45377,8 +45567,9 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "ability_nano_shadow_step",
+    "css_class": "detentionRounds",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/slork/slork_invis.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -45707,6 +45898,7 @@
   },
   {
     "class_name": "citadel_weapon_archer_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -45924,6 +46116,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_archer",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -46108,6 +46301,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_charged_shot",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/archer/archer_charged_shot.psd\"",
     "properties": {
@@ -46365,6 +46559,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
     "class_name": "ability_power_jump",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/archer/archer_power_jump.psd\"",
     "properties": {
@@ -46697,6 +46892,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_immobilize_trap",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/archer/imobolize_trap.psd\"",
     "properties": {
@@ -47017,6 +47213,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
     "class_name": "ability_guided_arrow",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/archer/archer_guided_arrow.psd\"",
     "properties": {
@@ -47248,6 +47445,7 @@
   },
   {
     "class_name": "citadel_weapon_shiv_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -47463,6 +47661,7 @@
   },
   {
     "class_name": "citadel_weapon_shiv_alt",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -47680,6 +47879,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_shiv",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -47864,6 +48064,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
     "class_name": "citadel_ability_shiv_dagger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/shiv/shiv_toss.psd\"",
     "properties": {
@@ -48121,6 +48322,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
     "class_name": "citadel_ability_shiv_dash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/shiv/shiv_flash.psd\"",
     "properties": {
@@ -48447,6 +48649,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_CONSUME_ABILITY_RESOURCE_ON_CAST",
     "class_name": "citadel_ability_shiv_defer_damage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/rutger/rutger_cheat_death.psd\"",
     "properties": {
@@ -48671,6 +48874,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_shiv_killing_blow",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/shiv/shiv_killing_blow.psd\"",
     "properties": {
@@ -49043,6 +49247,7 @@
   },
   {
     "class_name": "citadel_weapon_shieldguy_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -49260,6 +49465,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_shieldguy",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -49444,6 +49650,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_shieldguy_ability01",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -49632,6 +49839,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_shieldguy_ability02",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -49820,6 +50028,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_shieldguy_ability03",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/nano/nano_roller_bomb.psd\"",
     "properties": {
@@ -50008,8 +50217,9 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_shieldguy_ult",
+    "css_class": "detentionRounds",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/nano/nano_tunnel_vision.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -50194,6 +50404,7 @@
   },
   {
     "class_name": "citadel_weapon_slork_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -50501,6 +50712,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "slork_scald",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/slork/slork_scald.psd\"",
     "properties": {
@@ -50764,6 +50976,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "slork_raging_current",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/slork/slork_current.psd\"",
     "properties": {
@@ -51042,6 +51255,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT",
     "class_name": "ability_chomp_cast_dash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -51208,6 +51422,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "slork_last_breath",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/slork/slork_current.psd\"",
     "properties": {
@@ -51423,6 +51638,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
     "class_name": "slork_chomp",
+    "css_class": null,
     "dependant_abilities": [
       "ability_chomp_cast_dash"
     ],
@@ -51712,6 +51928,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY",
     "class_name": "slork_ability_invis",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/slork/slork_invis.psd\"",
     "properties": {
@@ -52035,6 +52252,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "slork_riptide",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/slork/slork_scald.psd\"",
     "properties": {
@@ -52335,6 +52553,7 @@
   },
   {
     "class_name": "citadel_weapon_slork_alt",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -52550,6 +52769,7 @@
   },
   {
     "class_name": "citadel_weapon_synth_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -52767,6 +52987,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
     "class_name": "synth_plasma_flux",
+    "css_class": null,
     "dependant_abilities": [
       "synth_plasma_flux_trigger"
     ],
@@ -53017,6 +53238,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
     "class_name": "synth_plasma_flux_trigger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -53174,8 +53396,9 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
     "class_name": "synth_pulse",
+    "css_class": "mokrillScorn",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/synth/synth_pulse.psd\"",
+    "image": "panorama:\"file://{images}/hud/abilities/grappler/grappler_regen.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -53413,6 +53636,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
     "class_name": "synth_grasp",
+    "css_class": null,
     "dependant_abilities": [
       "synth_grasp_cancel"
     ],
@@ -53687,6 +53911,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
     "class_name": "synth_grasp_cancel",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -53844,6 +54069,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "synth_barrage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/synth/synth_barrage.psd\"",
     "properties": {
@@ -54155,6 +54381,7 @@
     "ability_type": "signature",
     "behaviour_bits": "",
     "class_name": "synth_blitz",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/synth/synth_blitz.psd\"",
     "properties": {
@@ -54409,6 +54636,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "synth_affliction",
+    "css_class": "synthAffliction",
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/synth/synth_affliction.psd\"",
     "properties": {
@@ -54664,6 +54892,7 @@
   },
   {
     "class_name": "citadel_weapon_tengu_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -54881,6 +55110,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_tengu",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -55065,6 +55295,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_tangotether",
+    "css_class": null,
     "dependant_abilities": [
       "citadel_ability_tangotether_trigger"
     ],
@@ -55318,6 +55549,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
     "class_name": "citadel_ability_tangotether_trigger",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/astro/gravity_lasso.psd\"",
     "properties": {
@@ -55475,6 +55707,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_tengu_urn",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tengu/tengu_storm_flask.psd\"",
     "properties": {
@@ -55723,8 +55956,9 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
     "class_name": "citadel_ability_tengu_stone_form",
+    "css_class": "stasis",
     "dependant_abilities": null,
-    "image": "panorama:\"file://{images}/hud/abilities/tengu/tengu_stone_form.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "properties": {
       "AbilityCastDelay": {
         "can_set_token_override": true,
@@ -56016,6 +56250,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
     "class_name": "citadel_ability_tengu_airlift",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tengu/tengu_lightning_crash.psd\"",
     "properties": {
@@ -56349,6 +56584,7 @@
   },
   {
     "class_name": "citadel_weapon_tokamak_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -56566,6 +56802,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_tokamak",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -56750,6 +56987,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY|CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "tokamak_hot_shot",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_hot_shot.psd\"",
     "properties": {
@@ -57019,6 +57257,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "tokamak_breach",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_breach.psd\"",
     "properties": {
@@ -57351,6 +57590,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "tokamak_radiance",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_blinding_radiance.psd\"",
     "properties": {
@@ -57608,6 +57848,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "tokamak_heat_sinks",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_heat_sinks.psd\"",
     "properties": {
@@ -57892,6 +58133,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "tokamak_heat_sinks_inherent",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -58094,6 +58336,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "tokamak_dying_star",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_dying_star.psd\"",
     "properties": {
@@ -58324,6 +58567,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "tokamak_crimson_cannon",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_crimson_cannon.psd\"",
     "properties": {
@@ -58579,6 +58823,7 @@
   },
   {
     "class_name": "citadel_weapon_viscous_alt",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -58884,6 +59129,7 @@
   },
   {
     "class_name": "citadel_weapon_viscous_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -59099,6 +59345,7 @@
   },
   {
     "class_name": "citadel_weapon_viscous_set_2",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -59316,6 +59563,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_viscous",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -59500,6 +59748,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "viscous_goo_grenade",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/viscous/viscous_goo_ball.psd\"",
     "properties": {
@@ -59793,6 +60042,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "viscous_restorative_goo",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/viscous/viscous_restorative_goo.psd\"",
     "properties": {
@@ -60143,6 +60393,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
     "class_name": "viscous_goo_puddle",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/viscous/viscous_goo_puddle.psd\"",
     "properties": {
@@ -60376,6 +60627,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
     "class_name": "viscous_goo_bowling_ball",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/viscous/viscous_goo_sphere.psd\"",
     "properties": {
@@ -60735,6 +60987,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "viscous_telepunch",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/damage_melee.psd\"",
     "properties": {
@@ -61026,6 +61279,7 @@
   },
   {
     "class_name": "citadel_weapon_warden_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -61243,6 +61497,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_warden",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -61427,6 +61682,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "ability_warden_lock_down",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/warden/warden_lock_down.psd\"",
     "properties": {
@@ -61675,6 +61931,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "ability_warden_high_alert",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/warden/warden_high_alert.psd\"",
     "properties": {
@@ -61887,6 +62144,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_warden_crowd_control",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/warden/warden_crowd_control.psd\"",
     "properties": {
@@ -62162,6 +62420,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_warden_riot_protocol",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/warden/warden_riot_protocol.psd\"",
     "properties": {
@@ -62420,6 +62679,7 @@
   },
   {
     "class_name": "citadel_weapon_wraith_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -62637,6 +62897,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "citadel_ability_melee_wraith",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -62821,6 +63082,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_psychic_lift",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_lift.psd\"",
     "properties": {
@@ -63036,6 +63298,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_projectmind",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_teleport.psd\"",
     "properties": {
@@ -63272,6 +63535,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
     "class_name": "citadel_ability_psychic_daggers",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_daggers.psd\"",
     "properties": {
@@ -63568,6 +63832,7 @@
     "ability_type": "signature",
     "behaviour_bits": "",
     "class_name": "citadel_ability_wraith_rapidfire",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_aura.psd\"",
     "properties": {
@@ -63801,6 +64066,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
     "class_name": "citadel_ability_card_toss",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wraith_card_trick.psd\"",
     "properties": {
@@ -64097,6 +64363,7 @@
     "ability_type": "signature",
     "behaviour_bits": null,
     "class_name": "citadel_ability_psychic_pulse",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/tokamak/tokamak_blinding_radiance.psd\"",
     "properties": {
@@ -64292,6 +64559,7 @@
   },
   {
     "class_name": "citadel_weapon_wrecker_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -64509,6 +64777,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_wrecker",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -64693,6 +64962,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_wrecking_ball",
+    "css_class": null,
     "dependant_abilities": [
       "ability_wrecking_ball_throw"
     ],
@@ -64937,6 +65207,7 @@
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
     "class_name": "ability_wrecking_ball_throw",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/ability_activate.psd\"",
     "properties": {
@@ -65094,6 +65365,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
     "class_name": "ability_wrecker_salvage",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wrecker/salvage.psd\"",
     "properties": {
@@ -65336,6 +65608,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "ability_scrap_blast",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wrecker/scrap_blast.psd\"",
     "properties": {
@@ -65560,6 +65833,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_wrecker_ultimate",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wrecker/wrecking_crew.psd\"",
     "properties": {
@@ -65874,6 +66148,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_PROJECTILE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "ability_wrecker_teleport",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/wrecker/wrecking_crew.psd\"",
     "properties": {
@@ -66096,6 +66371,7 @@
   },
   {
     "class_name": "citadel_weapon_yamato_set",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -66344,6 +66620,7 @@
   },
   {
     "class_name": "citadel_weapon_yamato_alt",
+    "css_class": null,
     "image": "panorama:\"file://{images}/hud/abilities/weapon_damage.psd\"",
     "properties": {
       "AbilityCastDelay": {
@@ -66558,6 +66835,7 @@
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
     "class_name": "ability_melee_yamato",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/melee_damage.psd\"",
     "properties": {
@@ -66742,6 +67020,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
     "class_name": "citadel_ability_power_slash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/yamato/yamato_power_slash.psd\"",
     "properties": {
@@ -67050,6 +67329,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
     "class_name": "citadel_ability_flying_strike",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/yamato/yamato_flying_strike.psd\"",
     "properties": {
@@ -67289,6 +67569,7 @@
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
     "class_name": "citadel_ability_healing_slash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/yamato/yamato_crimson_slash.psd\"",
     "properties": {
@@ -67531,6 +67812,7 @@
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
     "class_name": "citadel_ability_infinity_slash",
+    "css_class": null,
     "dependant_abilities": null,
     "image": "panorama:\"file://{images}/hud/abilities/yamato/yamato_blinding_steel.psd\"",
     "properties": {
@@ -67735,6 +68017,7 @@
   },
   {
     "class_name": "weapon_upgrade_t1",
+    "css_class": null,
     "image": null,
     "properties": {
       "AbilityCastDelay": {
@@ -67938,6 +68221,7 @@
   },
   {
     "class_name": "weapon_upgrade_t2",
+    "css_class": null,
     "image": null,
     "properties": {
       "AbilityCastDelay": {
@@ -68141,6 +68425,7 @@
   },
   {
     "class_name": "weapon_upgrade_t3",
+    "css_class": null,
     "image": null,
     "properties": {
       "AbilityCastDelay": {
@@ -68344,6 +68629,7 @@
   },
   {
     "class_name": "weapon_upgrade_t4",
+    "css_class": null,
     "image": null,
     "properties": {
       "AbilityCastDelay": {
@@ -68549,6 +68835,7 @@
     "activation": "passive",
     "class_name": "upgrade_clip_size",
     "component_items": null,
+    "css_class": "clipSize",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
     "item_slot_type": "weapon",
@@ -68724,6 +69011,7 @@
     "activation": "passive",
     "class_name": "upgrade_non_player_bonus",
     "component_items": null,
+    "css_class": "reaperRounds",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/reaper_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -68917,6 +69205,7 @@
     "activation": "passive",
     "class_name": "upgrade_ammo_scavenger",
     "component_items": null,
+    "css_class": "ammoScavenger",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ammo_scavenger.psd\"",
     "item_slot_type": "spirit",
@@ -69119,6 +69408,7 @@
     "activation": "passive",
     "class_name": "upgrade_clip_size_fixed",
     "component_items": null,
+    "css_class": "clipSize",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
     "item_slot_type": "weapon",
@@ -69285,6 +69575,7 @@
     "activation": "passive",
     "class_name": "upgrade_clip_size_fixed_t3",
     "component_items": null,
+    "css_class": "clipSize",
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -69451,6 +69742,7 @@
     "activation": "passive",
     "class_name": "upgrade_chain_lightning",
     "component_items": null,
+    "css_class": "electrifiedBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -69680,6 +69972,7 @@
     "activation": "passive",
     "class_name": "upgrade_galvanic_storm",
     "component_items": null,
+    "css_class": "galvanicStorm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -69954,6 +70247,7 @@
     "activation": "passive",
     "class_name": "upgrade_hollow_point_rounds",
     "component_items": null,
+    "css_class": "hollowPoint",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/hollow_point.psd\"",
     "item_slot_type": "weapon",
@@ -70140,6 +70434,7 @@
     "component_items": [
       "upgrade_high_velocity_mag"
     ],
+    "css_class": "pristineEmblem",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/pristine_emblem.psd\"",
     "item_slot_type": "weapon",
@@ -70342,6 +70637,7 @@
     "activation": "passive",
     "class_name": "upgrade_stabilizer",
     "component_items": null,
+    "css_class": "stabilizer",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/stabilizer.psd\"",
     "item_slot_type": "weapon",
@@ -70526,6 +70822,7 @@
     "activation": "passive",
     "class_name": "upgrade_high_velocity_mag",
     "component_items": null,
+    "css_class": "highVelocityMag",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/high_velocity_mag.psd\"",
     "item_slot_type": "weapon",
@@ -70710,6 +71007,7 @@
     "activation": "passive",
     "class_name": "upgrade_lifestrike_gauntlets",
     "component_items": null,
+    "css_class": "lifestrikeGauntlets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/lifestrike_gauntlets.psd\"",
     "item_slot_type": "vitality",
@@ -70912,6 +71210,7 @@
     "activation": "passive",
     "class_name": "upgrade_close_range",
     "component_items": null,
+    "css_class": "closeRange",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
     "item_slot_type": "weapon",
@@ -71096,6 +71395,7 @@
     "activation": "passive",
     "class_name": "upgrade_long_range",
     "component_items": null,
+    "css_class": "longRange",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/long_range.psd\"",
     "item_slot_type": "weapon",
@@ -71289,6 +71589,7 @@
     "activation": "passive",
     "class_name": "upgrade_slowing_bullets",
     "component_items": null,
+    "css_class": "slowingBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/slowing_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -71473,6 +71774,7 @@
     "activation": "passive",
     "class_name": "upgrade_inhibitor",
     "component_items": null,
+    "css_class": "inhibitor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/inhibitor.psd\"",
     "item_slot_type": "vitality",
@@ -71675,8 +71977,9 @@
     "activation": "passive",
     "class_name": "upgrade_small_attack_speed",
     "component_items": null,
+    "css_class": "fireRatePlus",
     "disabled": true,
-    "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -71841,6 +72144,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_defense_shredders",
     "component_items": null,
+    "css_class": "techResistShredder",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/tech_resist_shredder.psd\"",
     "item_slot_type": "weapon",
@@ -72034,6 +72338,7 @@
     "activation": "passive",
     "class_name": "upgrade_attack_speed_1",
     "component_items": null,
+    "css_class": "fireRatePlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "weapon",
@@ -72200,6 +72505,7 @@
     "activation": "passive",
     "class_name": "upgrade_nearby_enemy_boost",
     "component_items": null,
+    "css_class": "adrenalineRush",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/adrenaline_rush.psd\"",
     "item_slot_type": "weapon",
@@ -72420,6 +72726,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_dps_aura",
     "component_items": null,
+    "css_class": "bulletDamageAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/bullet_damage_aura.psd\"",
     "item_slot_type": "weapon",
@@ -72649,6 +72956,7 @@
     "activation": "passive",
     "class_name": "upgrade_armor_reduction_debuff",
     "component_items": null,
+    "css_class": "armorBreakingBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/armor_breaking_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -72833,6 +73141,7 @@
     "activation": "passive",
     "class_name": "upgrade_weapon_detention_ammo",
     "component_items": null,
+    "css_class": "detentionRounds",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -73053,6 +73362,7 @@
     "activation": "passive",
     "class_name": "upgrade_height_advantage",
     "component_items": null,
+    "css_class": "heightAdvantage",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/height_advantage.psd\"",
     "item_slot_type": "weapon",
@@ -73219,6 +73529,7 @@
     "activation": "press",
     "class_name": "upgrade_targeted_silence",
     "component_items": null,
+    "css_class": "targetedSilence",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/targeted_silence.psd\"",
     "item_slot_type": "spirit",
@@ -73403,6 +73714,7 @@
     "activation": "passive",
     "class_name": "upgrade_proc_silence",
     "component_items": null,
+    "css_class": "empBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -73607,6 +73919,7 @@
     "component_items": [
       "upgrade_slowing_bullets"
     ],
+    "css_class": "empBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -73800,6 +74113,7 @@
     "activation": "passive",
     "class_name": "upgrade_proc_disarm",
     "component_items": null,
+    "css_class": "disarm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
     "item_slot_type": "weapon",
@@ -73984,6 +74298,7 @@
     "activation": "passive",
     "class_name": "upgrade_berserker",
     "component_items": null,
+    "css_class": "berserker",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/berserker.psd\"",
     "item_slot_type": "weapon",
@@ -74195,6 +74510,7 @@
     "activation": "passive",
     "class_name": "upgrade_fervor",
     "component_items": null,
+    "css_class": "fervor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fervor.psd\"",
     "item_slot_type": "weapon",
@@ -74424,6 +74740,7 @@
     "activation": "passive",
     "class_name": "upgrade_siphon_bullets",
     "component_items": null,
+    "css_class": "siphon_bullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/siphon_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -74653,6 +74970,7 @@
     "activation": "passive",
     "class_name": "upgrade_headshot_booster",
     "component_items": null,
+    "css_class": "headshotBooster",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headshot_booster.psd\"",
     "item_slot_type": "weapon",
@@ -74839,6 +75157,7 @@
     "component_items": [
       "upgrade_long_range"
     ],
+    "css_class": "longshot",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/longshot.psd\"",
     "item_slot_type": "weapon",
@@ -75052,6 +75371,7 @@
     "component_items": [
       "upgrade_headshot_booster"
     ],
+    "css_class": "headhunter",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headhunter.psd\"",
     "item_slot_type": "weapon",
@@ -75272,6 +75592,7 @@
     "activation": "passive",
     "class_name": "upgrade_banshee_slugs",
     "component_items": null,
+    "css_class": "bansheeSlugs",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/banshee_slugs.psd\"",
     "item_slot_type": "weapon",
@@ -75483,6 +75804,7 @@
     "activation": "passive",
     "class_name": "upgrade_proc_tech_damage",
     "component_items": null,
+    "css_class": "techImbuedBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_imbued_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -75685,6 +76007,7 @@
     "activation": "passive",
     "class_name": "upgrade_crackshot",
     "component_items": null,
+    "css_class": "explosiveBullets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/explosive_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -75896,6 +76219,7 @@
     "activation": "passive",
     "class_name": "upgrade_critshot",
     "component_items": null,
+    "css_class": "critshot",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/crit_damage.psd\"",
     "item_slot_type": "weapon",
@@ -76109,6 +76433,7 @@
     "component_items": [
       "upgrade_close_range"
     ],
+    "css_class": "pointBlank",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/point_blank.psd\"",
     "item_slot_type": "weapon",
@@ -76320,6 +76645,7 @@
     "activation": "passive",
     "class_name": "upgrade_clip_size_2",
     "component_items": null,
+    "css_class": "clipSize",
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -76486,6 +76812,7 @@
     "activation": "passive",
     "class_name": "upgrade_clip_size_3",
     "component_items": null,
+    "css_class": "clipSize",
     "disabled": true,
     "image": null,
     "item_slot_type": "weapon",
@@ -76652,8 +76979,9 @@
     "activation": "passive",
     "class_name": "upgrade_toxic_bullets",
     "component_items": null,
+    "css_class": "toxicBullets",
     "disabled": null,
-    "image": "panorama:\"file://{images}/upgrades/mods_weapon/serrated_bullets.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_weapon/toxic_bullets.psd\"",
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -76890,6 +77218,7 @@
     "activation": "passive",
     "class_name": "upgrade_attack_speed_2",
     "component_items": null,
+    "css_class": "fireRatePlusPlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
     "item_slot_type": "weapon",
@@ -77056,6 +77385,7 @@
     "activation": "passive",
     "class_name": "upgrade_drum_magazine",
     "component_items": null,
+    "css_class": "autoReloader",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -77231,6 +77561,7 @@
     "activation": "passive",
     "class_name": "upgrade_ricochet",
     "component_items": null,
+    "css_class": "ricochet",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ricochet.psd\"",
     "item_slot_type": "weapon",
@@ -77442,6 +77773,7 @@
     "activation": "passive",
     "class_name": "upgrade_health",
     "component_items": null,
+    "css_class": "upgrade_health",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health.psd\"",
     "item_slot_type": "vitality",
@@ -77617,8 +77949,9 @@
     "activation": "passive",
     "class_name": "upgrade_toughness_3",
     "component_items": null,
+    "css_class": "upgrade_health",
     "disabled": true,
-    "image": "panorama:\"file://{images}/upgrades/mods_armor/base_armor.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_armor/health.psd\"",
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -77792,6 +78125,7 @@
     "activation": "passive",
     "class_name": "upgrade_bullet_armor",
     "component_items": null,
+    "css_class": "bulletArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -77967,6 +78301,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_armor",
     "component_items": null,
+    "css_class": "techArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_armor.psd\"",
     "item_slot_type": "vitality",
@@ -78133,6 +78468,7 @@
     "activation": "passive",
     "class_name": "upgrade_health_regen_1",
     "component_items": null,
+    "css_class": "healthRegen",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen.psd\"",
     "item_slot_type": "vitality",
@@ -78299,6 +78635,7 @@
     "activation": "passive",
     "class_name": "upgrade_vampire",
     "component_items": null,
+    "css_class": "healthSstealingBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -78474,6 +78811,7 @@
     "activation": "passive",
     "class_name": "upgrade_double_jump",
     "component_items": null,
+    "css_class": "doubleJump",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/double_jump.psd\"",
     "item_slot_type": "vitality",
@@ -78658,6 +78996,7 @@
     "activation": "passive",
     "class_name": "upgrade_health_regen_aura",
     "component_items": null,
+    "css_class": "healthRegenAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen_aura.psd\"",
     "item_slot_type": "vitality",
@@ -78842,6 +79181,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_combo_breaker",
     "component_items": null,
+    "css_class": "techPurge",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
     "item_slot_type": "vitality",
@@ -79035,6 +79375,7 @@
     "activation": "passive",
     "class_name": "upgrade_debuff_reducer",
     "component_items": null,
+    "css_class": "debuffReducer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_reducer.psd\"",
     "item_slot_type": "vitality",
@@ -79221,6 +79562,7 @@
     "component_items": [
       "upgrade_debuff_reducer"
     ],
+    "css_class": "debuffRemover",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_remover.psd\"",
     "item_slot_type": "vitality",
@@ -79423,6 +79765,7 @@
     "activation": "passive",
     "class_name": "upgrade_high_impact_armor",
     "component_items": null,
+    "css_class": "bulletArmor",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -79598,8 +79941,9 @@
     "activation": "instant_cast",
     "class_name": "upgrade_slow_immunity",
     "component_items": null,
+    "css_class": "sprintBooster",
     "disabled": true,
-    "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_armor/sprint_booster.psd\"",
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -79755,6 +80099,7 @@
     "activation": "passive",
     "class_name": "upgrade_bullet_armor_2",
     "component_items": null,
+    "css_class": "bulletArmorPlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
     "item_slot_type": "vitality",
@@ -79921,6 +80266,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_weapon_power_and_health_drain",
     "component_items": null,
+    "css_class": "overdrive",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
     "item_slot_type": "vitality",
@@ -80105,6 +80451,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_active_bullet_shield",
     "component_items": null,
+    "css_class": "bulletShield",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -80298,6 +80645,7 @@
     "activation": "passive",
     "class_name": "upgrade_ablative_coat",
     "component_items": null,
+    "css_class": "bulletShield",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -80502,6 +80850,7 @@
     "component_items": [
       "upgrade_tech_armor"
     ],
+    "css_class": "techPurge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
     "item_slot_type": "vitality",
@@ -80670,6 +81019,7 @@
     "component_items": [
       "upgrade_bullet_armor"
     ],
+    "css_class": "improvedBulletArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_bullet_armor.psd\"",
     "item_slot_type": "vitality",
@@ -80845,6 +81195,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_metal_skin",
     "component_items": null,
+    "css_class": "metalSkin",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/metal_skin.psd\"",
     "item_slot_type": "vitality",
@@ -81020,6 +81371,7 @@
     "activation": "passive",
     "class_name": "upgrade_healing_booster",
     "component_items": null,
+    "css_class": "healingBooster",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/healing_booster.psd\"",
     "item_slot_type": "vitality",
@@ -81222,6 +81574,7 @@
     "activation": "passive",
     "class_name": "upgrade_chonky",
     "component_items": null,
+    "css_class": "revitalizer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/revitalizer.psd\"",
     "item_slot_type": "vitality",
@@ -81433,6 +81786,7 @@
     "activation": "passive",
     "class_name": "upgrade_damage_recycler",
     "component_items": null,
+    "css_class": "leech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/leech.psd\"",
     "item_slot_type": "vitality",
@@ -81626,6 +81980,7 @@
     "activation": "passive",
     "class_name": "upgrade_bullet_damage_reduction_aura",
     "component_items": null,
+    "css_class": "weaponJammer",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
     "item_slot_type": "vitality",
@@ -81801,8 +82156,9 @@
     "activation": "passive",
     "class_name": "upgrade_sprint_booster",
     "component_items": null,
+    "css_class": "sprintBooster",
     "disabled": null,
-    "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_armor/sprint_booster.psd\"",
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -81987,8 +82343,9 @@
     "component_items": [
       "upgrade_sprint_booster"
     ],
+    "css_class": "cardioCalibrator",
     "disabled": null,
-    "image": "panorama:\"file://{images}/upgrades/mods_utility/sprint_booster.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_armor/cardio_calibrator.psd\"",
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -82191,6 +82548,7 @@
     "component_items": [
       "upgrade_improved_stamina"
     ],
+    "css_class": "superiorStamina",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/superior_stamina.psd\"",
     "item_slot_type": "vitality",
@@ -82384,6 +82742,7 @@
     "activation": "passive",
     "class_name": "upgrade_rapid_rounds",
     "component_items": null,
+    "css_class": "rapidRounds",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/rapid_rounds.psd\"",
     "item_slot_type": "weapon",
@@ -82559,6 +82918,7 @@
     "activation": "passive",
     "class_name": "upgrade_improved_stamina",
     "component_items": null,
+    "css_class": "improvedStamina",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_stamina.psd\"",
     "item_slot_type": "vitality",
@@ -82752,6 +83112,7 @@
     "activation": "passive",
     "class_name": "upgrade_bullet_armor_reduction_aura",
     "component_items": null,
+    "css_class": "bulletArmorReductionAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_reduction_aura.psd\"",
     "item_slot_type": "weapon",
@@ -82954,6 +83315,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_camouflage",
     "component_items": null,
+    "css_class": "camouflageSuit",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/camouflage_suit.psd\"",
     "item_slot_type": "vitality",
@@ -83192,6 +83554,7 @@
     "activation": "passive",
     "class_name": "upgrade_regenerative_armor",
     "component_items": null,
+    "css_class": "regenerativeArmor",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",
@@ -83358,6 +83721,7 @@
     "activation": "passive",
     "class_name": "upgrade_regenerating_bullet_shield",
     "component_items": null,
+    "css_class": "bulletShield",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "vitality",
@@ -83542,6 +83906,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_shield",
     "component_items": null,
+    "css_class": "techArmorPulse",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
     "item_slot_type": "vitality",
@@ -83726,6 +84091,7 @@
     "activation": "passive",
     "class_name": "upgrade_improved_spirit",
     "component_items": null,
+    "css_class": "techPower",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
     "item_slot_type": "spirit",
@@ -83903,6 +84269,7 @@
     "component_items": [
       "upgrade_improved_spirit"
     ],
+    "css_class": "soaringSpirit",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/soaring_spirit.psd\"",
     "item_slot_type": "spirit",
@@ -84087,6 +84454,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_overflow",
     "component_items": null,
+    "css_class": "magicOverflow",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/magic_overflow.psd\"",
     "item_slot_type": "weapon",
@@ -84307,6 +84675,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_return_fire",
     "component_items": null,
+    "css_class": "lastStand",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/return_fire.psd\"",
     "item_slot_type": "vitality",
@@ -84502,6 +84871,7 @@
     "component_items": [
       "upgrade_magic_reach"
     ],
+    "css_class": "spiritualDominion",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_dominion.psd\"",
     "item_slot_type": "spirit",
@@ -84704,6 +85074,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_reach",
     "component_items": null,
+    "css_class": "techRange",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -84888,6 +85259,7 @@
     "activation": "passive",
     "class_name": "upgrade_extra_charge",
     "component_items": null,
+    "css_class": "extraCharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -85081,6 +85453,7 @@
     "activation": "passive",
     "class_name": "upgrade_health_stealing_magic",
     "component_items": null,
+    "css_class": "healthStealingTech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/health_stealing_tech.psd\"",
     "item_slot_type": "vitality",
@@ -85265,6 +85638,7 @@
     "activation": "press",
     "class_name": "upgrade_disarm",
     "component_items": null,
+    "css_class": "disarm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
     "item_slot_type": "spirit",
@@ -85458,6 +85832,7 @@
     "activation": "passive",
     "class_name": "upgrade_bullet_resist_shredder",
     "component_items": null,
+    "css_class": "bulletResistShredder",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/bullet_resist_shredder.psd\"",
     "item_slot_type": "spirit",
@@ -85642,6 +86017,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_bleed",
     "component_items": null,
+    "css_class": "magicReverb",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_reverb.psd\"",
     "item_slot_type": "spirit",
@@ -85880,6 +86256,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_burst",
     "component_items": null,
+    "css_class": "magicBurst",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_burst.psd\"",
     "item_slot_type": "spirit",
@@ -86075,6 +86452,7 @@
     "component_items": [
       "upgrade_magic_burst"
     ],
+    "css_class": "magicShock",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_shock.psd\"",
     "item_slot_type": "spirit",
@@ -86277,6 +86655,7 @@
     "activation": "passive",
     "class_name": "upgrade_arcane_medallion",
     "component_items": null,
+    "css_class": "arcaneMedallion",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_medallion.psd\"",
     "item_slot_type": "spirit",
@@ -86443,6 +86822,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_vulnerability",
     "component_items": null,
+    "css_class": "techVulnerability",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_vulnerability.psd\"",
     "item_slot_type": "spirit",
@@ -86618,6 +86998,7 @@
     "activation": "passive",
     "class_name": "upgrade_healbane",
     "component_items": null,
+    "css_class": "healbane",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/healbane.psd\"",
     "item_slot_type": "vitality",
@@ -86813,6 +87194,7 @@
     "component_items": [
       "upgrade_suppressor"
     ],
+    "css_class": "slowingTech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
     "item_slot_type": "spirit",
@@ -87008,6 +87390,7 @@
     "component_items": [
       "upgrade_magic_vulnerability"
     ],
+    "css_class": "escalatingExposure",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/escalating_exposure.psd\"",
     "item_slot_type": "spirit",
@@ -87221,6 +87604,7 @@
     "component_items": [
       "upgrade_extra_charge"
     ],
+    "css_class": "rapidRecharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rapid_recharge.psd\"",
     "item_slot_type": "spirit",
@@ -87414,6 +87798,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_tempo",
     "component_items": null,
+    "css_class": "advancedRecharge",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/advanced_recharge.psd\"",
     "item_slot_type": "spirit",
@@ -87591,6 +87976,7 @@
     "component_items": [
       "upgrade_magic_tempo"
     ],
+    "css_class": "spiritualFlow",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_flow.psd\"",
     "item_slot_type": "spirit",
@@ -87784,6 +88170,7 @@
     "activation": "passive",
     "class_name": "upgrade_duration_extender",
     "component_items": null,
+    "css_class": "techDurationExtender",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_duration_extender.psd\"",
     "item_slot_type": "spirit",
@@ -87950,6 +88337,7 @@
     "activation": "passive",
     "class_name": "upgrade_slowing_tech",
     "component_items": null,
+    "css_class": "slowingTech",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
     "item_slot_type": "spirit",
@@ -88125,6 +88513,7 @@
     "activation": "press",
     "class_name": "upgrade_containment",
     "component_items": null,
+    "css_class": "immobilize",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/immobilize.psd\"",
     "item_slot_type": "spirit",
@@ -88318,8 +88707,9 @@
     "activation": "press",
     "class_name": "upgrade_withering_whip",
     "component_items": null,
+    "css_class": "slowingTech",
     "disabled": null,
-    "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -88520,6 +88910,7 @@
     "activation": "press",
     "class_name": "upgrade_rescue_beam",
     "component_items": null,
+    "css_class": "medicBeam",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/medic_beam.psd\"",
     "item_slot_type": "vitality",
@@ -88731,6 +89122,7 @@
     "activation": "passive",
     "class_name": "upgrade_personal_rejuvenator",
     "component_items": null,
+    "css_class": "portableRejuv",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
     "item_slot_type": "spirit",
@@ -88906,6 +89298,7 @@
     "activation": "passive",
     "class_name": "upgrade_rebirth",
     "component_items": null,
+    "css_class": "portableRejuv",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
     "item_slot_type": "vitality",
@@ -89099,6 +89492,7 @@
     "activation": "passive",
     "class_name": "upgrade_long_range_slowing_tech",
     "component_items": null,
+    "css_class": "techRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -89292,6 +89686,7 @@
     "activation": "passive",
     "class_name": "upgrade_full_spectrum",
     "component_items": null,
+    "css_class": "techRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
     "item_slot_type": "spirit",
@@ -89494,6 +89889,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_cleave",
     "component_items": null,
+    "css_class": "quantumChimaera",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/quantum_chimaera.psd\"",
     "item_slot_type": "spirit",
@@ -89678,6 +90074,7 @@
     "activation": "passive",
     "class_name": "upgrade_bonus_ability_charge_3",
     "component_items": null,
+    "css_class": "extraCharge",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -89844,6 +90241,7 @@
     "activation": "passive",
     "class_name": "upgrade_charge_mastery",
     "component_items": null,
+    "css_class": "chargeMastery",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
     "item_slot_type": "spirit",
@@ -90037,6 +90435,7 @@
     "activation": "press",
     "class_name": "upgrade_rupture",
     "component_items": null,
+    "css_class": "rupture",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
     "item_slot_type": "spirit",
@@ -90230,6 +90629,7 @@
     "activation": "press",
     "class_name": "upgrade_discord",
     "component_items": null,
+    "css_class": "rupture",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
     "item_slot_type": "spirit",
@@ -90432,6 +90832,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_aoe_tech_shield",
     "component_items": null,
+    "css_class": "techArmorPulse",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
     "item_slot_type": "spirit",
@@ -90607,6 +91008,7 @@
     "activation": "press",
     "class_name": "upgrade_target_stun",
     "component_items": null,
+    "css_class": "knockdown",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/knockdown.psd\"",
     "item_slot_type": "spirit",
@@ -90818,6 +91220,7 @@
     "activation": "press",
     "class_name": "upgrade_phantom_strike",
     "component_items": null,
+    "css_class": "phantomStrike",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/phantom_strike.psd\"",
     "item_slot_type": "vitality",
@@ -91020,6 +91423,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_warp_stone",
     "component_items": null,
+    "css_class": "warpStone",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/warp_stone.psd\"",
     "item_slot_type": "weapon",
@@ -91204,6 +91608,7 @@
     "activation": "press",
     "class_name": "upgrade_aoe_root",
     "component_items": null,
+    "css_class": "areaImmobilize",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/area_immobilize.psd\"",
     "item_slot_type": "spirit",
@@ -91406,6 +91811,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_ability_refresher",
     "component_items": null,
+    "css_class": "abilityRefresher",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/refresher_module.psd\"",
     "item_slot_type": "spirit",
@@ -91581,6 +91987,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_ability_power_shard",
     "component_items": null,
+    "css_class": "powerShard",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/echo_shard.psd\"",
     "item_slot_type": "spirit",
@@ -91756,6 +92163,7 @@
     "activation": "passive",
     "class_name": "upgrade_tech_damage_pulse",
     "component_items": null,
+    "css_class": "tormentAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
     "item_slot_type": "spirit",
@@ -91949,6 +92357,7 @@
     "activation": "passive",
     "class_name": "upgrade_cheat_death",
     "component_items": null,
+    "css_class": "tormentAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
     "item_slot_type": "vitality",
@@ -92169,6 +92578,7 @@
     "activation": "passive",
     "class_name": "upgrade_reload_speed",
     "component_items": null,
+    "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -92335,6 +92745,7 @@
     "activation": "passive",
     "class_name": "upgrade_cloaking_device",
     "component_items": null,
+    "css_class": "cloakingDevice",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
     "item_slot_type": "vitality",
@@ -92564,6 +92975,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_cloaking_device_active",
     "component_items": null,
+    "css_class": "cloakingDevice",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
     "item_slot_type": "weapon",
@@ -92847,6 +93259,7 @@
     "activation": "passive",
     "class_name": "upgrade_fire_rate_aura",
     "component_items": null,
+    "css_class": "fireRateAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fire_rate_aura.psd\"",
     "item_slot_type": "weapon",
@@ -93031,6 +93444,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_weapon_overdrive_clip",
     "component_items": null,
+    "css_class": "overdrive",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
     "item_slot_type": "weapon",
@@ -93224,6 +93638,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_rocket_boots",
     "component_items": null,
+    "css_class": "springyBoots",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
     "item_slot_type": "vitality",
@@ -93417,6 +93832,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_rocket_booster",
     "component_items": null,
+    "css_class": "rocketBooster",
     "disabled": false,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_death_slam.psd\"",
     "item_slot_type": "vitality",
@@ -93691,6 +94107,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_aerial_assault",
     "component_items": null,
+    "css_class": "springyBoots",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
     "item_slot_type": "vitality",
@@ -93922,6 +94339,7 @@
     "component_items": [
       "upgrade_health_stimpak"
     ],
+    "css_class": "healthNova",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/health_nova.psd\"",
     "item_slot_type": "vitality",
@@ -94133,6 +94551,7 @@
     "activation": "press",
     "class_name": "upgrade_restorative_locket",
     "component_items": null,
+    "css_class": "restorativeLocket",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/restorative_locket.psd\"",
     "item_slot_type": "vitality",
@@ -94335,6 +94754,7 @@
     "activation": "press",
     "class_name": "upgrade_health_stimpak",
     "component_items": null,
+    "css_class": "stimPak",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/stimpak.psd\"",
     "item_slot_type": "vitality",
@@ -94528,6 +94948,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_infuser",
     "component_items": null,
+    "css_class": "infuser",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/infuser.psd\"",
     "item_slot_type": "spirit",
@@ -94721,6 +95142,7 @@
     "activation": "press",
     "class_name": "upgrade_savior",
     "component_items": null,
+    "css_class": "savior",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/savior.psd\"",
     "item_slot_type": "vitality",
@@ -94950,6 +95372,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_aoe_smoke_bomb",
     "component_items": null,
+    "css_class": "smoke",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/smoke.psd\"",
     "item_slot_type": "spirit",
@@ -95188,6 +95611,7 @@
     "activation": "press",
     "class_name": "upgrade_thermal_detonator",
     "component_items": null,
+    "css_class": "techGrenade",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
     "item_slot_type": "weapon",
@@ -95435,6 +95859,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_fleetfoot_boots",
     "component_items": null,
+    "css_class": "fleetfootBoots",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fleetfoot_boots.psd\"",
     "item_slot_type": "weapon",
@@ -95655,6 +96080,7 @@
     "activation": "passive",
     "class_name": "upgrade_kinetic_sash",
     "component_items": null,
+    "css_class": "kineticSash",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/kinetic_sash.psd\"",
     "item_slot_type": "weapon",
@@ -95848,6 +96274,7 @@
     "activation": "passive",
     "class_name": "upgrade_weapon_eater",
     "component_items": null,
+    "css_class": "weaponEater",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/advanced_weaponry.psd\"",
     "item_slot_type": "weapon",
@@ -96050,6 +96477,7 @@
     "activation": "passive",
     "class_name": "upgrade_weapon_instant_reload",
     "component_items": null,
+    "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -96216,6 +96644,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_tech_defender",
     "component_items": null,
+    "css_class": "techDefender",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_defender.psd\"",
     "item_slot_type": "vitality",
@@ -96391,6 +96820,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_unstoppable",
     "component_items": null,
+    "css_class": "unstoppable",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/unstoppable.psd\"",
     "item_slot_type": "vitality",
@@ -96584,6 +97014,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_colossus",
     "component_items": null,
+    "css_class": "colossus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/colossus.psd\"",
     "item_slot_type": "vitality",
@@ -96822,6 +97253,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_cold_front",
     "component_items": null,
+    "css_class": "iceBlast",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/ice_blast.psd\"",
     "item_slot_type": "spirit",
@@ -97033,6 +97465,7 @@
     "activation": "press",
     "class_name": "upgrade_aoe_silence",
     "component_items": null,
+    "css_class": "empWave",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/emp_wave.psd\"",
     "item_slot_type": "spirit",
@@ -97235,6 +97668,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_self_bubble",
     "component_items": null,
+    "css_class": "shiftingShroud",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/shifting_shroud.psd\"",
     "item_slot_type": "spirit",
@@ -97437,6 +97871,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_stasis_bomb",
     "component_items": null,
+    "css_class": "stasis",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "item_slot_type": "vitality",
@@ -97720,6 +98155,7 @@
     "activation": "press",
     "class_name": "upgrade_quarantine",
     "component_items": null,
+    "css_class": "stasis",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
     "item_slot_type": "spirit",
@@ -97877,6 +98313,7 @@
     "activation": "press",
     "class_name": "upgrade_glitch",
     "component_items": null,
+    "css_class": "glitch",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/glitch.psd\"",
     "item_slot_type": "spirit",
@@ -98061,6 +98498,7 @@
     "activation": "passive",
     "class_name": "upgrade_imbued_ability",
     "component_items": null,
+    "css_class": "imbuedAbility",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
     "item_slot_type": "spirit",
@@ -98263,6 +98701,7 @@
     "activation": "passive",
     "class_name": "upgrade_arcane_extension",
     "component_items": null,
+    "css_class": "durationExtender",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/duration_extender.psd\"",
     "item_slot_type": "spirit",
@@ -98449,6 +98888,7 @@
     "component_items": [
       "upgrade_arcane_extension"
     ],
+    "css_class": "superiorDuration",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_persistance.psd\"",
     "item_slot_type": "spirit",
@@ -98651,6 +99091,7 @@
     "activation": "passive",
     "class_name": "upgrade_glass_cannon",
     "component_items": null,
+    "css_class": "glassCannon",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
     "item_slot_type": "weapon",
@@ -98880,6 +99321,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_surging_power",
     "component_items": null,
+    "css_class": "surgingPower",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/vampiric_burst.psd\"",
     "item_slot_type": "weapon",
@@ -99091,6 +99533,7 @@
     "activation": "press",
     "class_name": "upgrade_mod_disruptor",
     "component_items": null,
+    "css_class": "techGrenade",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
     "item_slot_type": "spirit",
@@ -99302,6 +99745,7 @@
     "activation": "passive",
     "class_name": "upgrade_frenzy",
     "component_items": null,
+    "css_class": "healthSstealingBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
     "item_slot_type": "vitality",
@@ -99522,6 +99966,7 @@
     "activation": "passive",
     "class_name": "upgrade_burst_fire_actuator",
     "component_items": null,
+    "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
     "item_slot_type": "weapon",
@@ -99762,6 +100207,7 @@
     "component_items": [
       "upgrade_lifestrike_gauntlets"
     ],
+    "css_class": "boxingGlove",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/boxing_glove.psd\"",
     "item_slot_type": "vitality",
@@ -99991,6 +100437,7 @@
     "activation": "passive",
     "class_name": "upgrade_acolytes_glove",
     "component_items": null,
+    "css_class": "acolytesGlove",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
     "item_slot_type": "spirit",
@@ -100184,6 +100631,7 @@
     "activation": "passive",
     "class_name": "upgrade_melee_charge",
     "component_items": null,
+    "css_class": "meleeCharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/melee_charge.psd\"",
     "item_slot_type": "weapon",
@@ -100386,6 +100834,7 @@
     "activation": "passive",
     "class_name": "upgrade_charmed_wraps",
     "component_items": null,
+    "css_class": "charmedWraps",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/charmed_wraps.psd\"",
     "item_slot_type": "spirit",
@@ -100561,6 +101010,7 @@
     "activation": "passive",
     "class_name": "upgrade_belt_fed_magazine",
     "component_items": null,
+    "css_class": "autoReloader",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -100772,6 +101222,7 @@
     "activation": "passive",
     "class_name": "upgrade_diviners_kevlar",
     "component_items": null,
+    "css_class": "bulletShield",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
     "item_slot_type": "spirit",
@@ -100974,6 +101425,7 @@
     "activation": "press",
     "class_name": "upgrade_stabilizing_tripod",
     "component_items": null,
+    "css_class": "baseUtility",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/base_utility.psd\"",
     "item_slot_type": "weapon",
@@ -101241,6 +101693,7 @@
     "component_items": [
       "upgrade_soaring_spirit"
     ],
+    "css_class": "megaSpirit",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/boundless_spirit.psd\"",
     "item_slot_type": "spirit",
@@ -101434,6 +101887,7 @@
     "activation": "passive",
     "class_name": "upgrade_burst_fire",
     "component_items": null,
+    "css_class": "fireRatePlusPlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
     "item_slot_type": "weapon",
@@ -101636,6 +102090,7 @@
     "activation": "passive",
     "class_name": "upgrade_resilience",
     "component_items": null,
+    "css_class": "resilience",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/resilience.psd\"",
     "item_slot_type": "vitality",
@@ -101811,6 +102266,7 @@
     "activation": "passive",
     "class_name": "upgrade_endurance",
     "component_items": null,
+    "css_class": "endurance",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/endurance.psd\"",
     "item_slot_type": "vitality",
@@ -101995,6 +102451,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_clarity",
     "component_items": null,
+    "css_class": "clarity",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/clarity.psd\"",
     "item_slot_type": "spirit",
@@ -102197,6 +102654,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_storm",
     "component_items": null,
+    "css_class": "magicStorm",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_storm.psd\"",
     "item_slot_type": "spirit",
@@ -102399,6 +102857,7 @@
     "activation": "passive",
     "class_name": "upgrade_suppressor",
     "component_items": null,
+    "css_class": "weaponJammer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
     "item_slot_type": "spirit",
@@ -102583,6 +103042,7 @@
     "activation": "passive",
     "class_name": "upgrade_quick_silver",
     "component_items": null,
+    "css_class": "fireRatePlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "spirit",
@@ -102776,6 +103236,7 @@
     "activation": "passive",
     "class_name": "upgrade_arcane_eater",
     "component_items": null,
+    "css_class": "arcaneEater",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/arcane_eater.psd\"",
     "item_slot_type": "weapon",
@@ -102987,6 +103448,7 @@
     "activation": "passive",
     "class_name": "upgrade_predator_precision",
     "component_items": null,
+    "css_class": "closeRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
     "item_slot_type": "weapon",
@@ -103171,6 +103633,7 @@
     "activation": "passive",
     "class_name": "upgrade_intensifying_clip",
     "component_items": null,
+    "css_class": "intensifyingClip",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
     "item_slot_type": "weapon",
@@ -103364,6 +103827,7 @@
     "activation": "passive",
     "class_name": "upgrade_reinforcing_casings",
     "component_items": null,
+    "css_class": "reinforcingCasings",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
     "item_slot_type": "weapon",
@@ -103566,6 +104030,7 @@
     "activation": "passive",
     "class_name": "upgrade_blitz_bullets",
     "component_items": null,
+    "css_class": "fireRatePlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
     "item_slot_type": "weapon",
@@ -103750,6 +104215,7 @@
     "activation": "passive",
     "class_name": "upgrade_veil_walker",
     "component_items": null,
+    "css_class": "veilWalker",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/veil_walker.psd\"",
     "item_slot_type": "vitality",
@@ -104033,6 +104499,7 @@
     "activation": "passive",
     "class_name": "upgrade_vex_barrier",
     "component_items": null,
+    "css_class": "vexBarrier",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",
@@ -104244,6 +104711,7 @@
     "activation": "passive",
     "class_name": "upgrade_medic_bullets",
     "component_items": null,
+    "css_class": "medicBullets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/medic_bullets.psd\"",
     "item_slot_type": "weapon",
@@ -104457,6 +104925,7 @@
     "component_items": [
       "upgrade_clip_size"
     ],
+    "css_class": "titanicMagazine",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/titanic_magazine.psd\"",
     "item_slot_type": "weapon",
@@ -104641,6 +105110,7 @@
     "activation": "passive",
     "class_name": "upgrade_active_reload",
     "component_items": null,
+    "css_class": "activeReload",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/deployable_bullet_shield.psd\"",
     "item_slot_type": "weapon",
@@ -104834,6 +105304,7 @@
     "activation": "instant_cast",
     "class_name": "upgrade_magic_carpet",
     "component_items": null,
+    "css_class": "magicCarpet",
     "disabled": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/ice_path.psd\"",
     "item_slot_type": "spirit",
@@ -105054,8 +105525,9 @@
     "activation": "passive",
     "class_name": "upgrade_spellshield",
     "component_items": null,
+    "css_class": "debuffRemover",
     "disabled": true,
-    "image": "panorama:\"file://{images}/upgrades/mods_armor/restorative_locket.psd\"",
+    "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_remover.psd\"",
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -105249,6 +105721,7 @@
     "component_items": [
       "upgrade_acolytes_glove"
     ],
+    "css_class": "acolytesGlove",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
     "item_slot_type": "spirit",
@@ -105442,6 +105915,7 @@
     "activation": "passive",
     "class_name": "upgrade_magic_missile",
     "component_items": null,
+    "css_class": "glassCannon",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
     "item_slot_type": "weapon",
@@ -105671,6 +106145,7 @@
     "activation": "passive",
     "class_name": "upgrade_heal_on_level",
     "component_items": null,
+    "css_class": "vexBarrier",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
     "item_slot_type": "vitality",

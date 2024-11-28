@@ -117,5 +117,10 @@ def parse_localization():
 
 
 if __name__ == "__main__":
+    os.makedirs(f"res/builds/{get_version_id()}/v2/", exist_ok=True)
+    shutil.copyfile(
+        "res/ability_icons.css",
+        f"res/builds/{get_version_id()}/v2/ability_icons.css",
+    )
     parse_vdata()
     parse_localization()
