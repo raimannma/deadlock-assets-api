@@ -19,14 +19,14 @@ granian = "^1.6.4"
 kv3parser = "^1.1"
 vdf = "^3.4"
 shapely = "^2.0.6"
-matplotlib = "^3.9.2"
+matplotlib = "^3.9.3"
 opencv-python = "^4.10.0.84"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
 isort = "^5.13.2"
 pre-commit = "^3.8.0"
-pytest = "^8.3.3"
+pytest = "^8.3.4"
 
 [build-system]
 requires = ["poetry-core"]

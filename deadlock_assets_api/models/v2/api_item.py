@@ -102,11 +102,15 @@ def test_parse():
         localization.update(json.load(f)["lang"]["Tokens"])
     with open("res/localization/citadel_main_english.json") as f:
         localization.update(json.load(f)["lang"]["Tokens"])
+    with open("res/localization/citadel_mods_english.json") as f:
+        localization.update(json.load(f)["lang"]["Tokens"])
     with open("res/localization/citadel_gc_german.json") as f:
         localization.update(json.load(f)["lang"]["Tokens"])
     with open("res/localization/citadel_heroes_german.json") as f:
         localization.update(json.load(f)["lang"]["Tokens"])
     with open("res/localization/citadel_main_german.json") as f:
+        localization.update(json.load(f)["lang"]["Tokens"])
+    with open("res/localization/citadel_mods_german.json") as f:
         localization.update(json.load(f)["lang"]["Tokens"])
 
     def item_from_raw_item(

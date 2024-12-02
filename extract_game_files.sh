@@ -72,6 +72,7 @@ cp "$citadel_folder"/scripts/generic_data.vdata vdata/
 mkdir -p localization
 cp -r "$citadel_folder"/resource/localization/citadel_gc/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_heroes/* localization/
+cp -r "$citadel_folder"/resource/localization/citadel_mods/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_main/* localization/
 
 # Extract icon files

@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import ConfigDict, computed_field
+from pydantic import ConfigDict, Field, computed_field
 
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
@@ -11,6 +11,7 @@ from deadlock_assets_api.models.v2.raw_upgrade import (
     RawAbilityActivationV2,
     RawUpgradeV2,
 )
+from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
 
 class UpgradeV2(ItemBaseV2):
@@ -21,6 +22,7 @@ class UpgradeV2(ItemBaseV2):
     item_slot_type: ItemSlotTypeV1
     item_tier: ItemTierV2
     disabled: bool | None
+    description: str | None = Field(None)
     activation: RawAbilityActivationV2
     component_items: list[str] | None
 
@@ -46,6 +48,19 @@ class UpgradeV2(ItemBaseV2):
             and self.image is not None
         )
 
+    def load_description(
+        self,
+        raw_heroes: list[RawHeroV2],
+        localization: dict[str, str],
+    ) -> str:
+        return replace_templates(
+            self,
+            raw_heroes,
+            localization,
+            localization.get(f"{self.class_name}_desc"),
+            None,
+        )
+
     @classmethod
     def from_raw_item(
         cls,
@@ -54,7 +69,9 @@ class UpgradeV2(ItemBaseV2):
         localization: dict[str, str],
     ) -> "UpgradeV2":
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
-        return cls(**raw_model)
+        model = cls(**raw_model)
+        model.description = model.load_description(raw_heroes, localization)
+        return model
 
     @computed_field
     @property
