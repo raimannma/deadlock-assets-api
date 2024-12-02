@@ -20,11 +20,7 @@ DPI = 100
 
 
 def draw_minimap(with_background: bool = True):
-    img_path = (
-        "images/maps/minimap.png"
-        if with_background
-        else "images/maps/minimap_plain.png"
-    )
+    img_path = "images/maps/minimap.png" if with_background else "images/maps/minimap_plain.png"
 
     lanes = get_smoothed_lanes()
 
@@ -51,8 +47,7 @@ def get_smoothed_lanes() -> list[LineString]:
     lanes = [[np.array(lane_points[:2]) for lane_points in lane] for lane in LANES]
     origins = [np.array(origin[:2]) for origin in LANE_ORIGINS]
     lanes = [
-        [lane_points[:2] + origin for lane_points in lane]
-        for lane, origin in zip(lanes, origins)
+        [lane_points[:2] + origin for lane_points in lane] for lane, origin in zip(lanes, origins)
     ]
     lanes = [LineString(lane_points) for lane_points in lanes]
     return [chaikin_smooth(lane, iters=1) for lane in lanes]
@@ -80,13 +75,9 @@ def postprocess_minimap_img(img_path: str):
 
     # cut off transparent edges
     first_non_transparent_row = np.argmax(masked_img[:, :, 3].sum(axis=1) > 0)
-    last_non_transparent_row = img_h - np.argmax(
-        masked_img[:, :, 3][::-1].sum(axis=1) > 0
-    )
+    last_non_transparent_row = img_h - np.argmax(masked_img[:, :, 3][::-1].sum(axis=1) > 0)
     first_non_transparent_col = np.argmax(masked_img[:, :, 3].sum(axis=0) > 0)
-    last_non_transparent_col = img_w - np.argmax(
-        masked_img[:, :, 3][:, ::-1].sum(axis=0) > 0
-    )
+    last_non_transparent_col = img_w - np.argmax(masked_img[:, :, 3][:, ::-1].sum(axis=0) > 0)
     masked_img = masked_img[
         first_non_transparent_row:last_non_transparent_row,
         first_non_transparent_col:last_non_transparent_col,

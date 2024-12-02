@@ -52,9 +52,7 @@ class ItemBaseV2(BaseModel):
     ) -> dict:
         raw_model = raw_model.model_dump()
         raw_model["id"] = murmurhash2(raw_model["class_name"].encode(), 0x31415926)
-        raw_model["name"] = localization.get(
-            raw_model["class_name"], raw_model["class_name"]
-        )
+        raw_model["name"] = localization.get(raw_model["class_name"], raw_model["class_name"])
         raw_model["hero"] = next(
             (h.id for h in raw_heroes if raw_model["class_name"] in h.items.values()),
             None,

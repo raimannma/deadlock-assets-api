@@ -54,9 +54,7 @@ def replace_templates(
                 replaced = "R"
             elif variable == "ability_key":
                 hero_items = next(
-                    h.items
-                    for h in raw_heroes
-                    if raw_item.class_name in h.items.values()
+                    h.items for h in raw_heroes if raw_item.class_name in h.items.values()
                 )
                 if hero_items is not None:
                     ability_key = next(

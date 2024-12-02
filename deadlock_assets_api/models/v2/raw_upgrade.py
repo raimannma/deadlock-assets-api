@@ -33,9 +33,5 @@ class RawUpgradeV2(RawItemBaseV2):
     item_slot_type: ItemSlotTypeV1 = Field(..., validation_alias="m_eItemSlotType")
     item_tier: ItemTierV2 = Field(..., validation_alias="m_iItemTier")
     disabled: bool | None = Field(None, validation_alias="m_bDisabled")
-    activation: RawAbilityActivationV2 = Field(
-        None, validation_alias="m_eAbilityActivation"
-    )
-    component_items: list[str] | None = Field(
-        None, validation_alias="m_vecComponentItems"
-    )
+    activation: RawAbilityActivationV2 = Field(None, validation_alias="m_eAbilityActivation")
+    component_items: list[str] | None = Field(None, validation_alias="m_vecComponentItems")

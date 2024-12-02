@@ -37,13 +37,9 @@ def load_colors() -> dict[str, ColorValue]:
         css_key, css_value = (v.strip() for v in css_parts)
 
         # Parse Color Value
-        color_value = ColorValue(
-            css_value[:7] if css_value.startswith("#") else css_value
-        )
+        color_value = ColorValue(css_value[:7] if css_value.startswith("#") else css_value)
         color_value._alpha = (
-            int(css_value[7:], 16)
-            if css_value.startswith("#") and len(css_value) > 7
-            else 255
+            int(css_value[7:], 16) if css_value.startswith("#") and len(css_value) > 7 else 255
         )
 
         css_key = stringcase.snakecase(css_key)

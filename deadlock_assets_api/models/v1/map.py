@@ -90,9 +90,7 @@ class MapImagesV1(BaseModel):
 class ZiplanePathV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    origin: tuple[float, float, float] = Field(
-        ..., description="The origin of the path."
-    )
+    origin: tuple[float, float, float] = Field(..., description="The origin of the path.")
 
     color: str = Field(..., description="The color of the path.")
 

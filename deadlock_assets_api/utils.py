@@ -9,8 +9,8 @@ def get_translation(key: str, language: Language, return_none: bool = False) -> 
     for file in [
         f"res/localization/citadel_heroes_{language.value}.json"
         f"res/localization/citadel_gc_{language.value}.json",
-        f"res/localization/citadel_heroes_english.json",
-        f"res/localization/citadel_gc_english.json",
+        "res/localization/citadel_heroes_english.json",
+        "res/localization/citadel_gc_english.json",
     ]:
         if not os.path.exists(file):
             continue
@@ -25,8 +25,7 @@ def get_translation(key: str, language: Language, return_none: bool = False) -> 
 
 def prettify_snake_case(snake_str: str) -> str:
     return " ".join(
-        re.sub(r"([a-zA-Z])(\d)", r"\1 \2", w.capitalize())
-        for w in snake_str.split("_")
+        re.sub(r"([a-zA-Z])(\d)", r"\1 \2", w.capitalize()) for w in snake_str.split("_")
     )
 
 

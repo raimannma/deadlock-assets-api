@@ -85,9 +85,7 @@ def test_parse():
         print(f"Abilities: {abilities}, Weapons: {weapons}, Upgrades: {upgrades}")
 
         with open("test.json", "w") as f:
-            json.dump(
-                [item.model_dump(exclude_none=True) for item in raw_items], f, indent=4
-            )
+            json.dump([item.model_dump(exclude_none=True) for item in raw_items], f, indent=4)
         print(raw_items[:2])
     except ValidationError as e:
         pprint(e.errors())

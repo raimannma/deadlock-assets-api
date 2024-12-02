@@ -26,9 +26,7 @@ def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
     localizations = {}
     for language in Language:
         localizations[language] = {}
-        print(
-            f"Loading localization for client version {client_version} and language {language}"
-        )
+        print(f"Loading localization for client version {client_version} and language {language}")
         paths = [
             f"res/builds/{client_version}/v2/localization/citadel_gc_{language}.json",
             f"res/builds/{client_version}/v2/localization/citadel_heroes_{language}.json",
@@ -63,18 +61,14 @@ def load_raw_items(
     with open(path) as f:
         content = f.read()
     print(f"Loading raw items for client version {client_version}")
-    return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(
-        content
-    )
+    return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(content)
 
 
 ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("res/builds")], reverse=True)
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )
-LOCALIZATIONS: dict[Language, dict[str, str]] = load_localizations(
-    max(ALL_CLIENT_VERSIONS)
-)
+LOCALIZATIONS: dict[Language, dict[str, str]] = load_localizations(max(ALL_CLIENT_VERSIONS))
 RAW_HEROES: list[RawHeroV2] = load_raw_heroes(max(ALL_CLIENT_VERSIONS))
 RAW_ITEMS: list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2] = load_raw_items(
     max(ALL_CLIENT_VERSIONS)
@@ -249,9 +243,7 @@ def get_items_by_slot_type(
 ) -> list[ItemV2]:
     items = get_items(language, client_version)
     slot_type = ItemSlotTypeV1(slot_type.capitalize())
-    return [
-        c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type
-    ]
+    return [c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type]
 
 
 @router.get("/client-versions")
@@ -265,8 +257,6 @@ def get_ranks(language: Language | None = None) -> list[RankV2]:
         language = Language.English
     localization = {}
     if language != Language.English:
-        localization.update(
-            get_localization(max(ALL_CLIENT_VERSIONS), Language.English)
-        )
+        localization.update(get_localization(max(ALL_CLIENT_VERSIONS), Language.English))
     localization.update(get_localization(max(ALL_CLIENT_VERSIONS), language))
     return [RankV2.from_tier(i, localization) for i in range(12)]

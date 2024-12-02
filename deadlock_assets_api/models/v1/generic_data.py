@@ -63,9 +63,7 @@ class GenericDataV1(BaseModel):
 
     damage_flash: DamageFlashV1 = Field(..., validation_alias="m_mapDamageFlash")
     glitch_settings: GlitchSettingsV1 = Field(..., validation_alias="m_GlitchSettings")
-    new_player_metrics: list[NewPlayerMetricsV1] = Field(
-        ..., validation_alias="m_NewPlayerMetrics"
-    )
+    new_player_metrics: list[NewPlayerMetricsV1] = Field(..., validation_alias="m_NewPlayerMetrics")
     item_price_per_tier: list[int] = Field(..., validation_alias="m_nItemPricePerTier")
 
 

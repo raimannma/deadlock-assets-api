@@ -25,9 +25,7 @@ class ItemInfoPropertyV1(BaseModel):
 
     value: str | int | float | None = Field(None, validation_alias="m_strValue")
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
-    can_set_token_override: bool | None = Field(
-        None, validation_alias="m_bCanSetTokenOverride"
-    )
+    can_set_token_override: bool | None = Field(None, validation_alias="m_bCanSetTokenOverride")
 
 
 class ItemInfoWeaponInfoBulletSpeedCurveSplineV1(BaseModel):
@@ -73,23 +71,17 @@ class ItemInfoWeaponInfoV1(BaseModel):
 
     spread: float | None = Field(None, validation_alias="m_Spread")
     standing_spread: float | None = Field(None, validation_alias="m_StandingSpread")
-    scatter_yaw_scale: float | None = Field(
-        None, validation_alias="m_flScatterYawScale"
-    )
+    scatter_yaw_scale: float | None = Field(None, validation_alias="m_flScatterYawScale")
     shooting_up_spread_penalty: float | None = Field(
         None, validation_alias="m_flShootingUpSpreadPenalty"
     )
-    zoom_move_speed_percent: float | None = Field(
-        None, validation_alias="m_flZoomMoveSpeedPercent"
-    )
+    zoom_move_speed_percent: float | None = Field(None, validation_alias="m_flZoomMoveSpeedPercent")
     shoot_move_speed_percent: float | None = Field(
         None, validation_alias="m_flShootMoveSpeedPercent"
     )
     horizontal_punch: float | None = Field(None, validation_alias="m_flHorizontalPunch")
     vertical_punch: float | None = Field(None, validation_alias="m_flVerticalPunch")
-    recoil_recovery_speed: float | None = Field(
-        None, validation_alias="m_flRecoilRecoverySpeed"
-    )
+    recoil_recovery_speed: float | None = Field(None, validation_alias="m_flRecoilRecoverySpeed")
     vertical_recoil: ItemInfoWeaponInfoRecoilV1 | None = Field(
         None, validation_alias="m_VerticallRecoil"
     )
@@ -112,44 +104,26 @@ class ItemInfoWeaponInfoV1(BaseModel):
     damage_falloff_end_scale: float | None = Field(
         None, validation_alias="m_flDamageFalloffEndScale"
     )
-    damage_falloff_bias: float | None = Field(
-        None, validation_alias="m_flDamageFalloffBias"
-    )
+    damage_falloff_bias: float | None = Field(None, validation_alias="m_flDamageFalloffBias")
     bullets: int | None = Field(None, validation_alias="m_iBullets")
     cycle_time: float | None = Field(None, validation_alias="m_flCycleTime")
     reload_duration: float | None = Field(None, validation_alias="m_reloadDuration")
     clip_size: int | None = Field(None, validation_alias="m_iClipSize")
     burst_shot_count: int | None = Field(None, validation_alias="m_iBurstShotCount")
-    burst_shot_cooldown: float | None = Field(
-        None, validation_alias="m_flBurstShotCooldown"
-    )
-    bullet_gravity_scale: float | None = Field(
-        None, validation_alias="m_flBulletGravityScale"
-    )
+    burst_shot_cooldown: float | None = Field(None, validation_alias="m_flBurstShotCooldown")
+    bullet_gravity_scale: float | None = Field(None, validation_alias="m_flBulletGravityScale")
     bullet_radius: float | None = Field(None, validation_alias="m_flBulletRadius")
-    bullet_reflect_scale: float | None = Field(
-        None, validation_alias="m_flBulletReflectScale"
-    )
-    bullet_reflect_amount: float | None = Field(
-        None, validation_alias="m_flBulletReflectAmount"
-    )
+    bullet_reflect_scale: float | None = Field(None, validation_alias="m_flBulletReflectScale")
+    bullet_reflect_amount: float | None = Field(None, validation_alias="m_flBulletReflectAmount")
     bullet_inherit_shooter_velocity_scale: float | None = Field(
         None, validation_alias="m_flBulletInheritShooterVelocityScale"
     )
-    bullet_whiz_distance: float | None = Field(
-        None, validation_alias="m_flBulletWhizDistance"
-    )
+    bullet_whiz_distance: float | None = Field(None, validation_alias="m_flBulletWhizDistance")
     crit_bonus_start: float | None = Field(None, validation_alias="m_flCritBonusStart")
     crit_bonus_end: float | None = Field(None, validation_alias="m_flCritBonusEnd")
-    crit_bonus_start_range: float | None = Field(
-        None, validation_alias="m_flCritBonusStartRange"
-    )
-    crit_bonus_end_range: float | None = Field(
-        None, validation_alias="m_flCritBonusEndRange"
-    )
-    crit_bonus_against_npcs: float | None = Field(
-        None, validation_alias="m_flCritBonusAgainstNPCs"
-    )
+    crit_bonus_start_range: float | None = Field(None, validation_alias="m_flCritBonusStartRange")
+    crit_bonus_end_range: float | None = Field(None, validation_alias="m_flCritBonusEndRange")
+    crit_bonus_against_npcs: float | None = Field(None, validation_alias="m_flCritBonusAgainstNPCs")
     shoot_spread_penalty_per_shot: float | None = Field(
         None, validation_alias="m_flShootSpreadPenaltyPerShot"
     )
@@ -164,12 +138,8 @@ class ItemInfoWeaponInfoV1(BaseModel):
     )
     can_zoom: bool | None = Field(None, validation_alias="m_bCanZoom")
     reload_move_speed: float | None = Field(None, validation_alias="ReloadMoveSpeed")
-    auto_replenish_clip: float | None = Field(
-        None, validation_alias="m_flAutoReplenishClip"
-    )
-    penetration_percent: float | None = Field(
-        None, validation_alias="m_flPenetrationPercent"
-    )
+    auto_replenish_clip: float | None = Field(None, validation_alias="m_flAutoReplenishClip")
+    penetration_percent: float | None = Field(None, validation_alias="m_flPenetrationPercent")
     npc_aiming_spread: float | list[float] | None = Field(
         None, validation_alias="m_NpcAimingSpread"
     )
@@ -289,27 +259,19 @@ class ItemV1(BaseModel):
     properties: dict[str, ItemInfoPropertyV1 | str | float | None] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
-    weapon_info: ItemInfoWeaponInfoV1 | None = Field(
-        None, validation_alias="m_WeaponInfo"
-    )
+    weapon_info: ItemInfoWeaponInfoV1 | None = Field(None, validation_alias="m_WeaponInfo")
     ability_upgrades: list[PropertyUpgradesV1] | None = Field(
         None, validation_alias="m_vecAbilityUpgrades"
     )
-    dof_while_zoomed: ItemDofWhileZoomedV1 | None = Field(
-        None, validation_alias="m_DOFWhileZoomed"
-    )
+    dof_while_zoomed: ItemDofWhileZoomedV1 | None = Field(None, validation_alias="m_DOFWhileZoomed")
     points_cost: int | None = Field(None, validation_alias="m_nAbilityPointsCost")
     unlocks_cost: int | None = Field(
         None, validation_alias="m_nAbillityUnlocksCost"
     )  # typo in the original data
     max_level: int | None = Field(None, validation_alias="m_iMaxLevel")
     tier: str | int | None = Field(None, validation_alias="m_iItemTier")
-    item_slot_type: ItemSlotTypeV1 | None = Field(
-        None, validation_alias="m_eItemSlotType"
-    )
-    child_items: list[str] | list[int] | None = Field(
-        None, validation_alias="m_vecComponentItems"
-    )
+    item_slot_type: ItemSlotTypeV1 | None = Field(None, validation_alias="m_eItemSlotType")
+    child_items: list[str] | list[int] | None = Field(None, validation_alias="m_vecComponentItems")
 
     @field_serializer("item_slot_type")
     def serialize_group(self, group: ItemSlotTypeV1 | str, _info):

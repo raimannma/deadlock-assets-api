@@ -39,7 +39,5 @@ def get_item_by_name(name: str, language: Language = Language.English) -> ItemV1
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
-def get_items_by_type(
-    type: ItemTypeV1, language: Language = Language.English
-) -> list[ItemV1]:
+def get_items_by_type(type: ItemTypeV1, language: Language = Language.English) -> list[ItemV1]:
     return v1.get_items_by_type(type, language)

@@ -29,10 +29,7 @@ class UpgradeV2(ItemBaseV2):
     @computed_field
     @property
     def is_active_item(self) -> bool:
-        return (
-            self.activation
-            is not RawAbilityActivationV2.CITADEL_ABILITY_ACTIVATION_PASSIVE
-        )
+        return self.activation is not RawAbilityActivationV2.CITADEL_ABILITY_ACTIVATION_PASSIVE
 
     @computed_field
     @property

@@ -35,16 +35,12 @@ class HeroStartingStatsV1(BaseModel):
     proc_build_up_rate_scale: int = Field(..., validation_alias="EProcBuildUpRateScale")
     stamina: int = Field(..., validation_alias="EStamina")
     base_health_regen: float = Field(..., validation_alias="EBaseHealthRegen")
-    stamina_regen_per_second: float = Field(
-        ..., validation_alias="EStaminaRegenPerSecond"
-    )
+    stamina_regen_per_second: float = Field(..., validation_alias="EStaminaRegenPerSecond")
     ability_resource_max: int = Field(..., validation_alias="EAbilityResourceMax")
     ability_resource_regen_per_second: int = Field(
         ..., validation_alias="EAbilityResourceRegenPerSecond"
     )
-    crit_damage_received_scale: float = Field(
-        ..., validation_alias="ECritDamageReceivedScale"
-    )
+    crit_damage_received_scale: float = Field(..., validation_alias="ECritDamageReceivedScale")
     tech_duration: int = Field(..., validation_alias="ETechDuration")
     tech_range: int = Field(..., validation_alias="ETechRange")
     bullet_armor_damage_reduction: float | None = Field(
@@ -55,20 +51,14 @@ class HeroStartingStatsV1(BaseModel):
 class HeroItemSlotInfoForTierV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    max_purchase_for_tier: list[int] = Field(
-        ..., validation_alias="m_arMaxPurchasesForTier"
-    )
+    max_purchase_for_tier: list[int] = Field(..., validation_alias="m_arMaxPurchasesForTier")
 
 
 class HeroItemSlotInfoV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    weapon_mod: HeroItemSlotInfoForTierV1 = Field(
-        ..., validation_alias="EItemSlotType_WeaponMod"
-    )
-    armor: HeroItemSlotInfoForTierV1 = Field(
-        ..., validation_alias="EItemSlotType_Armor"
-    )
+    weapon_mod: HeroItemSlotInfoForTierV1 = Field(..., validation_alias="EItemSlotType_WeaponMod")
+    armor: HeroItemSlotInfoForTierV1 = Field(..., validation_alias="EItemSlotType_Armor")
     tech: HeroItemSlotInfoForTierV1 = Field(..., validation_alias="EItemSlotType_Tech")
 
 
@@ -85,12 +75,8 @@ class HeroPurchaseBonusesV1(BaseModel):
     weapon_mod: list[HeroPurchaseBonusesModifierV1] = Field(
         ..., validation_alias="EItemSlotType_WeaponMod"
     )
-    armor: list[HeroPurchaseBonusesModifierV1] = Field(
-        ..., validation_alias="EItemSlotType_Armor"
-    )
-    tech: list[HeroPurchaseBonusesModifierV1] = Field(
-        ..., validation_alias="EItemSlotType_Tech"
-    )
+    armor: list[HeroPurchaseBonusesModifierV1] = Field(..., validation_alias="EItemSlotType_Armor")
+    tech: list[HeroPurchaseBonusesModifierV1] = Field(..., validation_alias="EItemSlotType_Tech")
 
 
 class HeroLevelInfoBonusCurrenciesV1(StrEnum):
@@ -103,9 +89,7 @@ class HeroLevelInfoV1(BaseModel):
 
     required_gold: int | None = Field(None, validation_alias="m_unRequiredGold")
     bonus_currencies: (
-        dict[HeroLevelInfoBonusCurrenciesV1, int]
-        | list[HeroLevelInfoBonusCurrenciesV1]
-        | None
+        dict[HeroLevelInfoBonusCurrenciesV1, int] | list[HeroLevelInfoBonusCurrenciesV1] | None
     ) = Field(None, validation_alias="m_mapBonusCurrencies")
     use_standard_upgrade: bool = Field(False, validation_alias="m_bUseStandardUpgrade")
 
@@ -114,9 +98,7 @@ class HeroLevelInfoV1(BaseModel):
     def validate_bonus_currencies(
         cls,
         value: (
-            dict[HeroLevelInfoBonusCurrenciesV1, int]
-            | list[HeroLevelInfoBonusCurrenciesV1]
-            | None
+            dict[HeroLevelInfoBonusCurrenciesV1, int] | list[HeroLevelInfoBonusCurrenciesV1] | None
         ),
         _,
     ):
@@ -204,22 +186,14 @@ class HeroV1(BaseModel):
     limited_testing: bool = Field(..., validation_alias="m_bLimitedTesting")
     complexity: int = Field(..., validation_alias="m_nComplexity")
     readability: int = Field(..., validation_alias="m_nReadability")
-    starting_stats: HeroStartingStatsV1 = Field(
-        ..., validation_alias="m_mapStartingStats"
-    )
+    starting_stats: HeroStartingStatsV1 = Field(..., validation_alias="m_mapStartingStats")
     collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
     collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
     step_height: float = Field(..., validation_alias="m_flStepHeight")
     items: dict[str, int | None] = Field(..., validation_alias="m_mapBoundAbilities")
-    item_slot_info: HeroItemSlotInfoV1 = Field(
-        ..., validation_alias="m_mapItemSlotInfo"
-    )
-    purchase_bonuses: HeroPurchaseBonusesV1 = Field(
-        ..., validation_alias="m_mapPurchaseBonuses"
-    )
-    level_info: dict[int, HeroLevelInfoV1] = Field(
-        ..., validation_alias="m_mapLevelInfo"
-    )
+    item_slot_info: HeroItemSlotInfoV1 = Field(..., validation_alias="m_mapItemSlotInfo")
+    purchase_bonuses: HeroPurchaseBonusesV1 = Field(..., validation_alias="m_mapPurchaseBonuses")
+    level_info: dict[int, HeroLevelInfoV1] = Field(..., validation_alias="m_mapLevelInfo")
     stealth_speed_meters_per_second: float = Field(
         ..., validation_alias="m_flStealthSpeedMetersPerSecond"
     )
@@ -228,18 +202,10 @@ class HeroV1(BaseModel):
     )
     step_sound_time: float = Field(..., validation_alias="m_flStepSoundTime")
     color_ui: tuple[int, int, int] = Field(..., validation_alias="m_colorUI")
-    color_glow_friendly: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowFriendly"
-    )
-    color_glow_enemy: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowEnemy"
-    )
-    color_glow_team1: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowTeam1"
-    )
-    color_glow_team2: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowTeam2"
-    )
+    color_glow_friendly: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowFriendly")
+    color_glow_enemy: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowEnemy")
+    color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
+    color_glow_team2: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam2")
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
@@ -292,9 +258,7 @@ class HeroV1(BaseModel):
         return utils.get_translation(f"hero_{self.class_name}_role", language, True)
 
     def get_playstyle(self, language: Language) -> str:
-        return utils.get_translation(
-            f"hero_{self.class_name}_playstyle", language, True
-        )
+        return utils.get_translation(f"hero_{self.class_name}_playstyle", language, True)
 
     @computed_field
     @property

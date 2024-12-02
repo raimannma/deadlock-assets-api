@@ -74,9 +74,7 @@ def get_items(language: Language = Language.English) -> list[ItemV1]:
     for item in items:
         item.set_language(language)
         item.set_shopable()
-        if item.shopable and (
-            item.id in hero_weapons or item.class_name in hero_weapons
-        ):
+        if item.shopable and (item.id in hero_weapons or item.class_name in hero_weapons):
             item.shopable = False
         item.postfix(items)
     return items
@@ -116,9 +114,7 @@ def get_item_by_name(name: str, language: Language = Language.English) -> ItemV1
     deprecated=True,
     description="This endpoint is deprecated. Use `/v2/items/by-hero-id/{id}` instead.",
 )
-def get_items_by_hero_id(
-    id: int, language: Language = Language.English
-) -> dict[str, ItemV1]:
+def get_items_by_hero_id(id: int, language: Language = Language.English) -> dict[str, ItemV1]:
     hero = get_hero(id, language)
     hero_item_ids = set(hero.items.values())
     hero_items = (i for i in get_items(language) if i.id in hero_item_ids)
@@ -131,9 +127,7 @@ def get_items_by_hero_id(
     deprecated=True,
     description="This endpoint is deprecated. Use `/v2/items/by-hero-id/{id}` instead.",
 )
-def get_items_by_hero_name(
-    name: str, language: Language = Language.English
-) -> dict[str, ItemV1]:
+def get_items_by_hero_name(name: str, language: Language = Language.English) -> dict[str, ItemV1]:
     hero = get_hero_by_name(name, language)
     hero_item_ids = set(hero.items.values())
     hero_items = (i for i in get_items(language) if i.id in hero_item_ids)
@@ -146,9 +140,7 @@ def get_items_by_hero_name(
     deprecated=True,
     description="This endpoint is deprecated. Use `/v2/items/by-type/{type}` instead.",
 )
-def get_items_by_type(
-    type: ItemTypeV1, language: Language = Language.English
-) -> list[ItemV1]:
+def get_items_by_type(type: ItemTypeV1, language: Language = Language.English) -> list[ItemV1]:
     items = get_items(language)
     type = ItemTypeV1(type.capitalize())
     return [c for c in items if c.type == type]

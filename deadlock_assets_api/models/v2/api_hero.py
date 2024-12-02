@@ -66,11 +66,7 @@ class HeroImagesV2(BaseModel):
             "top_bar_vertical",
             "weapon_image",
         ]
-        images = {
-            k: extract_image_url(v)
-            for k, v in raw_hero.model_dump().items()
-            if k in keys
-        }
+        images = {k: extract_image_url(v) for k, v in raw_hero.model_dump().items() if k in keys}
         return cls(
             **images,
             **{
@@ -154,10 +150,7 @@ class HeroShopWeaponStatsDisplayV2(RawHeroShopWeaponStatsDisplayV2):
     ) -> "HeroShopWeaponStatsDisplayV2":
         raw_model = raw_hero_shop_weapon_stats_display.model_dump()
         raw_model["weapon_attributes"] = (
-            [
-                i.strip()
-                for i in raw_hero_shop_weapon_stats_display.weapon_attributes.split("|")
-            ]
+            [i.strip() for i in raw_hero_shop_weapon_stats_display.weapon_attributes.split("|")]
             if raw_hero_shop_weapon_stats_display.weapon_attributes
             else []
         )
@@ -165,9 +158,7 @@ class HeroShopWeaponStatsDisplayV2(RawHeroShopWeaponStatsDisplayV2):
             raw_hero_shop_weapon_stats_display.weapon_image
         )
         if raw_model["weapon_image"] is not None:
-            raw_model["weapon_image_webp"] = raw_model["weapon_image"].replace(
-                ".png", ".webp"
-            )
+            raw_model["weapon_image_webp"] = raw_model["weapon_image"].replace(".png", ".webp")
         return cls(**raw_model)
 
 
@@ -193,9 +184,7 @@ class HeroLevelInfoV2(RawHeroLevelInfoV2):
     bonus_currencies: list[str] | None
 
     @classmethod
-    def from_raw_level_info(
-        cls, raw_level_info: RawHeroLevelInfoV2
-    ) -> "HeroLevelInfoV2":
+    def from_raw_level_info(cls, raw_level_info: RawHeroLevelInfoV2) -> "HeroLevelInfoV2":
         raw_model = raw_level_info.model_dump()
         raw_model["bonus_currencies"] = (
             list(raw_level_info.bonus_currencies.keys())
@@ -246,9 +235,7 @@ class HeroStartingStatsV2(BaseModel):
                 k: (
                     HeroStartingStatV2(
                         value=v,
-                        display_stat_name=raw_hero_starting_stats.model_fields[
-                            k
-                        ].validation_alias,
+                        display_stat_name=raw_hero_starting_stats.model_fields[k].validation_alias,
                     )
                     if v is not None
                     else None
@@ -292,14 +279,10 @@ class HeroV2(BaseModel):
     standard_level_up_upgrades: dict[str, float]
 
     @classmethod
-    def from_raw_hero(
-        cls, raw_hero: RawHeroV2, localization: dict[str, str]
-    ) -> "HeroV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> "HeroV2":
         raw_model = raw_hero.model_dump()
         raw_model["name"] = localization.get(raw_hero.class_name, raw_hero.class_name)
-        raw_model["description"] = HeroDescriptionV2.from_raw_hero(
-            raw_hero, localization
-        )
+        raw_model["description"] = HeroDescriptionV2.from_raw_hero(raw_hero, localization)
         raw_model["starting_stats"] = HeroStartingStatsV2.from_raw_starting_stats(
             raw_hero.starting_stats
         )
@@ -307,8 +290,7 @@ class HeroV2(BaseModel):
         raw_model["physics"] = HeroPhysicsV2.from_raw_hero(raw_hero)
         raw_model["colors"] = HeroColorsV2.from_raw_hero(raw_hero)
         raw_model["level_info"] = {
-            k: HeroLevelInfoV2.from_raw_level_info(v)
-            for k, v in raw_hero.level_info.items()
+            k: HeroLevelInfoV2.from_raw_level_info(v) for k, v in raw_hero.level_info.items()
         }
         raw_model["shop_stat_display"] = HeroShopStatDisplayV2.from_raw_hero(raw_hero)
         return cls(**raw_model)
@@ -321,10 +303,7 @@ def test_parse():
         return [
             RawHeroV2(class_name=k, **v)
             for k, v in raw_heroes.items()
-            if k.startswith("hero_")
-            and "base" not in k
-            and "generic" not in k
-            and "dummy" not in k
+            if k.startswith("hero_") and "base" not in k and "generic" not in k and "dummy" not in k
         ]
 
     raw_heroes = get_raw_heroes()

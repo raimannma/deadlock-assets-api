@@ -32,7 +32,5 @@ class RawAbilityV2(RawItemBaseV2):
         None, validation_alias="m_vecAbilityUpgrades"
     )
     ability_type: AbilityTypeV2 | None = Field(None, validation_alias="m_eAbilityType")
-    dependant_abilities: list[str] | None = Field(
-        None, validation_alias="m_vecDependentAbilities"
-    )
+    dependant_abilities: list[str] | None = Field(None, validation_alias="m_vecDependentAbilities")
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")

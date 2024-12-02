@@ -22,16 +22,12 @@ class RawHeroStartingStatsV2(BaseModel):
     proc_build_up_rate_scale: int = Field(..., validation_alias="EProcBuildUpRateScale")
     stamina: int = Field(..., validation_alias="EStamina")
     base_health_regen: float = Field(..., validation_alias="EBaseHealthRegen")
-    stamina_regen_per_second: float = Field(
-        ..., validation_alias="EStaminaRegenPerSecond"
-    )
+    stamina_regen_per_second: float = Field(..., validation_alias="EStaminaRegenPerSecond")
     ability_resource_max: int = Field(..., validation_alias="EAbilityResourceMax")
     ability_resource_regen_per_second: int = Field(
         ..., validation_alias="EAbilityResourceRegenPerSecond"
     )
-    crit_damage_received_scale: float = Field(
-        ..., validation_alias="ECritDamageReceivedScale"
-    )
+    crit_damage_received_scale: float = Field(..., validation_alias="ECritDamageReceivedScale")
     tech_duration: int = Field(..., validation_alias="ETechDuration")
     tech_armor_damage_reduction: float | None = Field(
         None, validation_alias="ETechArmorDamageReduction"
@@ -51,9 +47,7 @@ class RawHeroShopSpiritStatsDisplayV2(BaseModel):
 class RawHeroShopVitalityStatsDisplayV2(RawHeroShopSpiritStatsDisplayV2):
     model_config = ConfigDict(populate_by_name=True)
 
-    other_display_stats: list[str] = Field(
-        ..., validation_alias="m_vecOtherDisplayStats"
-    )
+    other_display_stats: list[str] = Field(..., validation_alias="m_vecOtherDisplayStats")
 
 
 class RawHeroShopWeaponStatsDisplayV2(RawHeroShopVitalityStatsDisplayV2):
@@ -80,15 +74,11 @@ class RawHeroShopStatDisplayV2(BaseModel):
 class RawHeroStatsDisplayV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    health_header_stats: list[str] = Field(
-        ..., validation_alias="m_vecHealthHeaderStats"
-    )
+    health_header_stats: list[str] = Field(..., validation_alias="m_vecHealthHeaderStats")
     health_stats: list[str] = Field(..., validation_alias="m_vecHealthHeaderStats")
     magic_header_stats: list[str] = Field(..., validation_alias="m_vecMagicHeaderStats")
     magic_stats: list[str] = Field(..., validation_alias="m_vecMagicStats")
-    weapon_header_stats: list[str] = Field(
-        ..., validation_alias="m_vecWeaponHeaderStats"
-    )
+    weapon_header_stats: list[str] = Field(..., validation_alias="m_vecWeaponHeaderStats")
     weapon_stats: list[str] = Field(..., validation_alias="m_vecWeaponStats")
 
 
@@ -103,28 +93,20 @@ class RawHeroStatsUIV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     weapon_stat_display: str = Field(..., validation_alias="m_eWeaponStatDisplay")
-    display_stats: list[RawHeroStatsUIDisplayV2] = Field(
-        ..., validation_alias="m_vecDisplayStats"
-    )
+    display_stats: list[RawHeroStatsUIDisplayV2] = Field(..., validation_alias="m_vecDisplayStats")
 
 
 class RawHeroItemSlotInfoValueV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    max_purchases_for_tier: list[int] = Field(
-        ..., validation_alias="m_arMaxPurchasesForTier"
-    )
+    max_purchases_for_tier: list[int] = Field(..., validation_alias="m_arMaxPurchasesForTier")
 
 
 class RawHeroLevelInfoV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    use_standard_upgrade: bool | None = Field(
-        None, validation_alias="m_bUseStandardUpgrade"
-    )
-    bonus_currencies: dict[str, int] | None = Field(
-        None, validation_alias="m_mapBonusCurrencies"
-    )
+    use_standard_upgrade: bool | None = Field(None, validation_alias="m_bUseStandardUpgrade")
+    bonus_currencies: dict[str, int] | None = Field(None, validation_alias="m_mapBonusCurrencies")
     required_gold: int = Field(..., validation_alias="m_unRequiredGold")
 
 
@@ -148,9 +130,7 @@ class RawHeroV2(BaseModel):
 
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str
-    recommended_upgrades: list[str] | None = Field(
-        None, validation_alias="m_RecommendedUpgrades"
-    )
+    recommended_upgrades: list[str] | None = Field(None, validation_alias="m_RecommendedUpgrades")
     recommended_ability_order: list[str] | None = Field(
         None, validation_alias="m_RecommendedAbilityOrder"
     )
@@ -164,32 +144,18 @@ class RawHeroV2(BaseModel):
     complexity: int = Field(..., validation_alias="m_nComplexity")
     skin: int = Field(..., validation_alias="m_nModelSkin")
     readability: int = Field(..., validation_alias="m_nReadability")
-    starting_stats: RawHeroStartingStatsV2 = Field(
-        ..., validation_alias="m_mapStartingStats"
-    )
+    starting_stats: RawHeroStartingStatsV2 = Field(..., validation_alias="m_mapStartingStats")
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
     icon_image_small: str | None = Field(None, validation_alias="m_strIconImageSmall")
     minimap_image: str | None = Field(None, validation_alias="m_strMinimapImage")
     selection_image: str | None = Field(None, validation_alias="m_strSelectionImage")
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
-    top_bar_vertical_image: str | None = Field(
-        None, validation_alias="m_strTopBarVertical"
-    )
-    shop_stat_display: RawHeroShopStatDisplayV2 = Field(
-        ..., validation_alias="m_ShopStatDisplay"
-    )
-    color_glow_enemy: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowEnemy"
-    )
-    color_glow_friendly: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowFriendly"
-    )
-    color_glow_team1: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowTeam1"
-    )
-    color_glow_team2: tuple[int, int, int] = Field(
-        ..., validation_alias="m_colorGlowTeam2"
-    )
+    top_bar_vertical_image: str | None = Field(None, validation_alias="m_strTopBarVertical")
+    shop_stat_display: RawHeroShopStatDisplayV2 = Field(..., validation_alias="m_ShopStatDisplay")
+    color_glow_enemy: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowEnemy")
+    color_glow_friendly: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowFriendly")
+    color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
+    color_glow_team2: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam2")
     color_ui: tuple[int, int, int] = Field(..., validation_alias="m_colorUI")
     collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
     collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
@@ -204,19 +170,13 @@ class RawHeroV2(BaseModel):
     step_sound_time_sprinting: float | None = Field(
         None, validation_alias="m_flStepSoundTimeSprinting"
     )
-    stats_display: RawHeroStatsDisplayV2 = Field(
-        ..., validation_alias="m_heroStatsDisplay"
-    )
+    stats_display: RawHeroStatsDisplayV2 = Field(..., validation_alias="m_heroStatsDisplay")
     hero_stats_ui: RawHeroStatsUIV2 = Field(..., validation_alias="m_heroStatsUI")
-    items: dict[HeroItemTypeV1, str] = Field(
-        ..., validation_alias="m_mapBoundAbilities"
-    )
+    items: dict[HeroItemTypeV1, str] = Field(..., validation_alias="m_mapBoundAbilities")
     item_slot_info: dict[ItemSlotTypeV1, RawHeroItemSlotInfoValueV2] = Field(
         ..., validation_alias="m_mapItemSlotInfo"
     )
-    level_info: dict[str, RawHeroLevelInfoV2] = Field(
-        ..., validation_alias="m_mapLevelInfo"
-    )
+    level_info: dict[str, RawHeroLevelInfoV2] = Field(..., validation_alias="m_mapLevelInfo")
     purchase_bonuses: dict[ItemSlotTypeV1, list[RawHeroPurchaseBonusV2]] = Field(
         ..., validation_alias="m_mapPurchaseBonuses"
     )
@@ -234,10 +194,7 @@ def test_parse():
     raw_heroes = [
         RawHeroV2(class_name=k, **v)
         for k, v in raw_heroes.items()
-        if k.startswith("hero_")
-        and "base" not in k
-        and "generic" not in k
-        and "dummy" not in k
+        if k.startswith("hero_") and "base" not in k and "generic" not in k and "dummy" not in k
     ]
     print(raw_heroes)
 

@@ -115,9 +115,7 @@ class AbilityV2(ItemBaseV2):
             raw_ability, raw_heroes, localization
         )
         raw_model["videos"] = (
-            AbilityVideosV2.from_raw_video(raw_ability.video)
-            if raw_ability.video
-            else None
+            AbilityVideosV2.from_raw_video(raw_ability.video) if raw_ability.video else None
         )
         del raw_model["video"]
         return cls(**raw_model)

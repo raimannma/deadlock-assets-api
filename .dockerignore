@@ -10,3 +10,5 @@ depots/
 Decompiler
 libSkiaSharp.so
 libTinyEXR.Native.so
+
+.venv

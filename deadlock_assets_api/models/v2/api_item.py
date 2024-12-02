@@ -22,10 +22,7 @@ def test_parse():
         return [
             RawHeroV2(class_name=k, **v)
             for k, v in raw_heroes.items()
-            if k.startswith("hero_")
-            and "base" not in k
-            and "generic" not in k
-            and "dummy" not in k
+            if k.startswith("hero_") and "base" not in k and "generic" not in k and "dummy" not in k
         ]
 
     def get_raw_items():
@@ -127,9 +124,7 @@ def test_parse():
         else:
             raise ValueError(f"Unknown item type: {raw_item.type}")
 
-    items = [
-        item_from_raw_item(raw_item, raw_heroes, localization) for raw_item in raw_items
-    ]
+    items = [item_from_raw_item(raw_item, raw_heroes, localization) for raw_item in raw_items]
 
     with open("test.json", "w") as f:
         json.dump([item.model_dump(exclude_none=True) for item in items], f, indent=2)

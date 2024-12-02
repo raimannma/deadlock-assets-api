@@ -72,19 +72,13 @@ def parse_vdata():
         if create_raw:
             with open(file_path) as f:
                 raw_data = KV3Parser(f.read()).parse()
-            with open(
-                f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w"
-            ) as f:
+            with open(f"{os.path.dirname(out_path)}/raw_{os.path.basename(out_path)}", "w") as f:
                 json.dump(raw_data, f, indent=4)
 
         data = parse_func(data)
         if isinstance(data, list):
             data = [
-                (
-                    d.model_dump(exclude={"name"})
-                    if isinstance(d, BaseModel)
-                    else d.__dict__
-                )
+                (d.model_dump(exclude={"name"}) if isinstance(d, BaseModel) else d.__dict__)
                 for d in data
             ]
         if isinstance(data, BaseModel):

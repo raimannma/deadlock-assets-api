@@ -38,17 +38,11 @@ class RawItemPropertyV2(BaseModel):
     value: str | float | None = Field(
         None, validation_alias=AliasChoices("m_strValue", "m_strVAlue")
     )
-    can_set_token_override: bool | None = Field(
-        None, validation_alias="m_bCanSetTokenOverride"
-    )
-    provided_property_type: str | None = Field(
-        None, validation_alias="m_eProvidedPropertyType"
-    )
+    can_set_token_override: bool | None = Field(None, validation_alias="m_bCanSetTokenOverride")
+    provided_property_type: str | None = Field(None, validation_alias="m_eProvidedPropertyType")
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
-    loc_token_override: str | None = Field(
-        None, validation_alias="m_strLocTokenOverride"
-    )
+    loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
 
@@ -62,11 +56,7 @@ def parse_css_ability_icon(class_name: str) -> str | None:
         if not isinstance(rule, CSSStyleRule):
             continue
         css_class = next(
-            (
-                s
-                for s in " ".join(rule.selectorText.split(".")).split(" ")
-                if s == class_name
-            ),
+            (s for s in " ".join(rule.selectorText.split(".")).split(" ") if s == class_name),
             None,
         )
         if css_class is None:
@@ -92,18 +82,12 @@ class RawItemBaseV2(BaseModel):
     properties: dict[str, RawItemPropertyV2] | None = Field(
         None, validation_alias="m_mapAbilityProperties"
     )
-    weapon_info: RawItemWeaponInfoV2 | None = Field(
-        None, validation_alias="m_WeaponInfo"
-    )
+    weapon_info: RawItemWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
 
     @model_validator(mode="after")
     def check_image_path(self):
-        if (
-            self.image is not None
-            and self.css_class is not None
-            and self.css_class != ""
-        ):
+        if self.image is not None and self.css_class is not None and self.css_class != "":
             try:
                 css_image = parse_css_ability_icon(self.css_class)
                 self.image = css_image or self.image

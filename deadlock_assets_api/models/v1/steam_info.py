@@ -27,9 +27,7 @@ class SteamInfoV1(BaseModel):
         return cls.model_validate(
             {
                 k.strip(): v.strip()
-                for k, v in (
-                    line.split("=") for line in load_steam_info() if "=" in line
-                )
+                for k, v in (line.split("=") for line in load_steam_info() if "=" in line)
             }
         )
 
