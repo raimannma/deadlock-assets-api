@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import ConfigDict, Field, computed_field
+from pydantic import ConfigDict, Field, computed_field, BaseModel
 
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
@@ -14,6 +14,42 @@ from deadlock_assets_api.models.v2.raw_upgrade import (
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
 
+class UpgradeDescriptionV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    desc: str | None
+    active: str | None
+    passive: str | None
+
+    @classmethod
+    def from_raw_upgrade(
+        cls,
+        raw_upgrade: RawUpgradeV2,
+        raw_heroes: list[RawHeroV2],
+        localization: dict[str, str],
+    ) -> "UpgradeDescriptionV2":
+        return cls(
+            desc=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_desc"),
+            ),
+            active=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_active_desc"),
+            ),
+            passive=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_passive_desc"),
+            ),
+        )
+
+
 class UpgradeV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -22,7 +58,7 @@ class UpgradeV2(ItemBaseV2):
     item_slot_type: ItemSlotTypeV1
     item_tier: ItemTierV2
     disabled: bool | None
-    description: str | None = Field(None)
+    description: UpgradeDescriptionV2 | None = Field(None)
     activation: RawAbilityActivationV2
     component_items: list[str] | None
 
@@ -66,9 +102,10 @@ class UpgradeV2(ItemBaseV2):
         localization: dict[str, str],
     ) -> "UpgradeV2":
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
-        model = cls(**raw_model)
-        model.description = model.load_description(raw_heroes, localization)
-        return model
+        raw_model["description"] = UpgradeDescriptionV2.from_raw_upgrade(
+            raw_upgrade, raw_heroes, localization
+        )
+        return cls(**raw_model)
 
     @computed_field
     @property
