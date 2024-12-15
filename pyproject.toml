@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "css-parser>=1.0.10",
     "fastapi>=0.115.5",
-    "granian>=1.6.4",
+    "granian<1.7.0",
     "murmurhash2>=0.2.10",
     "prometheus-fastapi-instrumentator>=7.0.0",
     "sentry-sdk[fastapi]>=2.19.0",
