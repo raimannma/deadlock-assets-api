@@ -321,6 +321,8 @@
     "EMainMenuPartyPickHeroesEnter": "soundevent:\"Menu.HeroSelection.Enter\"",
     "EMainMenuPartyPickHeroesExit": "soundevent:\"UI.Matchmake.Find\"",
     "EOtherPlayerPurchasesMod": "soundevent:\"UI.Notify.ItemPurchase\"",
+    "EPurchaseActiveItem": "soundevent:\"UI.Shop.Mod.Activate\"",
+    "EPurchaseImbuedItem": "soundevent:\"UI.Shop.Mod.Activate\"",
     "EShopEnter": "soundevent:\"UI.Shop.Enter\"",
     "EShopExit": "soundevent:\"UI.Shop.Exit\"",
     "EShopExitAlarm": "soundevent:\"UI.Shop.ExitAlarm\"",
