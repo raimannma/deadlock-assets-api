@@ -19,7 +19,7 @@ class RawAbilityUpgradeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     property_upgrades: list[RawAbilityUpgradePropertyUpgradeV2] = Field(
-        default_factory=list, validation_alias="m_vecPropertyUpgrades"
+        ..., validation_alias="m_vecPropertyUpgrades"
     )
 
 

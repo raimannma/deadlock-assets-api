@@ -79,6 +79,17 @@ cp -r "$citadel_folder"/resource/localization/citadel_main/* localization/
 mkdir -p svgs
 find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 
+# Extract video files
+mkdir -p videos
+cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
+find videos -type f -name "*.webm" -print0 | \
+    xargs -P 8 -0 -I {} sh -c '
+        video_file="{}"
+        video_mp4_file=$(echo "$video_file" | sed "s/.webm/_h264.mp4/")
+        echo "Converting $video_file to $video_mp4_file"
+        ffmpeg -i "$video_file" -c:v libx264 -crf 23 -y "$video_mp4_file"
+    '
+
 # Extract css files
 cp "$citadel_folder"/panorama/styles/ability_icons.css res/
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
@@ -120,14 +131,3 @@ find images -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} 
 
 # Optimize images
 optipng -o2 images/**/*.png
-
-# Extract video files
-mkdir -p videos
-cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
-find videos -type f -name "*.webm" -print0 | \
-    xargs -P 8 -0 -I {} sh -c '
-        video_file="{}"
-        video_mp4_file=$(echo "$video_file" | sed "s/.webm/_h264.mp4/")
-        echo "Converting $video_file to $video_mp4_file"
-        ffmpeg -i "$video_file" -c:v libx264 -crf 23 -y "$video_mp4_file"
-    '

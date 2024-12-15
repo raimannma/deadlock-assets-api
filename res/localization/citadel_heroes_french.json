@@ -1109,6 +1109,7 @@
       "citadel_ability_chrono_pulse_grenade_quip": "Lance une grenade qui inflige des d\u00e9g\u00e2ts et ralentit \u00e0 chaque impulsion",
       "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage} de d\u00e9g\u00e2ts d'impulsion et <span class=\"highlight\">+{s:RadiusIncreasePerPulse}\u00a0m de rayon par impulsion",
       "citadel_ability_chrono_swap": "Permutation paradoxale",
+      "citadel_ability_chrono_swap_desc": "{s:hero_name} tire un projectile qui permet d'<span class=\"highlight\">\u00e9changer sa position avec celle de l'unit\u00e9 occultiste ennemie cibl\u00e9e</span>. Pendant l'effet, {s:hero_name} gagne du <span class=\"highlight\">vol de vie spirituel</span>, tandis que la cible <span class=\"highlight\">subit des d\u00e9g\u00e2ts au fil du temps</span>. Le temps de r\u00e9cup\u00e9ration est moindre en cas d'\u00e9chec.",
       "citadel_ability_chrono_swap_quip": "\u00c9change de position avec une unit\u00e9 occultiste ennemie.",
       "citadel_ability_chrono_time_wall": "\u00c9cran temporel",
       "citadel_ability_chrono_time_wall_desc": "\u00c9rige un \u00e9cran de distorsion temporelle qui <span class=\"highlight\">arr\u00eate le temps</span> pour tous les <span class=\"highlight\">projectiles et balles ennemis</span> qui le touchent. Les unit\u00e9s ennemies qui touchent le mur sont bri\u00e8vement <span class=\"highlight\">ralenties</span>.",

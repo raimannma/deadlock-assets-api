@@ -1074,7 +1074,7 @@
       "citadel_ability_chrono_pulse_grenade_quip": "Lan\u00e7a uma granada pulsante, que causa dano e atordoamento",
       "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> de dano e <span class=\"highlight\">+{s:RadiusIncreasePerPulse}\u00a0m</span> de raio por pulso",
       "citadel_ability_chrono_swap": "Troca Paradoxal",
-      "citadel_ability_chrono_swap_desc": "Dispara um proj\u00e9til que <span class=\"highlight\">troca a sua posi\u00e7\u00e3o com a do her\u00f3i inimigo alvejado</span>. Durante a troca, voc\u00ea ganha <span class=\"highlight\">roubo de vida espiritual</span> e o inimigo <span class=\"highlight\">sofre dano com o tempo</span>.",
+      "citadel_ability_chrono_swap_desc": "Dispara um proj\u00e9til que <span class=\"highlight\">troca a sua posi\u00e7\u00e3o com a do her\u00f3i inimigo alvejado</span>. Durante a troca, voc\u00ea ganha <span class=\"highlight\">roubo de vida espiritual</span> e o inimigo <span class=\"highlight\">sofre dano com o tempo</span>. O tempo de recarga \u00e9 menor caso erre.",
       "citadel_ability_chrono_swap_quip": "Troca de posi\u00e7\u00e3o com um her\u00f3i inimigo",
       "citadel_ability_chrono_time_wall": "Parede Temporal",
       "citadel_ability_chrono_time_wall_desc": "Cria uma parede que <span class=\"highlight\">interrompe a passagem do tempo</span> para todos os <span class=\"highlight\">proj\u00e9teis e balas inimigos</span> que a tocarem. Os inimigos que tocarem a parede sofrer\u00e3o uma breve <span class=\"highlight\">desacelera\u00e7\u00e3o</span>.",

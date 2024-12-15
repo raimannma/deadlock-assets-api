@@ -1109,6 +1109,7 @@
       "citadel_ability_chrono_pulse_grenade_quip": "Lanza una granada que genera pulsaciones que infligen da\u00f1o y ralentizan",
       "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> de da\u00f1o por pulsaci\u00f3n y <span class=\"highlight\">+{s:RadiusIncreasePerPulse}\u00a0m</span> de radio por pulsaci\u00f3n.",
       "citadel_ability_chrono_swap": "Intercambio\u00a0Parad\u00f3jico",
+      "citadel_ability_chrono_swap_desc": "Dispara un proyectil que <span class=\"highlight\">intercambia tu posici\u00f3n con la del h\u00e9roe enemigo objetivo</span>. Mientras se produce el efecto, obtienes <span class=\"highlight\">robo de vida espiritual</span> y el enemigo <span class=\"highlight\">recibe da\u00f1o a lo largo del tiempo</span>. El tiempo de recarga se reduce al fallar.",
       "citadel_ability_chrono_swap_quip": "Intercambia posiciones con un h\u00e9roe enemigo",
       "citadel_ability_chrono_time_wall": "Muro\u00a0Temporal",
       "citadel_ability_chrono_time_wall_desc": "Crea un muro de distorsi\u00f3n temporal que <span class=\"highlight\">detiene el tiempo</span> para todos los <span class=\"highlight\">proyectiles y balas enemigos</span> que lo tocan. Los enemigos que toquen el muro quedar\u00e1n <span class=\"highlight\">ralentizados</span> de forma breve.",

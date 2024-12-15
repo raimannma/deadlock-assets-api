@@ -191,7 +191,6 @@ class ItemTypeV1(StrEnum):
             "cadence",
             "chrono",
             "dynamo",
-            "fathom",
             "forge",
             "ghost",
             "gigawatt",
@@ -203,22 +202,16 @@ class ItemTypeV1(StrEnum):
             "kelvin",
             "krill",
             "lash",
-            "magician",
             "mirage",
             "nano",
-            "operative",
             "orion",
             "rutger",
-            "shieldguy",
             "shiv",
             "slork",
             "synth",
             "tengu",
             "thumper",
             "tokamak",
-            "trapper",
-            "vandal",
-            "viper",
             "viscous",
             "warden",
             "wraith",
@@ -247,7 +240,7 @@ class PropertyUpgradesV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     property_upgrades: list[PropertyUpgradeV1] = Field(
-        default_factory=list, validation_alias="m_vecPropertyUpgrades"
+        ..., validation_alias="m_vecPropertyUpgrades"
     )
 
 

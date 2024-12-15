@@ -694,6 +694,7 @@
       "Citadel_LanePreference_BalancedLanes": "Ausgeglichen",
       "Citadel_LanePreference_Balanced_Desc": "Die Pfadzuteilung erfolgt auf Grundlage des spielerischen K\u00f6nnens aller Spieler in der Partie.",
       "Citadel_LanePreference_Party_Desc": "Die Pfadzuteilung schickt Gruppenmitglieder bevorzugt auf denselben Pfad.",
+      "Citadel_LanePreference_Title": "Bevorzugte\nPfadzuteilung",
       "Citadel_LanePreference_WithParty": "Mit Gruppe",
       "Citadel_LaneStats_Denies": "Denys",
       "Citadel_LaneStats_Guardians": "Basis-W\u00e4chter",

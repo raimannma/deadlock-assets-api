@@ -1110,7 +1110,7 @@
       "citadel_ability_chrono_pulse_grenade_quip": "Throw a grenade that pulses, dealing damage and slow",
       "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> Pulse Damage and <span class=\"highlight\">+{s:RadiusIncreasePerPulse}m</span> Radius per pulse.",
       "citadel_ability_chrono_swap": "Paradoxical Swap",
-      "citadel_ability_chrono_swap_desc": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
+      "citadel_ability_chrono_swap_desc": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>. Has reduced cooldown on miss.",
       "citadel_ability_chrono_swap_quip": "Swap positions with an enemy hero.",
       "citadel_ability_chrono_time_wall": "Time Wall",
       "citadel_ability_chrono_time_wall_desc": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",

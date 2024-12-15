@@ -1109,6 +1109,7 @@
       "citadel_ability_chrono_pulse_grenade_quip": "Melempar granat pulse yang memberikan damage juga melambatkan",
       "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> Damage Denyut dan <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m</span> Radius per denyut.",
       "citadel_ability_chrono_swap": "Pertukaran Paradoks",
+      "citadel_ability_chrono_swap_desc": "Menembakkan proyektil yang <span class=\"highlight\">menukar posisimu dengan hero musuh yang menjadi target</span>. Saat efek berlangsung, kamu mendapatkan <span class=\"highlight\">Curi HP Spirit</span> dan musuh <span class=\"highlight\">menerima damage dari waktu ke waktu</span>. Pengurangan cooldown saat tidak terkena.",
       "citadel_ability_chrono_swap_quip": "Bertukar posisi dengan hero musuh.",
       "citadel_ability_chrono_time_wall": "Dinding Waktu",
       "citadel_ability_chrono_time_wall_desc": "Membuat dinding pembengkok waktu yang <span class=\"highlight\">menghentikan waktu</span> untuk semua <span class=\"highlight\">proyektil dan peluru musuh</span> yang tersentuh. Musuh yang tersentuh dinding akan <span class=\"highlight\">Diperlambat</span> sebentar.",
