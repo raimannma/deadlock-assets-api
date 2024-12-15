@@ -1,6 +1,7 @@
 [
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "inferno",
     "collision_height": 80.0,
@@ -419,6 +420,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "gigawatt",
     "collision_height": 80.0,
@@ -837,6 +839,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "hornet",
     "collision_height": 80.0,
@@ -1255,6 +1258,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "ghost",
     "collision_height": 80.0,
@@ -1673,6 +1677,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "atlas",
     "collision_height": 80.0,
@@ -2091,6 +2096,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "wraith",
     "collision_height": 80.0,
@@ -2509,6 +2515,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "forge",
     "collision_height": 80.0,
@@ -2927,6 +2934,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "chrono",
     "collision_height": 80.0,
@@ -3345,6 +3353,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "dynamo",
     "collision_height": 80.0,
@@ -3763,6 +3772,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "kelvin",
     "collision_height": 80.0,
@@ -4181,6 +4191,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "haze",
     "collision_height": 80.0,
@@ -4599,6 +4610,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "astro",
     "collision_height": 80.0,
@@ -5017,6 +5029,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "bebop",
     "collision_height": 80.0,
@@ -5436,6 +5449,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "nano",
     "collision_height": 80.0,
@@ -5855,6 +5869,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "orion",
     "collision_height": 80.0,
@@ -6273,6 +6288,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "krill",
     "collision_height": 80.0,
@@ -6691,6 +6707,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "shiv",
     "collision_height": 80.0,
@@ -7110,6 +7127,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "tengu",
     "collision_height": 80.0,
@@ -7528,6 +7546,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "kali",
     "collision_height": 80.0,
@@ -7946,6 +7965,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "warden",
     "collision_height": 80.0,
@@ -8364,6 +8384,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "yamato",
     "collision_height": 80.0,
@@ -8783,6 +8804,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": true,
     "class_name": "lash",
     "collision_height": 80.0,
@@ -9201,6 +9223,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "viscous",
     "collision_height": 80.0,
@@ -9620,6 +9643,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "gunslinger",
     "collision_height": 80.0,
@@ -10038,6 +10062,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "yakuza",
     "collision_height": 80.0,
@@ -10456,6 +10481,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "tokamak",
     "collision_height": 80.0,
@@ -10874,6 +10900,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "wrecker",
     "collision_height": 80.0,
@@ -11292,6 +11319,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "rutger",
     "collision_height": 80.0,
@@ -11710,6 +11738,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "synth",
     "collision_height": 80.0,
@@ -12128,6 +12157,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "thumper",
     "collision_height": 80.0,
@@ -12546,6 +12576,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "mirage",
     "collision_height": 80.0,
@@ -12964,6 +12995,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "slork",
     "collision_height": 80.0,
@@ -13383,6 +13415,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "cadence",
     "collision_height": 80.0,
@@ -13801,6 +13834,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "bomber",
     "collision_height": 80.0,
@@ -14219,6 +14253,7 @@
   },
   {
     "assigned_players_only": false,
+    "available_in_hero_labs": null,
     "bot_selectable": false,
     "class_name": "shieldguy",
     "collision_height": 80.0,
