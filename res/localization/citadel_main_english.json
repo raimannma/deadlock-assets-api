@@ -625,6 +625,7 @@
       "Citadel_Hud_RideZipLineOnCooldownValue": "{f:1:cooldown_seconds}s",
       "Citadel_Hud_SoulsGathered": "Souls Gathered",
       "Citadel_Hud_ToNext": "TO NEXT",
+      "Citadel_Hud_Toast_SeasonalAchievementUnlocked": "{g:citadel_persona:account_id} achieved holiday cheer for {s:hero_name}!",
       "Citadel_Hud_TopbarPlayerNetworth": "{i:thousands_gold}<span class=\"demote\">k</span>",
       "Citadel_Hud_TopbarPlayerNetworthPlayerHigh": "{i:thousands_gold}<span class=\"demote\">k</span>",
       "Citadel_Hud_TopbarPlayerNetworthPlayerLow": "{i:gold}",
