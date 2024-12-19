@@ -10177,7 +10177,7 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/inferno_v4/inferno.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Inferno.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Inferno.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat_xmas",
+    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/inferno.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/inferno_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/inferno_vertical.psd\"",
